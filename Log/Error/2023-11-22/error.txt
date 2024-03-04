@@ -1,0 +1,129 @@
+ 發生時間：2023-11-22 15:13:03.3835
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.ParkingAreaLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 38
+   於 Elight.Logic.PConfig.ParkingAreaLogic.GetSpaceNum(Int32& spaceNum, Int32& totalNum, Int32& fixNum) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 82
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1879
+
+ 發生時間：2023-11-22 15:13:03.5583
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：EbnormalRecordUpload_手动开闸记录上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.EbnormalRecordLogic.GetRecordList(Int32 pageIndex, Int32 pageSize, Int32& totalCount, String where) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 52
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.EbnormalRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2330
+
+ 發生時間：2023-11-22 15:13:14.8751
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InRecordDealWith_入口记录处理
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.OrgRecordLogic.GetOrgDataRecord(DateTime dt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\OrgRecordLogic.cs: 行 19
+   於 (Object , DateTime )
+   於 Elight.Bll.PRecord.ParkingRecordBll.InRecordDealWith()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InRecordDealWith() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1870
+
+ 發生時間：2023-11-22 15:13:15.0633
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：UploadHeartBeat_上传心跳
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.HeartBeatLogic.Insert(HeartBeat model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\HeartBeatLogic.cs: 行 32
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.UploadHeartBeat(Int32 Location, Int32 Type, String Name) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetController.cs: 行 494
+
+ 發生時間：2023-11-22 15:15:03.2410
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.ParkingAreaLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 38
+   於 Elight.Logic.PConfig.ParkingAreaLogic.GetSpaceNum(Int32& spaceNum, Int32& totalNum, Int32& fixNum) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 82
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1879
+
+ 發生時間：2023-11-22 15:15:03.2525
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：EbnormalRecordUpload_手动开闸记录上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.EbnormalRecordLogic.GetRecordList(Int32 pageIndex, Int32 pageSize, Int32& totalCount, String where) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 52
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.EbnormalRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2330
+
+ 發生時間：2023-11-22 15:15:13.1420
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InRecordDealWith_入口记录处理
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.OrgRecordLogic.GetOrgDataRecord(DateTime dt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\OrgRecordLogic.cs: 行 19
+   於 (Object , DateTime )
+   於 Elight.Bll.PRecord.ParkingRecordBll.InRecordDealWith()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InRecordDealWith() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1870
+
+ 發生時間：2023-11-22 15:15:13.1505
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：UploadHeartBeat_上传心跳
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.HeartBeatLogic.Insert(HeartBeat model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\HeartBeatLogic.cs: 行 32
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.UploadHeartBeat(Int32 Location, Int32 Type, String Name) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetController.cs: 行 494
+
+ 發生時間：2023-11-22 15:17:03.8356
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.ParkingAreaLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 38
+   於 Elight.Logic.PConfig.ParkingAreaLogic.GetSpaceNum(Int32& spaceNum, Int32& totalNum, Int32& fixNum) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ParkingAreaLogic.cs: 行 82
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1879
+
+ 發生時間：2023-11-22 15:17:07.3222
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：EbnormalRecordUpload_手动开闸记录上传
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.EbnormalRecordLogic.GetRecordList(Int32 pageIndex, Int32 pageSize, Int32& totalCount, String where) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 52
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.EbnormalRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2330
+
+ 發生時間：2023-11-22 15:17:15.9853
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InRecordDealWith_入口记录处理
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PRecord.OrgRecordLogic.GetOrgDataRecord(DateTime dt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\OrgRecordLogic.cs: 行 19
+   於 (Object , DateTime )
+   於 Elight.Bll.PRecord.ParkingRecordBll.InRecordDealWith()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InRecordDealWith() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1870
+
+ 發生時間：2023-11-22 15:17:17.1301
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：UploadHeartBeat_上传心跳
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.HeartBeatLogic.Insert(HeartBeat model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\HeartBeatLogic.cs: 行 32
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.UploadHeartBeat(Int32 Location, Int32 Type, String Name) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetController.cs: 行 494
+

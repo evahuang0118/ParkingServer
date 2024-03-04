@@ -1,0 +1,38 @@
+.tabulator .tabulator-header .tabulator-col {
+
+  
+  background-color:  white !important;
+  border-right: unset !important;
+}
+
+.tabulator .tabulator-header {
+
+  border-bottom: unset;
+}
+
+.tabulator-row {
+
+
+}
+
+.tabulator {
+  border : unset !important;
+  background-color: unset !important;
+  padding: 10px;
+}
+
+
+.tabulator-row .tabulator-cell {
+
+  border-right: unset !important;
+  border-bottom : 1px solid #d3d3d3 !important;
+}
+
+
+
+/* 偶數行 */
+.tabulator-row.tabulator-row-even {
+  /* border-bottom : 1px solid #999; */
+  background-color : unset !important;
+
+}

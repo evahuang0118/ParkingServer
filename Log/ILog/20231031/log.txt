@@ -1,0 +1,2588 @@
+﻿2023-10-31 10:10:23 737:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:23 739:  折扣種類 消費601~800元 今日為 Tuesday ，為停用日 
+2023-10-31 10:10:23 740:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:23 741:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:23 743:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:23 744:  折扣種類 工程車垃圾車全折 今日為 Tuesday ，為停用日 
+2023-10-31 10:10:28 731:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:28 733:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:28 733:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:28 736:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:33 731:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:33 732:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:33 733:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:33 734:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:38 721:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:38 722:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:38 723:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:38 724:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:43 739:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:43 740:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:43 740:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:43 741:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:48 744:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:48 745:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:48 746:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:48 747:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:52 361:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 10:10:52 533:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 10:10:52 669:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 10:10:52 866:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 10:10:52 947:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 10:10:52 966:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 10:10:52 984:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 10:10:53 000:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 10:10:53 036:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 10:10:53 088:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 10:10:53 114:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 10:10:53 144:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 10:10:53 176:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 10:10:53 208:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 10:10:53 288:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 10:10:53 756:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:53 757:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:53 759:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:53 759:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:58 768:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:10:58 769:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:58 770:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:10:58 770:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:04 131:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:04 132:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:04 133:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:04 134:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:08 826:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:08 827:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:08 828:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:08 830:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:13 812:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:13 812:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:13 812:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:13 813:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:18 855:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:18 856:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:18 857:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:18 857:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:23 832:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:23 833:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:23 834:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:23 834:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:28 856:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:28 857:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:28 858:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:28 859:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:33 858:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:33 859:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:33 860:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:33 860:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:38 874:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:38 874:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:38 875:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:38 875:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:43 885:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:43 886:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:43 886:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:43 888:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:48 913:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:48 914:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:48 915:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:48 915:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:53 897:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:53 898:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:53 898:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:53 898:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:58 912:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:11:58 913:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:58 913:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:11:58 914:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:03 929:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:03 930:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:03 930:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:03 931:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:08 941:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:08 943:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:08 944:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:08 945:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:13 954:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:13 956:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:13 956:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:13 958:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:18 945:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:18 946:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:18 946:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:18 946:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:23 981:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:23 981:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:23 981:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:23 981:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:28 988:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:28 988:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:28 988:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:28 988:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:34 007:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:34 007:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:34 008:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:34 009:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:39 006:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:39 007:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:39 007:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:39 007:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:44 033:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:44 034:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:44 034:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:44 034:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:49 116:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:49 117:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:49 118:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:49 118:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:52 263:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 10:12:52 304:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 10:12:52 342:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 10:12:52 384:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 10:12:52 415:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 10:12:52 454:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 10:12:52 495:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 10:12:52 525:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 10:12:52 555:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 10:12:52 583:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 10:12:52 613:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 10:12:52 644:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 10:12:52 723:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 10:12:52 832:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 10:12:52 863:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 10:12:54 323:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:54 324:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:54 325:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:54 326:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:59 128:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:12:59 130:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:59 132:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:12:59 133:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:04 133:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:04 135:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:04 136:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:04 137:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:09 137:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:09 138:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:09 138:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:09 139:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:14 143:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:14 144:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:14 145:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:14 145:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:19 149:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:19 149:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:19 149:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:19 150:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:24 167:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:24 168:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:24 168:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:24 168:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:29 176:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:29 176:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:29 177:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:29 177:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:34 357:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:34 359:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:34 360:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:34 360:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:39 202:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:39 203:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:39 204:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:39 205:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:44 214:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:44 215:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:44 215:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:44 215:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:49 332:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:49 333:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:49 334:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:49 334:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:54 232:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:54 233:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:54 233:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:54 233:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:59 249:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:13:59 250:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:59 250:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:13:59 250:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:04 244:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:04 244:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:04 245:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:04 245:  折扣種類 燦坤兩小時(平日) 今日為 Tuesday ，為停用日 
+2023-10-31 10:14:09 253:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:09 253:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:09 253:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:14 264:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:14 264:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:14 265:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:19 265:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:19 266:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:19 266:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:24 308:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:24 309:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:24 309:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:29 280:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:29 280:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:29 280:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:34 295:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:34 296:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:34 296:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:39 311:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:39 311:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:39 312:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:44 332:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:44 332:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:44 332:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:49 332:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:49 332:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:49 333:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:52 184:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 10:14:52 198:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 10:14:52 210:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 10:14:52 221:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 10:14:52 232:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 10:14:52 242:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 10:14:52 252:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 10:14:52 261:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 10:14:52 270:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 10:14:52 279:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 10:14:52 288:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 10:14:52 297:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 10:14:52 308:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 10:14:52 321:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 10:14:52 334:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 10:14:54 339:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 10:14:54 340:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 10:14:54 340:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:14:57 518:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:14:57 518:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:14:57 519:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:14:57 540:  目前時間 07:14:57.5186560 / 關閉車道 2
+2023-10-31 07:14:57 562:  目前時間 07:14:57.5413940 / 開啟車道 3
+2023-10-31 07:14:57 584:  目前時間 07:14:57.5633375 / 開啟車道 4
+2023-10-31 07:14:57 608:  目前時間 07:14:57.5842398 / 關閉車道 5
+2023-10-31 07:14:57 629:  目前時間 07:14:57.6088668 / 關閉車道 6
+2023-10-31 07:15:02 517:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:02 517:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:02 518:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:07 528:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:07 529:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:07 529:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:12 549:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:12 550:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:12 550:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:17 547:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:17 548:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:17 548:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:22 569:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:22 570:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:22 571:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:27 571:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:27 572:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:27 572:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:32 577:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:32 577:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:32 577:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:37 589:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:37 589:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:37 589:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:42 605:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:42 605:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:42 606:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:47 605:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:47 606:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:47 606:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:52 620:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:52 620:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:52 620:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:57 624:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:15:57 625:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:15:57 626:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:02 629:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:02 629:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:02 630:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:07 637:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:07 638:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:07 638:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:12 689:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:12 689:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:12 689:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:17 704:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:17 705:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:17 705:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:22 708:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:22 709:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:22 709:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:27 712:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:27 713:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:27 713:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:32 728:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:32 728:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:32 728:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:37 726:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:37 727:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:37 727:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:42 734:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:42 734:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:42 735:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:47 742:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:47 742:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:47 743:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:50 334:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:16:50 344:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:16:50 351:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:16:50 359:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:16:50 366:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:16:50 374:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:16:50 381:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:16:50 392:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:16:50 400:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:16:50 408:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:16:50 415:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:16:50 422:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:16:50 429:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:16:50 435:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:16:50 441:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:16:52 762:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:52 762:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:52 763:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:57 783:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:16:57 784:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:16:57 785:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:02 789:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:02 789:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:02 789:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:07 795:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:07 796:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:07 796:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:12 817:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:12 818:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:12 818:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:17 829:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:17 830:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:17 830:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:22 837:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:22 837:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:22 837:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:27 837:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:27 838:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:27 838:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:32 844:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:32 844:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:32 844:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:37 891:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:37 891:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:37 891:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:42 870:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:42 871:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:42 871:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:47 881:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:47 882:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:47 882:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:52 892:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:52 892:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:52 893:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:57 905:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:17:57 906:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:17:57 906:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:02 938:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:02 938:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:02 939:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:07 940:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:07 940:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:07 941:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:12 957:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:12 957:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:12 957:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:17 958:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:17 959:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:17 959:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:22 963:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:22 964:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:22 964:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:27 977:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:27 977:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:27 978:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:32 988:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:32 988:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:32 989:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:37 990:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:37 990:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:37 991:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:42 996:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:42 997:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:42 997:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:48 014:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:48 015:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:48 015:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:50 375:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:18:50 387:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:18:50 397:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:18:50 408:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:18:50 417:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:18:50 425:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:18:50 432:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:18:50 442:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:18:50 452:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:18:50 467:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:18:50 478:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:18:50 492:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:18:50 511:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:18:50 529:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:18:50 542:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:18:53 036:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:53 037:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:53 038:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:58 026:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:18:58 027:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:18:58 028:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:03 034:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:19:03 034:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:03 035:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:08 045:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:19:08 045:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:08 046:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:13 046:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:19:13 047:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:13 048:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:18 059:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:19:18 060:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:18 060:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:23 080:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:19:23 081:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:19:23 081:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:38 580:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:20:38 581:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:38 581:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:43 787:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:20:43 788:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:43 788:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:48 682:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:20:48 683:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:48 683:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:53 647:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:20:53 648:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:53 648:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:58 659:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:20:58 659:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:20:58 659:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:03 670:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:03 670:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:03 670:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:08 675:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:08 675:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:08 676:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:13 673:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:13 673:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:13 673:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:18 686:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:18 687:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:18 687:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:23 718:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:23 719:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:23 720:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:28 710:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:28 711:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:28 711:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:33 723:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:33 724:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:33 724:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:38 742:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:38 743:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:38 743:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:43 794:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:43 795:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:43 796:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:48 769:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:48 770:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:48 770:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:53 783:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:53 784:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:53 784:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:58 782:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:21:58 783:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:21:58 783:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:00 666:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:22:00 677:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:22:00 688:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:22:00 698:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:22:00 708:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:22:00 720:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:22:00 732:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:22:00 744:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:22:00 754:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:22:00 765:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:22:00 776:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:22:00 785:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:22:00 793:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:22:00 800:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:22:00 806:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:22:03 788:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:03 788:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:03 789:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:08 804:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:08 805:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:08 805:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:13 825:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:13 825:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:13 826:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:18 815:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:18 816:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:18 816:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:23 816:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:23 817:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:23 818:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:28 828:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:28 828:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:28 828:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:33 831:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:33 831:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:33 831:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:38 849:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:38 849:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:38 849:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:43 860:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:43 861:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:43 861:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:48 873:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:48 874:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:48 875:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:53 895:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:53 896:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:53 896:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:58 903:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:22:58 904:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:22:58 904:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:03 904:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:03 905:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:03 905:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:08 954:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:08 955:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:08 955:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:13 913:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:13 914:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:13 914:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:18 928:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:18 928:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:18 929:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:23 937:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:23 937:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:23 938:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:28 950:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:28 950:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:28 950:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:33 954:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:33 954:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:33 955:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:38 979:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:38 979:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:38 980:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:43 985:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:43 986:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:43 986:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:48 996:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:48 997:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:48 998:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:54 002:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:54 002:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:54 003:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:59 021:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:23:59 022:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:23:59 023:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:00 722:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:24:00 751:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:24:00 773:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:24:00 799:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:24:00 823:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:24:00 847:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:24:00 870:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:24:00 900:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:24:00 930:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:24:00 975:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:24:01 020:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:24:01 069:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:24:01 102:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:24:01 135:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:24:01 163:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:24:04 024:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:04 025:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:04 025:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:09 032:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:09 032:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:09 032:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:14 040:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:14 041:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:14 041:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:19 048:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:19 049:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:19 049:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:24 065:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:24 066:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:24 067:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:29 074:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:29 074:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:29 074:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:34 082:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:34 082:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:34 082:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:39 098:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:39 099:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:39 099:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:44 133:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:44 133:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:44 135:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:49 155:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:49 157:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:49 158:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:54 142:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:54 142:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:54 142:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:59 151:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:24:59 151:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:24:59 152:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:04 157:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:04 158:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:04 158:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:09 163:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:09 163:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:09 163:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:14 178:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:14 179:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:14 179:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:19 185:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:19 185:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:19 186:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:24 200:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:24 200:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:24 200:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:29 232:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:29 232:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:29 232:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:34 271:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:34 271:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:34 271:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:39 278:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:39 278:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:39 278:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:44 288:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:44 288:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:44 288:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:49 286:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:49 286:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:49 286:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:54 325:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:54 326:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:54 326:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:59 312:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:25:59 313:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:25:59 313:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:00 852:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:26:00 868:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:26:00 889:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:26:00 903:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:26:00 914:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:26:00 928:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:26:00 949:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:26:00 966:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:26:00 984:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:26:01 003:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:26:01 018:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:26:01 036:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:26:01 050:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:26:01 063:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:26:01 076:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:26:04 331:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:04 332:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:04 332:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:09 335:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:09 335:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:09 336:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:14 342:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:14 342:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:14 342:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:19 356:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:19 357:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:19 358:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:24 391:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:24 391:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:24 391:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:29 453:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:29 455:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:29 455:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:34 410:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:34 411:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:34 411:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:39 417:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:39 417:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:39 418:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:44 431:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:44 431:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:44 431:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:49 446:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:49 447:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:49 447:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:54 466:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:54 467:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:54 468:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:59 464:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:26:59 464:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:26:59 465:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:04 478:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:04 479:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:04 479:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:09 492:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:09 492:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:09 493:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:14 508:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:14 509:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:14 509:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:19 512:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:19 512:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:19 512:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:24 521:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:24 521:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:24 522:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:29 532:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:29 533:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:29 533:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:34 537:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:34 538:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:34 538:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:39 539:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:39 539:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:39 540:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:44 562:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:44 562:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:44 563:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:49 573:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:49 573:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:49 574:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:54 584:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:54 584:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:54 584:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:59 589:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:27:59 590:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:27:59 590:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:00 700:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:28:00 764:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:28:00 806:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:28:00 822:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:28:00 829:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:28:00 836:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:28:00 842:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:28:00 849:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:28:00 855:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:28:00 861:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:28:00 866:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:28:00 872:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:28:00 878:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:28:00 885:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:28:00 893:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:28:04 610:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:04 610:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:04 611:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:09 609:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:09 610:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:09 611:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:14 619:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:14 619:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:14 619:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:19 629:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:19 629:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:19 630:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:24 653:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:24 654:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:24 654:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:29 636:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:29 637:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:29 637:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:34 638:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:34 639:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:34 639:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:39 649:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:39 649:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:39 650:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:44 661:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:44 661:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:44 662:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:49 671:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:49 671:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:49 671:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:54 677:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:54 678:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:54 678:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:59 680:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:28:59 681:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:28:59 681:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:04 707:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:04 707:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:04 707:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:09 707:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:09 707:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:09 707:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:14 720:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:14 721:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:14 721:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:19 733:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:19 733:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:19 734:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:24 732:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:24 733:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:24 734:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:29 740:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:29 741:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:29 741:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:34 762:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:34 763:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:34 763:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:39 773:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:39 773:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:39 774:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:44 792:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:44 793:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:44 793:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:49 813:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:49 813:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:49 813:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:54 817:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:54 818:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:54 818:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:59 863:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:29:59 864:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:29:59 864:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:00 710:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:30:00 725:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:30:00 740:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:30:00 752:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:30:00 767:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:30:00 787:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:30:00 797:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:30:00 807:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:30:00 814:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:30:00 818:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:30:00 825:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:30:00 830:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:30:00 836:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:30:00 842:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:30:00 847:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:30:04 834:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:04 834:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:04 834:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:09 834:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:09 835:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:09 835:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:14 855:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:14 855:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:14 857:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:19 867:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:19 868:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:19 868:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:24 885:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:24 886:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:24 886:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:29 900:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:29 901:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:29 901:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:34 901:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:34 902:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:34 902:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:39 921:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:39 921:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:39 921:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:44 928:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:44 928:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:44 928:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:49 931:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:49 931:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:49 931:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:54 959:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:54 959:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:54 960:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:59 983:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:30:59 983:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:30:59 984:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:04 959:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:04 960:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:04 960:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:09 974:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:09 974:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:09 975:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:14 990:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:14 990:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:14 990:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:19 995:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:19 996:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:19 996:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:25 021:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:25 022:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:25 022:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:30 031:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:30 032:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:30 032:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:35 034:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:35 035:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:35 035:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:40 051:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:40 053:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:40 056:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:45 051:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:45 052:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:45 053:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:50 064:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:50 066:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:50 067:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:55 064:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:31:55 065:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:31:55 065:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:30 991:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:30 992:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:30 993:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:31 068:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:31 069:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:31 071:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:31 089:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:31 124:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 126:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 126:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 130:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 131:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 132:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 133:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 143:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 148:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 149:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 150:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 152:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 156:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 156:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:31 397:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:32:31 484:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:32:31 494:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:32:31 505:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:32:31 514:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:32:31 524:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:32:31 533:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:32:31 541:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:32:31 549:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:32:31 559:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:32:31 568:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:32:31 577:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:32:31 586:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:32:31 596:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:32:31 606:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:32:35 150:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:35 161:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:35 174:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:40 149:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:40 159:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:40 166:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:45 158:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:45 168:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:45 177:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:50 166:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:50 178:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:50 189:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:55 176:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:32:55 192:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:32:55 207:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:00 215:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:00 230:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:00 243:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:05 199:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:05 222:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:05 235:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:10 213:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:10 225:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:10 234:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:15 226:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:15 236:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:15 253:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:20 226:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:20 239:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:20 253:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:25 241:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:25 254:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:25 266:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:30 242:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:30 254:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:30 278:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:35 256:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:35 267:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:35 278:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:40 269:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:40 278:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:40 287:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:45 285:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:45 296:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:45 305:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:50 295:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:50 305:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:50 313:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:55 311:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:33:55 320:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:33:55 330:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:00 328:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:00 341:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:00 350:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:00 722:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:34:00 732:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:34:00 743:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:34:00 754:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:34:00 766:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:34:00 777:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:34:00 787:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:34:00 795:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:34:00 800:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:34:00 806:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:34:00 811:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:34:00 817:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:34:00 824:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:34:00 829:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:34:00 836:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:34:05 333:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:05 343:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:05 354:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:10 340:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:10 355:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:10 369:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:15 351:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:15 362:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:15 371:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:20 368:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:20 379:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:20 389:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:25 381:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:25 395:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:25 409:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:30 386:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:30 395:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:30 405:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:35 403:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:35 414:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:35 427:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:40 403:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:40 411:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:40 417:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:45 418:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:45 446:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:45 458:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:50 424:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:50 433:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:50 440:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:55 474:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:34:55 483:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:34:55 492:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:00 460:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:00 474:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:00 484:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:05 466:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:05 477:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:05 483:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:10 474:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:10 493:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:10 500:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:15 488:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:15 497:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:15 505:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:20 502:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:20 523:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:20 538:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:25 508:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:25 527:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:25 545:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:30 581:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:30 605:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:30 627:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:35 559:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:35 576:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:35 588:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:40 569:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:40 699:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:40 734:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:45 621:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:45 640:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:45 654:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:50 576:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:50 596:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:50 615:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:55 576:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:35:55 588:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:35:55 595:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:00 602:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:00 632:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:00 652:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:00 777:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:36:00 792:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:36:00 813:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:36:00 834:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:36:00 853:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:36:00 873:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:36:00 894:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:36:00 915:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:36:00 936:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:36:00 953:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:36:00 971:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:36:00 987:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:36:01 004:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:36:01 021:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:36:01 039:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:36:05 599:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:05 610:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:05 621:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:10 612:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:10 624:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:10 635:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:15 617:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:15 628:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:15 636:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:20 635:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:20 648:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:20 657:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:25 643:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:25 656:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:25 665:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:30 666:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:30 687:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:30 711:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:35 668:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:35 684:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:35 699:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:40 727:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:40 752:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:40 776:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:45 719:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:45 742:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:45 766:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:50 728:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:50 750:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:50 776:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:55 779:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:36:55 818:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:36:55 851:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:00 740:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:00 752:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:00 761:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:05 762:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:05 790:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:05 808:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:10 820:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:10 847:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:10 871:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 739:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:36 741:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:36 742:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:36 742:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:36 743:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:36 844:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 844:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 845:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 849:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 852:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 860:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 865:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 866:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 868:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:36 869:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:40 812:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:40 821:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:40 829:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:45 819:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:45 833:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:45 847:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:50 830:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:50 839:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:50 849:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:55 839:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:37:55 853:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:37:55 864:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:00 865:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:00 880:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:00 888:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:01 013:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:38:01 083:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:38:01 093:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:38:01 106:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:38:01 117:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:38:01 126:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:38:01 134:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:38:01 140:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:38:01 149:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:38:01 157:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:38:01 165:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:38:01 174:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:38:01 181:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:38:01 187:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:38:01 194:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:38:05 862:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:05 875:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:05 888:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:10 864:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:10 874:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:10 885:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:15 876:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:15 888:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:15 897:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:20 883:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:20 896:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:20 911:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:25 959:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:25 984:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:26 009:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:30 957:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:30 969:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:30 982:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:35 965:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:35 976:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:35 986:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:40 979:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:40 987:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:40 995:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:45 993:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:46 006:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:46 015:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:50 996:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:51 010:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:51 018:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:56 015:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:38:56 041:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:38:56 051:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:01 031:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:01 043:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:01 052:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:06 047:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:06 063:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:06 074:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:11 060:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:11 070:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:11 078:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:16 062:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:16 071:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:16 079:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:21 076:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:21 095:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:21 106:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:26 083:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:26 094:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:26 100:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:31 095:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:31 107:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:31 120:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:36 092:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:36 104:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:36 112:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:41 104:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:41 115:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:41 124:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:46 117:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:46 129:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:46 137:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:51 123:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:51 137:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:51 147:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:56 132:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:39:56 145:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:39:56 160:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:00 743:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:40:00 755:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:40:00 766:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:40:00 776:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:40:00 784:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:40:00 791:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:40:00 798:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:40:00 805:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:40:00 811:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:40:00 817:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:40:00 824:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:40:00 830:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:40:00 837:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:40:00 843:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:40:00 849:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:40:01 153:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:01 165:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:01 175:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:06 155:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:06 166:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:06 174:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:11 178:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:11 193:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:11 207:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:16 167:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:16 175:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:16 185:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:21 255:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:21 290:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:21 318:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:26 177:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:26 187:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:26 196:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:31 182:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:31 191:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:31 202:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:36 217:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:36 231:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:36 241:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:41 202:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:41 215:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:41 225:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:46 196:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:46 213:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:46 222:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:51 213:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:51 236:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:51 254:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:56 256:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:40:56 284:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:40:56 310:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:22 985:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:22 987:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:22 988:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:22 994:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:23 006:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:23 094:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 095:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 096:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 096:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 097:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 109:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 113:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 116:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 117:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:23 122:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:26 292:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:26 309:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:26 319:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:31 302:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:31 314:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:31 323:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:36 336:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:36 349:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:36 357:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:41 323:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:41 339:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:41 347:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:46 353:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:46 366:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:46 389:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:51 340:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:51 356:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:51 370:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:56 350:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:41:56 365:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:41:56 374:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:00 994:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:42:01 059:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:42:01 070:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:42:01 080:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:42:01 089:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:42:01 100:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:42:01 108:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:42:01 116:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:42:01 128:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:42:01 135:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:42:01 141:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:42:01 147:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:42:01 153:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:42:01 159:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:42:01 166:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:42:01 356:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:01 367:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:01 378:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:06 363:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:06 374:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:06 384:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:11 378:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:11 397:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:11 405:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:16 385:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:16 396:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:16 405:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:21 889:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:22 021:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:22 155:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:26 395:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:26 408:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:26 419:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:31 413:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:31 424:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:31 439:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:36 420:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:36 432:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:36 441:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:41 436:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:41 458:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:41 478:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:46 439:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:46 452:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:46 464:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:51 452:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:51 465:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:51 476:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:56 466:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:42:56 482:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:42:56 492:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:01 475:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:01 488:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:01 502:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:06 479:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:06 491:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:06 501:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:11 492:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:11 504:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:11 521:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:16 505:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:16 520:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:16 533:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:21 529:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:21 546:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:21 559:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:26 536:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:26 547:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:26 557:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:31 550:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:31 563:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:31 573:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:36 564:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:36 576:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:36 589:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:41 569:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:41 580:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:41 589:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:46 588:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:46 600:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:46 621:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:51 598:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:51 613:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:51 623:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:56 607:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:43:56 622:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:43:56 637:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:00 760:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:44:00 774:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:44:00 789:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:44:00 801:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:44:00 812:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:44:00 820:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:44:00 829:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:44:00 845:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:44:00 856:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:44:00 865:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:44:00 874:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:44:00 889:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:44:00 899:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:44:00 910:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:44:00 920:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:44:01 625:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:01 636:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:01 645:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:06 636:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:06 647:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:06 655:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:11 651:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:11 660:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:11 676:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:16 660:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:16 673:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:16 683:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:21 671:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:21 683:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:21 692:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:26 688:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:26 697:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:26 706:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:31 699:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:31 712:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:31 724:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:36 709:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:36 719:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:36 728:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:41 726:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:41 738:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:41 749:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:46 721:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:46 732:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:46 739:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:51 732:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:51 742:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:51 750:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:56 768:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:44:56 780:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:44:56 788:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:01 769:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:01 783:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:01 790:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:06 779:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:06 788:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:06 798:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:11 795:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:11 806:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:11 818:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:16 803:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:16 815:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:16 826:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:21 807:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:21 827:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:21 836:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:26 823:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:26 833:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:26 842:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:31 832:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:31 846:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:31 864:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:36 836:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:36 848:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:36 856:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:41 852:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:41 863:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:41 873:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:46 864:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:46 876:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:46 885:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:51 873:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:51 882:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:51 891:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:56 896:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:45:56 905:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:45:56 914:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:00 768:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:46:00 785:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:46:00 793:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:46:00 801:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:46:00 808:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:46:00 815:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:46:00 821:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:46:00 828:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:46:00 834:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:46:00 840:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:46:00 847:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:46:00 856:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:46:00 862:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:46:00 868:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:46:00 875:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:46:01 904:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:01 915:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:01 927:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:06 908:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:06 920:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:06 931:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:11 930:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:11 946:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:11 960:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:16 934:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:16 947:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:16 970:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:21 936:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:21 952:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:21 962:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:26 934:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:26 947:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:26 962:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:31 947:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:31 961:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:31 975:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:36 953:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:36 966:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:36 977:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:41 967:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:41 981:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:41 992:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:46 984:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:46 998:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:47 008:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:51 996:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:52 011:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:52 021:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:57 008:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:46:57 021:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:46:57 031:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:02 011:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:02 022:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:02 031:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:07 020:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:07 032:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:07 048:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:12 046:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:12 066:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:12 075:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:17 050:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:17 058:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:17 064:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:22 063:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:22 073:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:22 081:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:27 080:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:27 096:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:27 112:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:32 089:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:32 099:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:32 105:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:37 112:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:37 125:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:37 135:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:42 106:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:42 119:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:42 127:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:47 116:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:47 134:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:47 144:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:52 126:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:52 138:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:52 152:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:57 134:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:47:57 152:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:47:57 167:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:00 845:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:48:00 861:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:48:00 872:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:48:00 882:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:48:00 893:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:48:00 902:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:48:00 912:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:48:00 923:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:48:00 932:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:48:00 940:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:48:00 949:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:48:00 956:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:48:00 966:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:48:00 972:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:48:00 982:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:48:02 143:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:02 156:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:02 167:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:07 152:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:07 163:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:07 177:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:12 167:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:12 177:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:12 184:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:17 192:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:17 207:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:17 217:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:22 193:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:22 205:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:22 214:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:27 203:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:27 218:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:27 231:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:32 210:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:32 225:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:32 236:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:37 240:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:37 254:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:37 265:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:42 217:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:42 229:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:42 243:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:47 220:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:47 231:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:47 241:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:52 242:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:52 286:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:52 300:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:57 266:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:48:57 281:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:48:57 291:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:02 270:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:02 282:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:02 291:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:07 283:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:07 295:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:07 310:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:12 290:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:12 301:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:12 312:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:17 295:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:17 314:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:17 327:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:22 291:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:22 302:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:22 315:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:27 301:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:27 312:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:27 321:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:32 316:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:32 330:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:32 339:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:37 327:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:37 337:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:37 348:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:42 348:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:42 364:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:42 378:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:47 360:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:47 372:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:47 387:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:52 388:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:52 401:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:52 412:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:57 383:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:49:57 396:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:49:57 410:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:00 799:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:50:00 810:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:50:00 818:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:50:00 827:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:50:00 834:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:50:00 844:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:50:00 853:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:50:00 864:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:50:00 875:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:50:00 884:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:50:00 894:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:50:00 904:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:50:00 913:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:50:00 924:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:50:00 933:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:50:02 398:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:02 408:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:02 418:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:07 407:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:07 417:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:07 428:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:12 420:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:12 431:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:12 440:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:17 422:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:17 434:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:17 449:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:22 435:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:22 446:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:22 457:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:27 436:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:27 445:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:27 452:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:32 445:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:32 454:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:32 463:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:37 447:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:37 460:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:37 472:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:42 454:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:42 472:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:42 486:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:47 470:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:47 483:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:47 491:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:52 486:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:52 501:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:52 511:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:57 500:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:50:57 510:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:50:57 521:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:02 496:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:02 506:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:02 515:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:07 509:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:07 526:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:07 536:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:12 549:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:12 560:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:12 574:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:17 537:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:17 549:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:17 561:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:22 544:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:22 561:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:22 575:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:27 567:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:27 580:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:27 594:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:32 559:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:32 572:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:32 585:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:37 564:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:37 576:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:37 591:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:42 574:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:42 586:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:42 595:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:47 577:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:47 587:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:47 597:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:52 582:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:52 593:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:52 603:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:57 598:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:51:57 611:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:51:57 624:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:00 808:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:52:00 821:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:52:00 832:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:52:00 843:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:52:00 851:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:52:00 859:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:52:00 867:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:52:00 874:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:52:00 882:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:52:00 892:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:52:00 905:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:52:00 916:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:52:00 927:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:52:00 939:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:52:00 950:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:52:02 602:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:02 613:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:02 626:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:07 617:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:07 630:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:07 639:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:12 632:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:12 642:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:12 651:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:17 650:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:17 662:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:17 671:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:22 663:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:22 674:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:22 681:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:27 667:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:27 679:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:27 688:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:32 675:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:32 690:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:32 704:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:37 696:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:37 707:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:37 713:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:42 697:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:42 711:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:42 751:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:47 712:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:47 724:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:47 733:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:52 724:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:52 734:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:52 745:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:57 737:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:52:57 785:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:52:57 802:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:02 738:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:02 750:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:02 764:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:07 747:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:07 758:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:07 768:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:12 778:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:12 794:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:12 806:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:17 765:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:17 776:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:17 784:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:22 764:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:22 775:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:22 784:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:27 780:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:27 794:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:27 811:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:32 786:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:32 801:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:32 814:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:37 814:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:37 827:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:37 838:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:42 820:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:42 832:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:42 842:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:47 814:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:47 828:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:47 840:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:52 840:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:52 851:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:52 856:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:57 844:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:53:57 855:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:53:57 863:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:00 831:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:54:00 843:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:54:00 854:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:54:00 865:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:54:00 876:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:54:00 887:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:54:00 897:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:54:00 911:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:54:00 922:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:54:00 957:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:54:00 969:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:54:00 980:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:54:01 002:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:54:01 011:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:54:01 016:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:54:02 855:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:02 867:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:02 875:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:07 884:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:07 900:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:07 908:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:12 884:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:12 897:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:12 907:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:17 887:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:17 899:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:17 910:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:22 892:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:22 902:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:22 912:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:27 903:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:27 910:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:27 916:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:32 919:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:32 929:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:32 939:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:37 930:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:37 951:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:37 959:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:42 951:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:42 966:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:42 977:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:47 954:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:47 965:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:47 973:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:52 968:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:52 981:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:52 993:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:57 987:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:54:57 997:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:54:58 005:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:03 001:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:03 011:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:03 022:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:08 012:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:08 026:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:08 035:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:13 018:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:13 029:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:13 039:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:18 024:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:18 036:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:18 045:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:23 052:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:23 064:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:23 074:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:28 058:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:28 069:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:28 080:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:33 070:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:33 083:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:33 095:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:38 071:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:38 083:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:38 096:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:43 089:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:43 100:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:43 109:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:48 093:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:48 104:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:48 113:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:53 100:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:53 111:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:53 119:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:58 107:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:55:58 118:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:55:58 128:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:00 836:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:56:00 844:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:56:00 850:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:56:00 856:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:56:00 864:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:56:00 872:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:56:00 884:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:56:00 896:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:56:00 907:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:56:00 917:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:56:00 924:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:56:00 933:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:56:00 939:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:56:00 946:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:56:00 953:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:56:03 130:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:03 141:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:03 152:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:08 131:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:08 143:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:08 154:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:13 136:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:13 295:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:13 304:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:18 155:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:18 180:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:18 208:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:23 155:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:23 162:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:23 171:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:28 164:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:28 177:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:28 188:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:33 164:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:33 172:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:33 180:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:38 180:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:38 193:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:38 213:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:43 183:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:43 195:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:43 206:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:48 186:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:48 198:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:48 209:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:53 195:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:53 208:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:53 220:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:58 214:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:56:58 229:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:56:58 243:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:03 223:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:03 237:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:03 251:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:08 229:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:08 239:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:08 248:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:13 242:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:13 253:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:13 262:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:18 257:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:18 283:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:18 311:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:23 264:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:23 281:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:23 303:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:28 269:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:28 280:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:28 291:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:33 282:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:33 294:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:33 305:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:38 289:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:38 301:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:38 311:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:43 316:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:43 326:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:43 336:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:48 317:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:48 328:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:48 338:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:53 329:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:53 341:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:53 354:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:58 353:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:57:58 365:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:57:58 373:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:00 871:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 07:58:00 884:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 07:58:00 895:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 07:58:00 905:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 07:58:00 915:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 07:58:00 925:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 07:58:00 934:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 07:58:00 942:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 07:58:00 950:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 07:58:00 956:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 07:58:00 964:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 07:58:00 972:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 07:58:00 980:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 07:58:00 987:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 07:58:00 995:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 07:58:03 355:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:03 367:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:03 378:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:08 367:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:08 378:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:08 389:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:13 376:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:13 387:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:13 398:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:18 388:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:18 399:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:18 408:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:23 407:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:23 418:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:23 429:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:28 420:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:28 430:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:28 439:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:33 429:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:33 439:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:33 450:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:38 445:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:38 455:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:38 465:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:43 460:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:43 470:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:43 479:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:48 469:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:48 477:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:48 483:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:53 497:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:53 507:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:53 516:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:58 509:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:58:58 520:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:58:58 532:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:03 503:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:03 512:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:03 521:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:08 517:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:08 532:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:08 543:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:13 528:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:13 540:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:13 550:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:18 538:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:18 548:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:18 560:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:23 548:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:23 566:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:23 576:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:28 572:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:28 585:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:28 605:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:33 585:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:33 595:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:33 604:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:38 589:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:38 597:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:38 607:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:43 592:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:43 599:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:43 607:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:48 614:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:48 655:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:48 667:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:53 624:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:53 633:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:53 643:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:58 637:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 07:59:58 651:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 07:59:58 663:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:00 903:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 08:00:00 920:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 08:00:00 932:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 08:00:00 950:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 08:00:00 961:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 08:00:00 977:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 08:00:00 989:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 08:00:01 001:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 08:00:01 015:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 08:00:01 028:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 08:00:01 043:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 08:00:01 054:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 08:00:01 065:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 08:00:01 075:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 08:00:01 084:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 08:00:03 655:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:03 657:  目前時間 08:00:03.6570673 / 關閉車道 3
+2023-10-31 08:00:03 665:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:03 676:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:03 694:  目前時間 08:00:03.6949685 / 關閉車道 4
+2023-10-31 08:00:03 716:  目前時間 08:00:03.7157697 / 開啟車道 5
+2023-10-31 08:00:03 742:  目前時間 08:00:03.7420452 / 開啟車道 6
+2023-10-31 08:00:08 663:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:08 676:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:08 690:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:13 667:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:13 681:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:13 698:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:18 678:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:18 688:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:18 698:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:23 685:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:23 699:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:23 709:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:28 688:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:28 701:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:28 713:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:33 694:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:33 708:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:33 721:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:38 696:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:38 706:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:38 713:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:43 701:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:43 712:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:43 720:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:48 708:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:48 719:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:48 730:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:53 725:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:53 739:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:53 747:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:58 746:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:00:58 761:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:00:58 774:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:03 753:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:03 822:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:03 900:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:08 754:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:08 770:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:08 784:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:13 769:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:13 787:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:13 804:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:18 780:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:18 794:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:18 808:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:23 782:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:23 794:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:23 810:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:28 794:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:28 813:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:28 831:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:33 801:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:33 811:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:33 826:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:38 823:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:38 914:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:38 993:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:43 818:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:43 830:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:43 840:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:48 828:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:48 839:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:48 849:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:53 837:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:53 848:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:53 859:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:58 840:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:01:58 848:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:01:58 856:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:00 874:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 08:02:00 885:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 08:02:00 897:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 08:02:00 908:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 08:02:00 918:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 08:02:00 927:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 08:02:00 935:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 08:02:00 944:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 08:02:00 950:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 08:02:00 958:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 08:02:00 965:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 08:02:00 975:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 08:02:00 982:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 08:02:00 987:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 08:02:00 993:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 08:02:03 854:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:03 862:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:03 867:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:08 872:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:08 881:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:08 891:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:13 884:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:13 894:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:13 904:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:18 888:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:18 899:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:18 912:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:23 910:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:23 920:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:23 929:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:28 921:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:28 926:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:28 935:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:33 927:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:33 933:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:33 939:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:38 939:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:38 945:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:38 950:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:43 947:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:43 953:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:43 958:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:48 957:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:48 965:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:48 970:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:53 961:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:53 968:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:53 978:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:58 974:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:02:58 981:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:02:58 988:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:03 982:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:03 987:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:03 994:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:08 988:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:08 996:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:09 007:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:14 024:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:14 041:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:14 055:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:19 024:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:19 036:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:19 048:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:24 022:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:24 033:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:24 042:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:29 045:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:29 069:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:29 079:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:34 049:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:34 059:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:34 070:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:39 058:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:39 068:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:39 077:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:44 072:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:44 082:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:44 090:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:49 074:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:49 087:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:49 099:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:54 075:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:54 088:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:54 100:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:59 087:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:03:59 099:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:03:59 105:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:00 907:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 08:04:00 919:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 08:04:00 929:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 08:04:00 939:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 08:04:00 947:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 08:04:00 959:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 08:04:00 969:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 08:04:00 979:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 08:04:00 987:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 08:04:00 998:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 08:04:01 006:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 08:04:01 016:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 08:04:01 024:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 08:04:01 034:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 08:04:01 042:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 08:04:04 099:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:04 110:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:04 120:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:09 110:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:09 122:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:09 132:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:14 118:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:14 129:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:14 141:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:19 125:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:19 137:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:19 147:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:24 132:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:24 143:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:24 152:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:29 184:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:29 199:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:29 211:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:34 142:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:34 164:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:34 173:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:39 169:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:39 183:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:39 196:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:44 201:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:44 212:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:44 219:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:49 171:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:49 182:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:49 191:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:54 188:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:54 195:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:54 202:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:59 207:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:04:59 218:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:04:59 229:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:04 222:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:04 231:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:04 239:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:09 232:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:09 242:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:09 253:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:14 238:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:14 250:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:14 258:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:19 256:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:19 266:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:19 276:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:24 261:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:24 273:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:24 291:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:29 267:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:29 277:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:29 285:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:34 290:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:34 307:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:34 324:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:39 294:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:39 307:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:39 319:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:44 310:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:44 329:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:44 350:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:49 326:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:49 342:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:49 358:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:54 331:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:54 343:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:54 353:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:59 350:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:05:59 364:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:05:59 376:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:00 946:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 08:06:00 960:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 08:06:00 974:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 08:06:00 987:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 08:06:01 001:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 08:06:01 015:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 08:06:01 027:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 08:06:01 038:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 08:06:01 047:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 08:06:01 057:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 08:06:01 070:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 08:06:01 084:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 08:06:01 094:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 08:06:01 104:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 08:06:01 114:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 08:06:04 386:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:04 398:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:04 408:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:09 388:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:09 399:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:09 410:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:14 400:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:14 406:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:14 413:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:19 416:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:19 429:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:19 442:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:24 420:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:24 433:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:24 444:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:29 428:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:29 441:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:29 455:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:34 428:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:34 436:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:34 449:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:39 448:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:39 459:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:39 466:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:44 459:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:44 469:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:44 483:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:49 464:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:49 474:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:49 482:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:54 474:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:54 487:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:54 497:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:59 482:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:06:59 495:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:06:59 510:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:04 491:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:04 505:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:04 515:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:09 504:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:09 516:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:09 526:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:14 514:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:14 532:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:14 546:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:19 608:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:19 634:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:19 665:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:24 528:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:24 543:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:24 559:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:29 533:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:29 546:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:29 560:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:34 540:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:34 552:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:34 563:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:39 549:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:39 557:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:39 563:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:44 565:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:44 578:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:44 585:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:49 573:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:49 582:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:49 588:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:54 599:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:54 615:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:54 629:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:59 602:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:07:59 611:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:07:59 619:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:00 943:  GetDeviceName => serialNumber = flap-1-on
+2023-10-31 08:08:00 955:  GetDeviceName => serialNumber = flap-2-on
+2023-10-31 08:08:00 965:  GetDeviceName => serialNumber = flap-3-on
+2023-10-31 08:08:00 977:  GetDeviceName => serialNumber = flap-4-on
+2023-10-31 08:08:00 987:  GetDeviceName => serialNumber = flap-5-on
+2023-10-31 08:08:00 997:  GetDeviceName => serialNumber = flap-6-on
+2023-10-31 08:08:01 005:  GetDeviceName => serialNumber = flap-7-on
+2023-10-31 08:08:01 017:  GetDeviceName => serialNumber = flap-8-on
+2023-10-31 08:08:01 027:  GetDeviceName => serialNumber = flap-9-on
+2023-10-31 08:08:01 037:  GetDeviceName => serialNumber = flap-10-on
+2023-10-31 08:08:01 045:  GetDeviceName => serialNumber = flap-11-on
+2023-10-31 08:08:01 055:  GetDeviceName => serialNumber = flap-12-on
+2023-10-31 08:08:01 062:  GetDeviceName => serialNumber = flap-13-on
+2023-10-31 08:08:01 069:  GetDeviceName => serialNumber = flap-14-on
+2023-10-31 08:08:01 078:  GetDeviceName => serialNumber = flap-15-on
+2023-10-31 08:08:04 611:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:04 619:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:04 625:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:09 619:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:09 632:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:09 640:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:14 629:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:14 640:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:14 650:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:19 640:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:19 653:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:19 663:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:24 643:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:24 650:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:24 657:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:29 651:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:29 665:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:29 678:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:34 661:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:34 674:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:34 685:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:39 665:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:39 686:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:39 694:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:44 697:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:44 708:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:44 717:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:49 699:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:49 707:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:49 713:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:54 704:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:54 715:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:54 720:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:59 739:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:08:59 751:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:08:59 768:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:04 737:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:04 751:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:04 767:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:09 747:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:09 758:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:09 766:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:14 754:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:14 772:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:14 787:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:19 773:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:19 783:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:19 789:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:24 765:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:24 777:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:24 788:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:29 783:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:29 801:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:29 814:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:34 800:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:34 812:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:34 821:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:39 825:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:39 846:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:39 867:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:44 822:  SwitchDiscountConfig => Tuesday, int => 2
+2023-10-31 08:09:44 838:  折扣種類 住房車 今日為 Tuesday ，為可啟用日 
+2023-10-31 08:09:44 851:  折扣種類 燦坤一小時(假日) 今日為 Tuesday ，為可啟用日 
+2023-10-31 09:35:55 848:  userName : admin
+2023-10-31 09:35:55 849:  password : c93ccd78b2076528346216b3b2f701e6
+2023-10-31 09:35:55 849:  verifyCode : 

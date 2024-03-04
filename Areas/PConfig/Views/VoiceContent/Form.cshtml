@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <label class="layui-form-label label-required">播報分類</label>
+        <div class="layui-input-inline">
+            <input type="hidden" name="Vid" />
+            <select name="Type" lay-verify="required">
+                <option Value="1">入口月租車通過</option>
+                <option Value="2">入口臨停車通過</option>
+                <option Value="3">出口月租車通過</option>
+                <option Value="4">出口臨停車通過</option>
+                <option Value="5">無牌入口通過</option>
+                <option Value="6">無牌出口通過</option>
+                <option Value="7">繳費完成以後</option>
+                <option Value="8">共享車位已佔用</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">播報內容</label>
+            <div class="layui-input-inline">
+                <select name="VoiceType" lay-verify="required">
+                    <option Value="1">歡迎詞</option>
+                    <option Value="2">停車類型</option>
+                    <option Value="3">繳費金額</option>
+                    <option Value="4">歡迎詞+車位已滿</option>
+                    <option Value="5">歡迎詞+黑名單</option>
+                    <option Value="6">歡迎詞+有無權限</option>
+                    <option Value="7">停車類型+是否過期</option>
+                    <option Value="8">繳費金額+停車類型</option>
+                    <option Value="9">繳費金額+停車時長</option>
+                    <option Value="10">歡迎詞+禁止通行</option>
+                    <option Value="11">停車類型+歡迎詞</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">歡迎詞內容</label>
+            <div class="layui-input-inline">
+                <select name="Content" lay-verify="required">
+                    <option Value="0">==請選擇==</option>
+                    <option Value="1">歡迎光臨</option>
+                    <option Value="2">一路平安</option>
+                    <option Value="39">歡迎回家</option>
+                    <option Value="43">禁止通行</option>
+                    <option Value="95">一路順風</option>
+                    <option Value="99">出入平安</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">是否報車牌</label>
+            <div class="layui-input-inline">
+                <select name="IsPlate" lay-verify="required">
+                    <option Value="1">播 報</option>
+                    <option Value="2">不播報</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+
+</form>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PConfig/VoiceContent/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            $.formSubmit({
+                url: "/PConfig/VoiceContent/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>
+

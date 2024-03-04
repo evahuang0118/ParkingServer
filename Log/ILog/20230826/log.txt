@@ -1,0 +1,131 @@
+﻿2023-08-26 08:08:07 922:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:10:07 684:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:12:07 721:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:14:07 734:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:16:07 765:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:18:07 849:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:20:07 758:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:23:24 810:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:23:24 811:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:23:24 812:  PushAPSTransaction => 1
+2023-08-26 08:23:24 813:  PushAPSTransaction => 2
+2023-08-26 08:23:24 814:  PushAPSTransaction => 3
+2023-08-26 08:23:24 815:  PushAPSTransaction => 4
+2023-08-26 08:23:24 835:  PushAPSTransaction => 5
+2023-08-26 08:24:07 898:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:24:47 339:  deviceId = 24, State = 2, 已下降
+2023-08-26 08:24:50 356:  admin,進行欄杆機的控制操作
+2023-08-26 08:24:50 357:  id = 1, deviceID = 0
+2023-08-26 08:24:50 358:  往 127.0.0.1:8830 發送字串 => RailingMachine_1_0.0.0.0_1_2023082608245035859
+2023-08-26 08:24:52 398:  往 8830 發送失敗 => System.Exception: Can't connection:127.0.0.1
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2007
+   於 Elight.WebUI.Areas.PConfig.Controllers.ChannelController.RailingOpenClose(String id, String type) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\ChannelController.cs: 行 254
+2023-08-26 08:24:52 415:  admin,進行欄杆機的控制操作
+2023-08-26 08:24:52 416:  id = 1, deviceID = 0
+2023-08-26 08:24:52 417:  往 127.0.0.1:8830 發送字串 => RailingMachine_1_0.0.0.0_1_2023082608245241740
+2023-08-26 08:24:54 437:  往 8830 發送失敗 => System.Exception: Can't connection:127.0.0.1
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2007
+   於 Elight.WebUI.Areas.PConfig.Controllers.ChannelController.RailingOpenClose(String id, String type) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\ChannelController.cs: 行 254
+2023-08-26 08:24:54 456:  admin,進行欄杆機的控制操作
+2023-08-26 08:24:54 459:  id = 1, deviceID = 0
+2023-08-26 08:24:54 460:  往 127.0.0.1:8830 發送字串 => RailingMachine_1_0.0.0.0_1_2023082608245446050
+2023-08-26 08:24:56 488:  往 8830 發送失敗 => System.Exception: Can't connection:127.0.0.1
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2007
+   於 Elight.WebUI.Areas.PConfig.Controllers.ChannelController.RailingOpenClose(String id, String type) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\ChannelController.cs: 行 254
+2023-08-26 08:28:52 174:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:28:52 176:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:28:52 177:  PushAPSTransaction => 1
+2023-08-26 08:28:52 178:  PushAPSTransaction => 2
+2023-08-26 08:28:52 179:  PushAPSTransaction => 3
+2023-08-26 08:28:52 180:  PushAPSTransaction => 4
+2023-08-26 08:28:52 198:  PushAPSTransaction => 5
+2023-08-26 08:28:53 239:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2744InterfaceInterface
+2023-08-26 08:30:08 049:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:32:07 811:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:33:23 053:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:33:23 055:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:33:23 056:  PushAPSTransaction => 1
+2023-08-26 08:33:23 057:  PushAPSTransaction => 2
+2023-08-26 08:33:23 059:  PushAPSTransaction => 3
+2023-08-26 08:33:23 060:  PushAPSTransaction => 4
+2023-08-26 08:33:23 062:  PushAPSTransaction => 5
+2023-08-26 08:33:23 071:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2744InterfaceInterface
+2023-08-26 08:33:25 300:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:33:25 302:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:33:25 303:  PushAPSTransaction => 1
+2023-08-26 08:33:25 304:  PushAPSTransaction => 2
+2023-08-26 08:33:25 304:  PushAPSTransaction => 3
+2023-08-26 08:33:25 305:  PushAPSTransaction => 4
+2023-08-26 08:33:25 306:  PushAPSTransaction => 5
+2023-08-26 08:33:25 314:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2744InterfaceInterface
+2023-08-26 08:33:36 169:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:33:36 169:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:33:36 170:  PushAPSTransaction => 1
+2023-08-26 08:33:36 170:  PushAPSTransaction => 2
+2023-08-26 08:33:36 171:  PushAPSTransaction => 3
+2023-08-26 08:33:36 171:  PushAPSTransaction => 4
+2023-08-26 08:33:36 172:  PushAPSTransaction => 5
+2023-08-26 08:33:36 182:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2744InterfaceInterface
+2023-08-26 08:34:07 849:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:37:50 197:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:37:50 198:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:37:50 198:  PushAPSTransaction => 1
+2023-08-26 08:37:50 199:  PushAPSTransaction => 2
+2023-08-26 08:37:50 199:  PushAPSTransaction => 3
+2023-08-26 08:37:50 200:  PushAPSTransaction => 4
+2023-08-26 08:37:50 222:  PushAPSTransaction => 5
+2023-08-26 08:37:51 314:  PushAPSTransaction => 6
+2023-08-26 08:37:51 584:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2745InterfaceInterface
+2023-08-26 08:38:08 201:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:42:31 222:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:42:38 087:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:42:38 088:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:42:38 088:  PushAPSTransaction => 1
+2023-08-26 08:42:38 089:  PushAPSTransaction => 2
+2023-08-26 08:42:38 089:  PushAPSTransaction => 3
+2023-08-26 08:42:38 090:  PushAPSTransaction => 4
+2023-08-26 08:42:38 104:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"0","Total10":"0","Total2":"0","Total3":"0","Total4":"0","Total5":"0","Total6":"0","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-26 08:42:38 105:  Attachment Length => 1626
+2023-08-26 08:42:38 105:  PushAPSTransaction => 5
+2023-08-26 08:42:38 112:  PushAPSTransaction => 6
+2023-08-26 08:42:38 137:  ErrorPushAPSTransaction_零錢鈔票⽔位 , Data too long for column 'Attachment' at row 1_   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.EbnormalRecordLogic.Insert(EbnormalRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\EbnormalRecordLogic.cs: 行 22
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(PaymentMachine model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 2747InterfaceInterface
+2023-08-26 08:44:07 846:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:45:04 152:  GetDeviceName => serialNumber = pos-1
+2023-08-26 08:45:04 154:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-26 08:45:04 155:  PushAPSTransaction => 1
+2023-08-26 08:45:04 155:  PushAPSTransaction => 2
+2023-08-26 08:45:04 156:  PushAPSTransaction => 3
+2023-08-26 08:45:04 158:  PushAPSTransaction => 4
+2023-08-26 08:45:04 159:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"0","Total10":"0","Total2":"0","Total3":"0","Total4":"0","Total5":"0","Total6":"0","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-26 08:45:04 160:  Attachment Length => 1626
+2023-08-26 08:45:04 161:  PushAPSTransaction => 5
+2023-08-26 08:45:04 168:  PushAPSTransaction => 6
+2023-08-26 08:45:04 175:  PushAPSTransaction => 7
+2023-08-26 08:45:04 194:  PushAPSTransaction => 8
+2023-08-26 08:46:07 894:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:48:07 881:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:50:07 888:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:52:08 016:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:54:07 921:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:56:08 023:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 08:58:07 996:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 09:00:08 010:  GetDeviceName => serialNumber = flap-1-on
+2023-08-26 09:02:08 029:  GetDeviceName => serialNumber = flap-1-on

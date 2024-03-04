@@ -1,0 +1,211 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label " style="width:75px">使用者</label>
+                <div class="layui-input-inline" style = "padding-right : 10px">
+                    <input type="hidden" name="Id" id="Id" lay-verify="required" placeholder="" cautocomplete="off" readonly="readonly" class="layui-input">
+                    <input type="text" name="RealName" id="RealName" lay-verify="required" placeholder="" cautocomplete="off" readonly="readonly" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:75px">儲值點數</label>
+                <div class="layui-input-inline" style = "padding-right : 10px">
+                    @* <input type="hidden" name="topUpDiscountPoints" /> *@
+                    <input type="text" name="topUpDiscountPoints" id="topUpDiscountPoints" lay-verify="required" placeholder="請輸入儲值點數 (金額)" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:75px">儲值時數</label>
+                <div class="layui-input-inline" style = "padding-right : 10px">
+                    @* <input type="hidden" name="topUpDiscountDurations" /> *@
+                    <input type="text" name="topUpDiscountDurations" id="topUpDiscountDurations" lay-verify="required" placeholder="請輸入儲值時數 (分鐘)" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label label-required" style="width:120px">起始段</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="StartVal" id="StartVal" value="0" lay-verify="required" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @*          *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label">結束段</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="EndVal" id="EndVal" value="0" lay-verify="required" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @* </div> *@
+        @* *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label label-required" style="width:120px">折扣金額 / 時數</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="AmountTime" id="AmountTime" value="0" lay-verify="required" placeholder="金額 / 時數" cautocomplete="off" class="layui-input"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label">狀 態</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="radio" name="State" value="1" title="是" checked /> *@
+        @*             <input type="radio" name="State" value="2" title="否" /> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @* </div> *@
+        @* *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label label-required" style="width:120px">上限種類</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <select name="DiscountLimitType" lay-verify="required"> *@
+        @*                 <option value="0">無限制</option> *@
+        @*                 <option value="1">折抵次數</option> *@
+        @*                 <option value="2">折抵時間</option> *@
+        @*                 <option value="3">折抵金額</option> *@
+        @*             </select> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">上限單位</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="DiscountMaxValue" id="DiscountMaxValue" value="0" lay-verify="required" placeholder = "次數 / 金額 / 時數" cautocomplete="off" class="layui-input"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @* </div> *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">可用使用者</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="AvailableUser" id="AvailableUser" value="" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @*          *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             以　/　區隔 *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </div> *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">關聯折扣種類上限</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="RelatedDiscountLimitID" id="RelatedDiscountLimitID" value="" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @*          *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <div class="layui-input-inline"　style="width:350px; line-height:1.5"> *@
+        @*             以　/　區隔 (填寫其他折扣種類 ID，用以跟其他指定種類之折扣共用上限數值)  *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @* </div> *@
+        @* *@
+        @* *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label">自動切換</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="radio" name="AutoSwitchDiscountType" value = "0" title="關閉" checked /> *@
+        @*             <input type="radio" name="AutoSwitchDiscountType" value = "1" title="開啟" /> *@
+        @*         </div> *@
+        @*     </div> *@
+        @*     *@
+        @* </div> *@
+        @* *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">可用日</label> *@
+        @*         <div class="layui-input-inline" style="width:500px"> *@
+        @*             $1$ <input type="text" name="RelatedDiscountLimitID" id="RelatedDiscountLimitID" value="" placeholder="" cautocomplete="off" class="layui-input"> #1# *@
+        @*             $1$ <div class="layui-input-block"> #1# *@
+        @*             <input type="checkbox" name = "DiscountDay1" id = "DiscountDay1" lay-skin="primary" lay-verify="otherReq" title = "星期一"> *@
+        @*             <input type="checkbox" name = "DiscountDay2" id = "DiscountDay2" lay-skin="primary" lay-verify="otherReq" title = "星期二"> *@
+        @*             <input type="checkbox" name = "DiscountDay3" id = "DiscountDay3" lay-skin="primary" lay-verify="otherReq" title = "星期三"> *@
+        @*             <input type="checkbox" name = "DiscountDay4" id = "DiscountDay4" lay-skin="primary" lay-verify="otherReq" title = "星期四"> *@
+        @*             <input type="checkbox" name = "DiscountDay5" id = "DiscountDay5" lay-skin="primary" lay-verify="otherReq" title = "星期五"> *@
+        @*             <input type="checkbox" name = "DiscountDay6" id = "DiscountDay6" lay-skin="primary" lay-verify="otherReq" title = "星期六"> *@
+        @*             <input type="checkbox" name = "DiscountDay0" id = "DiscountDay0" lay-skin="primary" lay-verify="otherReq" title = "星期日"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </div> *@
+
+
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-form-item"> *@
+        @*         <label class="layui-form-label" style="width:120px">備  註</label> *@
+        @*         <div class="layui-input-inline" style="width: 450px;"> *@
+        @*             <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </div> *@
+
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-block">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+
+    var temp = null
+    var temp2 = null
+    layui.use(['form'], function () {
+
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/OptimalFree/GetUserCurrentDiscountPointsInfo",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    console.log("get form data => ", data)
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+        form.on('submit(add)', function (data) {
+            console.log("submit(add) => ", data)
+            if ($("#topUpPoints").val() == "") {
+                return false;
+            }
+            if ($("#topUpDurations").val() == "") {
+                return false;
+            }
+            console.log("data ava =>　", data.field)
+            $.formSubmit({
+                url: `/PBusiness/OptimalFree/TopUpDiscountPoints`,
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>

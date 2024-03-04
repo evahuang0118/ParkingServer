@@ -1,0 +1,5 @@
+﻿2023/8/22 下午 03:43:48	Information		車位鎖控制操作:{"CLIENT_ID":"system","FUNCTION":"UP","FLAG_ID":"1","REPLY":"OK","ERROR_MESSAGE":"","USER_COUNT":""}
+2023/8/22 下午 03:43:49	Information		車位鎖控制操作:{"CLIENT_ID":"system","FUNCTION":"UP","FLAG_ID":"1","REPLY":"OK","ERROR_MESSAGE":"","USER_COUNT":""}
+2023/8/22 下午 03:43:52	Information		車位鎖控制操作:{"CLIENT_ID":"system","FUNCTION":"DOWN","FLAG_ID":"1","REPLY":"OK","ERROR_MESSAGE":"","USER_COUNT":""}
+2023/8/22 下午 03:44:07	Information		車位鎖控制操作:{"CLIENT_ID":"system","FUNCTION":"DOWN","FLAG_ID":"1","REPLY":"OK","ERROR_MESSAGE":"","USER_COUNT":""}
+2023/8/22 下午 03:46:02	Information		車位鎖控制操作:{"CLIENT_ID":"system","FUNCTION":"UP","FLAG_ID":"1","REPLY":"OK","ERROR_MESSAGE":"","USER_COUNT":""}

@@ -1,0 +1,166 @@
+﻿2023-10-13 09:09:50 065:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:09:50 130:  activeLanes => 1
+2023-10-13 09:09:50 130:  activeLanes => 2
+2023-10-13 09:09:50 130:  activeLanes => 1
+2023-10-13 09:09:50 130:  activeLanes => 2
+2023-10-13 09:09:50 149:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:09:50 161:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-13 09:09:50 161:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:09:50 203:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309095020322
+2023-10-13 09:09:50 203:  發送入口字幕機 TriggerType : 4
+2023-10-13 09:09:50 203:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:09:50 223:  進入計算車位流程，BusinessType = 1
+2023-10-13 09:09:50 342:  臨停月租[分開]加減模式 / 原始[臨停]車位 26 => 更新[臨停]車位 25 / 當前總車位 [臨停 + 月租] 85 
+2023-10-13 09:09:50 343:  總剩餘車位數 ： 85，類型：臨停
+2023-10-13 09:09:50 363:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:09:50 381:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 553
+2023-10-13 09:09:50 381:  ===============[入場]資料處理結束====================
+2023-10-13 09:09:50 381:  Return:VKP6235_ok
+2023-10-13 09:15:52 083:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:15:52 138:  activeLanes => 1
+2023-10-13 09:15:52 138:  activeLanes => 2
+2023-10-13 09:15:52 139:  activeLanes => 1
+2023-10-13 09:15:52 139:  activeLanes => 2
+2023-10-13 09:15:52 190:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:15:52 196:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-13 09:15:52 196:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:15:52 306:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309155230669
+2023-10-13 09:15:52 307:  發送入口字幕機 TriggerType : 8
+2023-10-13 09:15:52 307:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:15:52 326:  進入計算車位流程，BusinessType = 1
+2023-10-13 09:15:52 477:  臨停月租[分開]加減模式 / 原始[臨停]車位 25 => 更新[臨停]車位 24 / 當前總車位 [臨停 + 月租] 84 
+2023-10-13 09:15:52 478:  總剩餘車位數 ： 84，類型：臨停
+2023-10-13 09:15:52 503:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:15:52 518:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 553
+2023-10-13 09:15:52 518:  ===============[入場]資料處理結束====================
+2023-10-13 09:15:52 519:  Return:VKP6235_ok
+2023-10-13 09:16:23 613:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:16:23 642:  activeLanes => 1
+2023-10-13 09:16:23 642:  activeLanes => 2
+2023-10-13 09:16:23 643:  activeLanes => 1
+2023-10-13 09:16:23 643:  activeLanes => 2
+2023-10-13 09:16:23 650:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:16:23 650:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-13 09:16:23 651:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:16:23 687:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309162368771
+2023-10-13 09:16:23 687:  發送入口字幕機 TriggerType : 8
+2023-10-13 09:16:23 688:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:16:23 688:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-13 09:16:23 688:  eventType : 0
+2023-10-13 09:16:23 689:  eventMsg : 入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:16:23 689:  cmsLogType : System
+2023-10-13 09:16:23 689:  cmsLogLevel : Info
+2023-10-13 09:16:23 689:  identifier : VKP6235
+2023-10-13 09:16:23 689:  identifierType : LPR
+2023-10-13 09:16:23 690:  BusinessType : Temporary
+2023-10-13 09:16:23 702:  ===============[入場]資料處理結束====================
+2023-10-13 09:16:23 702:  Return:VKP6235_ok
+2023-10-13 09:25:07 902:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:25:08 595:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:25:08 609:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-13 09:25:08 610:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:25:08 754:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309250875424
+2023-10-13 09:25:08 754:  發送入口字幕機 TriggerType : 8
+2023-10-13 09:25:08 755:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:25:08 781:  進入計算車位流程，BusinessType = 1
+2023-10-13 09:25:08 859:  臨停月租[分開]加減模式 / 原始[臨停]車位 24 => 更新[臨停]車位 23 / 當前總車位 [臨停 + 月租] 83 
+2023-10-13 09:25:08 859:  總剩餘車位數 ： 83，類型：臨停
+2023-10-13 09:25:08 877:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:25:08 890:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 553
+2023-10-13 09:25:08 891:  ===============[入場]資料處理結束====================
+2023-10-13 09:25:08 892:  Return:VKP6235_ok
+2023-10-13 09:25:10 154:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:25:10 196:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:25:10 197:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-13 09:25:10 198:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:25:10 244:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309251024360
+2023-10-13 09:25:10 245:  發送入口字幕機 TriggerType : 4
+2023-10-13 09:25:10 245:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:25:10 247:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-13 09:25:10 248:  eventType : LPREnterSuccess
+2023-10-13 09:25:10 248:  eventMsg : 入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:25:10 248:  cmsLogType : System
+2023-10-13 09:25:10 248:  cmsLogLevel : Info
+2023-10-13 09:25:10 248:  identifier : VKP6235
+2023-10-13 09:25:10 249:  identifierType : LPR
+2023-10-13 09:25:10 249:  BusinessType : Temporary
+2023-10-13 09:25:10 270:  ===============[入場]資料處理結束====================
+2023-10-13 09:25:10 270:  Return:VKP6235_ok
+2023-10-13 09:26:22 382:  Camera:192.168.1.65_VKP6235
+2023-10-13 09:26:22 452:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 09:26:22 453:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-13 09:26:22 454:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-13 09:26:22 513:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101309262251304
+2023-10-13 09:26:22 513:  發送入口字幕機 TriggerType : 8
+2023-10-13 09:26:22 514:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 09:26:22 515:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-13 09:26:22 516:  eventType : LPREnterSuccess
+2023-10-13 09:26:22 516:  eventMsg : 入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-13 09:26:22 517:  cmsLogType : System
+2023-10-13 09:26:22 517:  cmsLogLevel : Info
+2023-10-13 09:26:22 517:  identifier : VKP6235
+2023-10-13 09:26:22 517:  identifierType : LPR
+2023-10-13 09:26:22 518:  BusinessType : Temporary
+2023-10-13 09:26:22 529:  ===============[入場]資料處理結束====================
+2023-10-13 09:26:22 529:  Return:VKP6235_ok
+2023-10-13 14:16:59 734:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:16:59 735:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:16:59 737:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:16:59 738:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:17:01 429:  Return:VKP6235_No
+2023-10-13 14:17:01 430:  Return:VKP6235_No
+2023-10-13 14:17:01 431:  Return:VKP6235_No
+2023-10-13 14:17:01 432:  Return:VKP6235_No
+2023-10-13 14:17:11 027:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:17:11 072:  Return:VKP6235_No
+2023-10-13 14:17:13 941:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:17:13 973:  Return:VKP6235_No
+2023-10-13 14:18:56 517:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:18:56 553:  Return:VKP6235_No
+2023-10-13 14:49:46 447:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:49:47 032:  Return:VKP6235_No
+2023-10-13 14:53:45 575:  Camera:192.168.1.65_VKP6235
+2023-10-13 14:53:45 651:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 14:53:45 659:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-13 14:53:45 660:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-10-13 14:53:45 691:  取得[線圈服務]連線設定 => IP : 211.21.92.211 / Port : 6799
+2023-10-13 14:53:45 790:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.ArgumentNullException: 值不能為 null。
+參數名稱: String
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatusFromSR810(Int32 sr810ID, InOutType inOutType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 724
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 350
+2023-10-13 14:53:45 867:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-10-13 14:53:45 892:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101314534589154
+2023-10-13 14:53:45 892:  發送入口字幕機 TriggerType : 4
+2023-10-13 14:53:45 892:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 14:53:45 894:  
+2023-10-13 14:53:45 895:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 564
+2023-10-13 14:53:45 895:  ===============[入場]資料處理結束====================
+2023-10-13 14:53:45 896:  Return:VKP6235_No
+2023-10-13 17:12:18 921:  GetOptimalFree ....
+2023-10-13 17:12:18 947:  取得當前使用者 => admin
+2023-10-13 17:14:35 900:  Camera:192.168.1.65_11T651
+2023-10-13 17:14:35 991:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-13 17:14:36 001:  11T651 => 本次辨識為 : 虛擬線圈觸發
+2023-10-13 17:14:36 002:  11T651 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-10-13 17:14:36 033:  取得[線圈服務]連線設定 => IP : 211.21.92.211 / Port : 6799
+2023-10-13 17:14:36 136:  11T651 => 讀取線圈服務資訊失敗，錯誤訊息 : System.ArgumentNullException: 值不能為 null。
+參數名稱: String
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatusFromSR810(Int32 sr810ID, InOutType inOutType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 724
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 350
+2023-10-13 17:14:36 174:  11T651 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-10-13 17:14:36 193:  發送入口字幕機 : 入口相机_1_11T651_False_1_1_2023101317143619288
+2023-10-13 17:14:36 193:  發送入口字幕機 TriggerType : 8
+2023-10-13 17:14:36 193:  發送入口字幕機 noPlateOpenType : 2
+2023-10-13 17:14:36 194:  
+2023-10-13 17:14:36 194:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 564
+2023-10-13 17:14:36 194:  ===============[入場]資料處理結束====================
+2023-10-13 17:14:36 195:  Return:11T651_No

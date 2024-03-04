@@ -1,0 +1,1473 @@
+﻿2023-08-23 08:39:08 474:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:08 491:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:08 508:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:08 508:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:08 508:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:08 508:  AAQ9527,计费处理
+2023-08-23 08:39:08 508:  Return:AAQ9527_No
+2023-08-23 08:39:11 633:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:11 648:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:11 669:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:11 669:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:11 670:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:11 670:  AAQ9527,计费处理
+2023-08-23 08:39:11 670:  Return:AAQ9527_No
+2023-08-23 08:39:14 979:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:14 995:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:15 005:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:15 005:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:15 005:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:15 006:  AAQ9527,计费处理
+2023-08-23 08:39:15 006:  Return:AAQ9527_No
+2023-08-23 08:39:18 199:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:18 215:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:18 231:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:18 232:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:18 232:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:18 232:  AAQ9527,计费处理
+2023-08-23 08:39:18 232:  Return:AAQ9527_No
+2023-08-23 08:39:21 375:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:21 391:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:21 400:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:21 401:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:21 401:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:21 401:  AAQ9527,计费处理
+2023-08-23 08:39:21 401:  Return:AAQ9527_No
+2023-08-23 08:39:24 500:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:24 516:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:24 525:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:24 526:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:24 526:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:24 526:  AAQ9527,计费处理
+2023-08-23 08:39:24 526:  Return:AAQ9527_No
+2023-08-23 08:39:27 718:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:27 733:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:27 741:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:27 741:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:27 741:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:27 741:  AAQ9527,计费处理
+2023-08-23 08:39:27 742:  Return:AAQ9527_No
+2023-08-23 08:39:31 000:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:31 009:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:31 021:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:31 021:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:31 021:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:31 021:  AAQ9527,计费处理
+2023-08-23 08:39:31 021:  Return:AAQ9527_No
+2023-08-23 08:39:34 254:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:34 267:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:34 277:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:34 277:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:34 277:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:34 277:  AAQ9527,计费处理
+2023-08-23 08:39:34 277:  Return:AAQ9527_No
+2023-08-23 08:39:37 415:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:37 428:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:37 441:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:37 441:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:37 441:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:37 441:  AAQ9527,计费处理
+2023-08-23 08:39:37 442:  Return:AAQ9527_No
+2023-08-23 08:39:40 806:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:40 817:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:40 830:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:40 830:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:40 831:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:40 831:  AAQ9527,计费处理
+2023-08-23 08:39:40 831:  Return:AAQ9527_No
+2023-08-23 08:39:43 970:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:43 985:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:44 003:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:44 003:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:44 003:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:44 003:  AAQ9527,计费处理
+2023-08-23 08:39:44 003:  Return:AAQ9527_No
+2023-08-23 08:39:47 146:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:47 157:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:47 169:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:47 169:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:47 169:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:47 170:  AAQ9527,计费处理
+2023-08-23 08:39:47 170:  Return:AAQ9527_No
+2023-08-23 08:39:50 446:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:50 457:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:50 470:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:50 470:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:50 471:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:50 471:  AAQ9527,计费处理
+2023-08-23 08:39:50 471:  Return:AAQ9527_No
+2023-08-23 08:39:53 695:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:53 713:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:53 722:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:53 722:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:53 722:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:53 722:  AAQ9527,计费处理
+2023-08-23 08:39:53 722:  Return:AAQ9527_No
+2023-08-23 08:39:56 972:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:39:56 988:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:39:56 997:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:39:56 997:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:39:56 997:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:39:56 997:  AAQ9527,计费处理
+2023-08-23 08:39:56 997:  Return:AAQ9527_No
+2023-08-23 08:40:00 188:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:00 204:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:00 211:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:00 211:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:00 211:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:00 211:  AAQ9527,计费处理
+2023-08-23 08:40:00 212:  Return:AAQ9527_No
+2023-08-23 08:40:03 423:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:03 439:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:03 449:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:03 449:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:03 449:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:03 449:  AAQ9527,计费处理
+2023-08-23 08:40:03 449:  Return:AAQ9527_No
+2023-08-23 08:40:06 560:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:06 566:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:06 584:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:06 584:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:06 584:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:06 584:  AAQ9527,计费处理
+2023-08-23 08:40:06 584:  Return:AAQ9527_No
+2023-08-23 08:40:09 867:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:09 878:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:09 889:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:09 890:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:09 890:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:09 890:  AAQ9527,计费处理
+2023-08-23 08:40:09 890:  Return:AAQ9527_No
+2023-08-23 08:40:13 078:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:13 095:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:13 105:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:13 105:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:13 105:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:13 105:  AAQ9527,计费处理
+2023-08-23 08:40:13 105:  Return:AAQ9527_No
+2023-08-23 08:40:16 230:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:16 241:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:16 254:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:16 254:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:16 255:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:16 255:  AAQ9527,计费处理
+2023-08-23 08:40:16 255:  Return:AAQ9527_No
+2023-08-23 08:40:19 393:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:19 418:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:19 424:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:19 424:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:19 424:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:19 424:  AAQ9527,计费处理
+2023-08-23 08:40:19 424:  Return:AAQ9527_No
+2023-08-23 08:40:22 632:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:22 653:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:22 660:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:22 660:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:22 660:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:22 660:  AAQ9527,计费处理
+2023-08-23 08:40:22 660:  Return:AAQ9527_No
+2023-08-23 08:40:26 008:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:26 026:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:26 033:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:26 033:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:26 033:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:26 033:  AAQ9527,计费处理
+2023-08-23 08:40:26 033:  Return:AAQ9527_No
+2023-08-23 08:40:28 899:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:28 917:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:28 926:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:28 927:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:28 927:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:28 927:  AAQ9527,计费处理
+2023-08-23 08:40:28 927:  Return:AAQ9527_No
+2023-08-23 08:40:32 240:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:32 273:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:32 280:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:32 281:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:32 281:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:32 281:  AAQ9527,计费处理
+2023-08-23 08:40:32 281:  Return:AAQ9527_No
+2023-08-23 08:40:35 504:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:35 567:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:35 573:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:35 574:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:35 574:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:35 574:  AAQ9527,计费处理
+2023-08-23 08:40:35 574:  Return:AAQ9527_No
+2023-08-23 08:40:38 719:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:38 756:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:38 766:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:38 766:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:38 766:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:38 766:  AAQ9527,计费处理
+2023-08-23 08:40:38 767:  Return:AAQ9527_No
+2023-08-23 08:40:42 111:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:42 153:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:42 162:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:42 162:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:42 162:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:42 162:  AAQ9527,计费处理
+2023-08-23 08:40:42 162:  Return:AAQ9527_No
+2023-08-23 08:40:45 205:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:45 241:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:45 248:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:45 248:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:45 248:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:45 248:  AAQ9527,计费处理
+2023-08-23 08:40:45 248:  Return:AAQ9527_No
+2023-08-23 08:40:48 382:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:48 425:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:48 434:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:48 435:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:48 435:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:48 435:  AAQ9527,计费处理
+2023-08-23 08:40:48 435:  Return:AAQ9527_No
+2023-08-23 08:40:51 537:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:51 573:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:51 585:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:51 585:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:51 585:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:51 585:  AAQ9527,计费处理
+2023-08-23 08:40:51 585:  Return:AAQ9527_No
+2023-08-23 08:40:54 938:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:54 973:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:54 988:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:54 989:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:54 989:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:54 989:  AAQ9527,计费处理
+2023-08-23 08:40:54 989:  Return:AAQ9527_No
+2023-08-23 08:40:58 093:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:40:58 126:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:40:58 143:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:40:58 143:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:40:58 143:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:40:58 143:  AAQ9527,计费处理
+2023-08-23 08:40:58 143:  Return:AAQ9527_No
+2023-08-23 08:41:01 351:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:01 391:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:01 400:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:01 400:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:01 401:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:01 401:  AAQ9527,计费处理
+2023-08-23 08:41:01 401:  Return:AAQ9527_No
+2023-08-23 08:41:04 430:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:04 498:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:04 508:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:04 508:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:04 508:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:04 509:  AAQ9527,计费处理
+2023-08-23 08:41:04 509:  Return:AAQ9527_No
+2023-08-23 08:41:07 725:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:07 773:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:07 784:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:07 784:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:07 784:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:07 784:  AAQ9527,计费处理
+2023-08-23 08:41:07 784:  Return:AAQ9527_No
+2023-08-23 08:41:10 897:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:10 929:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:10 936:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:10 936:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:10 936:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:10 936:  AAQ9527,计费处理
+2023-08-23 08:41:10 937:  Return:AAQ9527_No
+2023-08-23 08:41:14 114:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:14 140:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:14 157:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:14 157:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:14 157:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:14 157:  AAQ9527,计费处理
+2023-08-23 08:41:14 157:  Return:AAQ9527_No
+2023-08-23 08:41:17 293:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:17 341:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:17 354:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:17 354:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:17 354:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:17 354:  AAQ9527,计费处理
+2023-08-23 08:41:17 355:  Return:AAQ9527_No
+2023-08-23 08:41:20 448:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:20 480:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:20 491:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:20 491:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:20 492:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:20 492:  AAQ9527,计费处理
+2023-08-23 08:41:20 492:  Return:AAQ9527_No
+2023-08-23 08:41:23 640:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:23 674:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:23 682:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:23 682:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:23 682:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:23 683:  AAQ9527,计费处理
+2023-08-23 08:41:23 683:  Return:AAQ9527_No
+2023-08-23 08:41:26 827:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:26 864:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:26 875:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:26 876:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:26 876:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:26 876:  AAQ9527,计费处理
+2023-08-23 08:41:26 876:  Return:AAQ9527_No
+2023-08-23 08:41:30 209:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:30 240:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:30 248:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:30 248:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:30 248:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:30 248:  AAQ9527,计费处理
+2023-08-23 08:41:30 248:  Return:AAQ9527_No
+2023-08-23 08:41:33 179:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:33 209:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:33 215:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:33 215:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:33 215:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:33 215:  AAQ9527,计费处理
+2023-08-23 08:41:33 216:  Return:AAQ9527_No
+2023-08-23 08:41:36 459:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:36 492:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:36 500:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:36 500:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:36 500:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:36 500:  AAQ9527,计费处理
+2023-08-23 08:41:36 500:  Return:AAQ9527_No
+2023-08-23 08:41:39 629:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:39 662:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:39 669:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:39 670:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:39 670:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:39 670:  AAQ9527,计费处理
+2023-08-23 08:41:39 670:  Return:AAQ9527_No
+2023-08-23 08:41:42 882:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:42 913:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:42 922:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:42 922:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:42 922:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:42 922:  AAQ9527,计费处理
+2023-08-23 08:41:42 922:  Return:AAQ9527_No
+2023-08-23 08:41:46 007:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:46 037:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:46 052:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:46 052:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:46 052:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:46 053:  AAQ9527,计费处理
+2023-08-23 08:41:46 053:  Return:AAQ9527_No
+2023-08-23 08:41:49 228:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:49 255:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:49 267:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:49 267:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:49 267:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:49 268:  AAQ9527,计费处理
+2023-08-23 08:41:49 269:  Return:AAQ9527_No
+2023-08-23 08:41:52 342:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:52 372:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:52 385:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:52 385:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:52 386:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:52 386:  AAQ9527,计费处理
+2023-08-23 08:41:52 386:  Return:AAQ9527_No
+2023-08-23 08:41:55 577:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:55 622:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:55 628:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:55 628:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:55 628:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:55 629:  AAQ9527,计费处理
+2023-08-23 08:41:55 629:  Return:AAQ9527_No
+2023-08-23 08:41:58 879:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:41:58 907:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:41:58 916:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:41:58 916:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:41:58 917:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:41:58 918:  AAQ9527,计费处理
+2023-08-23 08:41:58 918:  Return:AAQ9527_No
+2023-08-23 08:42:01 971:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:02 002:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:02 012:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:02 012:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:02 012:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:02 013:  AAQ9527,计费处理
+2023-08-23 08:42:02 013:  Return:AAQ9527_No
+2023-08-23 08:42:05 175:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:05 237:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:05 245:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:05 245:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:05 245:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:05 245:  AAQ9527,计费处理
+2023-08-23 08:42:05 245:  Return:AAQ9527_No
+2023-08-23 08:42:08 450:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:08 476:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:08 483:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:08 483:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:08 484:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:08 484:  AAQ9527,计费处理
+2023-08-23 08:42:08 484:  Return:AAQ9527_No
+2023-08-23 08:42:11 425:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:11 462:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:11 469:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:11 469:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:11 469:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:11 470:  AAQ9527,计费处理
+2023-08-23 08:42:11 470:  Return:AAQ9527_No
+2023-08-23 08:42:14 636:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:14 669:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:14 684:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:14 684:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:14 684:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:14 684:  AAQ9527,计费处理
+2023-08-23 08:42:14 685:  Return:AAQ9527_No
+2023-08-23 08:42:17 828:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:17 869:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:17 877:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:17 877:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:17 877:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:17 877:  AAQ9527,计费处理
+2023-08-23 08:42:17 877:  Return:AAQ9527_No
+2023-08-23 08:42:20 955:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:20 986:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:20 993:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:20 993:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:20 993:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:20 993:  AAQ9527,计费处理
+2023-08-23 08:42:20 993:  Return:AAQ9527_No
+2023-08-23 08:42:24 267:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:24 299:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:24 307:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:24 307:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:24 307:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:24 307:  AAQ9527,计费处理
+2023-08-23 08:42:24 307:  Return:AAQ9527_No
+2023-08-23 08:42:27 399:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:27 463:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:27 473:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:27 473:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:27 473:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:27 473:  AAQ9527,计费处理
+2023-08-23 08:42:27 474:  Return:AAQ9527_No
+2023-08-23 08:42:30 719:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:30 761:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:30 778:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:30 778:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:30 779:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:30 779:  AAQ9527,计费处理
+2023-08-23 08:42:30 779:  Return:AAQ9527_No
+2023-08-23 08:42:33 902:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:33 928:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:33 935:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:33 935:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:33 935:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:33 936:  AAQ9527,计费处理
+2023-08-23 08:42:33 936:  Return:AAQ9527_No
+2023-08-23 08:42:37 061:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:37 083:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:37 091:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:37 091:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:37 091:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:37 091:  AAQ9527,计费处理
+2023-08-23 08:42:37 091:  Return:AAQ9527_No
+2023-08-23 08:42:40 143:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:40 176:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:40 187:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:40 188:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:40 188:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:40 188:  AAQ9527,计费处理
+2023-08-23 08:42:40 188:  Return:AAQ9527_No
+2023-08-23 08:42:43 375:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:43 406:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:43 418:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:43 418:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:43 418:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:43 418:  AAQ9527,计费处理
+2023-08-23 08:42:43 418:  Return:AAQ9527_No
+2023-08-23 08:42:46 632:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:46 689:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:46 701:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:46 701:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:46 701:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:46 701:  AAQ9527,计费处理
+2023-08-23 08:42:46 701:  Return:AAQ9527_No
+2023-08-23 08:42:49 877:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:49 904:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:49 927:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:49 927:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:49 927:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:49 927:  AAQ9527,计费处理
+2023-08-23 08:42:49 927:  Return:AAQ9527_No
+2023-08-23 08:42:53 073:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:53 104:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:53 110:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:53 110:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:53 110:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:53 111:  AAQ9527,计费处理
+2023-08-23 08:42:53 111:  Return:AAQ9527_No
+2023-08-23 08:42:56 291:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:56 319:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:56 326:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:56 326:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:56 326:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:56 326:  AAQ9527,计费处理
+2023-08-23 08:42:56 327:  Return:AAQ9527_No
+2023-08-23 08:42:59 482:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:42:59 514:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:42:59 522:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:42:59 522:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:42:59 522:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:42:59 523:  AAQ9527,计费处理
+2023-08-23 08:42:59 523:  Return:AAQ9527_No
+2023-08-23 08:43:02 692:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:02 724:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:02 740:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:02 740:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:02 741:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:02 741:  AAQ9527,计费处理
+2023-08-23 08:43:02 741:  Return:AAQ9527_No
+2023-08-23 08:43:05 976:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:06 015:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:06 026:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:06 026:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:06 026:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:06 032:  AAQ9527,计费处理
+2023-08-23 08:43:06 033:  Return:AAQ9527_No
+2023-08-23 08:43:09 108:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:09 140:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:09 150:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:09 150:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:09 150:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:09 150:  AAQ9527,计费处理
+2023-08-23 08:43:09 151:  Return:AAQ9527_No
+2023-08-23 08:43:12 361:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:12 406:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:12 415:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:12 415:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:12 415:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:12 415:  AAQ9527,计费处理
+2023-08-23 08:43:12 415:  Return:AAQ9527_No
+2023-08-23 08:43:15 471:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:15 501:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:15 508:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:15 509:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:15 509:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:15 509:  AAQ9527,计费处理
+2023-08-23 08:43:15 509:  Return:AAQ9527_No
+2023-08-23 08:43:18 586:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:18 619:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:18 626:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:18 626:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:18 626:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:18 627:  AAQ9527,计费处理
+2023-08-23 08:43:18 627:  Return:AAQ9527_No
+2023-08-23 08:43:21 919:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:21 950:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:21 957:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:21 958:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:21 958:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:21 958:  AAQ9527,计费处理
+2023-08-23 08:43:21 958:  Return:AAQ9527_No
+2023-08-23 08:43:25 175:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:25 235:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:25 244:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:25 244:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:25 244:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:25 244:  AAQ9527,计费处理
+2023-08-23 08:43:25 244:  Return:AAQ9527_No
+2023-08-23 08:43:28 418:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:28 485:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:28 492:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:28 492:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:28 492:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:28 492:  AAQ9527,计费处理
+2023-08-23 08:43:28 492:  Return:AAQ9527_No
+2023-08-23 08:43:31 722:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:31 768:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:31 777:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:31 777:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:31 778:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:31 778:  AAQ9527,计费处理
+2023-08-23 08:43:31 778:  Return:AAQ9527_No
+2023-08-23 08:43:34 808:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:34 853:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:34 862:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:34 862:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:34 862:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:34 862:  AAQ9527,计费处理
+2023-08-23 08:43:34 862:  Return:AAQ9527_No
+2023-08-23 08:43:37 955:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:38 021:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:38 029:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:38 029:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:38 029:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:38 029:  AAQ9527,计费处理
+2023-08-23 08:43:38 029:  Return:AAQ9527_No
+2023-08-23 08:43:41 112:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:41 152:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:41 161:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:41 161:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:41 161:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:41 162:  AAQ9527,计费处理
+2023-08-23 08:43:41 162:  Return:AAQ9527_No
+2023-08-23 08:43:44 222:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:44 280:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:44 292:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:44 292:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:44 292:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:44 292:  AAQ9527,计费处理
+2023-08-23 08:43:44 292:  Return:AAQ9527_No
+2023-08-23 08:43:47 361:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:47 417:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:47 425:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:47 425:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:47 425:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:47 425:  AAQ9527,计费处理
+2023-08-23 08:43:47 425:  Return:AAQ9527_No
+2023-08-23 08:43:50 595:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:50 656:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:50 664:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:50 665:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:50 665:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:50 665:  AAQ9527,计费处理
+2023-08-23 08:43:50 666:  Return:AAQ9527_No
+2023-08-23 08:43:53 901:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:53 947:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:53 956:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:53 957:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:53 957:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:53 957:  AAQ9527,计费处理
+2023-08-23 08:43:53 957:  Return:AAQ9527_No
+2023-08-23 08:43:57 051:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:43:57 099:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:43:57 109:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:43:57 109:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:43:57 110:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:43:57 110:  AAQ9527,计费处理
+2023-08-23 08:43:57 110:  Return:AAQ9527_No
+2023-08-23 08:44:00 291:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:00 326:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:00 338:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:00 338:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:00 338:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:00 338:  AAQ9527,计费处理
+2023-08-23 08:44:00 338:  Return:AAQ9527_No
+2023-08-23 08:44:03 468:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:03 532:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:03 541:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:03 541:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:03 541:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:03 541:  AAQ9527,计费处理
+2023-08-23 08:44:03 542:  Return:AAQ9527_No
+2023-08-23 08:44:06 712:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:06 745:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:06 752:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:06 753:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:06 754:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:06 754:  AAQ9527,计费处理
+2023-08-23 08:44:06 754:  Return:AAQ9527_No
+2023-08-23 08:44:09 882:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:09 921:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:09 930:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:09 930:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:09 930:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:09 930:  AAQ9527,计费处理
+2023-08-23 08:44:09 930:  Return:AAQ9527_No
+2023-08-23 08:44:12 993:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:13 060:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:13 070:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:13 071:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:13 071:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:13 071:  AAQ9527,计费处理
+2023-08-23 08:44:13 071:  Return:AAQ9527_No
+2023-08-23 08:44:16 244:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:16 289:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:16 297:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:16 297:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:16 297:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:16 297:  AAQ9527,计费处理
+2023-08-23 08:44:16 297:  Return:AAQ9527_No
+2023-08-23 08:44:19 602:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:19 659:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:19 667:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:19 667:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:19 667:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:19 668:  AAQ9527,计费处理
+2023-08-23 08:44:19 668:  Return:AAQ9527_No
+2023-08-23 08:44:22 779:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:22 813:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:22 823:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:22 823:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:22 823:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:22 824:  AAQ9527,计费处理
+2023-08-23 08:44:22 824:  Return:AAQ9527_No
+2023-08-23 08:44:25 970:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:26 027:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:26 037:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:26 037:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:26 037:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:26 037:  AAQ9527,计费处理
+2023-08-23 08:44:26 037:  Return:AAQ9527_No
+2023-08-23 08:44:29 112:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:29 149:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:29 160:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:29 160:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:29 160:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:29 160:  AAQ9527,计费处理
+2023-08-23 08:44:29 160:  Return:AAQ9527_No
+2023-08-23 08:44:32 366:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:32 423:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:32 433:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:32 433:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:32 433:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:32 433:  AAQ9527,计费处理
+2023-08-23 08:44:32 433:  Return:AAQ9527_No
+2023-08-23 08:44:35 559:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:35 616:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:35 626:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:35 626:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:35 627:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:35 627:  AAQ9527,计费处理
+2023-08-23 08:44:35 627:  Return:AAQ9527_No
+2023-08-23 08:44:38 784:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:38 828:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:38 835:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:38 836:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:38 836:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:38 836:  AAQ9527,计费处理
+2023-08-23 08:44:38 836:  Return:AAQ9527_No
+2023-08-23 08:44:42 029:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:42 060:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:42 071:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:42 071:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:42 071:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:42 071:  AAQ9527,计费处理
+2023-08-23 08:44:42 072:  Return:AAQ9527_No
+2023-08-23 08:44:45 219:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:45 261:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:45 271:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:45 271:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:45 271:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:45 272:  AAQ9527,计费处理
+2023-08-23 08:44:45 272:  Return:AAQ9527_No
+2023-08-23 08:44:48 459:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:48 510:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:48 519:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:48 519:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:48 519:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:48 519:  AAQ9527,计费处理
+2023-08-23 08:44:48 519:  Return:AAQ9527_No
+2023-08-23 08:44:51 655:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:51 691:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:51 700:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:51 700:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:51 700:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:51 701:  AAQ9527,计费处理
+2023-08-23 08:44:51 701:  Return:AAQ9527_No
+2023-08-23 08:44:54 892:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:54 958:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:54 968:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:54 968:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:54 968:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:54 968:  AAQ9527,计费处理
+2023-08-23 08:44:54 969:  Return:AAQ9527_No
+2023-08-23 08:44:57 122:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:44:57 153:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:44:57 176:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:44:57 176:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:44:57 176:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:44:57 177:  AAQ9527,计费处理
+2023-08-23 08:44:57 177:  Return:AAQ9527_No
+2023-08-23 08:45:00 267:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:45:00 378:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:00 399:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:00 399:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:00 399:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:00 400:  AAQ9527,计费处理
+2023-08-23 08:45:00 400:  Return:AAQ9527_No
+2023-08-23 08:45:03 577:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:45:03 609:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:03 617:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:03 617:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:03 618:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:03 618:  AAQ9527,计费处理
+2023-08-23 08:45:03 619:  Return:AAQ9527_No
+2023-08-23 08:45:06 768:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:45:06 944:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:06 964:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:06 965:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:06 965:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:06 965:  AAQ9527,计费处理
+2023-08-23 08:45:06 965:  Return:AAQ9527_No
+2023-08-23 08:45:10 031:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:45:10 065:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:10 074:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:10 074:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:10 074:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:10 074:  AAQ9527,计费处理
+2023-08-23 08:45:10 074:  Return:AAQ9527_No
+2023-08-23 08:45:13 134:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:13 185:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:13 191:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:13 192:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:13 192:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:13 192:  AAQ95,计费处理
+2023-08-23 08:45:13 192:  Return:AAQ95_No
+2023-08-23 08:45:16 474:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:16 615:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:16 623:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:16 623:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:16 623:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:16 623:  AAQ95,计费处理
+2023-08-23 08:45:16 623:  Return:AAQ95_No
+2023-08-23 08:45:19 692:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:19 754:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:19 764:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:19 764:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:19 764:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:19 765:  AAQ95,计费处理
+2023-08-23 08:45:19 765:  Return:AAQ95_No
+2023-08-23 08:45:22 956:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:22 999:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:23 007:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:23 007:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:23 008:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:23 008:  AAQ95,计费处理
+2023-08-23 08:45:23 008:  Return:AAQ95_No
+2023-08-23 08:45:26 242:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:26 278:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:26 289:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:26 289:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:26 289:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:26 289:  AAQ95,计费处理
+2023-08-23 08:45:26 290:  Return:AAQ95_No
+2023-08-23 08:45:29 371:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:29 423:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:29 433:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:29 433:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:29 434:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:29 434:  AAQ95,计费处理
+2023-08-23 08:45:29 434:  Return:AAQ95_No
+2023-08-23 08:45:32 683:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:32 733:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:32 746:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:32 746:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:32 746:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:32 747:  AAQ95,计费处理
+2023-08-23 08:45:32 747:  Return:AAQ95_No
+2023-08-23 08:45:35 877:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:35 917:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:35 927:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:35 927:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:35 927:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:35 927:  AAQ95,计费处理
+2023-08-23 08:45:35 928:  Return:AAQ95_No
+2023-08-23 08:45:39 013:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:39 049:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:39 058:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:39 058:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:39 058:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:39 059:  AAQ95,计费处理
+2023-08-23 08:45:39 059:  Return:AAQ95_No
+2023-08-23 08:45:42 339:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:42 389:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:42 398:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:42 398:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:42 398:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:42 398:  AAQ95,计费处理
+2023-08-23 08:45:42 398:  Return:AAQ95_No
+2023-08-23 08:45:45 491:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:45 524:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:45 534:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:45 534:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:45 535:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:45 535:  AAQ95,计费处理
+2023-08-23 08:45:45 535:  Return:AAQ95_No
+2023-08-23 08:45:48 723:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:48 778:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:48 786:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:48 787:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:48 787:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:48 787:  AAQ95,计费处理
+2023-08-23 08:45:48 787:  Return:AAQ95_No
+2023-08-23 08:45:52 021:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:52 058:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:52 066:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:52 066:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:52 066:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:52 066:  AAQ95,计费处理
+2023-08-23 08:45:52 066:  Return:AAQ95_No
+2023-08-23 08:45:55 089:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:55 146:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:55 157:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:55 157:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:55 157:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:55 158:  AAQ95,计费处理
+2023-08-23 08:45:55 159:  Return:AAQ95_No
+2023-08-23 08:45:58 346:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:45:58 448:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:45:58 457:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:45:58 457:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:45:58 457:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:45:58 457:  AAQ95,计费处理
+2023-08-23 08:45:58 457:  Return:AAQ95_No
+2023-08-23 08:46:01 538:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:01 599:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:01 608:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:01 609:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:01 609:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:01 609:  AAQ95,计费处理
+2023-08-23 08:46:01 609:  Return:AAQ95_No
+2023-08-23 08:46:04 810:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:04 879:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:04 888:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:04 888:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:04 888:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:04 888:  AAQ95,计费处理
+2023-08-23 08:46:04 888:  Return:AAQ95_No
+2023-08-23 08:46:08 163:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:08 230:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:08 272:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:08 272:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:08 272:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:08 272:  AAQ95,计费处理
+2023-08-23 08:46:08 272:  Return:AAQ95_No
+2023-08-23 08:46:11 350:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:11 380:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:11 390:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:11 390:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:11 390:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:11 391:  AAQ95,计费处理
+2023-08-23 08:46:11 391:  Return:AAQ95_No
+2023-08-23 08:46:14 608:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:14 687:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:14 699:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:14 699:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:14 699:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:14 699:  AAQ95,计费处理
+2023-08-23 08:46:14 700:  Return:AAQ95_No
+2023-08-23 08:46:17 772:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:17 833:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:17 843:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:17 843:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:17 843:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:17 843:  AAQ95,计费处理
+2023-08-23 08:46:17 844:  Return:AAQ95_No
+2023-08-23 08:46:20 959:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:21 015:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:21 031:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:21 032:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:21 032:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:21 032:  AAQ95,计费处理
+2023-08-23 08:46:21 032:  Return:AAQ95_No
+2023-08-23 08:46:24 068:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:24 122:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:24 134:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:24 134:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:24 134:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:24 134:  AAQ95,计费处理
+2023-08-23 08:46:24 134:  Return:AAQ95_No
+2023-08-23 08:46:27 509:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:27 558:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:27 568:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:27 568:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:27 568:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:27 568:  AAQ95,计费处理
+2023-08-23 08:46:27 568:  Return:AAQ95_No
+2023-08-23 08:46:30 585:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:30 617:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:30 633:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:30 633:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:30 633:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:30 634:  AAQ95,计费处理
+2023-08-23 08:46:30 635:  Return:AAQ95_No
+2023-08-23 08:46:33 709:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:33 769:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:33 778:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:33 778:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:33 778:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:33 778:  AAQ95,计费处理
+2023-08-23 08:46:33 779:  Return:AAQ95_No
+2023-08-23 08:46:36 839:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:36 888:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:36 898:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:36 898:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:36 898:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:36 898:  AAQ95,计费处理
+2023-08-23 08:46:36 899:  Return:AAQ95_No
+2023-08-23 08:46:40 008:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:40 040:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:40 048:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:40 048:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:40 048:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:40 048:  AAQ95,计费处理
+2023-08-23 08:46:40 049:  Return:AAQ95_No
+2023-08-23 08:46:43 111:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:43 152:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:43 161:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:43 162:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:43 162:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:43 162:  AAQ95,计费处理
+2023-08-23 08:46:43 162:  Return:AAQ95_No
+2023-08-23 08:46:46 396:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:46 439:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:46 449:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:46 449:  InsertInOutRecord => model.InOutType = 2
+2023-08-23 08:46:46 449:  InsertInOutRecord => model.Channel = 2
+2023-08-23 08:46:46 450:  AAQ95,计费处理
+2023-08-23 08:46:46 450:  Return:AAQ95_No
+2023-08-23 08:46:49 582:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:49 634:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:49 641:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:49 642:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:46:49 642:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:46:49 670:  发送入口显示:
+2023-08-23 08:46:49 724:  Return:AAQ95_ok
+2023-08-23 08:46:52 810:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:52 839:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:52 851:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:52 852:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:46:52 852:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:46:52 871:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:46:52 871:  Return:AAQ95_ok
+2023-08-23 08:46:56 004:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:56 041:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:56 050:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:56 050:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:46:56 050:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:46:56 068:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:46:56 068:  Return:AAQ95_ok
+2023-08-23 08:46:59 288:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:46:59 324:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:46:59 334:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:46:59 335:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:46:59 335:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:46:59 350:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:46:59 351:  Return:AAQ95_ok
+2023-08-23 08:47:02 474:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:02 523:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:02 531:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:02 531:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:02 531:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:02 549:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:02 550:  Return:AAQ95_ok
+2023-08-23 08:47:05 679:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:05 742:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:05 752:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:05 752:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:05 752:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:05 768:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:05 768:  Return:AAQ95_ok
+2023-08-23 08:47:08 984:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:09 011:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:09 020:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:09 021:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:09 021:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:09 035:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:09 035:  Return:AAQ95_ok
+2023-08-23 08:47:12 167:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:12 328:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:12 336:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:12 337:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:12 337:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:12 356:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:12 356:  Return:AAQ95_ok
+2023-08-23 08:47:15 330:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:15 378:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:15 390:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:15 390:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:15 390:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:15 404:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:15 405:  Return:AAQ95_ok
+2023-08-23 08:47:18 447:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:18 525:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:18 535:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:18 535:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:18 535:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:18 551:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:18 551:  Return:AAQ95_ok
+2023-08-23 08:47:21 726:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:21 757:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:21 776:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:21 776:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:21 776:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:21 791:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:21 792:  Return:AAQ95_ok
+2023-08-23 08:47:24 891:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:24 931:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:24 939:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:24 939:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:24 939:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:24 956:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:24 957:  Return:AAQ95_ok
+2023-08-23 08:47:28 231:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:28 296:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:28 315:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:28 315:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:28 315:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:28 328:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:28 328:  Return:AAQ95_ok
+2023-08-23 08:47:31 464:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:31 517:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:31 525:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:31 525:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:31 526:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:31 541:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:31 542:  Return:AAQ95_ok
+2023-08-23 08:47:34 693:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:34 746:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:34 766:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:34 766:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:34 766:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:34 779:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:34 780:  Return:AAQ95_ok
+2023-08-23 08:47:37 819:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:37 891:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:37 907:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:37 907:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:37 907:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:37 926:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:37 927:  Return:AAQ95_ok
+2023-08-23 08:47:40 998:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:41 045:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:41 056:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:41 056:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:41 056:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:41 067:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:41 067:  Return:AAQ95_ok
+2023-08-23 08:47:44 231:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:44 278:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:44 300:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:44 300:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:44 301:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:44 317:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:44 317:  Return:AAQ95_ok
+2023-08-23 08:47:47 515:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:47 580:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:47 591:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:47 591:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:47 591:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:47 603:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:47 603:  Return:AAQ95_ok
+2023-08-23 08:47:50 672:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:50 726:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:50 735:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:50 736:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:50 736:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:50 755:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:50 756:  Return:AAQ95_ok
+2023-08-23 08:47:53 785:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:53 817:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:53 838:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:53 838:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:53 838:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:53 853:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:53 853:  Return:AAQ95_ok
+2023-08-23 08:47:56 917:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:47:56 953:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:47:56 960:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:47:56 961:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:47:56 961:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:47:56 975:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:47:56 975:  Return:AAQ95_ok
+2023-08-23 08:48:00 210:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:00 270:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:00 287:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:00 287:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:00 287:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:00 306:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:00 307:  Return:AAQ95_ok
+2023-08-23 08:48:03 279:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:03 328:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:03 337:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:03 338:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:03 338:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:03 351:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:03 351:  Return:AAQ95_ok
+2023-08-23 08:48:06 675:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:06 725:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:06 734:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:06 735:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:06 735:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:06 749:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:06 750:  Return:AAQ95_ok
+2023-08-23 08:48:09 679:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:09 719:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:09 730:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:09 731:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:09 731:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:09 744:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:09 744:  Return:AAQ95_ok
+2023-08-23 08:48:12 903:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:12 933:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:12 941:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:12 941:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:12 941:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:12 962:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:12 963:  Return:AAQ95_ok
+2023-08-23 08:48:16 284:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:16 323:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:16 335:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:16 335:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:16 336:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:16 353:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:16 353:  Return:AAQ95_ok
+2023-08-23 08:48:19 473:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:19 508:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:19 518:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:19 518:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:19 519:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:19 533:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:19 534:  Return:AAQ95_ok
+2023-08-23 08:48:22 725:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:22 773:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:22 839:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:22 839:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:22 839:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:22 851:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:22 851:  Return:AAQ95_ok
+2023-08-23 08:48:25 782:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:25 824:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:25 831:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:25 831:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:25 832:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:25 850:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:25 851:  Return:AAQ95_ok
+2023-08-23 08:48:29 058:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:29 090:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:29 100:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:29 100:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:29 100:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:29 114:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:29 115:  Return:AAQ95_ok
+2023-08-23 08:48:32 313:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:32 425:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:32 435:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:32 436:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:32 436:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:32 451:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:32 451:  Return:AAQ95_ok
+2023-08-23 08:48:35 615:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:35 654:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:35 664:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:35 665:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:35 665:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:35 680:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:35 680:  Return:AAQ95_ok
+2023-08-23 08:48:38 784:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:38 823:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:38 835:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:38 835:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:38 835:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:38 852:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:38 852:  Return:AAQ95_ok
+2023-08-23 08:48:42 032:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:42 164:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:42 187:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:42 187:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:42 187:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:42 209:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:42 209:  Return:AAQ95_ok
+2023-08-23 08:48:45 391:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:45 439:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:45 453:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:45 453:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:45 453:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:45 469:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:45 469:  Return:AAQ95_ok
+2023-08-23 08:48:48 529:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:48:48 577:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:48 588:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:48 588:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:48 589:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:48 598:  发送入口显示:
+2023-08-23 08:48:48 627:  Return:AAQ9527_ok
+2023-08-23 08:48:51 681:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:51 764:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:51 775:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:51 775:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:51 775:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:51 792:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:51 792:  Return:AAQ95_ok
+2023-08-23 08:48:54 996:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:55 063:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:55 070:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:55 071:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:55 071:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:55 088:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:55 088:  Return:AAQ95_ok
+2023-08-23 08:48:58 375:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:48:58 421:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:48:58 435:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:48:58 436:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:48:58 436:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:48:58 457:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:48:58 458:  Return:AAQ95_ok
+2023-08-23 08:49:01 553:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:01 603:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:01 613:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:01 613:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:01 613:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:01 628:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:01 629:  Return:AAQ95_ok
+2023-08-23 08:49:04 718:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:04 770:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:04 779:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:04 780:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:04 780:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:04 796:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:04 797:  Return:AAQ95_ok
+2023-08-23 08:49:07 982:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:08 093:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:08 160:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:08 161:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:08 161:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:08 183:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:08 183:  Return:AAQ95_ok
+2023-08-23 08:49:11 149:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:11 193:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:11 203:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:11 203:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:11 204:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:11 221:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:11 221:  Return:AAQ95_ok
+2023-08-23 08:49:14 369:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:14 405:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:14 416:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:14 416:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:14 416:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:14 427:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:14 428:  Return:AAQ95_ok
+2023-08-23 08:49:17 654:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:17 694:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:17 703:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:17 703:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:17 703:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:17 718:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:17 718:  Return:AAQ95_ok
+2023-08-23 08:49:20 896:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:20 941:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:20 949:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:20 949:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:20 950:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:20 963:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:20 964:  Return:AAQ95_ok
+2023-08-23 08:49:24 056:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:24 108:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:24 116:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:24 116:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:24 116:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:24 127:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:24 128:  Return:AAQ95_ok
+2023-08-23 08:49:27 251:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:27 316:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:27 326:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:27 326:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:27 326:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:27 338:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:27 338:  Return:AAQ95_ok
+2023-08-23 08:49:30 493:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:30 553:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:30 562:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:30 562:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:30 562:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:30 575:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:30 575:  Return:AAQ95_ok
+2023-08-23 08:49:33 610:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:33 677:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:33 687:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:33 687:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:33 687:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:33 701:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:33 702:  Return:AAQ95_ok
+2023-08-23 08:49:36 923:  Camera:192.168.1.100_AAQ95
+2023-08-23 08:49:36 943:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:49:36 962:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:49:36 962:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:49:36 962:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:49:36 976:  AAQ95,第二次识别开闸!!!
+2023-08-23 08:49:36 977:  Return:AAQ95_ok
+2023-08-23 08:54:42 719:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:54:42 755:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:54:42 766:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:54:42 766:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:54:42 766:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:54:42 773:  发送入口显示:入口相机_1_AAQ9527_True_1_1_2023082308544277317
+2023-08-23 08:54:42 785:  Return:AAQ9527_ok
+2023-08-23 08:54:45 421:  Camera:192.168.1.100_AAQ9527
+2023-08-23 08:54:45 452:  InsertOperate => Before InsertInOutRecord
+2023-08-23 08:54:45 467:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 08:54:45 467:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 08:54:45 467:  InsertInOutRecord => model.Channel = 1
+2023-08-23 08:54:45 476:  AAQ9527,第二次识别开闸!!!
+2023-08-23 08:54:45 477:  Return:AAQ9527_ok
+2023-08-23 08:55:21 550:  admin,進行欄杆機的控制操作
+2023-08-23 08:55:21 551:  id = 6, deviceID = 24
+2023-08-23 08:55:21 555:  serialNumber = flap-1-on
+2023-08-23 08:55:21 558:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:57:26 769:  admin,進行欄杆機的控制操作
+2023-08-23 08:57:26 770:  id = 6, deviceID = 24
+2023-08-23 08:57:26 771:  serialNumber = flap-1-on
+2023-08-23 08:57:26 772:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:57:33 506:  admin,進行欄杆機的控制操作
+2023-08-23 08:57:33 507:  id = 6, deviceID = 24
+2023-08-23 08:57:33 507:  serialNumber = flap-1-on
+2023-08-23 08:57:33 508:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:57:37 659:  admin,進行欄杆機的控制操作
+2023-08-23 08:57:37 660:  id = 6, deviceID = 24
+2023-08-23 08:57:37 661:  serialNumber = flap-1-on
+2023-08-23 08:57:37 662:  車位鎖控制操作，編號：1,執行動作： DOWN
+2023-08-23 08:57:55 854:  admin,進行欄杆機的控制操作
+2023-08-23 08:57:55 854:  id = 6, deviceID = 24
+2023-08-23 08:57:55 855:  serialNumber = flap-1-on
+2023-08-23 08:57:55 855:  車位鎖控制操作，編號：1,執行動作： DOWN
+2023-08-23 08:58:01 592:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:01 593:  id = 6, deviceID = 24
+2023-08-23 08:58:01 594:  serialNumber = flap-1-on
+2023-08-23 08:58:01 594:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:58:09 567:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:09 570:  id = 6, deviceID = 24
+2023-08-23 08:58:09 571:  serialNumber = flap-1-on
+2023-08-23 08:58:09 572:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:58:38 308:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:38 308:  id = 6, deviceID = 24
+2023-08-23 08:58:38 308:  serialNumber = flap-1-on
+2023-08-23 08:58:38 309:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:58:43 548:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:43 549:  id = 6, deviceID = 24
+2023-08-23 08:58:43 550:  serialNumber = flap-1-on
+2023-08-23 08:58:43 551:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:58:48 277:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:48 278:  id = 6, deviceID = 24
+2023-08-23 08:58:48 279:  serialNumber = flap-1-on
+2023-08-23 08:58:48 279:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:58:54 435:  admin,進行欄杆機的控制操作
+2023-08-23 08:58:54 437:  id = 6, deviceID = 24
+2023-08-23 08:58:54 437:  serialNumber = flap-1-on
+2023-08-23 08:58:54 438:  車位鎖控制操作，編號：1,執行動作： UP
+2023-08-23 08:59:09 441:  admin,進行欄杆機的控制操作
+2023-08-23 08:59:09 442:  id = 6, deviceID = 24
+2023-08-23 08:59:09 443:  serialNumber = flap-1-on
+2023-08-23 08:59:09 444:  車位鎖控制操作，編號：1,執行動作： DOWN
+2023-08-23 15:25:42 294:  Camera:192.168.1.100_AAQ9527
+2023-08-23 15:25:42 351:  InsertOperate => Before InsertInOutRecord
+2023-08-23 15:25:42 413:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 15:25:42 413:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 15:25:42 413:  InsertInOutRecord => model.Channel = 1
+2023-08-23 15:25:42 461:  发送入口显示:入口相机_1_AAQ9527_True_1_1_2023082315254246135
+2023-08-23 15:25:42 546:  Return:AAQ9527_ok
+2023-08-23 15:25:43 778:  Camera:192.168.1.100_AAQ9527
+2023-08-23 15:25:43 823:  InsertOperate => Before InsertInOutRecord
+2023-08-23 15:25:43 833:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 15:25:43 833:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 15:25:43 834:  InsertInOutRecord => model.Channel = 1
+2023-08-23 15:25:43 855:  AAQ9527,第二次识别开闸!!!
+2023-08-23 15:25:43 855:  Return:AAQ9527_ok
+2023-08-23 15:25:46 387:  Camera:192.168.1.100_AAQ9527
+2023-08-23 15:25:46 424:  InsertOperate => Before InsertInOutRecord
+2023-08-23 15:25:46 433:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 15:25:46 434:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 15:25:46 434:  InsertInOutRecord => model.Channel = 1
+2023-08-23 15:25:46 447:  AAQ9527,第二次识别开闸!!!
+2023-08-23 15:25:46 447:  Return:AAQ9527_ok
+2023-08-23 15:25:49 255:  Camera:192.168.1.100_AAQ9527
+2023-08-23 15:25:49 295:  InsertOperate => Before InsertInOutRecord
+2023-08-23 15:25:49 316:  InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+2023-08-23 15:25:49 316:  InsertInOutRecord => model.InOutType = 1
+2023-08-23 15:25:49 317:  InsertInOutRecord => model.Channel = 1
+2023-08-23 15:25:49 353:  AAQ9527,第二次识别开闸!!!
+2023-08-23 15:25:49 354:  Return:AAQ9527_ok
+2023-08-23 17:09:44 578:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"5282273609086694038","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023823\/cb7ab7b64d3f426e81ebcb620a0e8c6020230823152534.jpg","InTime":"2023-08-23 15:25:42","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":140,"Payment":140,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-23 17:10:11 176:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"5282273609086694038","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023823\/cb7ab7b64d3f426e81ebcb620a0e8c6020230823152534.jpg","InTime":"2023-08-23 15:25:42","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":140,"Payment":140,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-23 17:38:42 083:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"5282273609086694038","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023823\/cb7ab7b64d3f426e81ebcb620a0e8c6020230823152534.jpg","InTime":"2023-08-23 15:25:42","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":180,"Payment":180,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-23 17:38:51 287:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"5282273609086694038","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023823\/cb7ab7b64d3f426e81ebcb620a0e8c6020230823152534.jpg","InTime":"2023-08-23 15:25:42","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":180,"Payment":180,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}

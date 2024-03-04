@@ -1,0 +1,279 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+    <form id="form" class="layui-form" style="margin-top: 25px">
+        @Html.AntiForgeryToken()
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">車牌號碼</label>
+                <div class="layui-input-inline">
+                    <input type="hidden" name="Id" id="Id" />
+                    <input type="hidden" name="flagPlate" id="flagPlate" value="1"/>
+                    <input type="hidden" name="FixCarEdit" id="FixCarEdit" value="@ViewBag.FixCarEdit" />
+                    <input type="hidden" name="hiddenPlate" id="hiddenPlate" />
+                    <input type="text" name="PlateNo" id="PlateNo" lay-verify="required" placeholder="請輸入車牌號碼" autocomplete="off" value="" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">停車類型</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="BusinessType" lay-verify="required" id="BusinessType" style="width: 190px;"></select>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">公司機構</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="OrgId" lay-verify="required" style="width: 190px;" id="OrgId"></select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item" style="display:none" id="showPlate">
+            <div class="layui-inline">
+                <label class="layui-form-label">其他車牌</label>
+                <div class="layui-input-inline">
+                <input type="text" name="Plate" id="Plate" placeholder="共享車位多個車牌號碼請用  |  分隔開(聯系方式不一樣,請分開錄入)" title="共享車位多個車牌號碼請用  |  分隔開(聯系信息方式不一樣,請分開錄入添加)" autocomplete="off"  class="layui-input" style="width: 514px;">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">車主姓名</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Name" lay-verify="required" placeholder="請輸入車主姓名" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">聯繫電話</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Phone" placeholder="請輸入聯繫電話" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">車品牌</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Brand" placeholder="請輸入車品牌" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">車顏色</label>
+                <div class="layui-input-inline">
+                    <select name="Color" lay-verify="required" style="width: 190px;" id="Color">
+                        <option value="0">請選擇</option>
+                        <option Value="1">红 色</option>
+                        <option Value="2">黄 色</option>
+                        <option Value="3">黑 色</option>
+                        <option Value="4">藍 色</option>
+                        <option Value="5">綠 色</option>
+                        <option Value="6">橘 色</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">車位編號</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="PlaceNum" placeholder="請輸入車位編號" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">匹配度</label>
+                <div class="layui-input-inline">
+                    <select name="Compatibility" lay-verify="required" style="width: 190px;">
+                        <option Value="1">全字</option>
+                        <option Value="2">一般</option>
+                        <option Value="3">較高</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">白黑名單</label>
+                <div class="layui-input-inline">
+                    <input type="radio" name="BlackWhite" value="1" title="白名單" checked />
+                    <input type="radio" name="BlackWhite" value="2" title="黑名單" />
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">月租種類</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="AverageType" lay-verify="required" id="AverageType" style="width: 190px;"></select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">ETag ID</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="UHFCode" placeholder="請輸入ETag ID" style="width: 350px;" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">地 址</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Address" placeholder="請輸入地址" style="width: 350px;" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">授權車道</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore name="Channels" class="select2" id="Channels" style="width: 350px;" multiple="multiple" lay-verify="required"></select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">備  註</label>
+            <div class="layui-input-inline" style="width: 514px;">
+                <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-block">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+            </div>
+        </div>
+
+    </form>
+<script>
+    layui.use(['form', 'element', 'layer'], function () {
+        var form = layui.form;
+        var element = layui.element;
+
+        $("#BusinessType").bindSelect({
+            url: "/PBusiness/BusinessType/GetBusinessType"
+
+        });
+
+        $("#AverageType").bindSelect({
+            url: "/PBusiness/AverageRental/GetAverageType"
+
+        });
+
+        $("#Channels").bindSelect({
+            url: "/PConfig/Channel/GetListTreeSelect",
+            title: '請選擇車道'
+        });
+
+        $("#OrgId").bindSelect({
+            url: "/System/Organize/GetListSelect",
+            title: '請選擇組織機構'
+        });
+
+        $('#PlateNo').blur(function () {
+            var plateNo = $('#PlateNo').val();
+            if (plateNo && plateNo.length > 1) {
+                $.ajax({
+                    url: '/PBusiness/CarInfo/CheckPlateNo?plateNo=' + plateNo+ "&plate=" + $("#hiddenPlate").val()
+                    , dataType: 'json'
+                    , success: function (res) {
+                        if (res == "2") {
+                            $("#flagPlate").val(2);
+                            layer.alert($("#hiddenPlate").val() +"車輛在場,無法修改車牌!")
+                        }
+                        else if (res == "3") {
+                            $("#flagPlate").val(2);
+                            layer.alert("已存在相同車牌號碼,請重新輸入!")
+                        }
+                        else
+                            $("#flagPlate").val(1);
+                    }
+                    , error: function () {
+                        ("#flagPlate").val(2);
+                        layer.alert('系統異常,請稍後操作！')
+                    }
+                })
+            }
+            return false;
+        });
+
+        $('#OrgId').change(function () {
+            if ($("#OrgId").val() != "771b628b-e43c-4592-b1ef-70ea23b0e378" && $("#BusinessType").val() == "4" && $("#Id").val() == "") {
+                $("#showPlate").show();
+            }
+            else {
+                $("#showPlate").hide();
+                $("#Plate").val("");
+            }
+        });
+
+        $('#BusinessType').change(function () {
+            if ($("#OrgId").val() != "771b628b-e43c-4592-b1ef-70ea23b0e378" && $("#BusinessType").val() == "4" && $("#Id").val() == "") {
+                $("#showPlate").show();
+            }
+            else {
+                $("#showPlate").hide();
+                $("#Plate").val("");
+            }
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/CarInfo/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                    $("#hiddenPlate").val($("#PlateNo").val());
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            if ($("#BusinessType").val() == "1") {
+                $.layerMsg("停車類型不能選擇臨停車", "warning");
+                return false;
+            }
+            if ($("#BusinessType").val() == "4" && $("#OrgId").val() == "771b628b-e43c-4592-b1ef-70ea23b0e378") {
+                $.layerMsg("共享車位請選擇企業個人", "warning");
+                return false;
+            }
+
+            if ($("#flagPlate").val() == "2") {
+                $.layerMsg("輸入的車牌號碼不符合規則!", "warning");
+                return false;
+            }
+
+            if ($("#Channels").val() != null)
+                data.field.channelIds = $("#Channels").val().join();
+
+            data.field.plate = $("#Plate").val();
+            $.formSubmit({
+                url: "/PBusiness/CarInfo/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>
+

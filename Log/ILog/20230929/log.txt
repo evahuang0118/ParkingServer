@@ -1,0 +1,1654 @@
+﻿2023-09-29 10:26:11 416:  Camera:192.168.1.100_VKP6235
+2023-09-29 10:26:11 416:  Camera:192.168.1.100_VKP6235
+2023-09-29 10:26:11 417:  Camera:192.168.1.100_VKP6235
+2023-09-29 10:26:11 499:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 10:26:11 500:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 10:26:11 501:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 10:26:11 590:  Return:VKP6235_No
+2023-09-29 10:26:11 591:  Return:VKP6235_No
+2023-09-29 10:26:11 592:  Return:VKP6235_No
+2023-09-29 10:26:12 443:  Camera:192.168.1.100_KP6235
+2023-09-29 10:26:12 455:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 10:26:12 458:  Return:KP6235_No
+2023-09-29 10:50:06 618:  Camera:192.168.1.100_VKP6235
+2023-09-29 10:50:06 775:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 10:50:06 924:  Return:VKP6235_No
+2023-09-29 11:04:38 265:   => Insert stage 7
+2023-09-29 11:04:38 266:   => Insert stage 8
+2023-09-29 11:04:38 845:   => Insert stage 7
+2023-09-29 11:04:38 846:   => Insert stage 8
+2023-09-29 11:04:39 140:   => Insert stage 7
+2023-09-29 11:04:39 141:   => Insert stage 8
+2023-09-29 11:04:39 492:   => Insert stage 7
+2023-09-29 11:04:39 492:   => Insert stage 8
+2023-09-29 11:04:39 894:   => Insert stage 7
+2023-09-29 11:04:39 895:   => Insert stage 8
+2023-09-29 11:04:40 302:   => Insert stage 7
+2023-09-29 11:04:40 303:   => Insert stage 8
+2023-09-29 11:05:24 360:   => Insert stage 1
+2023-09-29 11:05:24 361:   => Insert stage 4
+2023-09-29 11:09:36 996:  /api/LazyInsert/Entrace status = 1 / laneID = 2
+2023-09-29 11:09:37 008:   => Insert stage 1
+2023-09-29 11:09:37 008:   => Insert stage 4
+2023-09-29 11:10:07 066:  /api/LazyInsert/Entrace status = 0 / laneID = 0
+2023-09-29 11:10:07 067:   => Insert stage 7
+2023-09-29 11:10:07 068:   => Insert stage 8
+2023-09-29 11:10:07 685:  /api/LazyInsert/Entrace status = 0 / laneID = 0
+2023-09-29 11:10:07 687:   => Insert stage 7
+2023-09-29 11:10:07 688:   => Insert stage 8
+2023-09-29 11:10:08 045:  /api/LazyInsert/Entrace status = 0 / laneID = 0
+2023-09-29 11:10:08 046:   => Insert stage 7
+2023-09-29 11:10:08 047:   => Insert stage 8
+2023-09-29 11:10:08 390:  /api/LazyInsert/Entrace status = 0 / laneID = 0
+2023-09-29 11:10:08 391:   => Insert stage 7
+2023-09-29 11:10:08 392:   => Insert stage 8
+2023-09-29 12:16:59 275:  Camera:192.168.1.100_VKP623
+2023-09-29 12:16:59 330:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 12:16:59 385:  Return:VKP623_No
+2023-09-29 13:51:07 768:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-09-29 13:54:35 846:  產品啟動序號驗證成功
+2023-09-29 13:54:35 847:  Username: x1c-13th
+2023-09-29 13:54:35 848:  Email : steven@rotasun.com
+2023-09-29 13:55:16 237:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 13:55:16 238:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 13:55:16 238:  GroupOperatorCash groupFile = CreateName
+2023-09-29 13:55:16 311:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 18AB67B3, String 4708EEAB)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\Report\Controllers\AggregateController.cs: 行 88
+2023-09-29 13:55:16 883:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 13:55:16 884:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 13:55:16 884:  GroupOperatorCash groupFile = CreateName
+2023-09-29 13:55:16 893:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 18AB67B3, String 4708EEAB)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\Report\Controllers\AggregateController.cs: 行 88
+2023-09-29 13:55:17 069:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 13:55:17 070:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 13:55:17 070:  GroupOperatorCash groupFile = CreateName
+2023-09-29 13:55:17 078:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 18AB67B3, String 4708EEAB)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\Report\Controllers\AggregateController.cs: 行 88
+2023-09-29 14:01:34 336:  產品啟動序號驗證成功
+2023-09-29 14:01:34 337:  Username: x1c-13th
+2023-09-29 14:01:34 338:  Email : steven@rotasun.com
+2023-09-29 14:02:06 800:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:02:06 801:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:02:06 802:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:02:06 873:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\Report\Controllers\AggregateController.cs: 行 88
+2023-09-29 14:05:09 030:  產品啟動序號驗證成功
+2023-09-29 14:05:09 031:  Username: x1c-13th
+2023-09-29 14:05:09 031:  Email : steven@rotasun.com
+2023-09-29 14:05:09 033:  產品啟動序號驗證成功
+2023-09-29 14:05:09 035:  Username: x1c-13th
+2023-09-29 14:05:09 036:  Email : steven@rotasun.com
+2023-09-29 14:05:09 055:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:05:09 056:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:05:09 058:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:05:09 926:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:05:32 975:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:05:32 976:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:05:32 977:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:05:32 985:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:07:35 518:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:07:35 519:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:00:00' and CreateName='admin' and PayType=1 and PayType=1
+2023-09-29 14:07:35 520:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:07:35 532:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:07:47 874:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:07:47 875:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:00:00' and CreateName='admin' and PayType=1 and PayType=1
+2023-09-29 14:07:47 875:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:07:47 883:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:07:54 336:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:07:54 339:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:00:00' and CreateName='admin' and PayType=1 and PayType=1
+2023-09-29 14:07:54 339:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:07:54 345:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:10:21 742:  產品啟動序號驗證成功
+2023-09-29 14:10:21 744:  Username: x1c-13th
+2023-09-29 14:10:21 745:  Email : steven@rotasun.com
+2023-09-29 14:10:37 125:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:10:37 131:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:10:37 132:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:10:37 133:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:10:37 202:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:09 501:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:11:09 501:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:09 501:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:11:09 501:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:09 517:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:20 407:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:00:00, username : , payType : 
+2023-09-29 14:11:20 408:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:20 409:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:00:00' and PayType= and PayType=1
+2023-09-29 14:11:20 409:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:20 415:  /Report/Aggregate/Index Error => MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and PayType=1 GROUP BY CreateName' at line 1
+   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:29 990:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:00:00, username : , payType : 0
+2023-09-29 14:11:29 991:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:29 991:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:00:00' and PayType=1
+2023-09-29 14:11:29 992:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:30 000:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:44 810:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 5:00:00, username : , payType : 0
+2023-09-29 14:11:44 811:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:44 811:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 5:00:00' and PayType=1
+2023-09-29 14:11:44 811:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:44 821:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:48 452:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 05:00:00, username : , payType : 0
+2023-09-29 14:11:48 453:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:48 454:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 05:00:00' and PayType=1
+2023-09-29 14:11:48 455:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:48 465:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:11:49 625:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 05:00:00, username : , payType : 0
+2023-09-29 14:11:49 626:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:11:49 627:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 05:00:00' and PayType=1
+2023-09-29 14:11:49 627:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:11:49 631:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:12:00 845:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:12:00 846:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:12:00 847:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:12:00 848:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:12:00 856:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:12:01 021:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:12:01 022:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:12:01 022:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:12:01 023:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:12:01 031:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:12:01 209:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:12:01 210:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:12:01 211:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:12:01 211:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:12:01 219:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:12:01 391:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:12:01 392:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:12:01 393:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:12:01 394:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:12:01 402:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 0EB4AFAC, String F0855B2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:17:05 451:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:17:05 456:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:17:05 457:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:17:05 458:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:18:34 526:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:18:34 532:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:18:34 532:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:18:34 533:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:18:34 591:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String B69A6892, String D3811CA6)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:23:35 608:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:23:35 615:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:23:35 616:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:23:35 617:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:23:35 679:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String D394DD80, String 1ABBEF2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:44:35 431:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:44:35 431:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:44:35 432:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:44:35 432:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:44:35 442:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String D394DD80, String 1ABBEF2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:44:36 093:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:44:36 094:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:44:36 095:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:44:36 095:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:44:36 105:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String D394DD80, String 1ABBEF2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:44:37 205:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:44:37 205:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:44:37 207:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:44:37 207:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:44:37 216:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String D394DD80, String 1ABBEF2E)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:55:12 552:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:55:12 555:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:55:12 555:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:55:12 555:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:55:12 617:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 3B81A71C, String 6ABA51BF)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 14:55:13 610:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 14:55:13 610:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 14:55:13 610:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 14:55:13 610:  GroupOperatorCash groupFile = CreateName
+2023-09-29 14:55:13 623:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 3B81A71C, String 6ABA51BF)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:06:45 028:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 05:00:00, username : , payType : 0
+2023-09-29 15:06:45 029:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:06:45 030:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 05:00:00' and PayType=1
+2023-09-29 15:06:45 030:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:06:45 039:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 3B81A71C, String 6ABA51BF)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:06:45 487:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 05:00:00, username : , payType : 0
+2023-09-29 15:06:45 488:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:06:45 488:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 05:00:00' and PayType=1
+2023-09-29 15:06:45 488:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:06:45 505:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String 3B81A71C, String 6ABA51BF)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:22:40 464:  產品啟動序號驗證成功
+2023-09-29 15:22:40 467:  Username: x1c-13th
+2023-09-29 15:22:40 468:  Email : steven@rotasun.com
+2023-09-29 15:23:18 158:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 15:23:18 163:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:23:18 164:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 15:23:18 164:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:35:49 381:  產品啟動序號驗證成功
+2023-09-29 15:35:49 385:  Username: x1c-13th
+2023-09-29 15:35:49 385:  Email : steven@rotasun.com
+2023-09-29 15:36:13 725:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 15:36:13 731:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:36:13 732:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 15:36:13 732:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:36:13 815:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String where, String groupFile)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:36:17 190:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 15:36:17 190:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:36:17 191:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 15:36:17 191:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:36:17 199:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String where, String groupFile)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:36:18 870:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 15:36:18 870:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:36:18 872:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 15:36:18 873:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:36:18 880:  /Report/Aggregate/Index Error => System.ArgumentNullException: 值不能為 null。
+參數名稱: con
+   於 System.Reflection.Emit.DynamicILGenerator.Emit(OpCode opcode, ConstructorInfo con)
+   於 SqlSugar.IDataReaderEntityBuilder`1.CreateBuilder(Type type)
+   於 SqlSugar.DbBindAccessory.<>c__DisplayClass0_0`1.<GetEntityList>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbBindAccessory.GetEntityList[T](SqlSugarClient context, IDataReader dataReader)
+   於 SqlSugar.DbBindProvider.DataReaderToList[T](Type type, IDataReader dataReader)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GroupOperatorCash(String where, String groupFile)
+   於 Elight.WebUI.Areas.Report.Controllers.AggregateController.Index(String Btime, String Etime, String UserName, String payType)
+2023-09-29 15:57:05 018:  產品啟動序號驗證成功
+2023-09-29 15:57:05 019:  Username: x1c-13th
+2023-09-29 15:57:05 020:  Email : steven@rotasun.com
+2023-09-29 15:58:12 869:  Btime : 2023-09-29 00:00:00, Etime : 2023-09-29 23:59:59, username : , payType : 0
+2023-09-29 15:58:12 875:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-09-29 15:58:12 876:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-09-29 00:00:00' and PayTime<='2023-09-29 23:59:59' and PayType=1
+2023-09-29 15:58:12 877:  GroupOperatorCash groupFile = CreateName
+2023-09-29 15:59:00 134:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:00 240:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:00 245:  VKP6235 => Insert stage 7
+2023-09-29 15:59:00 245:  VKP6235 => Insert stage 8
+2023-09-29 15:59:00 245:  VKP6235 => Insert stage 10
+2023-09-29 15:59:00 245:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:00 245:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:00 274:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:00 476:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:00 482:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:00 556:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915590055616
+2023-09-29 15:59:00 557:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:00 557:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:00 558:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:00 560:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:00 578:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:00 578:  Return:VKP6235_ok
+2023-09-29 15:59:04 471:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:04 510:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:04 510:  VKP6235 => Insert stage 7
+2023-09-29 15:59:04 511:  VKP6235 => Insert stage 8
+2023-09-29 15:59:04 511:  VKP6235 => Insert stage 10
+2023-09-29 15:59:04 511:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:04 512:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:04 513:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:04 521:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:04 521:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:04 544:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915590454400
+2023-09-29 15:59:04 545:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:04 545:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:04 546:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:04 546:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:04 549:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:04 549:  Return:VKP6235_ok
+2023-09-29 15:59:07 906:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:07 945:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:07 946:  VKP6235 => Insert stage 7
+2023-09-29 15:59:07 946:  VKP6235 => Insert stage 8
+2023-09-29 15:59:07 946:  VKP6235 => Insert stage 10
+2023-09-29 15:59:07 948:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:07 948:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:07 949:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:07 956:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:07 956:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:07 984:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915590798414
+2023-09-29 15:59:07 984:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:07 985:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:07 986:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:07 987:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:07 993:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:07 993:  Return:VKP6235_ok
+2023-09-29 15:59:11 117:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:11 148:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:11 148:  VKP6235 => Insert stage 7
+2023-09-29 15:59:11 149:  VKP6235 => Insert stage 8
+2023-09-29 15:59:11 149:  VKP6235 => Insert stage 10
+2023-09-29 15:59:11 149:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 15:59:11 149:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:11 150:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:11 156:  線圈狀態 => A = -1 / B = -1
+2023-09-29 15:59:11 183:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915591118332
+2023-09-29 15:59:11 183:  發送入口字幕機 TriggerType : 8
+2023-09-29 15:59:11 184:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:11 185:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:11 185:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:11 191:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:11 191:  Return:VKP6235_ok
+2023-09-29 15:59:16 956:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:16 991:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:16 991:  VKP6235 => Insert stage 7
+2023-09-29 15:59:16 991:  VKP6235 => Insert stage 8
+2023-09-29 15:59:16 992:  VKP6235 => Insert stage 10
+2023-09-29 15:59:16 993:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:16 993:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:16 994:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:16 995:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:16 995:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:17 091:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915591709090
+2023-09-29 15:59:17 092:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:17 092:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:17 093:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:17 094:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:17 101:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:17 101:  Return:VKP6235_ok
+2023-09-29 15:59:22 504:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:22 551:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:22 552:  VKP6235 => Insert stage 7
+2023-09-29 15:59:22 552:  VKP6235 => Insert stage 8
+2023-09-29 15:59:22 552:  VKP6235 => Insert stage 10
+2023-09-29 15:59:22 553:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 15:59:22 553:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:22 553:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:22 559:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:22 560:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:22 585:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915592258536
+2023-09-29 15:59:22 586:  發送入口字幕機 TriggerType : 8
+2023-09-29 15:59:22 586:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:22 588:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:22 589:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:22 595:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:22 596:  Return:VKP6235_ok
+2023-09-29 15:59:25 573:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:25 607:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:25 608:  VKP6235 => Insert stage 7
+2023-09-29 15:59:25 608:  VKP6235 => Insert stage 8
+2023-09-29 15:59:25 608:  VKP6235 => Insert stage 10
+2023-09-29 15:59:25 608:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:25 608:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:25 609:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:25 614:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:25 614:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:25 635:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915592563549
+2023-09-29 15:59:25 636:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:25 636:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:25 637:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:25 638:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:25 638:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:25 638:  Return:VKP6235_ok
+2023-09-29 15:59:36 193:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:36 234:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:36 234:  VKP6235 => Insert stage 7
+2023-09-29 15:59:36 235:  VKP6235 => Insert stage 8
+2023-09-29 15:59:36 235:  VKP6235 => Insert stage 10
+2023-09-29 15:59:36 235:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 15:59:36 236:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:36 236:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:36 242:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:36 243:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:36 267:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915593626781
+2023-09-29 15:59:36 268:  發送入口字幕機 TriggerType : 8
+2023-09-29 15:59:36 268:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:36 269:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:36 270:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:36 278:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:36 278:  Return:VKP6235_ok
+2023-09-29 15:59:47 862:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:47 893:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:47 893:  VKP6235 => Insert stage 7
+2023-09-29 15:59:47 894:  VKP6235 => Insert stage 8
+2023-09-29 15:59:47 894:  VKP6235 => Insert stage 10
+2023-09-29 15:59:47 895:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 15:59:47 895:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:47 896:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:47 897:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:47 897:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:47 930:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915594793086
+2023-09-29 15:59:47 931:  發送入口字幕機 TriggerType : 8
+2023-09-29 15:59:47 932:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:47 933:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:47 933:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:47 936:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:47 936:  Return:VKP6235_ok
+2023-09-29 15:59:49 325:  Camera:192.168.1.100_VKP6235
+2023-09-29 15:59:49 358:  ===============[入場]資料處理開始====================
+2023-09-29 15:59:49 358:  VKP6235 => Insert stage 7
+2023-09-29 15:59:49 358:  VKP6235 => Insert stage 8
+2023-09-29 15:59:49 358:  VKP6235 => Insert stage 10
+2023-09-29 15:59:49 359:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 15:59:49 359:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 15:59:49 359:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:49 365:  線圈狀態 => A = 0 / B = 0
+2023-09-29 15:59:49 366:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 15:59:49 392:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092915594939276
+2023-09-29 15:59:49 393:  發送入口字幕機 TriggerType : 4
+2023-09-29 15:59:49 393:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 15:59:49 393:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 15:59:49 394:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 15:59:49 399:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 15:59:49 400:  Return:VKP6235_ok
+2023-09-29 16:08:20 316:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:08:20 412:  ===============[入場]資料處理開始====================
+2023-09-29 16:08:20 413:  VKP6235 => Insert stage 7
+2023-09-29 16:08:20 413:  VKP6235 => Insert stage 8
+2023-09-29 16:08:20 414:  VKP6235 => Insert stage 10
+2023-09-29 16:08:20 414:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:08:20 415:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:08:20 415:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:08:20 417:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:08:20 417:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:08:20 447:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916082044716
+2023-09-29 16:08:20 447:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:08:20 448:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:08:20 448:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:08:20 449:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:08:20 457:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:08:20 458:  Return:VKP6235_ok
+2023-09-29 16:08:23 562:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:08:23 604:  ===============[入場]資料處理開始====================
+2023-09-29 16:08:23 605:  VKP6235 => Insert stage 7
+2023-09-29 16:08:23 605:  VKP6235 => Insert stage 8
+2023-09-29 16:08:23 605:  VKP6235 => Insert stage 10
+2023-09-29 16:08:23 605:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:08:23 605:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:08:23 606:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:08:23 611:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:08:23 611:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:08:23 638:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916082363872
+2023-09-29 16:08:23 639:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:08:23 639:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:08:23 640:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:08:23 641:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:08:23 647:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:08:23 647:  Return:VKP6235_ok
+2023-09-29 16:09:06 553:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:09:06 585:  ===============[入場]資料處理開始====================
+2023-09-29 16:09:06 585:  VKP6235 => Insert stage 7
+2023-09-29 16:09:06 585:  VKP6235 => Insert stage 8
+2023-09-29 16:09:06 585:  VKP6235 => Insert stage 10
+2023-09-29 16:09:06 586:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:09:06 586:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:09:06 586:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:07 104:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:09:07 147:  ===============[入場]資料處理開始====================
+2023-09-29 16:09:07 148:  VKP6235 => Insert stage 7
+2023-09-29 16:09:07 148:  VKP6235 => Insert stage 8
+2023-09-29 16:09:07 148:  VKP6235 => Insert stage 10
+2023-09-29 16:09:07 149:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:09:07 150:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:09:07 151:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:10 661:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:10 692:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916091069188
+2023-09-29 16:09:10 692:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:09:10 692:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:09:10 694:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:09:10 694:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:11 215:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:11 244:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916091124409
+2023-09-29 16:09:11 244:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:09:11 244:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:09:11 245:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:09:11 246:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:12 170:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:09:12 203:  ===============[入場]資料處理開始====================
+2023-09-29 16:09:12 204:  VKP6235 => Insert stage 7
+2023-09-29 16:09:12 204:  VKP6235 => Insert stage 8
+2023-09-29 16:09:12 204:  VKP6235 => Insert stage 10
+2023-09-29 16:09:12 205:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:09:12 205:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:09:12 206:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:12 741:  VKP6235 => 推送車道狀態至線圈服務失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.PushLaneStatusToLoopService(Int32 loopServiceID, LaneStatusInfo laneStatus)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:12 741:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:09:12 741:  Return:VKP6235_ok
+2023-09-29 16:09:13 287:  VKP6235 => 推送車道狀態至線圈服務失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.PushLaneStatusToLoopService(Int32 loopServiceID, LaneStatusInfo laneStatus)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:13 287:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:09:13 287:  Return:VKP6235_ok
+2023-09-29 16:09:14 243:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:14 263:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916091426282
+2023-09-29 16:09:14 263:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:09:14 263:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:09:14 264:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:09:14 265:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:15 581:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:09:15 609:  ===============[入場]資料處理開始====================
+2023-09-29 16:09:15 609:  VKP6235 => Insert stage 7
+2023-09-29 16:09:15 610:  VKP6235 => Insert stage 8
+2023-09-29 16:09:15 610:  VKP6235 => Insert stage 10
+2023-09-29 16:09:15 610:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:09:15 610:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:09:15 611:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:16 304:  VKP6235 => 推送車道狀態至線圈服務失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.PushLaneStatusToLoopService(Int32 loopServiceID, LaneStatusInfo laneStatus)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:16 304:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:09:16 305:  Return:VKP6235_ok
+2023-09-29 16:09:17 659:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:17 681:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916091768052
+2023-09-29 16:09:17 681:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:09:17 681:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:09:17 682:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:09:17 683:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:09:19 715:  VKP6235 => 推送車道狀態至線圈服務失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.PushLaneStatusToLoopService(Int32 loopServiceID, LaneStatusInfo laneStatus)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID)
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   於 System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-29 16:09:19 715:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:09:19 715:  Return:VKP6235_ok
+2023-09-29 16:10:24 685:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:10:24 752:  ===============[入場]資料處理開始====================
+2023-09-29 16:10:24 753:  VKP6235 => Insert stage 7
+2023-09-29 16:10:24 753:  VKP6235 => Insert stage 8
+2023-09-29 16:10:24 753:  VKP6235 => Insert stage 10
+2023-09-29 16:10:24 754:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:10:24 754:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:10:24 755:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:24 763:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:10:24 763:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:10:24 791:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916102479126
+2023-09-29 16:10:24 792:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:10:24 792:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:10:24 794:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:10:24 794:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:24 802:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:10:24 802:  Return:VKP6235_ok
+2023-09-29 16:10:25 070:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:10:25 070:   => Insert stage 1
+2023-09-29 16:10:25 070:   => Insert stage 4
+2023-09-29 16:10:35 933:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:10:35 990:  ===============[入場]資料處理開始====================
+2023-09-29 16:10:35 991:  VKP6235 => Insert stage 7
+2023-09-29 16:10:35 992:  VKP6235 => Insert stage 8
+2023-09-29 16:10:35 992:  VKP6235 => Insert stage 10
+2023-09-29 16:10:35 992:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:10:35 993:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:10:35 993:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:35 996:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:10:35 996:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:10:36 030:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916103602957
+2023-09-29 16:10:36 030:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:10:36 031:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:10:36 032:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:10:36 032:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:36 040:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:10:36 040:  Return:VKP6235_ok
+2023-09-29 16:10:36 419:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:10:36 419:   => Insert stage 1
+2023-09-29 16:10:36 419:   => Insert stage 4
+2023-09-29 16:10:38 091:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:10:38 137:  ===============[入場]資料處理開始====================
+2023-09-29 16:10:38 137:  VKP6235 => Insert stage 7
+2023-09-29 16:10:38 138:  VKP6235 => Insert stage 8
+2023-09-29 16:10:38 138:  VKP6235 => Insert stage 10
+2023-09-29 16:10:38 139:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:10:38 139:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:10:38 140:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:38 149:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:10:38 150:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:10:38 193:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916103819293
+2023-09-29 16:10:38 194:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:10:38 194:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:10:38 195:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:10:38 197:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:10:38 207:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:10:38 207:  Return:VKP6235_ok
+2023-09-29 16:10:39 527:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:10:39 527:   => Insert stage 1
+2023-09-29 16:10:39 527:   => Insert stage 4
+2023-09-29 16:15:02 547:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:15:02 585:  ===============[入場]資料處理開始====================
+2023-09-29 16:15:02 586:  VKP6235 => Insert stage 7
+2023-09-29 16:15:02 586:  VKP6235 => Insert stage 8
+2023-09-29 16:15:02 586:  VKP6235 => Insert stage 10
+2023-09-29 16:15:02 587:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:15:02 587:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:15:02 587:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:15:02 595:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:15:02 595:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:15:02 613:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916150261371
+2023-09-29 16:15:02 614:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:15:02 614:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:15:02 615:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:15:02 616:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:15:02 620:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:15:02 620:  Return:VKP6235_ok
+2023-09-29 16:15:02 767:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:15:02 767:   => Insert stage 1
+2023-09-29 16:15:02 767:   => Insert stage 4
+2023-09-29 16:20:49 657:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:20:49 687:  ===============[入場]資料處理開始====================
+2023-09-29 16:20:49 687:  VKP6235 => Insert stage 7
+2023-09-29 16:20:49 687:  VKP6235 => Insert stage 8
+2023-09-29 16:20:49 687:  VKP6235 => Insert stage 10
+2023-09-29 16:20:49 687:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:20:49 687:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:20:49 688:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:20:49 694:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:20:49 695:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:20:49 710:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916204971045
+2023-09-29 16:20:49 710:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:20:49 710:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:20:49 712:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:20:49 712:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:20:49 718:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:20:49 718:  Return:VKP6235_ok
+2023-09-29 16:20:50 520:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:20:50 520:   => Insert stage 1
+2023-09-29 16:20:50 520:   => Insert stage 4
+2023-09-29 16:20:52 500:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:20:52 526:  ===============[入場]資料處理開始====================
+2023-09-29 16:20:52 526:  VKP6235 => Insert stage 7
+2023-09-29 16:20:52 527:  VKP6235 => Insert stage 8
+2023-09-29 16:20:52 527:  VKP6235 => Insert stage 10
+2023-09-29 16:20:52 527:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:20:52 527:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:20:52 527:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:20:52 531:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:20:52 532:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:20:52 544:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916205254444
+2023-09-29 16:20:52 544:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:20:52 544:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:20:52 545:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:20:52 546:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:20:52 549:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:20:52 549:  Return:VKP6235_ok
+2023-09-29 16:20:52 939:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:20:52 939:   => Insert stage 1
+2023-09-29 16:20:52 939:   => Insert stage 4
+2023-09-29 16:23:53 687:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:23:53 722:  ===============[入場]資料處理開始====================
+2023-09-29 16:23:53 723:  VKP6235 => Insert stage 7
+2023-09-29 16:23:53 724:  VKP6235 => Insert stage 8
+2023-09-29 16:23:53 724:  VKP6235 => Insert stage 10
+2023-09-29 16:23:53 724:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:23:53 725:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:23:53 725:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:23:53 733:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:23:53 735:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:23:53 761:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916235376101
+2023-09-29 16:23:53 761:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:23:53 761:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:23:53 762:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:23:53 762:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:23:53 769:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:23:53 769:  Return:VKP6235_ok
+2023-09-29 16:23:54 929:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:23:54 929:   => Insert stage 1
+2023-09-29 16:23:54 929:   => Insert stage 4
+2023-09-29 16:23:58 938:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:23:58 984:  ===============[入場]資料處理開始====================
+2023-09-29 16:23:58 985:  VKP6235 => Insert stage 7
+2023-09-29 16:23:58 985:  VKP6235 => Insert stage 8
+2023-09-29 16:23:58 985:  VKP6235 => Insert stage 10
+2023-09-29 16:23:58 986:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:23:58 986:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:23:58 986:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:23:58 992:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:23:58 994:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:23:59 020:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916235902001
+2023-09-29 16:23:59 020:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:23:59 021:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:23:59 022:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:23:59 023:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:23:59 030:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:23:59 031:  Return:VKP6235_ok
+2023-09-29 16:24:00 021:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:24:00 021:   => Insert stage 1
+2023-09-29 16:24:00 021:   => Insert stage 4
+2023-09-29 16:42:28 480:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:42:28 518:  ===============[入場]資料處理開始====================
+2023-09-29 16:42:28 518:  VKP6235 => Insert stage 7
+2023-09-29 16:42:28 519:  VKP6235 => Insert stage 8
+2023-09-29 16:42:28 519:  VKP6235 => Insert stage 10
+2023-09-29 16:42:28 519:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:42:28 520:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:42:28 521:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:42:28 528:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:42:28 529:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:42:28 553:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916422855298
+2023-09-29 16:42:28 553:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:42:28 554:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:42:28 554:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 16:42:28 555:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:42:28 562:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:42:28 564:  Return:VKP6235_ok
+2023-09-29 16:42:28 599:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 16:42:28 599:   => Insert stage 1
+2023-09-29 16:42:28 599:   => Insert stage 4
+2023-09-29 16:44:55 131:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:44:55 263:  ===============[入場]資料處理開始====================
+2023-09-29 16:44:55 274:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:44:55 275:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:44:55 297:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:44:55 343:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:44:55 344:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:44:55 440:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-09-29 16:44:55 459:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092916445545934
+2023-09-29 16:44:55 459:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:44:55 459:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:44:55 461:  
+2023-09-29 16:44:55 464:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 530
+2023-09-29 16:44:55 464:  Return:VKP6235_No
+2023-09-29 16:53:55 415:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:53:55 499:  ===============[入場]資料處理開始====================
+2023-09-29 16:53:55 516:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:53:55 517:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:53:55 541:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:53:55 574:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:53:55 584:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:53:55 657:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-09-29 16:53:55 688:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092916535568749
+2023-09-29 16:53:55 689:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:53:55 689:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:53:55 714:  
+2023-09-29 16:53:55 714:  Return:VKP6235_No
+2023-09-29 16:53:56 434:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:53:56 472:  ===============[入場]資料處理開始====================
+2023-09-29 16:53:56 472:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:53:56 473:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:53:56 473:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:53:56 483:  線圈狀態 => A = -1 / B = -1
+2023-09-29 16:53:56 499:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-09-29 16:53:56 503:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092916535650348
+2023-09-29 16:53:56 503:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:53:56 503:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:53:56 504:  
+2023-09-29 16:53:56 504:  Return:VKP6235_No
+2023-09-29 16:54:03 176:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:54:03 220:  ===============[入場]資料處理開始====================
+2023-09-29 16:54:03 221:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:54:03 221:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:54:03 222:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:54:03 227:  線圈狀態 => A = 0 / B = 0
+2023-09-29 16:54:03 227:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 16:54:03 241:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-09-29 16:54:03 249:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092916540324966
+2023-09-29 16:54:03 250:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:54:03 250:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:54:03 251:  
+2023-09-29 16:54:03 251:  Return:VKP6235_No
+2023-09-29 16:54:51 961:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:54:51 999:  ===============[入場]資料處理開始====================
+2023-09-29 16:54:52 000:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:54:52 000:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:54:52 001:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:54:52 006:  線圈狀態 => A = 1 / B = 0
+2023-09-29 16:54:52 007:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 16:54:52 026:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916545202546
+2023-09-29 16:54:52 026:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:54:52 026:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:54:52 043:  進入計算車位流程，BusinessType = 1
+2023-09-29 16:54:52 120:  臨停月租[分開]加減模式 / 原始[臨停]車位 44 => 更新[臨停]車位 43 / 當前總車位 [臨停 + 月租] 103 
+2023-09-29 16:54:52 121:  總剩餘車位數 ： 103，類型：臨停
+2023-09-29 16:54:52 140:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:54:52 140:  Return:VKP6235_ok
+2023-09-29 16:55:26 213:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:55:26 263:  ===============[入場]資料處理開始====================
+2023-09-29 16:55:26 264:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:55:26 265:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-09-29 16:55:26 266:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:55:26 272:  線圈狀態 => A = 1 / B = 0
+2023-09-29 16:55:26 273:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 16:55:26 300:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916552629964
+2023-09-29 16:55:26 300:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:55:26 300:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:55:26 301:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-09-29 16:55:26 301:  Return:VKP6235_ok
+2023-09-29 16:55:30 781:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:55:30 815:  ===============[入場]資料處理開始====================
+2023-09-29 16:55:30 817:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:55:30 817:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:55:30 819:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:55:30 831:  線圈狀態 => A = 1 / B = 0
+2023-09-29 16:55:30 832:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 16:55:30 871:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916553087020
+2023-09-29 16:55:30 871:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:55:30 871:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:55:30 872:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-09-29 16:55:30 872:  Return:VKP6235_ok
+2023-09-29 16:55:49 319:  5019436551055928588,admin,執行刪除
+2023-09-29 16:55:51 680:  5429879757138672709,admin,執行刪除
+2023-09-29 16:56:04 115:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:56:04 157:  ===============[入場]資料處理開始====================
+2023-09-29 16:56:04 157:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 16:56:04 158:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:56:04 158:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:56:04 165:  線圈狀態 => A = 1 / B = 0
+2023-09-29 16:56:04 193:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916560419331
+2023-09-29 16:56:04 194:  發送入口字幕機 TriggerType : 8
+2023-09-29 16:56:04 194:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:56:04 196:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:56:04 196:  Return:VKP6235_ok
+2023-09-29 16:56:05 562:  Camera:192.168.1.100_VKP6235
+2023-09-29 16:56:05 604:  ===============[入場]資料處理開始====================
+2023-09-29 16:56:05 605:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 16:56:05 605:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 16:56:05 607:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 16:56:05 611:  線圈狀態 => A = -1 / B = -1
+2023-09-29 16:56:05 633:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092916560563281
+2023-09-29 16:56:05 633:  發送入口字幕機 TriggerType : 4
+2023-09-29 16:56:05 633:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 16:56:05 635:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 16:56:05 635:  Return:VKP6235_ok
+2023-09-29 17:01:16 105:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:01:16 138:  ===============[入場]資料處理開始====================
+2023-09-29 17:01:16 138:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:01:16 139:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:01:16 140:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:01:16 150:  線圈狀態 => A = 0 / B = 0
+2023-09-29 17:01:16 151:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:01:16 181:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917011618042
+2023-09-29 17:01:16 181:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:01:16 182:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:01:16 183:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:01:16 183:  Return:VKP6235_ok
+2023-09-29 17:01:53 859:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:01:53 895:  ===============[入場]資料處理開始====================
+2023-09-29 17:01:53 896:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:01:53 896:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:01:53 896:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:01:53 903:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:01:53 926:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917015392613
+2023-09-29 17:01:53 926:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:01:53 926:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:01:53 926:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:01:53 926:  Return:VKP6235_ok
+2023-09-29 17:01:54 979:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:01:55 025:  ===============[入場]資料處理開始====================
+2023-09-29 17:01:55 026:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:01:55 026:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:01:55 027:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:01:55 033:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:01:55 034:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 17:01:55 056:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917015505630
+2023-09-29 17:01:55 057:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:01:55 057:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:01:55 059:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:01:55 059:  Return:VKP6235_ok
+2023-09-29 17:01:57 554:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:01:57 596:  ===============[入場]資料處理開始====================
+2023-09-29 17:01:57 597:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:01:57 598:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:01:57 598:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:01:57 602:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:01:57 624:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917015762348
+2023-09-29 17:01:57 624:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:01:57 624:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:01:57 625:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:01:57 625:  Return:VKP6235_ok
+2023-09-29 17:02:15 950:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:02:15 999:  ===============[入場]資料處理開始====================
+2023-09-29 17:02:16 000:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:02:16 000:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:02:16 001:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:02:16 006:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:02:16 025:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917021602525
+2023-09-29 17:02:16 026:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:02:16 026:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:02:16 027:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:02:16 028:  Return:VKP6235_ok
+2023-09-29 17:06:13 809:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:06:13 997:  ===============[入場]資料處理開始====================
+2023-09-29 17:06:14 012:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:06:14 012:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 線圈流程延遲寫入模式 (7)
+2023-09-29 17:06:14 048:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:06:14 092:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:06:14 230:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917061423022
+2023-09-29 17:06:14 231:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:06:14 231:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:06:14 259:  進入計算車位流程，BusinessType = 1
+2023-09-29 17:06:14 394:  臨停月租[分開]加減模式 / 原始[臨停]車位 43 => 更新[臨停]車位 42 / 當前總車位 [臨停 + 月租] 102 
+2023-09-29 17:06:14 395:  總剩餘車位數 ： 102，類型：臨停
+2023-09-29 17:06:14 416:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:06:14 416:  Return:VKP6235_ok
+2023-09-29 17:09:09 971:  4863746517687757599,admin,執行刪除
+2023-09-29 17:09:20 829:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:09:20 871:  ===============[入場]資料處理開始====================
+2023-09-29 17:09:20 872:  VKP6235 => Insert stage 7
+2023-09-29 17:09:20 872:  VKP6235 => Insert stage 8
+2023-09-29 17:09:20 873:  VKP6235 => Insert stage 10
+2023-09-29 17:09:20 873:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:09:20 874:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:09:20 874:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:20 882:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:09:20 907:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917092090730
+2023-09-29 17:09:20 907:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:09:20 907:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:09:20 909:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 17:09:20 911:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:20 918:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:09:20 922:  Return:VKP6235_ok
+2023-09-29 17:09:26 247:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:09:26 287:  ===============[入場]資料處理開始====================
+2023-09-29 17:09:26 288:  VKP6235 => Insert stage 7
+2023-09-29 17:09:26 288:  VKP6235 => Insert stage 8
+2023-09-29 17:09:26 288:  VKP6235 => Insert stage 10
+2023-09-29 17:09:26 288:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:09:26 289:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:09:26 289:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:26 295:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:09:26 313:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917092631399
+2023-09-29 17:09:26 314:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:09:26 314:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:09:26 315:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 17:09:26 315:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:26 320:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:09:26 320:  Return:VKP6235_ok
+2023-09-29 17:09:33 716:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:09:33 773:  ===============[入場]資料處理開始====================
+2023-09-29 17:09:33 774:  VKP6235 => Insert stage 7
+2023-09-29 17:09:33 774:  VKP6235 => Insert stage 8
+2023-09-29 17:09:33 775:  VKP6235 => Insert stage 10
+2023-09-29 17:09:33 775:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:09:33 775:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:09:33 777:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:33 777:  線圈狀態 => A = 1 / B = 0
+2023-09-29 17:09:33 777:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 17:09:33 816:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917093381594
+2023-09-29 17:09:33 817:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:09:33 817:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:09:33 818:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 17:09:33 819:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:09:33 824:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:09:33 825:  Return:VKP6235_ok
+2023-09-29 17:09:51 585:  ===============[入場]資料處理開始====================
+2023-09-29 17:09:51 585:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 17:09:51 585:  此次為延遲寫入
+2023-09-29 17:10:07 896:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:10:07 929:  ===============[入場]資料處理開始====================
+2023-09-29 17:10:07 930:  VKP6235 => Insert stage 7
+2023-09-29 17:10:07 930:  VKP6235 => Insert stage 8
+2023-09-29 17:10:07 930:  VKP6235 => Insert stage 10
+2023-09-29 17:10:07 931:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:10:07 931:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:10:07 931:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:10:07 938:  線圈狀態 => A = 0 / B = 1
+2023-09-29 17:10:07 939:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:10:07 958:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:10:07 965:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917100796502
+2023-09-29 17:10:07 965:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:10:07 966:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:10:07 967:  
+2023-09-29 17:10:07 967:  Return:VKP6235_No
+2023-09-29 17:10:23 710:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:10:23 754:  ===============[入場]資料處理開始====================
+2023-09-29 17:10:23 754:  VKP6235 => Insert stage 7
+2023-09-29 17:10:23 754:  VKP6235 => Insert stage 8
+2023-09-29 17:10:23 754:  VKP6235 => Insert stage 10
+2023-09-29 17:10:23 756:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:10:23 756:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:10:23 756:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:10:23 762:  線圈狀態 => A = 0 / B = 1
+2023-09-29 17:10:23 763:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:10:23 784:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:10:23 792:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917102379224
+2023-09-29 17:10:23 792:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:10:23 793:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:10:23 794:  
+2023-09-29 17:10:23 795:  Return:VKP6235_No
+2023-09-29 17:12:01 348:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:12:01 382:  ===============[入場]資料處理開始====================
+2023-09-29 17:12:01 383:  VKP6235 => Insert stage 7
+2023-09-29 17:12:01 383:  VKP6235 => Insert stage 8
+2023-09-29 17:12:01 383:  VKP6235 => Insert stage 10
+2023-09-29 17:12:01 383:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:12:01 384:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:12:01 384:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:12:01 391:  線圈狀態 => A = 0 / B = 1
+2023-09-29 17:12:01 391:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:12:01 410:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:12:01 417:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917120141716
+2023-09-29 17:12:01 418:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:12:01 418:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:12:01 419:  
+2023-09-29 17:12:01 419:  Return:VKP6235_No
+2023-09-29 17:12:02 600:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:12:02 632:  ===============[入場]資料處理開始====================
+2023-09-29 17:12:02 632:  VKP6235 => Insert stage 7
+2023-09-29 17:12:02 633:  VKP6235 => Insert stage 8
+2023-09-29 17:12:02 633:  VKP6235 => Insert stage 10
+2023-09-29 17:12:02 633:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:12:02 633:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:12:02 634:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:12:02 643:  線圈狀態 => A = -1 / B = -1
+2023-09-29 17:12:02 662:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:12:02 670:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917120266977
+2023-09-29 17:12:02 670:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:12:02 670:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:12:02 672:  
+2023-09-29 17:12:02 672:  Return:VKP6235_No
+2023-09-29 17:12:37 267:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:12:37 301:  ===============[入場]資料處理開始====================
+2023-09-29 17:12:37 301:  VKP6235 => Insert stage 7
+2023-09-29 17:12:37 301:  VKP6235 => Insert stage 8
+2023-09-29 17:12:37 302:  VKP6235 => Insert stage 10
+2023-09-29 17:12:37 302:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:12:37 302:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:12:37 303:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:12:37 309:  線圈狀態 => A = 0 / B = 1
+2023-09-29 17:12:37 310:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:12:37 329:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:12:37 336:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917123733622
+2023-09-29 17:12:37 336:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:12:37 336:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:12:37 337:  
+2023-09-29 17:12:37 338:  Return:VKP6235_No
+2023-09-29 17:12:42 717:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:12:42 750:  ===============[入場]資料處理開始====================
+2023-09-29 17:12:42 750:  VKP6235 => Insert stage 7
+2023-09-29 17:12:42 751:  VKP6235 => Insert stage 8
+2023-09-29 17:12:42 751:  VKP6235 => Insert stage 10
+2023-09-29 17:12:42 752:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:12:42 753:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 尚未設定 (6)
+2023-09-29 17:12:42 754:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:12:42 760:  線圈狀態 => A = 0 / B = 1
+2023-09-29 17:12:42 761:  VKP6235 => 入口線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-09-29 17:12:42 780:  VKP6235 => 此通道之線圈模式為 尚未設定，由於沒壓到線圈 A，因此不開門
+2023-09-29 17:12:42 787:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023092917124278710
+2023-09-29 17:12:42 787:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:12:42 788:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:12:42 788:  
+2023-09-29 17:12:42 788:  Return:VKP6235_No
+2023-09-29 17:15:04 099:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:15:04 258:  ===============[入場]資料處理開始====================
+2023-09-29 17:15:04 266:  VKP6235 => Insert stage 7
+2023-09-29 17:15:04 266:  VKP6235 => Insert stage 8
+2023-09-29 17:15:04 266:  VKP6235 => Insert stage 10
+2023-09-29 17:15:04 266:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-09-29 17:15:04 266:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-09-29 17:15:04 290:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:15:04 325:  線圈狀態 => A = 1 / B = 1
+2023-09-29 17:15:04 471:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917150447121
+2023-09-29 17:15:04 471:  發送入口字幕機 TriggerType : 8
+2023-09-29 17:15:04 472:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:15:04 474:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 17:15:04 476:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:15:04 488:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:15:04 489:  Return:VKP6235_ok
+2023-09-29 17:15:10 732:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:15:10 758:  ===============[入場]資料處理開始====================
+2023-09-29 17:15:10 758:  VKP6235 => Insert stage 7
+2023-09-29 17:15:10 758:  VKP6235 => Insert stage 8
+2023-09-29 17:15:10 759:  VKP6235 => Insert stage 10
+2023-09-29 17:15:10 759:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:15:10 759:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-09-29 17:15:10 760:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:15:10 765:  線圈狀態 => A = 1 / B = 1
+2023-09-29 17:15:10 766:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 17:15:10 785:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917151078526
+2023-09-29 17:15:10 786:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:15:10 786:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:15:10 788:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-09-29 17:15:10 788:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:15:10 789:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:15:10 789:  Return:VKP6235_ok
+2023-09-29 17:19:53 331:  ===============[入場]資料處理開始====================
+2023-09-29 17:19:53 331:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-09-29 17:19:53 331:  此次為延遲寫入
+2023-09-29 17:19:53 331:   => Insert stage 1
+2023-09-29 17:19:53 331:   => Insert stage 2
+2023-09-29 17:19:53 331:   => Insert stage 3
+2023-09-29 17:19:53 331:   => Insert stage 5
+2023-09-29 17:19:53 331:  VKP6235 => Insert stage 6
+2023-09-29 17:19:53 331:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-09-29 17:19:53 331:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-09-29 17:19:53 331:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-09-29 17:19:53 331:  線圈狀態 => A = 1 / B = 1
+2023-09-29 17:19:53 331:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-09-29 17:19:53 369:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023092917195336929
+2023-09-29 17:19:53 369:  發送入口字幕機 TriggerType : 4
+2023-09-29 17:19:53 370:  發送入口字幕機 noPlateOpenType : 2
+2023-09-29 17:19:53 371:  VKP6235 => 由線圈發出的[延遲寫入]，正式寫入系統
+2023-09-29 17:19:53 392:  進入計算車位流程，BusinessType = 1
+2023-09-29 17:19:53 509:  臨停月租[分開]加減模式 / 原始[臨停]車位 42 => 更新[臨停]車位 41 / 當前總車位 [臨停 + 月租] 101 
+2023-09-29 17:19:53 510:  總剩餘車位數 ： 101，類型：臨停
+2023-09-29 17:19:53 525:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-09-29 17:26:37 929:  Camera:192.168.1.100_VKP62
+2023-09-29 17:27:03 374:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:27:08 010:  Return:VKP62_No
+2023-09-29 17:27:09 311:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:27:18 396:  Return:VKP6235_No
+2023-09-29 17:27:24 340:  Return:VKP6235_No
+2023-09-29 17:27:28 870:  Camera:192.168.1.100_VKP623
+2023-09-29 17:27:36 139:  Camera:192.168.1.100_VKP6235
+2023-09-29 17:27:43 906:  Return:VKP623_No
+2023-09-29 17:27:51 191:  Return:VKP6235_No

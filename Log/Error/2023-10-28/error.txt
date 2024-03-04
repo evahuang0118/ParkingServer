@@ -1,0 +1,213 @@
+ 發生時間：2023-10-28 06:59:24.6677
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 74
+
+ 發生時間：2023-10-28 06:59:29.9011
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1864
+
+ 發生時間：2023-10-28 06:59:34.5941
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2772
+
+ 發生時間：2023-10-28 06:59:34.5941
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：作業逾時_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2784
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1557
+
+ 發生時間：2023-10-28 10:06:56.7886
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1864
+
+ 發生時間：2023-10-28 10:06:59.5298
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2772
+
+ 發生時間：2023-10-28 10:06:59.5298
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2784
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1557
+
+ 發生時間：2023-10-28 03:00:26.5864
+             日誌級別：ERROR
+             操作帳號：BLJ9092
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 85
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 124
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 51
+
+ 發生時間：2023-10-28 03:02:35.6777
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3068
+
+ 發生時間：2023-10-28 03:02:35.7063
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3074
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3054
+
+ 發生時間：2023-10-28 03:03:25.4791
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3068
+
+ 發生時間：2023-10-28 03:03:25.4791
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3074
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3054
+
+ 發生時間：2023-10-28 03:07:33.9235
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3073
+
+ 發生時間：2023-10-28 03:07:33.9570
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3079
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3059
+
+ 發生時間：2023-10-28 03:11:59.6360
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3074
+
+ 發生時間：2023-10-28 03:11:59.6701
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3080
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3060
+
+ 發生時間：2023-10-28 03:13:54.1311
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3075
+
+ 發生時間：2023-10-28 03:13:54.1600
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3081
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3061
+
+ 發生時間：2023-10-28 03:16:38.0104
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3075
+
+ 發生時間：2023-10-28 03:16:38.0349
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.223
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3081
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3061
+

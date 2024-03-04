@@ -1,0 +1,39 @@
+﻿2023-10-07 10:43:21 941:  取得當前使用者 => 系統管理員
+2023-10-07 20:54:01 791:  取得當前使用者 => 系統管理員
+2023-10-07 21:01:08 612:  取得當前使用者 => 系統管理員
+2023-10-07 21:01:08 612:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 21:04:11 570:  取得當前使用者 => 系統管理員
+2023-10-07 21:04:11 570:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 21:19:27 159:  取得當前使用者 => 系統管理員
+2023-10-07 21:19:27 160:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 21:19:27 161:  取得當前使用者 2 => admin
+2023-10-07 21:40:32 222:  取得當前使用者 => 系統管理員
+2023-10-07 21:40:32 223:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 21:40:32 224:  取得當前使用者 2 => admin
+2023-10-07 21:48:07 697:  取得當前使用者 => 系統管理員
+2023-10-07 21:48:07 697:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 21:48:07 698:  取得當前使用者 2 => admin
+2023-10-07 22:54:40 701:  取得當前使用者 => 系統管理員
+2023-10-07 22:54:40 701:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 22:54:40 702:  取得當前使用者 2 => admin
+2023-10-07 22:54:44 287:  GetOptimalFree ....
+2023-10-07 22:54:44 312:  取得當前使用者 => admin
+2023-10-07 22:54:53 953:  mode.DiscountLimitType => 
+2023-10-07 22:54:53 954:  mode.DiscountMaxValue => 
+2023-10-07 22:55:05 931:  mode.DiscountLimitType => 
+2023-10-07 22:55:05 932:  mode.DiscountMaxValue => 
+2023-10-07 23:42:41 289:  GetOptimalFree ....
+2023-10-07 23:42:41 303:  取得當前使用者 => admin
+2023-10-07 23:42:47 582:  mode.DiscountLimitType => 
+2023-10-07 23:42:47 583:  mode.DiscountMaxValue => 
+2023-10-07 23:42:57 265:  mode.DiscountLimitType => 
+2023-10-07 23:42:57 266:  mode.DiscountMaxValue => 
+2023-10-07 23:45:54 303:  GetOptimalFree ....
+2023-10-07 23:45:54 318:  取得當前使用者 => admin
+2023-10-07 23:45:59 453:  mode.DiscountLimitType => 3
+2023-10-07 23:45:59 454:  mode.DiscountMaxValue => 7
+2023-10-07 23:46:14 088:  mode.DiscountLimitType => SubmitTimes
+2023-10-07 23:46:14 088:  mode.DiscountMaxValue => 0
+2023-10-07 23:47:21 931:  取得當前使用者 => 系統管理員
+2023-10-07 23:47:21 932:  取得所有使用者列表 => System.Collections.Generic.List`1[Elight.Entity.Sys.SysUser]
+2023-10-07 23:47:21 932:  取得當前使用者 2 => admin

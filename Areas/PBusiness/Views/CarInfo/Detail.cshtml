@@ -1,0 +1,343 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<form id="form" class="layui-form" style="margin-top:10px">
+
+    <div class="layui-tab layui-tab-card" style="margin:10px 30px 10px 30px">
+        <ul class="layui-tab-title">
+            <li class="layui-this">基本資料</li>
+            <li>續期資料</li>
+            <li>停車資料</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label label-required">車牌號碼</label>
+                        <div class="layui-input-inline">
+                            <input type="hidden" name="Id" />
+                            <input type="text" name="PlateNo" id="PlateNo" lay-verify="required" placeholder="请输入車牌號碼" autocomplete="off" value="沪" class="layui-input" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label label-required">停車類型</label>
+                        <div class="layui-input-inline">
+                            <select lay-ignore class="select2" name="BusinessType" lay-verify="required" id="BusinessType" style="width: 190px;" disabled></select>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">公司機構</label>
+                        <div class="layui-input-inline">
+                            <select lay-ignore class="select2" name="OrgId" lay-verify="required" style="width: 190px;" id="OrgId" disabled></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label label-required">車主姓名</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="Name" lay-verify="required" placeholder="" autocomplete="off" class="layui-input" disabled>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">聯繫電話</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="Phone" placeholder="" autocomplete="off" class="layui-input" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">車品牌</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="Brand" placeholder="" autocomplete="off" class="layui-input" disabled>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">車颜色</label>
+                        <div class="layui-input-inline">
+                            <select name="Color" lay-verify="required" style="width: 190px;" id="Color" disabled>
+                                <option value="0">請選擇</option>
+                                <option Value="1">红 色</option>
+                                <option Value="2">黄 色</option>
+                                <option Value="3">黑 色</option>
+                                <option Value="4">蓝 色</option>
+                                <option Value="5">绿 色</option>
+                                <option Value="6">橙 色</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">車位編號</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="PlaceNum" placeholder="" autocomplete="off" class="layui-input" disabled>
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">匹配度</label>
+                        <div class="layui-input-inline">
+                            <select name="Compatibility" lay-verify="required" style="width: 190px;" disabled>
+                                <option Value="1">全字</option>
+                                <option Value="2">一般</option>
+                                <option Value="3">较高</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">白黑名單</label>
+                        <div class="layui-input-inline">
+                            <input type="radio" name="BlackWhite" value="1" title="白名單" checked />
+                            <input type="radio" name="BlackWhite" value="2" title="黑名單" />
+                        </div>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">月租種類</label>
+                        <div class="layui-input-inline">
+                            <select lay-ignore class="select2" name="AverageType" lay-verify="required" id="AverageType" style="width: 190px;" disabled></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">地 址</label>
+                        <div class="layui-input-inline">
+                            <input type="text" name="Address" placeholder="" style="width: 350px;" autocomplete="off" class="layui-input" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-inline">
+                        <label class="layui-form-label">授權通道</label>
+                        <div class="layui-input-inline">
+                            <select lay-ignore name="Channels" class="select2" id="Channels" style="width: 350px;" multiple="multiple" lay-verify="required"></select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <label class="layui-form-label">備 註</label>
+                    <div class="layui-input-inline" style="width: 514px;">
+                        <textarea name="Remark" placeholder="" class="layui-textarea" disabled></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layui-tab-item">
+                <table id="gridList" class="layui-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;font-weight:bold;color:blue">姓名</th>
+                            <th style="text-align:center;font-weight:bold;color:blue;">車 &nbsp;牌</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">種類</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">月租單價</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">續費金額</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">有效起始</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">結束時間</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">操作人/時間</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">狀 態</th>
+                        </tr>
+                    </thead>
+                    <!--内容容器-->
+                    <tbody id="content"></tbody>
+                    <tr style="color:blue;border: 1px solid #e5e5e5;">
+                        <td colspan="3" style="text-align:right">合計：</td>
+                        <td id="hj"></td>
+                        <td colspan="4"></td>
+                    </tr>
+                </table>
+                <div id="paged"></div>
+            </div>
+            <div class="layui-tab-item">
+                <table class="layui-hide" id="gridLists" lay-filter="gridLists"></table>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</form>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            {{item.CName}}
+        </td>
+        <td style="color:blue">
+            {{item.RenewalPlate}}
+        </td>
+        <td style="color:black">
+            {{item.BusinessName}}
+        </td>
+        <td style="color:black">
+            {{item.RenewalPrice}}
+        </td>
+        <td style="color:black">
+            {{item.PaidNo}}
+        </td>
+        <td style="color:forestgreen">
+            {{item.Btime}}
+        </td>
+        <td style="color:forestgreen">
+            {{item.Etime}}
+        </td>
+        <td>
+            {{item.CreateId}}
+            <br />
+            {{item.CreateTime}}
+        </td>
+        <td>
+            {{# if(item.OperationState==1){ }}  <span class="label label-success label-sm">有效</span>
+            {{# }else{ }}  <span class="label label-dark label-sm">無效</span>
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="10">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script>
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }) .use(['jquery','paging', 'layer'], function () {
+        var layer =layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+        var Key = $.getQueryString("primaryKey");
+
+        initGrid(Key);
+    });
+
+    function initGrid(Key) {
+         paging.init({
+            url: '/PBusiness/Careffectivelog/RecordInfo',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            openWait:true,
+            params: {
+                recordId:Key
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 30,
+            },
+            success: function () {
+                var h1 = 0;
+                $("#hj").empty();
+                $('#content tr').each(function () {
+                    h1 += Number($(this).find("td:nth-child(4)").html());
+                })
+                $("#hj").append(h1.toFixed(0).toString());
+            }
+        });
+    }
+
+    layui.use(['form', 'element', 'layer'], function () {
+        var form = layui.form;
+        var element = layui.element;
+
+        $("#BusinessType").bindSelect({
+            url: "/PBusiness/BusinessType/GetBusinessType"
+
+        });
+
+        $("#AverageType").bindSelect({
+            url: "/PBusiness/AverageRental/GetAverageType"
+
+        });
+
+        $("#Channels").bindSelect({
+            url: "/PConfig/Channel/GetListTreeSelect",
+            title: '請選擇車道'
+        });
+
+        $("#OrgId").bindSelect({
+            url: "/System/Organize/GetListSelect",
+            title: '請選擇公司機構'
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/CarInfo/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+        form.render();
+
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrids(membersId) {
+            table.render({
+                elem: '#gridLists',
+                url: '/Report/OutRecord/MembersRecord',
+                where: {
+                    membersId: membersId
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                totalRow: true,
+                cols: [[
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'InPlate', width: 105, title: '入場車牌', style: 'color:blue', totalRowText: '合計', },
+                    { field: 'InTime', width: 170, title: '入場時間', sort: true },
+                    { field: 'OutPlate', width: 105, title: '出場車牌', style: 'color:blue' },
+                    { field: 'OutTime', width: 170, title: '出場時間', sort: true, },
+                    { field: 'Actual', width: 90, title: '應收金額', totalRow: true, style: 'color:red' },
+                    { field: 'CashCost', width: 90, title: '現金支付', totalRow: true, style: 'color:red' },
+                    { field: 'MobileCost', width: 90, title: '行動支付', totalRow: true, style: 'color:red' },
+                    { field: 'FreeCost', width: 90, title: '本地折扣', totalRow: true, style: 'color:red' },
+                    { field: 'ElectronicCost', width: 90, title: '電子優惠', totalRow: true, style: 'color:red' },
+                    { field: 'Remark', width: 190, title: '停留時長', style: 'color:forestgreen' },
+                    { field: 'InChannelName', width: 90, title: '入口通道' },
+                    { field: 'OutChannelName', width: 100, title: '出口通道', },
+                    { field: 'BusinessName', width: 90, title: '停车類型', style: 'color:blue' },
+                    { field: 'OperateId', width: 90, title: '操作人' },
+                    { field: 'OperateTime', width: 170, title: '操作時間' },
+                ]],
+                limits: [30, 50, 80, 100, 150, 200],
+                limit: 30,
+                page: true,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+        var Key = $.getQueryString("primaryKey");
+        initGrids(Key);
+    });
+
+</script>

@@ -1,0 +1,271 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    @*<meta name="viewport" content="width=device-width" />*@
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" name="viewport" />
+    <meta name="apple-mobile-web-app" content="" />
+    <title>中央停车缴费-车牌查询</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+
+    <style type="text/css">
+        td div.layui-table-cell {
+            height: 200px;
+            line-height: 200px;
+            position: relative;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            box-sizing: border-box;
+            padding: 0px 15px;
+            overflow: hidden;
+        }
+
+        .layui-table-cell {
+            height: auto;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: url(/Content/display/bg.jpg) no-repeat center center fixed;
+            background-size: cover;
+            font-size: 14px;
+        }
+
+        .header_top {
+            display: block;
+            width: 100%;
+            margin: 0px auto;
+        }
+
+        .header_top img {
+                width: 100%;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="panel animated fadeIn" style="text-align:center;border-radius:30px 30px 0 0;">
+        <header class="header_top">
+            <img src="~/Content/display/topbg.png" width="100%" />
+        </header>
+
+
+        <div class="panel-body" id="search">
+            <fieldset class="layui-elem-field layuimini-search" style="text-align:left">
+                <legend>查询方式:车牌查询 如:沪E63282 请输入E63282</legend>
+                <div style="margin: 5px 5px 5px 5px;font-size:20px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input" readonly="readonly" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-radius layui-btn-lg" onclick="btnSearch()">
+                                    <i class="layui-icon">&#xe615;</i>查 询
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="layui-btn-container" style="font-weight:bold;">
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(1)" style="font-size:30px">1</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(2)" style="font-size:30px">2</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(3)" style="font-size:30px">3</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(4)" style="font-size:30px">4</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(5)" style="font-size:30px">5</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(6)" style="font-size:30px">6</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(7)" style="font-size:30px">7</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(8)" style="font-size:30px">8</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(9)" style="font-size:30px">9</button>
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnContent(0)" style="font-size:30px">0</button>
+            </div>
+
+            <div class="layui-btn-container" style="font-weight: bold; margin-left:10px">
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('Q')" style="font-size:30px">Q</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('W')" style="font-size:30px">W</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('E')" style="font-size:30px">E</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('R')" style="font-size:30px">R</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('T')" style="font-size:30px">T</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('Y')" style="font-size:30px">Y</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('U')" style="font-size:30px">U</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('I')" style="font-size:30px">I</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('P')" style="font-size:30px">P</button>
+            </div>
+
+            <div class="layui-btn-container" style="font-weight: bold;margin-left: 10px">
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('A')" style="font-size:30px">A</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('S')" style="font-size:30px">S</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('D')" style="font-size:30px">D</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('F')" style="font-size:30px">F</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('G')" style="font-size:30px">G</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('H')" style="font-size:30px">H</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('J')" style="font-size:30px">J</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('K')" style="font-size:30px">K</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('L')" style="font-size:30px">L</button>
+            </div>
+
+            <div class="layui-btn-container" style="        font-weight: bold;margin-left:25px">
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('Z')" style="font-size:30px">Z</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('X')" style="font-size:30px">X</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('C')" style="font-size:30px">C</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('V')" style="font-size:30px">V</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('B')" style="font-size:30px">B</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('N')" style="font-size:30px">N</button>
+                <button class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius" type="button" onclick="btnContent('M')" style="font-size:30px">M</button>
+
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="btnClean()" style="font-size:30px">退   格</button>
+            </div>
+        </div>
+
+        <div class="panel-body" id="content" style="display:none">
+            <div class="layui-btn-container" style="text-align:left">
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="DisplaySearch()"><i class="layui-icon">返  回</i></button>
+            </div>
+            <input type="hidden" name="plateNo" id="plateNo" />
+            <input type="hidden" name="localUrl" id="localUrl" value="@ViewBag.localUrl" />
+
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-sm" lay-event="detail">选择缴费</a>
+            </script>
+
+            <script type="text/html" id="timeTpl">
+                {{d.InPlate}}
+                @*<br>
+                    {{d.InTime}}*@
+            </script>
+
+        </div>
+
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+
+    //layui.config({
+    //    base: parent._baseUrl
+    //}).use(['jquery', 'form', 'layer', 'laydate'], function () {
+    //    var layer = layui.layer;
+    //    var form = layui.form;
+
+    //});
+
+    function btnContent(content) {
+        var vl = $("#PlateNo").val();
+        if (vl.length<8) {
+            $("#PlateNo").val(vl + content);
+        }
+    }
+
+    function btnClean() {
+        var vl = $("#PlateNo").val();
+        if (vl.length > 0) {
+            vl = vl.substring(0, vl.length - 1);
+            $("#PlateNo").val(vl);
+        }
+    }
+
+    function DisplaySearch() {
+        $("#search").show();
+        $("#PlateNo").val('');
+        $("#content").hide();
+    }
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        //localUrl +
+        function initGrid() {
+            var localUrl = $("#localUrl").val();
+            table.render({
+                elem: '#gridList',
+                url: localUrl+'/Report/InRecord/GIndex',
+                method: 'post',
+                cellMinWidth: 80,
+                where: {
+                    InTime: "",
+                    PlateNo: $("#PlateNo").val(),
+                    NoPlate: "0",
+                    Etime: "",
+                },
+                cols: [[
+
+                    { field: 'Id', title: 'ID', hide: true },
+                    //{ field: 'InPlateImg', align: 'center', width: 490, title: '车牌图片', templet: '<div><img style="width:480px;height:200px;max-width:480px;" src="{{d.InPlateImg}}"></div>' },
+                    { field: 'InCarImg', align: 'center', width: 490, title: '车牌图片', templet: '<div><img style="width:480px;height:auto;max-width:480px;" src="{{d.InCarImg}}"></div>' },
+                    {
+                        field: '', align: 'center', title: '車牌號碼', style: 'color:blue', width: 120, templet: '#timeTpl'
+                    },
+                    { field: 'InTime', align: 'center', title: '入場時間', width: 180 },
+                    { fixed: '', align: 'center', toolbar: '#barDemo' },
+
+                ]],
+                limits: [50, 80, 100, 150, 200],
+                limit: 50,
+                page: false,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+
+        $('#btnSearch').on("click", function () {
+            $("#search").hide();
+            $("#content").show();
+
+            initGrid();
+        });
+
+        initGrid();
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.ajax({
+                    url: '/Display/SlabDisplay/SendPlateNo?recordId=' + data.Id
+                    , dataType: 'json'
+                    , success: function (res) {
+                        if (res == "2") {
+                            layer.alert('操作失败,请联系收費人員！')
+                        }
+                    }
+                    , error: function () {
+                        layer.alert('操作失败,请联系收費人員！')
+                    }
+                })
+            }
+        });
+    });
+
+</script>
+
+
+

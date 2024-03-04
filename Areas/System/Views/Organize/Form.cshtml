@@ -1,0 +1,168 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+    <form id="form" class="layui-form" style="margin-top: 25px">
+        @Html.AntiForgeryToken()
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">名 稱</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="FullName" lay-verify="required" placeholder="請輸入名稱" autocomplete="off" class="layui-input" style="width:400px">
+                </div>
+            </div>
+
+            <div class="layui-inline" style="display:none">
+                <label class="layui-form-label">編碼</label>
+                <div class="layui-input-inline">
+                    <input type="hidden" name="Id" />
+                    <input type="text" name="EnCode" placeholder="請輸入編碼" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">上级</label>
+                <div class="layui-input-inline">
+                    <select class="select2" lay-ignore name="ParentId" lay-verify="required" id="ParentId" style="width: 190px">
+                    </select>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">類型</label>
+                <div class="layui-input-inline">
+                    <select name="Type" lay-verify="required">
+                        <option value="">請選擇</option>
+                        <option value="0">商户</option>
+                        <option value="1">部門組織</option>
+                        <option value="2">公司個人組織</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">負責人</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="ManagerId" placeholder="請輸入負責人" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">聯繫電話</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="TelePhone" placeholder="請輸入電話"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">車位數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="SpaceNum" placeholder="分配虚拟車位數" lay-verify="required|number" autocomplete="off" class="layui-input" value="0">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">共享車位</label>
+                <div class="layui-input-inline">
+                    <select name="SharedRules" lay-verify="required">
+                        <option value="1">先進先免循環計算</option>
+                        <option value="2">記錄交替循環計算</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">傳真</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Fax" placeholder="請輸入傳真" autocomplete="off" class="layui-input">
+                </div>
+            </div>     
+            <div class="layui-inline">
+                <label class="layui-form-label">E-mail</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Email" placeholder="請輸入E-mail" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+
+
+            <div class="layui-inline">
+                <label class="layui-form-label">地址</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Address" placeholder="請輸入地址" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">排序碼</label>
+                <div class="layui-input-inline">
+                    <input type="number" name="SortCode" lay-verify="number" placeholder="請輸入排序" autocomplete="off" class="layui-input" value="1">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+   
+            <div class="layui-inline">
+                <label class="layui-form-label">啟用</label>
+                <div class="layui-input-inline">
+                    <input type="radio" name="IsEnabled" value="1" title="是" checked />
+                    <input type="radio" name="IsEnabled" value="0" title="否" />
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">備註</label>
+            <div class="layui-input-block" style="width: 514px;">
+                <textarea name="Remark" placeholder="請輸入備註" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-block">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提 交</button>
+            </div>
+        </div>
+    </form>
+<script>
+    layui.use(['form', 'layer'], function () {
+        var form = layui.form;
+        var layer = layui.layer;
+
+        $("#ParentId").bindSelect({
+            url: "/System/Organize/GetListSelect",
+            title: '请選擇組織機構'
+        });
+        
+        var primaryKey = $.getQueryString("primaryKey");
+        if (primaryKey) {
+            $.ajax({
+                url: "/System/Organize/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            $.formSubmit({
+                url: "/System/Organize/Form",
+                data: data.field
+            });
+            return false;
+        });
+
+    });
+</script>

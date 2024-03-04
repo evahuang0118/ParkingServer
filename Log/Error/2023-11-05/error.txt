@@ -1,0 +1,574 @@
+ 發生時間：2023-11-05 23:35:35.1018
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:35:36.9298
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:35:36.9298
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:35:40.0402
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:37:34.9997
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:37:43.4889
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:37:43.7326
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:37:43.7326
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：作業逾時_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:39:34.9942
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:39:36.3905
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:39:36.3905
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:39:43.3551
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:41:35.0505
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:41:36.1274
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:41:36.1274
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:41:40.1178
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:43:33.7368
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：Table 'p_parking.r_chargerecord' doesn't exist_   於 SqlSugar.AdoProvider.GetDataSetAll(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.GetDataTable(String sql, SugarParameter[] parameters)
+   於 Elight.Logic.PRecord.ChargeRecordLogic.GetRecordList(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\ChargeRecordLogic.cs: 行 466
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1624
+
+ 發生時間：2023-11-05 23:43:34.9883
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:43:40.4111
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:45:34.9995
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:45:40.0501
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:45:43.7581
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:45:43.7581
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：作業逾時_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:47:35.0212
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:47:39.7920
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:47:39.7920
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:47:40.1501
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:49:35.0591
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:49:36.1939
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:49:36.1939
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:49:45.8963
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:51:35.0698
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:51:43.7988
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:51:43.7988
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：作業逾時_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:51:47.4396
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:53:35.0617
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:53:42.3538
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:53:42.3538
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:53:46.9430
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:55:35.0760
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:55:36.5014
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:55:36.5014
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:55:40.0392
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:57:35.0993
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:57:36.5642
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:57:36.5642
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:57:47.4378
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+
+ 發生時間：2023-11-05 23:59:35.0631
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：LocckStateQuery_车位锁的状态查询
+             提示訊息：並未將物件參考設定為物件的執行個體。_   於 Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\FloorLockController.cs: 行 76
+
+ 發生時間：2023-11-05 23:59:36.4001
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：SendInRecordN_入口记录上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2887
+
+ 發生時間：2023-11-05 23:59:36.4001
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：InOutRecordUpload_出口记录上传,
+             提示訊息：無法連接至遠端伺服器_   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(InOutRecord mode, String ParkId, String ApiServer, String Token, String Url, List`1 Plist, List`1 Clist) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 2895
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1633
+
+ 發生時間：2023-11-05 23:59:43.4474
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：127.0.0.1
+             IP所在地：
+             瀏 覽 器：IE 7.0
+             操作模組：HeartUpload_心跳上传
+             提示訊息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 37
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1944
+

@@ -1,0 +1,459 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>場內記錄報表</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜尋資訊</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+
+                                <div class="layui-input-inline">
+                                    <select name="selectNoPlate" id="selectNoPlate" lay-verify="required">
+                                        <option value="0">所有車</option>
+                                        <option value="1">無牌車</option>
+                                        <option value="2">月租車</option>
+                                        <option value="3">臨停車</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">入場時段</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Intime" lay-verify="required" name="Intime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="EIntime" name="EIntime" placeholder="" lay-verify="required" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">是否付費</label>
+                                <div class="layui-input-inline">
+                                    <select name="selectCharge" id="selectCharge" lay-verify="required">
+                                        <option value="0">請選擇</option>
+                                        <option value="1">已付費</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                                <button class="layui-btn layui-btn-normal" lay-type="file" id="btnUpload">導入數據</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" lay-skin="primary">
+                        </th>
+                        <th>入場車牌</th>
+                        <th>車牌圖片</th>
+                        <th>入場時間</th>
+                        <th>入口車道</th>
+                        <th>出場時間</th>
+                        <th>停車類型</th>
+                        <th>處理狀態</th>
+                        <th>共享車位</th>
+                        <th>已付費</th>
+                        <th>記錄來源</th>
+                    </tr>
+                </thead>
+                <!--内容容器-->
+                <tbody id="content"></tbody>
+            </table>
+
+            <div id="paged"></div>
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md5">
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-colla-item">
+                                <fieldset class="layui-elem-field layui-field-title" style="margin-top:2px;">
+                                    <legend><span style="font-size:14px;color:blue">在場臨停(月租)數量 <<a href="#" id="btnRefresh" style="color:slateblue">查 看</a>></span></legend>
+                                </fieldset>
+                                <table class="layui-hide" id="grid_List" lay-filter="grid_Lists"></table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-col-md7">
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-colla-item">
+                                <fieldset class="layui-elem-field layui-field-title" style="margin-top:2px;">
+                                    <legend><span style="font-size:14px;color:blue">報表說明</span></legend>
+                                </fieldset>
+                                <p style="color:currentColor">
+                                    1.  此報表展示的是在場車輛的記錄（車輛還在停車庫,沒有出場）
+                                    <br>
+                                    2.  處理狀態,是指系統後臺對進場的車輛記錄進行判斷處理,分為 【已處理】和 【未處理】
+                                    <br />
+                                    3.  共享車位,是指一位多車共享車位時,系統判斷此車輛是否需要收費,點擊 【收費】可以修改為不收費
+                                    <br />
+                                    4.  可以用刪除按鈕刪除系統裏面的垃圾數據（系統會留有相應操作痕跡）
+                                    <br />
+                                    5.  如果車輛已出場,此車輛記錄不會在此報表裏面在展現
+                                    <br />
+
+                                    6. 導入數據前請先在系統首頁，下載導入數據模板
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.Id}}">
+        </td>
+        <td style="color:Highlight">
+            <a onclick="SearcherDetail('{{item.Id}}')" href="javascript:void(0)" style="color:blue">
+                {{item.InPlate}}
+            </a>  <br />
+            {{# if(item.InPorrectionPlate!=null){ }} {{item.InPorrectionPlate}}
+            {{# } }}
+        </td>
+        <td>
+            <img style="height:50px;max-width:280px" alt="" src="{{item.InPlateImg}}" />
+        </td>
+        <td>
+            {{item.InTime}}
+        </td>
+        <td>
+            {{item.InChannelName}}
+        </td>
+
+        <td>
+            {{# if(item.OutTime!=null){ }} {{item.OutTime}}
+            {{# } }}
+        </td>
+        <td style="color:blue">
+            {{item.BusinessName}}
+        </td>
+        <td style="color:forestgreen">
+            {{# if(item.IsNew==0){ }} 未處理
+            {{# }else if(item.IsNew==1){ }}已處理
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.IsCharge==1){ }}<a onclick="btn_deal('{{item.Id}}')" href="javascript:void(0)" style="color:blue" title="点击修改收費状态">收費</a> | <a onclick="btnShared('{{item.InPlate}}','{{item.InTime}}')" href="javascript:void(0)" style="color:blue" title="点击查看占用明细">查看</a>
+            {{# }else if(item.IsCharge==0){ }} /
+            {{# } }}
+        </td>
+
+        <td>
+            {{item.Actual}} 元
+        </td>
+
+        <td>
+            {{# if(item.LogType==1){ }}車牌辨識
+            {{# }else if(item.LogType==2){ }}人工補錄
+            {{# }else if(item.LogType==3){ }}其它設備推送
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="7">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'paging', 'form', 'layer', 'laydate', 'element'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var element = layui.element;
+        var upload = layui.upload;
+        paging = layui.paging();
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#Intime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#EIntime"
+            , type: 'datetime'
+
+        });
+
+        initGrid();
+
+        $("#toolbar").authorizeButton();
+
+        $('#btnSearch').click(initGrid);
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#btnUpload', //绑定元素
+            method: 'post',
+            accept: 'file',
+            url: '/Report/InRecord/UploadAvatarExcel', //上传接口
+            done: function (res) {
+                //上传完毕回调
+                if (res.state == 0) {
+                    $.layerMsg(res.message);
+                }
+                else {
+                    $.layerMsg("导入数据成功！");
+                    initGrid();
+                }
+            },
+            error: function () {
+                //请求异常回调
+            }
+        });
+    });
+
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function init_Grids() {
+            table.render({
+                elem: '#grid_List',
+                url: '/Report/InRecord/TemporaryFixSum',
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { field: 'CNum', title: '臨停數量' },
+                    { field: 'GNum', title: '月租數量' },
+                ]],
+                page: false,
+                done: function (res) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                }
+            });
+        }
+
+        $('#btnRefresh').on("click", function () {
+            init_Grids();
+        });
+    });
+
+    function initGrid() {
+        paging.init({
+            url: '/Report/InRecord/Index',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            singleSelected: false,
+            openWait: true,
+            params: {
+                PlateNo: $("#PlateNo").val(),
+                InTime: $("#Intime").val(),
+                NoPlate: $("#selectNoPlate").val(),
+                Etime: $("#EIntime").val(),
+                IsCharge: $("#selectCharge").val()
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 50,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        $.layerOpen({
+            id: "edit",
+            title: "校正車牌",
+            width: "670px",
+            height: "520px",
+            content: "/Report/InRecord/Form?primaryKey=" + ids[0] + "&userName=''",
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_detail() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄查看。", "warning");
+            return;
+        }
+        $.layerOpen({
+            id: "edit",
+            title: "查看詳情",
+            width: "1280px",
+            height: "520px",
+            content: "/Report/OutRecord/Detail?primaryKey=" + ids[0],
+            btn: null
+        });
+    }
+
+    function btn_delete() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length < 1) {
+            $.layerMsg("請勾選需要刪除的選項。", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您已選中" + ids.length + "條數據, 確定刪除嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/Report/InRecord/Delete',
+                    data: { recordId: ids.toString() },
+                    success: function () {
+                        initGrid();
+
+                    }
+                });
+            }
+        });
+    }
+
+    function btn_Excel() {
+        layui.use(['layer'], function () {
+            var $ = layui.jquery
+            var layer = layui.layer
+            var excel = layui.excel
+
+            $.ajax({
+                url: '/Report/InRecord/Export?PlateNo=' + $("#PlateNo").val() + '&InTime=' + $("#Intime").val() + "&Etime=" + $("#EIntime").val()
+                , dataType: 'json'
+                , success: function (res) {
+                    var data = res.data
+                    data = excel.filterExportData(data, {
+                        InPlate: 'InPlate'
+                        , InTime: 'InTime'
+                        , ChannelName: 'ChannelName'
+                        , OutPlate: 'OutPlate'
+                        , OutTime: 'OutTime'
+                        , BusinessName: 'BusinessName'
+                        , Actual: 'Actual'
+                        , ORemark: 'ORemark'
+                        , OperateTime: 'OperateTime'
+                    })
+                    data.unshift({
+                        InPlate: "入場車牌"
+                        , InTime: "入場時間"
+                        , ChannelName: '入場車道'
+                        , OutPlate: "出場車牌"
+                        , OutTime: "出場時間"
+                        , BusinessName: '類型'
+                        , Actual: "已付費"
+                    });
+                    top.LAY_EXCEL.exportExcel({
+                        sheet1: data
+                    }, '未出場車輛記錄_' + getDateTime() + '.xlsx', 'xlsx')
+                }
+                , error: function () {
+                    layer.alert('獲取數據失敗!!!')
+                }
+            })
+        })
+    }
+
+    function btn_deal(key) {
+        $.layerConfirm({
+            content: "您確定要進行此操作嗎？此操作不可恢復！",
+            callback: function () {
+                $.formSubmit({
+                    url: '/Report/InRecord/DealCharge',
+                    data: { primaryKey: key },
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+    }
+
+    function btnShared(key, inTime) {
+        $.layerOpen({
+            id: "edit",
+            title: "車位佔用",
+            width: "800px",
+            height: "450px",
+            content: "/Report/InRecord/SharedInOutIndex?plateNo=" + key.substring(1) + "&inTime=" + inTime,
+            btn: null
+        });
+    }
+
+    function btn_PDF() {
+        window.location.href = "/Report/InRecord/PDFFileDownload?PlateNo=" + $("#PlateNo").val() + "&InTime=" + $("#Intime").val() + "&Etime=" + $("#EIntime").val()
+    }
+
+    function SearcherDetail(Id) {
+        $.layerOpen({
+            id: "edit",
+            title: "車輛記錄詳情",
+            width: "1280px",
+            height: "520px",
+            content: "/Report/OutRecord/Detail?primaryKey=" + Id,
+            btn: null
+        });
+    }
+
+</script>

@@ -1,0 +1,168 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>新增停車紀錄</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <link href="~/Content/select2/css/select2.css" rel="stylesheet" />
+    <script src="~/Content/select2/js/select2.min.js"></script>
+</head>
+<body style = "overflow-x: hidden">
+    <div class="panel animated fadeIn">
+        <div class="panel-body" >
+            <div class="layui-row layui-col-space5">
+                <div class="layui-col-md4">
+                    <form id="form" class="layui-form" style="margin-top: 10px;margin-left:-30px">
+                        @Html.AntiForgeryToken()
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車號 / 板號</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="plate" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">日 期</label>
+                                <div class="layui-input-inline">
+                           
+                                    <input type="text" id="InDate" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">時 間</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="InTime" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="layui-form-item" id = "lane-id-container">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車道</label>
+                                <div class="layui-input-inline">
+                                    <select lay-ignore class="select2" name="LaneID" autocomplete="off" lay-verify="required" style="width: 190px;" id="LaneID"></select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-input-block" style = "width : 600px; margin-left : 0px">
+                                <label class="layui-form-label">入場類型</label>
+                                <input type="radio" name="DeviceType" value = "2" title="車牌辨識" lay-filter="DeviceType" checked />
+                                <input type="radio" name="DeviceType" value = "5" title="車位擋板" lay-filter="DeviceType"/> 
+                            </div>
+                            <span>
+                                (車位擋板請直接輸入擋板號)
+                            </span>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button id="btnSubmit" class="layui-btn layui-btn-radius" lay-submit lay-filter="saveBasicInfo">提交保存</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+
+  layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+        laydate.render({
+            elem: "#InDate"
+            ,format: 'yyyy-MM-dd'
+        });
+        laydate.render({
+            elem: "#InTime"
+            , type: 'time'
+            , value:"00:00:00"
+        });
+        
+        $("#LaneID").bindSelect({
+            url: "/PConfig/Channel/GetActiveEntranceLaneInfo"
+        });
+    });
+
+     layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+        
+        form.on("radio(DeviceType)", function (data) {
+            
+            console.log(data)
+            if (this.value == '2') { 
+                layui.use('jquery', function(){
+                  var $ = layui.jquery;
+                  $('#lane-id-container').show();
+                });
+            } else if (this.value == '5') { 
+                layui.use('jquery', function(){
+                  var $ = layui.jquery;
+                  // 隐藏元素
+                  $('#lane-id-container').hide();
+                });
+            } 
+        });
+
+         form.on('submit(saveBasicInfo)', function (data) {
+             if ($("#plate").val() == "" || $("#InDate").val() == "" || $("#InTime").val()=="") {
+                 $.layerMsg("車牌號碼和日期時間不能為空！", "warning");
+                 return false;
+             }
+             data.field.plate = $("#plate").val();
+             data.field.dateStr = $("#InDate").val();
+             data.field.timeStr = $("#InTime").val();
+             data.field.laneID = $("#LaneID").val();
+
+
+             var deviceType = document.querySelector('input[name="DeviceType"]:checked').value;
+             
+             if (deviceType == 5) {
+                data.field.deviceType = 5;
+             }
+
+             console.log("deviceType => " + deviceType)
+
+             $.formSubmit({
+                 url: "/Report/InRecord/AddForm",
+                 data: data.field,
+                 success: function () {
+                     $("#plate").val("");
+                 }
+             })
+             return false;
+         });
+     });
+
+</script>
+
+

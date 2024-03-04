@@ -1,0 +1,89 @@
+﻿2023-09-25 13:08:40 450:  Camera:192.168.1.101_ZH1F8FW11
+2023-09-25 13:08:41 175:  ===============[離場]資料處理開始====================
+2023-09-25 13:08:41 189:  ZH1F8FW11 => 本次辨識為 [車牌觸發]
+2023-09-25 13:08:41 190:  ZH1F8FW11 => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-25 13:08:41 220:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-25 13:08:43 362:  ZH1F8FW11 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-25 13:08:43 403:  Return:ZH1F8FW11_No
+2023-09-25 13:25:50 240:  Camera:192.168.1.101_TR11
+2023-09-25 13:25:50 886:  ===============[離場]資料處理開始====================
+2023-09-25 13:25:50 888:  TR11 => 本次辨識為 [虛擬線圈觸發]
+2023-09-25 13:25:50 889:  TR11 => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-25 13:25:50 891:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-25 13:25:53 001:  TR11 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-25 13:25:53 002:  TR11 => 並非無車牌
+2023-09-25 13:25:53 003:  TR11 => 通道 : 2
+2023-09-25 13:25:53 134:  TR11 => 沒有匹配到進場紀錄
+2023-09-25 13:25:53 295:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_TR11_0_1_2_0_0_1_出口_ee5f61a4a5154cd09ed540b39d98badc_2__8011_False_/Images/Licences/2023925/6c5717bc7a2140539b70eaf07474df2020230925132526.jpg_1_0_2023092513255329508}
+2023-09-25 13:25:53 331:  Return:TR11_No
+2023-09-25 13:39:02 506:  Camera:192.168.1.101_TL01RK58L
+2023-09-25 13:39:02 635:  ===============[離場]資料處理開始====================
+2023-09-25 13:39:02 636:  TL01RK58L => 本次辨識為 [虛擬線圈觸發]
+2023-09-25 13:39:02 636:  TL01RK58L => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-25 13:39:02 636:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-25 13:39:04 729:  TL01RK58L => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-25 13:39:04 730:  TL01RK58L => 並非無車牌
+2023-09-25 13:39:04 731:  TL01RK58L => 通道 : 2
+2023-09-25 13:39:04 795:  TL01RK58L => 沒有匹配到進場紀錄
+2023-09-25 13:39:04 840:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_TL01RK58L_0_1_2_0_0_1_出口_115b423c694e46c19046a75d6cf8d9fd_2__8011_False_/Images/Licences/2023925/c9840666fd4e45758c9dfafa6806f96c20230925133954.jpg_1_0_2023092513390484017}
+2023-09-25 13:39:04 856:  Return:TL01RK58L_No

@@ -1,0 +1,138 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>停车缴费查询</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        td div.layui-table-cell {
+            height: 200px;
+            line-height: 200px;
+            position: relative;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            box-sizing: border-box;
+            padding: 0px 15px;
+            overflow: hidden;
+        }
+        .layui-table-cell {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <div class="layui-btn-container">
+                <button class="layui-btn layui-btn-lg layui-btn-normal layui-btn-radius" type="button" onclick="window.location.href='http://192.168.1.200:8060/Display/SlabDisplay/Index'"><i class="layui-icon">返  回</i></button>
+            </div>
+                <input type="hidden" name="plateNo" id="plateNo" />
+
+                <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+                <script id="barDemo" type="text/html">
+                    <a class="layui-btn layui-btn-xs" lay-event="detail">选择缴费</a>
+                </script>
+
+                <script type="text/html" id="timeTpl">
+                    {{d.InPlate}}
+                    @*<br>
+                {{d.InTime}}*@
+                </script>
+
+            </div>
+        </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+        var plateNo = $.getQueryString("plateNo");
+
+        $("#plateNo").val(plateNo);
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: 'http://192.168.1.200:8060/Report/InRecord/GIndex',
+                method: 'post',
+                cellMinWidth: 80,
+                where: {
+                    InTime:"",
+                    PlateNo: $("#plateNo").val(),
+                    NoPlate:"0",
+                    Etime:"",
+                },
+                cols: [[
+                  
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'InPlateImg', align: 'center', width: 280, title: '车牌图片', templet: '<div><img style="width:270px;height:200px;max-width:270px;" src="{{d.InPlateImg}}"></div>' },
+                    {
+                        field: '', align: 'center', title: '車牌號碼', style: 'color:blue', width: 120, templet: '#timeTpl'
+                     
+                    },
+                    { field: 'InTime', align: 'center', title: '入場時間', width: 180 },
+                    { fixed: '', align: 'center', toolbar: '#barDemo'},
+
+                ]],
+                limits: [50, 80, 100, 150, 200],
+                limit: 50,
+                page: false,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.ajax({
+                    url: '/Display/SlabDisplay/SendPlateNo?recordId=' + data.Id
+                    , dataType: 'json'
+                    , success: function (res) {
+                        if (res == "2") {
+                            layer.alert('操作失败,请联系收費人員！')
+                        }
+                    }
+                    , error: function () {
+                        layer.alert('操作失败,请联系收費人員！')
+                    }
+                })
+            }
+        });
+    });
+</script>
+

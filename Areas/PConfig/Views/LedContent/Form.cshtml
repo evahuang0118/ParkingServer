@@ -1,0 +1,190 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <label class="layui-form-label label-required">顯示類型</label>
+        <div class="layui-input-inline">
+            <input type="hidden" name="Lid" />
+            <select name="Type" lay-verify="required">
+                <option Value="1">入口無車</option>
+                <option Value="2">入口月租車通過</option>
+                <option Value="3">入臨停車通過</option>
+                <option Value="10">入口月租車過期通過</option>
+                <option Value="4">出口無車</option>
+                <option Value="5">出口月租車通過</option>
+                <option Value="6">出口臨停車通過</option>
+                <option Value="11">出口無入場資料</option>
+                <option Value="7">出口尚未繳費</option>
+                <option Value="8">出口出場逾時</option>
+                <option Value="9">車位已滿</option>
+                <option Value="12">出口月租過期</option>
+                <option Value="13">共享車位已被佔用</option>
+                <option Value="14">出口月租時段錯誤</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">第一行分類</label>
+            <div class="layui-input-inline">
+                <select name="OneType" lay-verify="required">
+                    <option Value="1">固定內容</option>
+                    <option Value="2">剩餘車位</option>
+                    <option Value="3">日期</option>
+                    <option Value="4">時間</option>
+                    <option Value="5">星期幾</option>
+                    <option Value="6">車牌</option>
+                    <option Value="7">(提示)月租車有效</option>
+                    <option Value="8">時間\入場時間</option>
+                    <option Value="9">收費金額</option>
+                    <option Value="10">停留時長</option>
+                    <option Value="11">停車類型</option>
+                    @*<option Value="12">入场二維碼</option>
+                    <option Value="13">支付二維碼</option>
+                    <option Value="14">驗證碼</option>*@
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">顯示內容</label>
+            <div class="layui-input-inline">
+                <input type="text" name="OneContent"  placeholder="請填顯示內容" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">第二行分類</label>
+            <div class="layui-input-inline">
+                <select name="TwoType" lay-verify="required">
+                    <option Value="1">固定内容</option>
+                    <option Value="2">剩餘車位</option>
+                    <option Value="3">日期</option>
+                    <option Value="4">時間</option>
+                    <option Value="5">星期幾</option>
+                    <option Value="6">車牌</option>
+                    <option Value="7">(提示)月租車有效</option>
+                    <option Value="8">時間\入場時間</option>
+                    <option Value="9">收費金額</option>
+                    <option Value="10">停留時長</option>
+                    <option Value="11">停車類型</option>
+                    @*<option Value="12">入场二維碼</option>
+                    <option Value="13">支付二維碼</option>
+                    <option Value="14">驗證碼</option>*@
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">顯示內容</label>
+            <div class="layui-input-inline">
+                <input type="text" name="TwoContent" placeholder="請填顯示內容" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">第三行分類</label>
+            <div class="layui-input-inline">
+                <select name="ThreeType" lay-verify="required">
+                    <option Value="1">固定内容</option>
+                    <option Value="2">剩餘車位</option>
+                    <option Value="3">日期</option>
+                    <option Value="4">時間</option>
+                    <option Value="5">星期幾</option>
+                    <option Value="6">車牌</option>
+                    <option Value="7">(提示)月租車有效</option>
+                    <option Value="8">時間\入場時間</option>
+                    <option Value="9">收費金額</option>
+                    <option Value="10">停留時長</option>
+                    <option Value="11">停車類型</option>
+                    @*<option Value="12">入场二維碼</option>
+                    <option Value="13">支付二維碼</option>
+                    <option Value="14">驗證碼</option>*@
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">顯示內容</label>
+            <div class="layui-input-inline">
+                <input type="text" name="ThreeContent" placeholder="請填顯示內容" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">第四行分類</label>
+            <div class="layui-input-inline">
+                <select name="FourType" lay-verify="required">
+                    <option Value="1">固定内容</option>
+                    <option Value="2">剩餘車位</option>
+                    <option Value="3">日期</option>
+                    <option Value="4">時間</option>
+                    <option Value="5">星期幾</option>
+                    <option Value="6">車牌</option>
+                    <option Value="7">(提示)月租車有效</option>
+                    <option Value="8">時間\入場時間</option>
+                    <option Value="9">收費金額</option>
+                    <option Value="10">停留時長</option>
+                    <option Value="11">停車類型</option>
+                    @*<option Value="12">入场二維碼</option>
+                    <option Value="13">支付二維碼</option>
+                    <option Value="14">驗證碼</option>*@
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">顯示內容</label>
+            <div class="layui-input-inline">
+                <input type="text" name="FourContent" placeholder="請填顯示內容" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+
+</form>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PConfig/LedContent/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            $.formSubmit({
+                url: "/PConfig/LedContent/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>

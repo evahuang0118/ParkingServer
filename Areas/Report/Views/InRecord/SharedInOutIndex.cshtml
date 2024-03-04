@@ -1,0 +1,105 @@
+﻿@{
+    //ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<style>
+    .td_background {
+        font-weight: bold;
+    }
+
+    .td_center {
+        text-align: center;
+    }
+</style>
+<form id="form" class="layui-form" style="margin-top:10px">
+
+    <div class="layui-tab layui-tab-card" style="margin:10px 30px 10px 30px">
+        <ul class="layui-tab-title">
+            <li class="layui-this">車位佔用明細</li>
+        </ul>
+        <div class="layui-tab-content">
+
+            <div class="layui-inline" style="color:tomato">
+                <label class="layui-form-label">當前車牌：</label>
+                <div class="layui-input-inline">
+                   <span id="plateNo" class="layui-form-label"></span>
+                </div>
+            </div>
+            <div class="layui-inline"  style="color:tomato">
+                <label class="layui-form-label">入場時間：</label>
+                <div class="layui-input-inline">
+                    <span id="inTime" class="layui-form-label"></span>
+                </div>
+            </div>
+
+            <div class="layui-tab-item layui-show">
+                <table class="layui-hide" id="grid_List" lay-filter="grid_List"></table>
+            </div>
+
+            <script type="text/html" id="State">
+                {{#  if(d.State=='1'){ }}
+                未离场
+                {{# }else if(d.State=='2') { }}
+                已离场
+                {{#  }else{ }}
+                已回收
+                {{# } }}
+            </script>
+        </div>
+        </div>
+
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</form>
+
+
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'layer'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+    });
+
+    
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+        var plateNo = $.getQueryString("plateNo");
+        var inTime = $.getQueryString("inTime");
+
+        $("#plateNo").html(plateNo);
+        $("#inTime").html(inTime);
+
+        function initGrids() {
+            table.render({
+                elem: '#grid_List',
+                url: '/Report/InRecord/GetSharedInOutList',
+                where: {
+                    plateNo: plateNo,
+                    inTime: inTime
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { field: 'InPlate', width: 100, title: '車牌號碼', style: 'color:blue', fixed: 'left' },
+                    { field: 'InTime', width: 170, title: '入場時間' },
+                    { field: 'OutTime', width: 170, title: '出場時間' },
+                    { field: 'State', width: 100, title: '狀  態', templet: '#State', style: 'color:blue' },
+                    { field: 'Remark', title: '備註' },
+                ]],
+                page: false,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0 || res.data.length > 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                }
+            });
+        }
+
+        initGrids();
+    });
+
+</script>
+

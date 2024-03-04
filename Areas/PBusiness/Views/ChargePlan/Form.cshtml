@@ -1,0 +1,399 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>收費方案配置</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <link href="~/Content/layui/edit.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid animated fadeIn">
+        <div class="panel-body">
+            <form id="form" class="layui-form">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="Id" />
+                <input type="hidden" name="AreaType" value="1" />
+                <div class="layui-collapse" lay-accordion="">
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title"><i class="layui-icon">&#xe615;</i> 查看設置说明</h2>
+                        <div class="layui-colla-content">
+                            <p style="color:blue">
+                                在系統裏面同一區域同一車型同一停車類型,只能設置一種有效收費方案,也只能存在一種收費模板,否則系統無法判斷收費。
+                                <br>
+                                「計時不分段」：只需設置填寫『首時段』計費規則就可以  「計時分段」：需要設置填寫 「首時段」，「首時段後」計費規則
+                                「計 次」：只需設置填寫多少元/次就可以<br />
+                                」錯峰規則「 啟用，需要根據停車場特殊需求來設置，一般收費方案，無需啟用錯峰規則。<br />
+                                計時舍入方式「入」代表不滿一小時按小時算 「舍」不滿一小時按0元算 「四舍五入」按半小時單位算<br />
+                                計費舍入方式「入」代表不滿1元按1元算 「舍」不滿1元按0元算 「四舍五入」按0.5元算
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <table id="gridList" class="layui-form layui-table table-hover elight-table">
+                    <tbody>
+                        <tr style="background-color:aliceblue">
+                            <td>
+                                停車區域
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="Area" autocomplete="off" lay-verify="required" style="width: 120px;" id="Area"></select>
+                                </div>
+                            </td>
+                            <td>
+                                車  型
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="CarType" lay-verify="required" style="width:120px;">
+                                        <option value="1">小型車</option>
+                                        <option value="2">大型車</option>
+                                    </select>
+                                </div>
+
+                            </td>
+                            <td>
+                                停車類型
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="BusinessId" autocomplete="off" lay-verify="required" style="width: 120px;" id="BusinessId"></select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                白天(晚上)區分
+                            </td>
+                            <td colspan="5">
+                                <input type="radio" name="DayNightDifferent" value="0" title="否" checked="checked" />
+                                <input type="radio" name="DayNightDifferent" value="1" title="是"  disabled="disabled"/>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                計費方式
+                            </td>
+                            <td colspan="5">
+                                <input name="DayType" type="radio" value="0" checked="checked" lay-filter="Day" />計時,不分段
+                                <input name="DayType" type="radio" value="1" lay-filter="DayOne" />計時,分段
+                                <input name="DayType" type="radio" value="2" lay-filter="DayTwo" />計次,不計時
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               計算公式一
+                            </td>
+                            <td colspan="5">
+                                首時段 &nbsp;<input type="text" name="DayPrice" id="DayPrice" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                <input type="text" name="DayUnit" id="DayUnit" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                &nbsp; 首時段后 &nbsp;<input type="text" name="HDayPrice" readonly="readonly" id="HDayPrice" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                <input type="text" name="HDayUnit" id="HDayUnit" readonly="readonly" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                計算公式二
+                            </td>
+                            <td colspan="5">
+                                <input type="text" name="NDayPrice" id="NDayPrice" readonly="readonly" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;元/次
+                            </td>
+                        </tr>
+                        <tr style="background-color:aliceblue">
+                            <td>
+                                免費時長/最高收費
+                            </td>
+                            <td colspan="5">
+                                免費  &nbsp; <input type="text" name="DayFreeTime" id="DayFreeTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="10" />&nbsp;分鐘
+                                &nbsp;最高收費  &nbsp;<input type="text" name="DayMaxCost" id="DayMaxCost" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="10" />&nbsp;元
+                        </tr>
+                        <tr>
+                            <td>計時捨入方式</td>
+                            <td>
+                                <select name="TimeRound" lay-verify="required" style="width:120px;">
+                                    <option value="0">入</option>
+                                    <option value="1">捨</option>
+                                    <option value="2">四捨五入</option>
+                                </select>
+                            </td>
+                            <td>
+                                計費捨入方式
+                            </td>
+                            <td>
+                                <select name="ChangeRound" lay-verify="required" style="width:120px;">
+                                    <option value="0">入</option>
+                                    <option value="1">捨</option>
+                                    <option value="2">四捨五入</option>
+                                </select>
+                            </td>
+                            <td>計費分割方式</td>
+                            <td>
+                                <select name="DivisonType" lay-verify="required" style="width:120px;">
+                                    <option value="1">不分割</option>
+                                    <option value="2">每天24點以後分割</option>
+                                    <option value="3">滿24小時分割</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>計費最小單位</td>
+                            <td>
+                                <input type="text" name="Unit" id="Unit" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0.1" />&nbsp;元
+                            </td>
+                            <td>
+                                有效狀態
+                            </td>
+                            <td colspan="3">
+                                <input type="radio" name="State" value="1" title="有效" checked />
+                                <input type="radio" name="State" value="2" title="無效" />
+                            </td>
+                        </tr>
+
+                        <tr style="background-color:aliceblue">
+                            <td>錯峰規則</td>
+                            <td colspan="5">
+                                <input type="hidden" name="CheckWrongPeak" id="CheckWrongPeak" />
+                                <input type="radio" name="WrongPeaks" value="0" title="不啟用" checked="checked" />
+                                <input type="radio" name="WrongPeaks" value="-1" title="啟 用" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>錯峰時段範圍</td>
+                            <td colspan="5">
+                                <input type="hidden" name="CheckDataTime" id="CheckDataTime" />
+                                <input class="layui-input" id="BWtime" name="BWtime" style="width:130px;display:inline-block" placeholder="HH:mm:ss" autocomplete="off" value="00:00:00" />至
+                                <input class="layui-input" id="EWtime" name="EWtime" style="width:130px;display:inline-block" placeholder="HH:mm:ss" autocomplete="off" value="00:00:00" />
+                                <input ID="Checkday" name="Checkday" type="checkbox" />是否跨天（跨天請勾選）,在錯峰時段範圍內進出,系統不計算費用
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">特殊日期(不設置特殊日期，將每天按照上述不收費時段執行)</td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                所勾選日期
+                            </td>
+                            <td>
+
+                                <input type="radio" name="IsCharge" value="1" title="不收費" checked="checked" />
+                                <input type="radio" name="IsCharge" value="2" title="收 費" />
+                            </td>
+                            <td colspan="4">
+                                <input type="hidden" name="CheckCycleInfo" id="CheckCycleInfo" />
+                                <input name="CheckCycle" type="checkbox" value="7" />星期日
+                                <input name="CheckCycle" type="checkbox" value="1" />星期一
+                                <input name="CheckCycle" type="checkbox" value="2" />星期二
+                                <input name="CheckCycle" type="checkbox" value="3" />星期三
+                                <input name="CheckCycle" type="checkbox" value="4" />星期四
+                                <input name="CheckCycle" type="checkbox" value="5" />星期五
+                                <input name="CheckCycle" type="checkbox" value="6" />星期六
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+
+                <div class="layui-form-item" style="display: none">
+                    <div class="layui-input-block">
+                        <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+            @*<script src="~/Content/layui/layui.js" charset="utf-8"></script>
+            <script src="~/Content/layui/layui.all.js"></script>*@
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    layui.use(['form', 'laydate','element'], function () {
+        var form = layui.form;
+        var laydate = layui.laydate;
+         var element = layui.element;
+
+        $("#Area").bindSelect({
+            url: "/PConfig/ParkingArea/GetAreaList"
+        });
+
+        $("#BusinessId").bindSelect({
+            url: "/PBusiness/BusinessType/GetBusinessType"
+        });
+
+        laydate.render({
+            elem: "#BWtime"
+            , type: 'time'
+        });
+
+        laydate.render({
+            elem: "#EWtime"
+            , type: 'time'
+
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/ChargePlan/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+
+                    var CheckWrongPeak = $("#CheckWrongPeak").val();
+                    if (CheckWrongPeak == "1" || CheckWrongPeak == "2") {
+                        $("input[name='WrongPeaks']").each(function () {
+                            if ($(this).val() == "-1") {
+                                $(this).attr({ checked: "checked" });
+                            }
+                        });
+                        $("input[name='IsCharge']").each(function () {
+                            if ($(this).val() == CheckWrongPeak) {
+                                $(this).attr({ checked: "checked" });
+                            }
+                        });
+                        var CheckDataTime = $("#CheckDataTime").val().split('|');
+                        if (CheckDataTime[0] == "1") {
+                            $("input[name='Checkday']").each(function () {
+                                $(this).prop("checked", true);
+                            });
+                        }
+                        $("#BWtime").val(CheckDataTime[1]);
+                        $("#EWtime").val(CheckDataTime[2]);
+
+                        var ChecCheckCycle = $("#CheckCycleInfo").val();
+                        if (ChecCheckCycle != "") {
+                            var ChecCheckCycles = ChecCheckCycle.split(',');
+                            $("input[name='CheckCycle']").each(function () {
+                                for (var i = 0; i < ChecCheckCycles.length; i++) {
+                                    if ($(this).val() == ChecCheckCycles[i]) {
+                                        $(this).prop("checked", true);
+                                    }
+                                }
+                            });
+                        }
+                    }
+                    var dayType = "0";
+                    $("input[name='DayType']").each(function () {
+                        if ($(this).is(":checked")) {
+                            dayType = $(this).val();
+                        }
+                    })
+                    if (dayType == "0") {
+                        $("#DayPrice").removeAttr("readonly");
+                        $("#DayUnit").removeAttr("readonly");
+                    }
+                    else if (dayType == "1") {
+                        $("#DayPrice").removeAttr("readonly");
+                        $("#DayUnit").removeAttr("readonly");
+                        $("#HDayPrice").removeAttr("readonly");
+                        $("#HDayUnit").removeAttr("readonly");
+                    }
+                    else
+                        $("#NDayPrice").removeAttr("readonly");
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+
+            if ($('#Area').val() == "0") {
+                $.layerMsg(" 請選擇停車區域！", "warning");
+                return false;
+            }
+            if ($('#BusinessId').val() == "0") {
+                $.layerMsg("請選擇停車類型！", "warning");
+                return false;
+            }
+
+            var WrongPeaks = 0;
+            $("input[name='WrongPeaks']").each(function () {
+                if ($(this).is(":checked")) {
+                    WrongPeaks = $(this).val();
+                }
+            });
+            if (WrongPeaks == -1) {
+                $("input[name='IsCharge']").each(function () {
+                    if ($(this).is(":checked")) {
+                        WrongPeaks = $(this).val();
+                    }
+                })
+            }
+            var checkDays = "0";
+            $("input[name='Checkday']").each(function () {
+                if ($(this).is(":checked")) {
+                    checkDays = "1";
+                }
+            });
+            checkDays = checkDays + "|" + $("#BWtime").val() + "|" + $("#EWtime").val();
+
+            var checkWeek = "";
+            $("input[name='CheckCycle']").each(function () {
+                if ($(this).is(":checked")) {
+                    checkWeek = checkWeek + $(this).val() + ",";
+                }
+            });
+            data.field.WrongPeaks = WrongPeaks;
+            data.field.checkDays = checkDays;
+            data.field.checkWeek = checkWeek;
+            $.formSubmit({
+                url: "/PBusiness/ChargePlan/Form",
+                data: data.field
+            });
+            return false;
+        });
+
+        form.on('radio(Day)', function (data) {
+            $("#DayPrice").removeAttr("readonly");
+            $("#DayUnit").removeAttr("readonly");
+
+            $("#HDayPrice").attr({ readonly: 'true' });
+            $("#HDayUnit").attr({ readonly: 'true' });
+            $("#NDayPrice").attr({ readonly: 'true' });
+        });
+
+        form.on('radio(DayOne)', function (data) {
+            $("#DayPrice").removeAttr("readonly");
+            $("#DayUnit").removeAttr("readonly");
+            $("#HDayPrice").removeAttr("readonly");
+            $("#HDayUnit").removeAttr("readonly");
+
+            $("#NDayPrice").attr({ readonly: 'true' });
+        })
+
+        form.on('radio(DayTwo)', function (data) {
+            $("#NDayPrice").removeAttr("readonly");
+
+            $("#DayPrice").attr({ readonly: 'true' });
+            $("#DayUnit").attr({ readonly: 'true' });
+            $("#HDayPrice").attr({ readonly: 'true' });
+            $("#HDayUnit").attr({ readonly: 'true' });
+        })
+    });
+</script>
+

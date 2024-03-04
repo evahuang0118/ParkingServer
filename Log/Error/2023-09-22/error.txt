@@ -1,0 +1,690 @@
+ ?生??：2023-09-22 09:16:37.5290
+             日志??：ERROR
+             操作??：UT1BBRW
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2597
+             日志??：ERROR
+             操作??：71DBF17
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2597
+             日志??：ERROR
+             操作??：T1EEM51
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2614
+             日志??：ERROR
+             操作??：VAAAP
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2614
+             日志??：ERROR
+             操作??：TABB
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2614
+             日志??：ERROR
+             操作??：VAMAW
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2614
+             日志??：ERROR
+             操作??：BE1R11
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:33:47.2614
+             日志??：ERROR
+             操作??：NR1EBR
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 09:40:48.7313
+             日志??：ERROR
+             操作??：MF1BFM
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 10:01:53.7717
+             日志??：ERROR
+             操作??：KAMFRN
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-22 10:55:16.3095
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 10:55:16.3095
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 11:21:09.4131
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 11:21:09.4131
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 11:21:54.0185
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 11:21:54.0185
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 14:31:54.3576
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 14:31:54.3576
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:10:19.8084
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:10:19.8595
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:10:21.2256
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:10:21.2256
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:10:33.0853
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:10:33.0853
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:15:07.9106
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:15:07.9106
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:26:30.9258
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:26:30.9258
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 15:50:41.8104
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 15:50:41.8104
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 17:05:33.0779
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 17:05:33.0779
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 17:42:37.5248
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2430
+
+ ?生??：2023-09-22 17:42:37.5318
+             日志??：ERROR
+             操作??：系?
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：
+             操作模?：SendOutLedInfo_Led?示
+             提示信息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2437
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2417
+
+ ?生??：2023-09-22 20:57:46.6556
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 20:57:51.4468
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 20:59:06.8127
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 20:59:41.2310
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 20:59:42.3153
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:01:53.2014
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:03:04.7718
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:03:22.0949
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1026
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:09:48.6696
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1027
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:11:42.7932
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1028
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:15:20.0861
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1036
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 733
+
+ ?生??：2023-09-22 21:20:26.9194
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1042
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 741
+
+ ?生??：2023-09-22 21:24:24.8753
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1044
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 743
+
+ ?生??：2023-09-22 21:24:30.2864
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1044
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 743
+
+ ?生??：2023-09-22 21:24:31.3387
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：172.20.10.3
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?： SelfHelpCalculateCharge_客?端人工???求
+             提示信息：可為 Null 的物件必須具有值。_   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1044
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 743
+

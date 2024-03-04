@@ -1,0 +1,343 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>收費方案</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <div class="layui-tab layui-tab-brief" lay-filter="chargePlan">
+                <ul class="layui-tab-title">
+                    <li id="3" class="layui-this">方案模式三</li>
+                    <li id="2">方案模式二</li>
+                    <li id="1">方案模式一</li>
+
+
+                </ul>
+
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox" lay-skin="primary">
+                                    </th>
+                                    <th>費率名稱</th>
+                                    <th>停車區域</th>
+                                    <th>車  型</th>
+                                    <th>業務類型</th>
+                                    <th>免費時間</th>
+                                    <th>最高費用</th>
+                                    <th>開始時間</th>
+                                    <th>截止時間</th>
+                                    <th>費率等級</th>
+                                    <th>狀 態</th>
+                                </tr>
+                            </thead>
+                            <!--内容容器-->
+                            <tbody id="content"></tbody>
+                        </table>
+                        <div id="paged"></div>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.Id}}">
+
+        </td>
+        <td>
+            
+            <a onclick="SingleCharge('{{item.Id}}')" href="javascript:void(0)" style="color:blue">
+                {{item.RateName}}
+            </a>
+
+        </td>
+        <td>
+            {{item.AreaName}}
+        </td>
+        <td>
+            {{# if(item.CarType==1){ }} 小型車
+            {{# }else if(item.CarType==2){ }} 大型車
+            @* {{# }else if(item.CarType==3){ }} 軍警車 *@
+            {{# }else if(item.CarType==5){ }} 公車
+            {{# }else if(item.CarType==6){ }} 自行車
+            {{# }else if(item.CarType==7){ }} 普通機車
+            {{# }else if(item.CarType==8){ }} 大型重機
+            {{# } }}
+
+        </td>
+
+        <td>
+            {{# if(item.BusinessName=='临时车'){ }} <span>臨停車，續費過期固定車</span>
+            {{# }else{ }}
+            {{item.BusinessName}}
+            {{# } }}
+        </td>
+        <td>
+            {{item.DayFreeTime}} 分鐘
+        </td>
+        <td>
+            {{item.MaxMoney}} 元
+        </td>
+
+        <td>
+            {{item.BeginTime}}
+        </td>
+        <td>
+            {{item.EndTime}}
+        </td>
+
+        <td>
+            {{# if(item.RateGrade==1){ }}
+            一級
+            {{# }else if(item.RateGrade==2){ }}
+            二級
+            {{# }else{ }}
+            三級
+            {{# } }}
+        </td>
+
+        <td>
+            {{# if(item.State==1){ }}
+            <span class="label label-success label-sm">啟 用</span>
+            {{# }else{ }}
+            <span class="label label-dark label-sm">關  閉</span>
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="6">查無數據。</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+     var current_id =3;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer', 'element'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        var element = layui.element;
+        paging = layui.paging();
+        initGrid(current_id);
+
+        $("#toolbar").authorizeButton();
+        element.on('tab(chargePlan)', function (data) {
+            current_id = $(this).attr("id");
+            initGrid(current_id);
+        });
+    });
+
+    function initGrid(curr) {
+        paging.init({
+            url: '/PBusiness/ChargePlan/Index',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            params: {
+                type: curr
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 50,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_add() {
+        if (current_id == 1) {
+            $.layerOpen({
+                id: "add",
+                title: "新增模組一(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                width: "1300px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/Form",
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+
+        else if (current_id == 2) {
+            $.layerOpen({
+                id: "add",
+                title: "新增模組二(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                width: "1300px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/TForm",
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+        else {
+            // var sm = window.matchMedia("(max-width: 768px)")
+            var sm = window.innerWidth < 768;
+            $.layerOpen({
+                id: "add",
+                title: "新增模組三(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                // width: "1500px",
+                width: sm ? "350px" : "1500px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/FForm",
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改", "warning");
+            return;
+        }
+        if (current_id == 1) {
+            $.layerOpen({
+                id: "edit",
+                title: "修改方案(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                width: "1300px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/Form?primaryKey=" + ids[0],
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+        else if (current_id == 2) {
+            $.layerOpen({
+                id: "edit",
+                title: "修改方案(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                width: "1300px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/TForm?primaryKey=" + ids[0],
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+        else {
+            // var sm = window.matchMedia("(max-width: 768px)")
+            var sm = window.innerWidth < 768;
+            // console.log(`windows width = ${window.innerWidth}`) 
+            // console.log(`sm width = ${sm}`) 
+            
+            $.layerOpen({
+                id: "edit",
+                title: "修改方案(在系統裏面同一區域同一車型同一停車類型,只能存在一種有效收費方案)",
+                // width: "1500px",
+                width: sm ? "350px" : "1500px",
+                height: "570px",
+                content: "/PBusiness/ChargePlan/FForm?primaryKey=" + ids[0],
+                yes: function (iBody) {
+                    iBody.find('#btnSubmit').click();
+                    initGrid();
+                }
+            });
+        }
+    }
+
+    function btn_charge() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄測試。", "warning");
+            return;
+        }
+
+        $.layerOpen({
+            id: "edit",
+            title: "方案測試",
+            width: "500px",
+            height: "480px",
+            content: "/PBusiness/ChargePlan/CForm?primaryKey=" + ids[0],
+            btn: null
+        });
+    }
+
+    function SingleCharge(id) {
+        $.layerOpen({
+            id: "edit",
+            title: "方案測試",
+            width: "500px",
+            height: "480px",
+            content: "/PBusiness/ChargePlan/CForm?type=1&primaryKey=" +id,
+            btn: null
+        });
+    }
+
+    function btn_delete() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length < 1) {
+            $.layerMsg("請勾選需要刪除的選項。", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您已選中" + ids.length + "條數據, 確定刪除嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PBusiness/ChargePlan/Delete',
+                    data: { primaryKey: ids[0] },
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+    }
+
+    function btn_specialData() {
+        $.layerConfirm({
+            content: "您確定要獲取特殊日期設定嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PBusiness/ChargePlan/GetChargeSpecialData',
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+    }
+
+</script>

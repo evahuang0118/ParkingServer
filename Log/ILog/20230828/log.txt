@@ -1,0 +1,373 @@
+﻿2023-08-28 08:04:54 083:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:06:53 863:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:08:53 865:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:10:53 861:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:12:53 962:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:14:53 901:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:16:53 893:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:18:53 902:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 08:20:53 913:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 09:40:50 055:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 09:42:50 178:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 09:44:57 171:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 09:46:50 555:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 09:48:50 305:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:40:19 968:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:42:18 888:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:44:19 206:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:46:18 895:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:46:34 543:  deviceId = 24, State = 2, 已上升
+2023-08-28 13:48:18 923:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:49:16 564:  GetDeviceName => serialNumber = pos-26
+2023-08-28 13:49:16 565:  tuple[0] => , tuple[1] => 
+2023-08-28 13:49:16 565:  PushAPSTransaction => 1
+2023-08-28 13:49:16 658:  PushAPSTransaction => 2
+2023-08-28 13:49:16 660:  PushAPSTransaction => 3
+2023-08-28 13:49:16 666:  PushAPSTransaction => 4
+2023-08-28 13:49:16 696:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"26","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"0","Total10":"0","Total2":"0","Total3":"0","Total4":"0","Total5":"0","Total6":"0","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:49:16 698:  Attachment Length => 1627
+2023-08-28 13:49:16 698:  PushAPSTransaction => 5
+2023-08-28 13:49:16 723:  PushAPSTransaction => 6
+2023-08-28 13:49:16 738:  PushAPSTransaction => 7
+2023-08-28 13:49:16 754:  PushAPSTransaction => 8
+2023-08-28 13:49:46 498:  GetDeviceName => serialNumber = pos-26
+2023-08-28 13:49:46 499:  tuple[0] => , tuple[1] => 
+2023-08-28 13:49:46 500:  PushAPSTransaction => 1
+2023-08-28 13:49:46 500:  PushAPSTransaction => 2
+2023-08-28 13:49:46 501:  PushAPSTransaction => 3
+2023-08-28 13:49:46 502:  PushAPSTransaction => 4
+2023-08-28 13:49:46 502:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"26","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"13","Total4":"0","Total5":"0","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:49:46 503:  Attachment Length => 1631
+2023-08-28 13:49:46 503:  PushAPSTransaction => 5
+2023-08-28 13:49:46 515:  PushAPSTransaction => 6
+2023-08-28 13:49:46 522:  PushAPSTransaction => 7
+2023-08-28 13:49:46 528:  PushAPSTransaction => 8
+2023-08-28 13:50:03 311:  GetDeviceName => serialNumber = pos-1
+2023-08-28 13:50:03 311:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-28 13:50:03 312:  PushAPSTransaction => 1
+2023-08-28 13:50:03 312:  PushAPSTransaction => 2
+2023-08-28 13:50:03 313:  PushAPSTransaction => 3
+2023-08-28 13:50:03 314:  PushAPSTransaction => 4
+2023-08-28 13:50:03 314:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"13","Total4":"0","Total5":"0","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:50:03 315:  Attachment Length => 1630
+2023-08-28 13:50:03 316:  PushAPSTransaction => 5
+2023-08-28 13:50:03 325:  PushAPSTransaction => 6
+2023-08-28 13:50:03 330:  PushAPSTransaction => 7
+2023-08-28 13:50:03 338:  PushAPSTransaction => 8
+2023-08-28 13:50:18 934:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:52:18 952:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:53:08 076:  GetDeviceName => serialNumber = pos-1
+2023-08-28 13:53:08 077:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-28 13:53:08 079:  PushAPSTransaction => 1
+2023-08-28 13:53:08 079:  PushAPSTransaction => 2
+2023-08-28 13:53:08 080:  PushAPSTransaction => 3
+2023-08-28 13:53:08 080:  PushAPSTransaction => 4
+2023-08-28 13:53:08 081:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"13","Total4":"0","Total5":"0","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:53:08 081:  Attachment Length => 1630
+2023-08-28 13:53:08 082:  PushAPSTransaction => 5
+2023-08-28 13:53:08 091:  PushAPSTransaction => 6
+2023-08-28 13:53:08 097:  PushAPSTransaction => 7
+2023-08-28 13:53:08 102:  PushAPSTransaction => 8
+2023-08-28 13:53:16 640:  GetDeviceName => serialNumber = pos-1
+2023-08-28 13:53:16 642:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-28 13:53:16 643:  PushAPSTransaction => 1
+2023-08-28 13:53:16 644:  PushAPSTransaction => 2
+2023-08-28 13:53:16 646:  PushAPSTransaction => 3
+2023-08-28 13:53:16 647:  PushAPSTransaction => 4
+2023-08-28 13:53:16 648:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"18","Total4":"0","Total5":"0","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:53:16 649:  Attachment Length => 1630
+2023-08-28 13:53:16 651:  PushAPSTransaction => 5
+2023-08-28 13:53:16 667:  PushAPSTransaction => 6
+2023-08-28 13:53:16 674:  PushAPSTransaction => 7
+2023-08-28 13:53:16 679:  PushAPSTransaction => 8
+2023-08-28 13:53:38 051:  GetDeviceName => serialNumber = pos-1
+2023-08-28 13:53:38 052:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-28 13:53:38 053:  PushAPSTransaction => 1
+2023-08-28 13:53:38 054:  PushAPSTransaction => 2
+2023-08-28 13:53:38 056:  PushAPSTransaction => 3
+2023-08-28 13:53:38 059:  PushAPSTransaction => 4
+2023-08-28 13:53:38 067:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"18","Total4":"17","Total5":"0","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:53:38 069:  Attachment Length => 1631
+2023-08-28 13:53:38 072:  PushAPSTransaction => 5
+2023-08-28 13:53:38 082:  PushAPSTransaction => 6
+2023-08-28 13:53:38 089:  PushAPSTransaction => 7
+2023-08-28 13:53:38 093:  PushAPSTransaction => 8
+2023-08-28 13:53:44 016:  GetDeviceName => serialNumber = pos-1
+2023-08-28 13:53:44 017:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-28 13:53:44 019:  PushAPSTransaction => 1
+2023-08-28 13:53:44 021:  PushAPSTransaction => 2
+2023-08-28 13:53:44 023:  PushAPSTransaction => 3
+2023-08-28 13:53:44 027:  PushAPSTransaction => 4
+2023-08-28 13:53:44 036:  Attachment => {"Arrears":"0","BankCreditHour":"0","BankDiscountHour":"0","BankID":"","ChargeFee":"0","ChargeMinute":"387","CheckinDate":"20230819","CheckinTime":"05:47:39","ClassID":"1","CustomerCategory":"10","DiscountFee":"0","DiscountID":"0","EPayCardNum":"0","EPayOrderNum":"0","EPayRespStatus":"","EPayStatusCode":"","EPaymentRecID":"0","EPayurlToken":"","EinvUpSt":"1","EntranceID":"0","ExitID":"0","FeeID":"8","InBill1":"0","InBill2":"0","InBill3":"0","InBill4":"0","InBill5":"0","InCoin1":"0","InCoin2":"27","InCoin3":"0","InCoin4":"0","InCoin5":"0","InvoiceNum":"RM98123023","KeyValue":null,"LoveCode":"","MobileCarrier":"","ModifyDate":"","ModifyTime":"","Num1":"0","Num2":"0","Num3":"0","Num4":"0","Num5":"0","NumberPrice":"","OutBill1":"0","OutBill2":"0","OutBill3":"0","OutBill4":"0","OutBill5":"0","OutCoin1":"0","OutCoin2":"0","OutCoin3":"0","OutCoin4":"0","OutCoin5":"0","ParkMinute":"387","PlateNO":"0862","PlateNOFilePath":"","PlateNum":"5R0862","PlateNumPath":"","PortNum":"","PosID":"1","PriError":"0","QRCodeContent":"RM9812302311208195053000001010000010e0000000090692052aM4cCGpQrdt9yCJ\/Pba2tg==:**********:1:1:0:停車費:1:270","RandomCode":"5053","ReceiptCode":"","ReceiptCodeNum":"","Remarks":"0","STimebaseID":"0","SerialNum":"339","StationNumber":"","StoreID":"","Str1":"0","Str2":"0","Str3":"0","Str4":"0","Str5":"20230818 23:19:15","TagID":"","Total1":"11","Total10":"0","Total2":"12","Total3":"18","Total4":"17","Total5":"19","Total6":"15","Total7":"0","Total8":"0","Total9":"0","TotalFee":"270","TowerNum":"","TradeNum":"","Type":"3","UniformNumbers":"00000000","UnrefundFee":"0","VehicleType":"3","VerificationMode":""}
+2023-08-28 13:53:44 038:  Attachment Length => 1632
+2023-08-28 13:53:44 040:  PushAPSTransaction => 5
+2023-08-28 13:53:44 051:  PushAPSTransaction => 6
+2023-08-28 13:53:44 055:  PushAPSTransaction => 7
+2023-08-28 13:53:44 059:  PushAPSTransaction => 8
+2023-08-28 13:54:18 959:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:56:19 414:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 13:57:05 760:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4755580948021841841","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023824\/7f24b8705fc94f50b3d5986ddc9eea2520230824153002.jpg","InTime":"2023-08-24 15:30:55","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":2440,"Payment":2440,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-28 13:58:19 053:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:00:19 060:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:02:19 066:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:04:19 060:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:06:19 080:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:08:19 116:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:10:19 110:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:12:19 130:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:14:19 150:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:16:19 141:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:18:19 144:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:20:19 165:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:22:19 197:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:24:19 191:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:26:19 198:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:28:19 209:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:30:19 222:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:32:19 234:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:34:19 235:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:36:19 243:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:38:19 242:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:40:19 295:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:42:19 265:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:44:19 266:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:46:19 276:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:48:19 303:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:50:19 302:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:52:19 327:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:54:19 330:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:56:19 343:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 14:58:19 358:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:00:19 362:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:02:19 365:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:04:19 367:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:06:19 392:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:08:19 408:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:10:19 394:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:12:19 409:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:14:19 409:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:16:19 409:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:18:19 416:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:20:19 442:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:22:19 446:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:24:19 465:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:26:19 486:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:28:19 492:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:30:19 518:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:32:19 510:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:34:19 511:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:36:19 533:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:38:19 536:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:40:19 538:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:42:19 543:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:44:19 567:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:46:19 577:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:48:19 591:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:50:19 594:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:52:19 599:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:54:19 604:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:56:19 605:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 15:58:19 623:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:00:19 638:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:02:19 659:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:04:19 683:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:06:19 762:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:08:19 699:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:10:19 710:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:12:19 737:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:14:19 735:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:16:19 765:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:18:19 773:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:20:19 785:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:22:19 798:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:24:19 803:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:26:19 817:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:28:19 825:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:30:19 843:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:32:19 953:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:34:19 952:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:36:19 907:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:38:19 926:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:40:19 961:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:42:19 940:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:44:20 049:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:46:19 978:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:48:19 974:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:50:19 977:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:52:19 978:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:54:19 989:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:56:20 083:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 16:58:20 004:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:00:20 010:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:02:20 006:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:04:20 009:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:06:20 017:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:08:20 019:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:10:20 049:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:12:20 051:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:14:20 070:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:16:20 092:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:18:20 101:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:20:20 098:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:22:20 118:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:24:20 141:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:26:20 148:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:28:20 196:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:30:20 161:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:32:20 167:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:34:20 176:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:36:20 186:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:38:20 217:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:40:20 228:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:42:20 253:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:44:20 263:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:46:20 272:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:48:20 285:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:50:20 280:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:52:20 288:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:54:20 308:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:56:20 329:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 17:58:20 308:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:00:20 342:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:02:20 335:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:04:20 342:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:06:20 342:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:08:20 354:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:10:20 372:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:12:20 378:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:14:20 401:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:16:20 424:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:18:20 435:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:20:20 615:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:22:20 469:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:24:20 473:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:26:20 494:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:28:20 512:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:30:20 517:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:32:20 552:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:34:20 571:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:36:20 542:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:38:20 621:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:40:20 609:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:42:20 616:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:44:20 655:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:46:20 676:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:48:20 683:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:50:20 686:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:52:20 803:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:54:20 784:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:56:20 829:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 18:58:20 883:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:00:20 821:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:02:20 846:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:04:20 860:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:06:21 134:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:08:20 907:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:10:20 902:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:12:20 913:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:14:21 043:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:16:20 929:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:18:20 957:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:20:21 028:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:22:20 977:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 19:24:20 986:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:29:47 814:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:31:47 589:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:33:47 684:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:35:47 624:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:37:47 647:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:41:47 703:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:43:47 669:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:45:47 689:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:47:47 703:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:49:47 711:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:51:47 723:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:53:47 723:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:55:47 837:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:57:47 830:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 20:59:47 768:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:01:47 783:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:03:47 793:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:05:47 802:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:07:47 809:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:09:47 821:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:11:47 822:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:13:47 862:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:15:47 839:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:17:47 851:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:19:47 855:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:21:47 862:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:23:47 884:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:25:47 905:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:27:47 923:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:32:44 974:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:34:44 990:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:36:45 001:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:38:44 989:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:40:45 020:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:42:45 039:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:44:45 035:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:46:45 056:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:48:45 084:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:50:45 084:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:52:45 091:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:54:45 221:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:56:45 108:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 21:58:45 110:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:00:45 120:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:02:45 136:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:04:45 152:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:06:45 141:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:08:45 559:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:10:45 282:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:12:45 424:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:14:45 301:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:16:45 308:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:20:45 345:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:22:45 358:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:24:45 370:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:26:45 381:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:28:45 410:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:30:45 405:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:32:45 415:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:34:45 421:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:36:45 537:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:38:45 510:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:40:45 605:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:42:45 578:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:44:45 551:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:46:45 562:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:48:45 590:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:50:45 601:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:57:25 917:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 22:59:25 758:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:01:25 763:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:03:25 755:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:05:25 754:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:07:25 808:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:09:25 779:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:11:25 804:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:13:25 813:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:15:26 379:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:17:25 837:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:19:25 992:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:21:25 882:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:23:25 865:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:25:25 884:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:27:25 891:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:29:26 020:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:31:25 911:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:33:25 965:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:35:25 935:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:37:25 941:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:39:25 939:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:41:26 120:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:43:26 023:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:45:26 035:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:47:26 054:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:49:26 047:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:51:26 144:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:53:26 489:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:55:26 072:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:57:26 052:  GetDeviceName => serialNumber = flap-1-on
+2023-08-28 23:59:26 050:  GetDeviceName => serialNumber = flap-1-on

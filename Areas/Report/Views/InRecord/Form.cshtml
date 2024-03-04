@@ -1,0 +1,144 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+    <div class="panel-body" style="margin-top:-35px">
+        <div class="layui-tab layui-tab-brief">
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+
+                <tr>
+                    <td>
+                        識別號碼
+                    </td>
+                    <td>
+                        <input type="hidden" name="Id" />
+                        <input type="hidden" name="CorrectionID" id="CorrectionID" />
+                        <input type="hidden" name="InCarImg" id="InCarImg" />
+                        <input type="hidden" name="InPlateImg" id="InPlateImg" />
+
+                        <input type="text" name="InPlate" id="InPlate" readonly="readonly" lay-verify="required" cautocomplete="off" class="layui-input" style="width:180px;display:inline-block;border:none">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        校正號碼
+                    </td>
+                    <td>
+                        <div class="layui-input-inline" style="display:none">
+                            <select name="City" lay-verify="required" style="width:80px;" id="City">
+                                <option value="無">無</option>
+                                <option value="沪">沪</option>
+                                <option Value="浙">浙</option>
+                                <option Value="苏">苏</option>
+                                <option Value="京">京</option>
+                                <option Value="津">津</option>
+                                <option Value="渝">渝</option>
+                                <option Value="晋">晋</option>
+                                <option Value="辽">辽</option>
+                                <option Value="吉">吉</option>
+                                <option Value="湘">湘</option>
+                                <option Value="黑">黑</option>
+                                <option Value="皖">皖</option>
+                                <option Value="冀">冀</option>
+                                <option Value="闽">闽</option>
+                                <option Value="赣">赣</option>
+                                <option Value="鲁">鲁</option>
+                                <option Value="豫">豫</option>
+                                <option Value="鄂">鄂</option>
+                                <option Value="琼">琼</option>
+                                <option Value="川">川</option>
+                                <option Value="贵">贵</option>
+                                <option Value="云">云</option>
+                                <option Value="陕">陕</option>
+                                <option Value="甘">甘</option>
+                                <option Value="青">青</option>
+                                <option Value="藏">藏</option>
+                                <option Value="桂">桂</option>
+                                <option Value="蒙">蒙</option>
+                                <option Value="宁">宁</option>
+                                <option Value="新">新</option>
+                                <option Value="港">港</option>
+                                <option Value="澳">澳</option>
+                                <option Value="台">台</option>
+                            </select>
+                        </div>
+                        <input type="text" name="InPorrectionPlate" id="InPorrectionPlate" lay-verify="required" cautocomplete="off" class="layui-input" style="width:150px;display:inline-block">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        入口車牌圖片
+                    </td>
+                    <td>
+                        <img  id="plate_img">
+                        <br />
+                        <img style="height:250px;width:350px;max-width:350px" id="in_img">
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+</form>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+        var userName = $.getQueryString("userName");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/Report/InRecord/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                    $("#CorrectionID").val(userName);
+                }
+            });
+        }
+        var Inimg = $("#InCarImg").val();
+        var InPlate = $("#InPlate").val();
+        var PlateImg = $("#InPlateImg").val();
+
+        if ($("#InPorrectionPlate").val() == "") {
+            $("#City").val(InPlate.substring(0, 1));
+            $("#InPorrectionPlate").val(InPlate.substring(0));
+        }
+        else {
+            var vl = $("#InPorrectionPlate").val();
+            $("#City").val(vl.substring(0, 1));
+            $("#InPorrectionPlate").val(vl.substring(0));
+        }
+
+        if (Inimg != "")
+            $("#in_img").attr("src", Inimg);
+        if (PlateImg != "")
+            $("#plate_img").attr("src", PlateImg);
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            if ($("#InPorrectionPlate").val() == "") {
+                return false;
+            }
+            data.field.city= $("#City").val();
+            $.formSubmit({
+                url: "/Report/InRecord/Form",
+                data: data.field
+            });
+        });
+    });
+</script>
+

@@ -1,0 +1,164 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>車場車位數校正</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+
+
+            <div class="layui-row layui-col-space15">
+
+                <div class="layui-col-md6">
+
+                    <table class="layui-table" id="gridList" lay-filter="gridList" style="margin-top:-30px;"></table>
+
+                </div>
+
+
+                <script id="barDemo" type="text/html">
+                    <a class="layui-btn layui-btn-xs" lay-event="detail">選 擇</a>
+                </script>
+
+
+                <form id="form" class="layui-form" style="margin-top: 30px;">
+
+                    <div class="layui-form-item">
+
+                        <div class="layui-inline">
+                            <label class="layui-form-label">剩餘臨停</label>
+                            <div class="layui-input-inline">
+                                <input type="hidden" name="Id" id="Id" />
+                                <input type="hidden" name="TemporaryNum" id="TemporaryNum" />
+                                <input type="text" id="TRemainingNum" autocomplete="off" class="layui-input" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-form-item">
+
+                        <div class="layui-inline">
+                            <label class="layui-form-label">剩餘月租</label>
+                            <div class="layui-input-inline">
+                                <input type="hidden" name="FixedNum" id="FixedNum" />
+                                <input type="text" id="FRemainingNum" autocomplete="off" class="layui-input" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="layui-form-item">
+                        <div class="layui-input-block">
+                            <button id="btnSubmit" class="layui-btn layui-btn-radius" lay-submit lay-filter="saveBasicInfo">校正保存</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="layui-col-md6">
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/PConfig/ParkingArea/GetParkingArea',
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { fixed: '', align: 'center', toolbar: '#barDemo', width: 70 },
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'AreaName', title: '區域名稱', width:150 },
+                    { field: 'TemporaryNum', title: '設定臨停' },
+                    { field: 'FixedNum', title: '設定固定' },
+                    { field: 'TRemainingNum', title: '剩餘臨停' },
+                    { field: 'FRemainingNum', title: '剩餘固定' },
+                ]],
+                limits: [50, 80, 100, 150, 200],
+                limit: 50,
+                page: false,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            $("#TRemainingNum").val(data.TRemainingNum);
+            $("#FRemainingNum").val(data.FRemainingNum);
+
+            $("#FixedNum").val(data.FixedNum);
+            $("#TemporaryNum").val(data.TemporaryNum);
+            $("#Id").val(data.Id);
+
+        });
+
+        form.on('submit(saveBasicInfo)', function (data) {
+            if ($("#TRemainingNum").val() == "" || $("#FRemainingNum").val() == "") {
+                return false;
+            }
+            if ((Number($("#TRemainingNum").val()) > Number($("#TemporaryNum").val())) || (Number($("#FRemainingNum").val()) > Number($("#FixedNum").val()))) {
+                return false;
+            }
+            data.field.TRemainingNum = $("#TRemainingNum").val();
+            data.field.FRemainingNum = $("#FRemainingNum").val();
+            data.field.Id = $("#Id").val();
+            $.formSubmit({
+                url: "/PConfig/ParkingArea/CorrectionNum",
+                data: data.field,
+                success: function () {
+                    $("#TRemainingNum").val("");
+                    $("#FRemainingNum").val("");
+
+                    initGrid();
+                }
+            })
+            return false;
+        });
+    });
+
+</script>
+

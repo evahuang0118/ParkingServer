@@ -1,0 +1,235 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>設備資訊列表</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <link href="~/Content/ztree/css/metroStyle/metroStyle.css" rel="stylesheet" />
+    <script src="~/Content/ztree/js/jquery.ztree.all.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid fadeIn animated">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="elight-panel container-panel">
+                    <ul id="treeItem" class="ztree"></ul>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="panel container-panel">
+                    <div class="panel-body">
+                        <div id="toolbar" class="elight-table-toolbar">
+                            <div class="layui-btn-group"></div>
+                            <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                <i class="layui-icon">&#xe615;</i>
+                            </button>
+                            <div class="toolbar-search-input">
+                                <input type="text" id="keyWord" placeholder="設備名稱和IP" autocomplete="off" class="layui-input" style="height:39px" />
+                            </div>
+                        </div>
+                        <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox" lay-skin="primary">
+                                    </th>
+                                    <th>設備名稱</th>
+                                    <th>出入類型</th>
+                                    <th>設備IP</th>
+                                    <th>設備端口</th>
+                                    <th>設備序列號</th>
+                                    <th>狀 態</th>
+                                </tr>
+                            </thead>
+                            <!--内容容器-->
+                            <tbody id="content"></tbody>
+                        </table>
+                        <div id="paged"></div>
+                        <blockquote class="layui-elem-quote">注意：設備參數修改設置完成以後,必須重新加載"相機屏服務"裏面"參數加載設置"以及系統菜單「其它參數」管理裏面的「加載配置」!</blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.IId}}">
+        </td>
+        <td>{{item.Name}}</td>
+
+        <td>
+            {{# if(item.InOutType==1){ }} 入口
+            {{# }else if(item.InOutType==2){ }} 出口
+            {{# }else if(item.InOutType==3){ }} 場內
+            {{# } }}
+        </td>
+
+        <td>{{item.IP}}</td>
+        <td>{{item.Port}}</td>
+        <td>
+            {{# if(item.SerialNumber==null){ }}無
+            {{# }else{ }}{{item.SerialNumber}}
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.State==1){ }}  <span class="label label-success label-sm">啟 用</span>
+            {{# }else{ }}  <span class="label label-dark label-sm">禁 用</span>
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="7">查無數據。</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form'], function () {
+        var form = layui.form;
+        paging = layui.paging();
+
+        var setting = {
+            data: {
+                simpleData: {
+                    enable: true
+                }
+            },
+            check: {
+                enable: false,
+                chkStyle: "checkbox",
+                chkDisabledInherit: false
+            },
+            async: {
+                enable: true,
+                url: "/PConfig/Device/GetListTree",
+                dataType: "text",
+                autoParam: ["id", "name"]
+            }, callback: {
+                onAsyncSuccess: function (event, treeId, treeNode, msg) {
+                    var node = zTreeObj.getNodesByFilter(function (node) {
+                        return node.level == 1
+                    }, true);
+                    zTreeObj.selectNode(node);
+                    zTreeObj.setting.callback.onClick(event, zTreeObj.setting.treeId, node);
+                },
+                onClick: function (event, treeId, treeNode) {
+                    initGrid();
+                }
+            }
+        };
+
+        var zTreeObj = $.fn.zTree.init($("#treeItem"), setting);
+
+        $("#toolbar").authorizeButton();
+        $('#btnSearch').click(initGrid);
+        $('#keyWord').bindEnterEvent(initGrid);
+    });
+
+    function initGrid() {
+
+        var treeObj = $.fn.zTree.getZTreeObj("treeItem");
+        var selectedNode = treeObj.getSelectedNodes()[0];
+        if (selectedNode.level == 0) {
+            return;
+        }
+
+        paging.init({
+            url: '/PConfig/Device/Index',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            params: {
+                keyWord: $("#keyWord").val(),
+                itemId: selectedNode.id
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 10,
+            },
+            success: function () {
+
+            },
+            fail: function (msg) {
+                top.layer.msg(msg);
+            }
+        });
+    }
+
+    function btn_add() {
+        var node = $.fn.zTree.getZTreeObj("treeItem").getSelectedNodes()[0];
+        $.layerOpen({
+            id: "add",
+            title: "新增設備",
+            width: "760px",
+            height: "570px",
+            content: "/PConfig/Device/Form?itemId=" + node.id,
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        var node = $.fn.zTree.getZTreeObj("treeItem").getSelectedNodes()[0];
+        $.layerOpen({
+            id: "edit",
+            title: "修改設備",
+            width: "760px",
+            height: "570px",
+            content: "/PConfig/Device/Form?primaryKey=" + ids[0] + "&itemId=" + node.id,
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_delete() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length < 1) {
+            $.layerMsg("請勾選需要刪除的選項。", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您已選中" + ids.length + "條紀錄, 確定刪除嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PConfig/Device/Delete',
+                    data: { primaryKey: ids[0] },
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+    }
+
+  </script>
+

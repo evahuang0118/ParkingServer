@@ -1,0 +1,253 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>折扣记录明细报表(定制)</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        .layui-table-cell {
+            height: auto !important;
+            white-space: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">支付時段</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Btime" name="BIntime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Etime" name="EIntime" placeholder="" autocomplete="off" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+            
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">操作員</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="userName" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+            </script>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#Etime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+
+        });
+
+        $("#toolbar").authorizeButton();
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/Report/Custom/Preferential',
+                where: {
+                    Btime: $("#Btime").val(),
+                    Etime: $("#Etime").val(),
+                    plateNo: $("#PlateNo").val(),
+                    userName: $("#userName").val(),
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                height: 'full-200',
+                totalRow: true,
+                cols: [[
+                    { fixed: '', width: 60, align: 'left', toolbar: '#barDemo', totalRowText: '合计'},
+                    { field: 'CreateName', width: 80, title: '操作員', style: 'color:blue'},
+                    { field: 'PlateNo', width: 110, title: '車牌號碼' },
+                    { field: 'PayTime', width: 170, title: '付費時間' },
+                    { field: 'InTime', width: 170, title: '入場時間',},
+                    { field: 'OutTime', width: 170, title: '出場時間', },
+                    { field: 'StayTime', width:120, title: '停車時間',},
+                    { field: 'Actual', width: 90,  title: '應收金額', totalRow: true, style: 'color:blue;text-align:right',  templet: function (d) { return Number(d.Actual).toFixed(2); } },
+                    { field: 'PayAmount', width: 90, title: '實收金額', totalRow: true, style: 'color:blue;text-align:right', templet: function (d) { return Number(d.PayAmount).toFixed(2); } },
+                    {
+                        field: 'FreeCost', width: 90, title: '折扣金額', totalRow: true, style: 'color:blue;text-align:right', templet: function (d) {
+                            return Number(d.FreeCost).toFixed(2);
+                        }
+                    },
+                    { field: 'FreeName', width: 300, title: '折扣類型', },
+                    { field: 'Id', title: 'Id', hide: true },
+                ]],
+                limits: [30, 50, 80, 100, 150, 200],
+                limit: 30,
+                page: true,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                    this.elem.next().find('.layui-table-total td[data-field="StayTime"] .layui-table-cell').text(res.msg)
+                }
+            });
+        }
+
+        initGrid();
+
+        $('#btnSearch').on("click", function () {
+            if ($("#Btime").val() != "" && $("#Etime").val() != "") {
+                var btime = $("#Btime").val();
+                var etime = $("#Etime").val();
+                var sdate = new Date(btime);
+                var now = new Date(etime);
+                var days = now.getTime() - sdate.getTime();
+                var day = parseInt(days / (1000 * 60 * 60 * 24));
+                if (day > 31) {
+                    alert("查询时间段范围不能超过一个月！！！");
+                    return false;
+                }
+                initGrid();
+            }
+        });
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.layerOpen({
+                    id: "Detail",
+                    title: "车辆记录详情",
+                    width: "1180px",
+                    height: "520px",
+                    content: "/Report/OutRecord/Detail?primaryKey=" + data.Id,
+                    btn: null
+                })
+            }
+        });
+
+    });
+
+    //function btn_Excel() {
+    //    layui.use(['layer'], function () {
+    //        var $ = layui.jquery
+    //        var layer = layui.layer
+    //        var excel = layui.excel
+
+    //        $.ajax({
+    //            url: '/Report/ChargeRecord/Export'
+    //            , dataType: 'json'
+    //            , success: function (res) {
+    //                var data = res.data
+    //                data = excel.filterExportData(data, {
+    //                    PlateNo: 'PlateNo'
+    //                    , InTime: 'InTime'
+    //                    , OutTime: 'OutTime'
+    //                    , PayAmount: 'PayAmount'
+    //                    , TimeNum: 'TimeNum'
+    //                    , PayName: 'PayName'
+    //                    , PayTime: 'PayTime'
+    //                    , MembersId: 'MembersId'
+    //                    , CreateName: 'CreateName'
+    //                    , CreateTime: 'CreateTime'
+    //                    , OrderNum: 'OrderNum'
+    //                    , FreeName: 'FreeName'
+    //                    ,OrgId:'OrgId'
+    //                })
+    //                data.unshift({
+    //                    PlateNo: "車牌號碼",
+    //                    InTime: "入場時間",
+    //                    OutTime: "出場時間",
+    //                    PayAmount: "支付金額",
+    //                    TimeNum: '電子优惠(分鐘)',
+    //                    PayName: '支付方式',
+    //                    PayTime: "支付时间",
+    //                    MembersId: "停車類型",
+    //                    CreateName: "操作人",
+    //                    CreateTime: "操作时间",
+    //                    OrderNum: "订单号",
+    //                    FreeName: "优免类型",
+    //                    OrgId:"兑换商户"
+    //                });
+    //                top.LAY_EXCEL.exportExcel({
+    //                    sheet1: data
+    //                }, '支付流水记录_' + getDateTime() + '.xlsx', 'xlsx')
+    //            }
+    //            , error: function () {
+    //                layer.alert('获取数据失败!!!')
+    //            }
+    //        })
+    //    })
+    //}
+
+    function btn_PDF() {
+        window.location.href = "/Report/Custom/PreferentialPDF?Btime=" + $("#Btime").val() + "&Etime=" + $("#Etime").val();
+    }
+
+</script>
+
+
+

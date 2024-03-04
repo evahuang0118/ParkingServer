@@ -1,0 +1,214 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>出入通道列表</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車道名稱</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="keyWord" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" lay-skin="primary">
+                        </th>
+                        <th>車道編號</th>
+                        <th>車道名字</th>
+                        <th>車道類型</th>
+                        <th>開閘方式</th>
+                        <th>放行規則</th>
+                        <th>收費方式</th>
+                        <th>狀 態</th>
+                    </tr>
+                </thead>
+                <!--内容容器-->
+                <tbody id="content"></tbody>
+            </table>
+            <div id="paged"></div>
+
+            <blockquote class="layui-elem-quote">注意：設置內容重新設置完成以後,必須重新加載"相機屏服務"裏面"參數加載設置"以及系統菜單「其它參數」管理裏面的「加載配置”!</blockquote>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.Id}}">
+        </td>
+        <td>{{item.Id}}</td>
+        <td>{{item.ChannelName}}</td>
+        <td>
+            {{# if(item.InOutType==1){ }} 入口
+            {{# }else if(item.InOutType==2){ }} 出口
+            {{# }else if(item.InOutType==3){ }} 場内
+            {{# } }}
+        </td>
+
+        <td>
+            {{# if(item.OpenType==1){ }} 識別開閘
+            {{# }else if(item.OpenType==2){ }}票箱藍牙開閘
+            {{# }else if(item.OpenType==3){ }}混合開閘(1,2模式)
+            {{# }else if(item.OpenType==4){ }}手動開閘
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.OpenRules==1){ }}固定放行(臨停限行)
+            {{# }else if(item.OpenRules==2){ }}授權放行
+            {{# }else if(item.OpenRules==3){ }}臨停放行(固定車限行)
+            {{# }else if(item.OpenRules==4){ }}臨停會員放行(車位數有限制[臨停])
+            {{# }else if(item.OpenRules==5){ }}臨停會員放行(車位數無限制)
+            {{# }else if(item.OpenRules==6){ }}只允許新能源車入場
+            {{# }else if(item.OpenRules==7){ }}臨停會員放行(車位數有限制[月租/臨停分開限制])
+            {{# }else if(item.OpenRules==8){ }}臨停會員放行(車位數有限制[月租/臨停混合限制])
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.WayCharge==1){ }} 崗亭值守
+            {{# }else if(item.WayCharge==2){ }}無人值守有監控
+            {{# }else if(item.WayCharge==3){ }}無人值守無監控
+            {{# }else { }}
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.State==1){ }}  <span class="label label-success label-sm">啟用</span>
+            {{# }else{ }}  <span class="label label-dark label-sm">禁用</span>
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="6">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+        initGrid();
+        $("#toolbar").authorizeButton();
+        $('#btnSearch').click(initGrid);
+        $('#keyWord').bindEnterEvent(initGrid);
+    });
+
+    function initGrid() {
+        paging.init({
+            url: '/PConfig/Channel/Index',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            params: {
+                keyWord: $("#keyWord").val()
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 15,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_add() {
+        $.layerOpen({
+            id: "add",
+            title: "新增車道",
+            width: "670px",
+            height: "550px",
+            content: "/PConfig/Channel/Form",
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        $.layerOpen({
+            id: "edit",
+            title: "修改車道",
+            width: "670px",
+            height: "550px",
+            content: "/PConfig/Channel/Form?primaryKey=" + ids[0],
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_delete() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length < 1) {
+            $.layerMsg("請勾選需要删除的選項。", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您已選中" + ids.length + "條數據,確定删除嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PConfig/Channel/Delete',
+                    data: { primaryKey: ids[0] },
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+    }
+
+</script>

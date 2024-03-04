@@ -1,0 +1,223 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+
+            @* <div class="layui-inline"> *@
+                <label class="layui-form-label label-required" style="width:120px">折扣規則名稱</label>
+                @* <label class="layui-form-label label-required" style="width:120px">折扣名稱</label> *@
+                <div class="layui-input-inline">
+                    <input type="hidden" name="CouponConfigID" />
+                    <input type="text" name="CouponConfigName" id="CouponConfigName" lay-verify="required" placeholder="請輸入折扣規則名稱" cautocomplete="off" class="layui-input">
+                </div>
+            @* </div> *@
+
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:120px">折扣券類型</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="PayType" autocomplete="off" lay-verify="required" style="width: 190px;" id="PayType"></select>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">折扣種類</label>
+                <div class="layui-input-inline">
+                    <select name="DiscountType" lay-verify="required">
+                        @* <option value="0">無限制</option> *@
+                        <option value="1">時數</option>
+                        <option value="2">金額</option>
+                        <option value="3">業務</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">店家名稱</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="StoreName" id="StoreName" value="" placeholder="僅針對眾陽折扣券" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">折扣上限次數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="SelfSubmitTimesLimit" id="SelfSubmitTimesLimit" value="" placeholder="" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">關聯折扣上限總次數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="RelatedTotalSubmitTimesLimit" id="RelatedTotalSubmitTimesLimit" value="" placeholder="" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">關聯上限折扣類別 ( 以 / 區隔)</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="RelatedCouponConfigIDs" id="RelatedCouponConfigIDs" value="" placeholder="" cautocomplete="off" class="layui-input">
+                </div>
+            </div>
+            @* <div class="layui-inline"> *@
+            @*     <div class="layui-input-inline"　style="width:350px; line-height:1.5"> *@
+            @*         以　/　區隔 (填寫其他折扣種類 ID，用以跟其他指定種類之折扣共用上限數值) *@
+            @*     </div> *@
+            @* </div> *@
+        </div>
+        
+
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label label-required" style="width:120px">折扣金額 / 時數</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="AmountTime" id="AmountTime" value="0" lay-verify="required" placeholder="金額 / 時數" cautocomplete="off" class="layui-input"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @* *@
+        @* </div> *@
+
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label label-required" style="width:120px">上限種類</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <select name="DiscountLimitType" lay-verify="required"> *@
+        @*                 <option value="0">無限制</option> *@
+        @*                 <option value="1">折抵次數</option> *@
+        @*                 <option value="2">折抵時間</option> *@
+        @*                 <option value="3">折抵金額</option> *@
+        @*             </select> *@
+        @*         </div> *@
+        @*     </div> *@
+
+            @* <div class="layui-inline"> *@
+            @*     <label class="layui-form-label" style="width:120px">上限單位</label> *@
+            @*     <div class="layui-input-inline"> *@
+            @*         <input type="text" name="DiscountMaxValue" id="DiscountMaxValue" value="0" lay-verify="required" placeholder="次數 / 金額 / 時數" cautocomplete="off" class="layui-input"> *@
+            @*     </div> *@
+            @* </div> *@
+
+        </div>
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">可用使用者</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="AvailableUser" id="AvailableUser" value="" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* *@
+        @*     <div class="layui-inline"> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             以　/　區隔 *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </div> *@
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-inline"> *@
+        @*         <label class="layui-form-label" style="width:120px">關聯折扣種類上限</label> *@
+        @*         <div class="layui-input-inline"> *@
+        @*             <input type="text" name="RelatedTotalSubmitTimesLimitD" id="RelatedTotalSubmitTimesLimitD" value="" placeholder="" cautocomplete="off" class="layui-input"> *@
+        @* *@
+        @*         </div> *@
+        @*     </div> *@
+
+            @* <div class="layui-inline"> *@
+            @*     <div class="layui-input-inline"　style="width:350px; line-height:1.5"> *@
+            @*         以　/　區隔 (填寫其他折扣種類 ID，用以跟其他指定種類之折扣共用上限數值) *@
+            @*     </div> *@
+            @* </div> *@
+
+        @* </div> *@
+
+
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">狀 態</label>
+                <div class="layui-input-inline">
+                    <input type="radio" name="Activated" value="1" title="是" checked/>
+                    <input type="radio" name="Activated" value="0" title="否"/>
+                </div>
+            </div>
+        
+        </div>
+        
+
+
+        @* <div class="layui-form-item"> *@
+        @*     <div class="layui-form-item"> *@
+        @*         <label class="layui-form-label" style="width:120px">備 註</label> *@
+        @*         <div class="layui-input-inline" style="width:200px;"> *@
+        @*             <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea> *@
+        @*         </div> *@
+        @*     </div> *@
+        @* </div> *@
+
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-block">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+
+    var temp = null
+    var temp2 = null
+    layui.use(['form'], function () {
+        
+        $("#PayType").bindSelect({
+            url: "/PBusiness/CouponConfig/GetCouponTypeList"
+        });
+
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/CouponConfig/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+
+                    console.log("get form data => ", data)
+
+
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            console.log("data => ", data.field)
+            $.formSubmit({
+                url: "/PBusiness/CouponConfig/SubmitForm",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>

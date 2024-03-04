@@ -1,0 +1,119 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+    <form id="form" class="layui-form" style="margin-top: 25px">
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">車牌號碼</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="RenewalPlate" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">數據來源</label>
+                <div class="layui-input-inline">
+                    <select name="SourceType" id="SourceType" disabled>
+                        <option value="1">本地操作</option>
+                        <option value="2">雲端平台推送</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">起始時間</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Btime" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">結束時間</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Etime" autocomplete="off" lay-verify="required" class="layui-input" disabled />
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">續費金額</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="PaidNo" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">續期狀態</label>
+                <div class="layui-input-inline">
+                    <select name="OperationState" disabled>
+                        <option value="1">有 效</option>
+                        <option value="2">無 效</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">創建人</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="CreateId" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">創建時間</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="CreateTime" autocomplete="off" lay-verify="required" class="layui-input" disabled />
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">續期備註</label>
+            <div class="layui-input-block" style="width: 514px;">
+                <textarea name="Describe" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">修改人</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="UpdateId" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label">修改時間</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="UpdateTime" autocomplete="off" lay-verify="required" class="layui-input" disabled />
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">修改備註</label>
+            <div class="layui-input-block" style="width: 514px;">
+                <textarea name="UpdateRemark" class="layui-textarea"></textarea>
+            </div>
+        </div>
+
+
+    </form>
+
+<script>
+    layui.use('form', function () {
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+        $.ajax({
+            url: "/PBusiness/Careffectivelog/GetRecord",
+            data: { primaryKey: primaryKey },
+            type: "post",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                $("#form").formSerialize(data);
+            }
+        });
+
+        form.render();
+    });</script>

@@ -1,0 +1,169 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+    <form id="form" class="layui-form" style="margin-top: 25px">
+        @Html.AntiForgeryToken()
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">區域名稱</label>
+                <div class="layui-input-inline">
+                    <input type="hidden" name="Id" />
+                    <input type="text" name="AreaName" lay-verify="required" placeholder="請輸入區域名稱" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">狀 態</label>
+                <div class="layui-input-inline">
+                    <select name="State" lay-verify="required">
+                        <option value="1">啟用</option>
+                        <option value="2">禁用</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">臨停設置數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="TemporaryNum" lay-verify="required|number" placeholder="臨停車位數" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">月租設置數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="FixedNum" lay-verify="required|number" placeholder="月租車位數" value="0" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">臨停剩餘數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="TRemainingNum" lay-verify="required|number" placeholder="臨停剩餘"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">月租剩餘數</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="FRemainingNum" lay-verify="required|number" placeholder="月租剩餘" value="0" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">計算規則</label>
+                <div class="layui-input-inline">
+                       <select name="CalculationRules" lay-verify="required">
+                        <option value="1">臨停月租混合加減</option>
+                        <option value="2">按照臨停月租數加减</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">顯示規則</label>
+                <div class="layui-input-inline">
+                    <select name="PresentRules" lay-verify="required">
+                        <option value="1">顯示臨停+月租数</option>
+                        <option value="2">只顯示臨停數</option>
+                        <option value="3">臨停+月租分开顯示</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label">上層區域</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="ParentAreaID" lay-verify="required" id="ParentAreaID" style="width: 190px;"></select>
+                </div>
+            </div>
+
+            <div class="layui-inline">
+                <label class="layui-form-label">區域代號</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="AreaCode" placeholder="請輸入區域代號" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+
+            <div class="layui-inline">
+                <label class="layui-form-label">車輛種類</label>
+                <div class="layui-input-inline">
+                    <select lay-ignore class="select2" name="VehicleType" lay-verify="required" id="VehicleType" style="width: 190px;"></select>
+                </div>
+            </div>
+
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">備註</label>
+            <div class="layui-input-inline" style="width: 514px;">
+                <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-inline">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+            </div>
+        </div>
+    </form>
+<script>
+
+    @* layui.use(['form', 'element', 'layer'], function () { *@
+    @* var form = layui.form; *@
+    @* var element = layui.element; *@
+    layui.use('form', function () {
+        var form = layui.form;
+
+        $("#ParentAreaID").bindSelect({
+            url: "/PConfig/ParkingArea/GetAreaList"
+        });
+        $("#VehicleType").bindSelect({
+            url: "/PConfig/ParkingArea/GetVehicleType"
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+        if (primaryKey) {
+            $.ajax({
+                url: "/PConfig/ParkingArea/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    console.log(`primaryKey ${data.ParentAreaID}`)
+                    console.log(`primaryKey ${data.FixedNum}`)
+                    console.log(`primaryKey ${data.VehicleType}`)
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            $.formSubmit({
+                url: "/PConfig/ParkingArea/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });</script>

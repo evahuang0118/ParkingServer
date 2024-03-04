@@ -1,0 +1,157 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Led顯示內容設置</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <blockquote class="layui-elem-quote">註意：設置內容重新設置完成以後,必須重新加載"相機屏服務"裏面"參數加載設置",這樣設置新的內容才可以生效！</blockquote>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+                <div style="display:none">
+                    <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                        <i class="layui-icon">&#xe615;</i>
+                    </button>
+                    <div class="toolbar-search-input">
+                        <input type="text" id="keyWord" placeholder="" autocomplete="off" class="layui-input" style="height:39px" />
+                    </div>
+                </div>
+            </div>
+
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" lay-skin="primary">
+                        </th>
+                        <th>顯示類型</th>
+                        <th>第一行類型</th>
+                        <th>第一行内容</th>
+                        <th>第二行類型</th>
+                        <th>第二行內容</th>
+                        <th>第三行類型</th>
+                        <th>第三行内容</th>
+                        <th>第四行類型</th>
+                        <th>第四行内容</th>
+                    </tr>
+                </thead>
+                <!--内容容器-->
+                <tbody id="content"></tbody>
+            </table>
+            <div id="paged"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.Lid}}">
+        </td>
+
+        <td style="color:cornflowerblue">
+            {{item.Type}}
+        </td>
+
+        <td>
+            {{item.OneType}}
+        </td>
+        <td style="color:dodgerblue">
+            {{item.OneContent}}
+        </td>
+        <td>
+            {{item.TwoType}}
+        </td>
+        <td  style="color:dodgerblue">
+            {{item.TwoContent}}
+        </td>
+        <td>
+            {{item.ThreeType}}
+        </td>
+        <td  style="color:dodgerblue">
+            {{item.ThreeContent}}
+        </td>
+        <td>
+            {{item.FourType}}
+        </td>
+        <td  style="color:dodgerblue">
+            {{item.FourContent}}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="9">查無數據。</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+        initGrid();
+        $("#toolbar").authorizeButton();
+        $('#btnSearch').click(initGrid);
+        $('#keyWord').bindEnterEvent(initGrid);
+    });
+
+    function initGrid() {
+        paging.init({
+            url: '/PConfig/LedContent/Index',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            params: {
+                keyWord: $("#keyWord").val()
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 15,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        $.layerOpen({
+            id: "edit",
+            title: "修改内容",
+            width: "670px",
+            height: "400px",
+            content: "/PConfig/LedContent/Form?primaryKey=" + ids[0],
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+</script>

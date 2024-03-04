@@ -1,0 +1,311 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        .layui-table-cell {
+            height: auto !important;
+            white-space: normal;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" class="layui-form" style="margin-top:10px">
+        <div class="layui-tab layui-tab-card" style="margin:10px 30px 10px 30px">
+            <ul class="layui-tab-title">
+                <li class="layui-this">進出資料</li>
+                <li>收費資料</li>
+                <li>車輛圖片</li>
+
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+
+                    <table class="layui-table">
+                        <colgroup>
+                            <col width="100">
+                            <col width="170">
+                            <col width="100">
+                            <col width="170">
+                            <col width="100">
+                            <col width="170">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <td class="td_background">入場車牌</td>
+                                <td>
+                                    <input type="text" name="InPlate" style="width:160px; border:none" class="layui-input">
+                                    <input type="text" name="InPorrectionPlate" style="width:160px;border:none" class="layui-input">
+                                </td>
+                                <td class="td_background">入場時間</td>
+                                <td><input type="text" name="InTime" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">入口車道</td>
+                                <td><input type="text" name="InChannelName" style="width:160px; border:none" class="layui-input"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="td_background" id="spanPlateInfo">出場車牌</td>
+                                <td>
+                                    <input type="text" name="OutPlate" style="width:160px; border:none" class="layui-input">
+                                    <input type="text" name="OutPorrectionPlate" style="width:160px; border:none" class="layui-input">
+                                </td>
+                                <td class="td_background" id="spanOutTime">出場時間</td>
+                                <td><input type="text" name="OutTime" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">出口車道</td>
+                                <td><input type="text" name="OutChannelName" style="width:160px; border:none" class="layui-input"></td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="td_background">停車類型</td>
+                                <td><input type="text" name="BusinessName" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">停留時長</td>
+                                <td><input type="text" name="Remark" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">入口開閘</td>
+                                <td><input type="text" name="InOpenName" style="width:160px; border:none" class="layui-input"></td>
+                            </tr>
+
+                            <tr>
+                                <td class="td_background">操作人</td>
+                                <td><input type="text" name="OperateId" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">操作時間</td>
+                                <td><input type="text" name="OperateTime" style="width:160px; border:none" class="layui-input"></td>
+                                <td class="td_background">出口開閘</td>
+                                <td><input type="text" name="OutOpenName" style="width:160px; border:none" class="layui-input"></td>
+                            </tr>
+
+                            <tr>
+
+
+                                <td class="td_background">
+                                    <input type="hidden" name="InCarImg" id="InCarImg" />
+                                    <input type="hidden" name="OutCarImg" id="OutCarImg" />
+
+                                    備  註
+                                </td>
+                                <td colspan="3"><input type="text" name="ORemark" style="width:450px; border:none" class="layui-input"></td>
+                                <td class="td_background" title="移动支付时间">支付時間</td>
+                                <td><input type="text" name="PayTimes" style="width:160px; border:none" class="layui-input"></td>
+                            </tr>
+                            <tr>
+                                <td class="td_background" title="共享车位车辆,停车记录交替循环系統計费截止时间点">
+                                    共享計費時間
+                                </td>
+                                <td colspan="5"><input type="text" name="ChargingTime" style="width:160px; border:none" class="layui-input">
+                                 <input type="text" id="InLogoNo" name="InLogoNo" style="width:160px; border:none;display:none" class="layui-input">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="layui-tab-item">
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top:5px;">
+                        <legend><span style="font-size:14px;color:crimson">支付合計（单位：元）</span></legend>
+                    </fieldset>
+                    <table class="layui-table">
+                        <colgroup>
+                            <col width="140">
+                            <col width="130">
+                            <col width="140">
+                            <col width="130">
+                            <col width="140">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th style="text-align:center;font-weight:bold;">應收合計</th>
+                                <th style="text-align:center;font-weight:bold;">實收現金</th>
+                                <th style="text-align:center;font-weight:bold;">移動支付</th>
+                                <th style="text-align:center;font-weight:bold;">折扣金額</th>
+                                <th style="text-align:center;font-weight:bold;">電子優惠</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="text" name="Actual" style="width:130px; border:none;text-align:center" class="layui-input"></td>
+                                <td><input type="text" name="CashCost" style="width:130px;border:none;text-align:center" class="layui-input"></td>
+                                <td><input type="text" name="MobileCost" style="width:130px;border:none;text-align:center" class="layui-input"></td>
+                                <td><input type="text" name="FreeCost" style="width:130px;border:none;text-align:center" class="layui-input"></td>
+                                <td><input type="text" name="ElectronicCost" style="width:130px;border:none;text-align:center" class="layui-input"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top:5px;">
+                        <legend><span style="font-size:14px;color:crimson">支付明細（單位：元）</span></legend>
+                    </fieldset>
+
+
+                    <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+                </div>
+                <div class="layui-tab-item">
+                    <table class="layui-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align:center;font-weight:bold;color:blue">入口圖片</th>
+                                <th style="text-align:center;font-weight:bold;color:blue">出口圖片</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img style="height:300px;width:400px;max-width:400px" id="in_img"></td>
+                                <td><img style="height:300px;width:400px;max-width:400px" id="out_img"></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+        <script src="~/Content/layui/layui.all.js"></script>
+    </form>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td title="{{item.OrderNum}}" class="td_center" style="width:150px">
+            {{item.PlateNo}}
+        </td>
+        <td class="td_center">
+            {{item.PayTime}}
+        </td>
+        <td class="td_center">
+            {{ Number(item.PayAmount).toFixed(2)}}
+        </td>
+        <td class="td_center">
+
+           {{# if(item.TimeNum!="0"){ }}{{item.TimeNum}}/分鐘
+           {{# } }}
+
+     
+
+        </td>
+        <td class="td_center">
+            {{item.PayName}}
+        </td>
+        <td class="td_center">
+            {{# if(item.FreeName!=null && item.PayName=="优免支付"){ }} {{item.FreeName}}
+            {{# } }}
+        </td>
+        <td class="td_center">
+            {{item.CreateName}}
+        </td>
+        <td class="td_center">
+            {{item.CreateTime}}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="8">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script>
+    //var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'paging', 'form', 'layer', 'laydate', 'element'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var element = layui.element;
+    });
+    layui.use(['form', 'element','table'], function () {
+        var form = layui.form, element = layui.element, table = layui.table;
+        var primaryKey = $.getQueryString("primaryKey");
+        $.ajax({
+            url: "/Report/OutRecord/GetFrom?",
+            data: { primaryKey: primaryKey },
+            type: "post",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                $("#form").formSerialize(data);
+            }
+        });
+
+        var Inimg = $("#InCarImg").val();
+        var Outimg = $("#OutCarImg").val();
+        if (Inimg != "")
+            $("#in_img").attr("src", Inimg);
+        if (Outimg != "")
+            $("#out_img").attr("src", Outimg);
+
+
+        if ($("#InLogoNo").val().trim() != "離場") {
+            $("#spanOutTime").html("識別時間");
+            $("#spanPlateInfo").html("出口識別車牌");
+        }
+
+        form.render();
+    });
+
+    
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+        function initGrids(primaryKey) {
+            table.render({
+                elem: '#gridList',
+                url: '/Report/OutRecord/GetChargeList',
+                where: {
+                    primaryKey: primaryKey,
+                    type: "2",
+                },
+                method: 'post',
+
+                cols: [[
+                    { field: 'PlateNo', width: 95, title: '車牌號碼' },
+                    { field: 'PayTime', width: 170, title: '支付時間' },
+                    { field: 'PayAmount', width: 90, title: '支付金額' },
+                    {
+                        field: 'TimeNum', width: 90, title: '電子優惠',
+                        templet: function (d) {
+                            if (d.TimeNum != "0") {
+                                return d.TimeNum + "/分鐘";
+                            }
+                            else
+                                return "/";
+                        }
+                    },
+                    { field: 'PayName', width: 90, title: '支付方式' },
+                    { field: 'FreeName', title: '折扣類型' },
+                    { field: 'CreateName', width: 85, title: '操 作 人' },
+                    { field: 'CreateTime', width: 170, title: '操作時間' }
+                ]],
+                page: false,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+        var primaryKey = $.getQueryString("primaryKey");
+        initGrids(primaryKey);
+    });
+
+</script>

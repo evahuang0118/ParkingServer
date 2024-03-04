@@ -1,0 +1,1808 @@
+﻿2023-10-19 09:39:16 623:  GetOptimalFree ....
+2023-10-19 09:39:16 652:  取得當前使用者 => admin
+2023-10-19 10:35:02 521:  折扣規則修改 => {"Fid":"1","Type":3,"Name":"工程車垃圾車全折","AmountTime":0.0,"State":1,"OperateType":null,"Remark":"工程車垃圾車全折","StartVal":0,"EndVal":0,"AvailableUser":"pxmart","DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":"1","AvailableDay":null}
+2023-10-19 13:35:58 632:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 13:35:58 632:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 13:43:10 373:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 13:43:10 373:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 13:44:40 276:  折扣規則修改 => {"Fid":"1","Type":3,"Name":"工程車垃圾車全折","AmountTime":0.0,"State":1,"OperateType":null,"Remark":"工程車垃圾車全折","StartVal":0,"EndVal":0,"AvailableUser":"pxmart","DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 3 / 5 / 7"}
+2023-10-19 13:44:42 995:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 13:44:42 995:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為停用日 
+2023-10-19 13:44:55 134:  GetOptimalFree ....
+2023-10-19 13:44:55 146:  取得當前使用者 => admin
+2023-10-19 14:05:46 391:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:06:28 141:  折扣規則修改 => {"Fid":"1","Type":3,"Name":"工程車垃圾車全折","AmountTime":0.0,"State":2,"OperateType":null,"Remark":"工程車垃圾車全折","StartVal":0,"EndVal":0,"AvailableUser":"pxmart","DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 3 / 4 / 5 / 7"}
+2023-10-19 14:06:45 256:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"3 / 5"}
+2023-10-19 14:06:46 040:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:06:46 041:  折扣種類 住房車 今日為 Thursday ，為停用日 
+2023-10-19 14:06:46 041:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:06:46 528:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:06:46 551:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:06:46 558:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:06:46 563:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:06:46 570:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:06:46 579:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:06:46 592:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:06:46 605:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:06:46 619:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:06:46 631:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:06:46 642:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:06:46 653:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:06:46 663:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:06:46 674:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:06:46 686:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:07:18 513:  折扣規則修改 => {"Fid":"9","Type":2,"Name":"燦坤兩小時","AmountTime":120.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":200,"AvailableUser":"admin","DiscountLimitType":2,"DiscountMaxValue":120.0,"RelatedDiscountLimitID":"8","AutoSwitchDiscountType":1,"AvailableDay":"6"}
+2023-10-19 14:07:34 876:  折扣規則修改 => {"Fid":"8","Type":2,"Name":"燦坤一小時","AmountTime":60.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":200,"AvailableUser":"admin","DiscountLimitType":2,"DiscountMaxValue":120.0,"RelatedDiscountLimitID":"9","AutoSwitchDiscountType":1,"AvailableDay":null}
+2023-10-19 14:07:43 946:  GetOptimalFree ....
+2023-10-19 14:07:43 956:  取得當前使用者 => admin
+2023-10-19 14:07:46 075:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:08:46 072:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:08:46 121:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:08:46 166:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:08:46 172:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:08:46 178:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:08:46 184:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:08:46 190:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:08:46 196:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:08:46 202:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:08:46 207:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:08:46 216:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:08:46 224:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:08:46 233:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:08:46 238:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:08:46 244:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:08:46 247:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:09:46 137:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:10:46 098:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:10:46 112:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:10:46 129:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:10:46 139:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:10:46 148:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:10:46 153:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:10:46 160:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:10:46 164:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:10:46 168:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:10:46 173:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:10:46 179:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:10:46 185:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:10:46 192:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:10:46 197:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:10:46 201:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:10:46 204:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:11:46 150:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:12:46 160:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:12:46 162:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:12:46 174:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:12:46 190:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:12:46 205:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:12:46 219:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:12:46 230:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:12:46 243:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:12:46 251:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:12:46 258:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:12:46 262:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:12:46 265:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:12:46 269:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:12:46 274:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:12:46 279:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:12:46 283:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:13:23 133:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:13:46 166:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:14:46 352:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:14:46 364:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:14:46 380:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:14:46 382:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:14:46 394:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:14:46 411:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:14:46 427:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:14:46 445:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:14:46 462:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:14:46 479:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:14:46 495:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:14:46 514:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:14:46 533:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:14:46 551:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:14:46 567:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:14:46 585:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:15:46 137:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:16:46 167:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:16:46 181:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:16:46 194:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:16:46 206:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:16:46 219:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:16:46 231:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:16:46 244:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:16:46 259:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:16:46 269:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:16:46 280:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:16:46 290:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:16:46 302:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:16:46 313:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:16:46 325:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:16:46 337:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:16:46 350:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:17:46 239:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:18:46 161:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:18:46 183:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:18:46 194:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:18:46 204:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:18:46 205:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:18:46 214:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:18:46 224:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:18:46 234:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:18:46 243:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:18:46 252:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:18:46 262:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:18:46 272:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:18:46 279:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:18:46 286:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:18:46 293:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:18:46 302:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:19:46 206:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:20:46 174:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:20:46 186:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:20:46 198:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:20:46 209:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:20:46 220:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:20:46 231:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:20:46 244:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:20:46 257:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:20:46 270:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:20:46 271:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:20:46 282:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:20:46 294:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:20:46 305:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:20:46 314:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:20:46 322:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:20:46 332:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:21:46 248:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:22:46 187:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:22:46 197:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:22:46 207:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:22:46 220:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:22:46 222:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:22:46 233:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:22:46 245:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:22:46 257:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:22:46 269:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:22:46 281:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:22:46 292:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:22:46 306:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:22:46 317:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:22:46 327:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:22:46 337:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:22:46 348:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:23:46 302:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:24:46 215:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:24:46 235:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:24:46 251:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:24:46 268:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:24:46 286:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:24:46 304:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:24:46 305:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:24:46 323:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:24:46 340:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:24:46 355:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:24:46 368:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:24:46 382:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:24:46 395:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:24:46 402:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:24:46 412:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:24:46 422:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:25:46 256:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:26:42 056:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":2,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":0,"AvailableDay":"3 / 5"}
+2023-10-19 14:26:46 211:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:26:46 221:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:26:46 231:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:26:46 242:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:26:46 252:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:26:46 263:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:26:46 274:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:26:46 279:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:26:46 286:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:26:46 296:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:26:46 308:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:26:46 319:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:26:46 327:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:26:46 336:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:26:46 345:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:26:46 354:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:26:47 804:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":2,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 2 / 3 / 4 / 5 / 6"}
+2023-10-19 14:26:54 299:  折扣規則修改 => {"Fid":"8","Type":2,"Name":"燦坤一小時","AmountTime":60.0,"State":2,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":200,"AvailableUser":"admin","DiscountLimitType":2,"DiscountMaxValue":120.0,"RelatedDiscountLimitID":"9","AutoSwitchDiscountType":1,"AvailableDay":"2 / 4"}
+2023-10-19 14:26:57 957:  折扣規則修改 => {"Fid":"9","Type":2,"Name":"燦坤兩小時","AmountTime":120.0,"State":2,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":200,"AvailableUser":"admin","DiscountLimitType":2,"DiscountMaxValue":120.0,"RelatedDiscountLimitID":"8","AutoSwitchDiscountType":1,"AvailableDay":"4 / 6"}
+2023-10-19 14:27:24 348:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 2 / 3 / 5 / 6"}
+2023-10-19 14:27:29 689:  折扣規則修改 => {"Fid":"5","Type":1,"Name":"消費601~800元","AmountTime":30.0,"State":1,"OperateType":null,"Remark":null,"StartVal":601,"EndVal":800,"AvailableUser":"admin","DiscountLimitType":3,"DiscountMaxValue":5.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":null}
+2023-10-19 14:27:46 292:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:27:54 027:  GetOptimalFree ....
+2023-10-19 14:27:54 042:  取得當前使用者 => admin
+2023-10-19 14:28:21 557:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":2,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 2 / 3 / 4 / 5 / 6"}
+2023-10-19 14:28:26 019:  折扣規則修改 => {"Fid":"5","Type":1,"Name":"消費601~800元","AmountTime":30.0,"State":2,"OperateType":null,"Remark":null,"StartVal":601,"EndVal":800,"AvailableUser":"admin","DiscountLimitType":3,"DiscountMaxValue":5.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"4"}
+2023-10-19 14:28:44 327:  折扣規則修改 => {"Fid":"6","Type":2,"Name":"住房車","AmountTime":120.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":0,"AvailableUser":null,"DiscountLimitType":0,"DiscountMaxValue":0.0,"RelatedDiscountLimitID":null,"AutoSwitchDiscountType":1,"AvailableDay":"1 / 2 / 3 / 5 / 6"}
+2023-10-19 14:28:46 221:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:28:46 229:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:28:46 239:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:28:46 248:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:28:46 259:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:28:46 271:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:28:46 283:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:28:46 295:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:28:46 308:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:28:46 312:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:28:46 314:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:28:46 315:  折扣種類 住房車 今日為 Thursday ，為停用日 
+2023-10-19 14:28:46 315:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:28:46 316:  折扣種類 燦坤兩小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:28:46 316:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:28:46 322:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:28:46 334:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:28:46 345:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:28:46 351:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:28:46 358:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:28:46 368:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:28:49 008:  折扣規則修改 => {"Fid":"9","Type":2,"Name":"燦坤兩小時","AmountTime":120.0,"State":1,"OperateType":null,"Remark":null,"StartVal":0,"EndVal":200,"AvailableUser":"admin","DiscountLimitType":2,"DiscountMaxValue":120.0,"RelatedDiscountLimitID":"8","AutoSwitchDiscountType":1,"AvailableDay":"6"}
+2023-10-19 14:29:46 334:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:29:46 334:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:29:46 335:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:29:46 335:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:30:46 337:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:30:46 339:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:30:46 340:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:30:46 341:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:30:46 349:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:30:46 368:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:30:46 386:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:30:46 404:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:30:46 421:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:30:46 438:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:30:46 453:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:30:46 472:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:30:46 490:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:30:46 506:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:30:46 526:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:30:46 544:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:30:46 562:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:30:46 581:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:30:46 600:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:31:46 323:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:31:46 323:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:31:46 324:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:31:46 324:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:32:46 271:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:32:46 297:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:32:46 311:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:32:46 323:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:32:46 334:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:32:46 345:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:32:46 354:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:32:46 355:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:32:46 355:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:32:46 355:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:32:46 357:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:32:46 367:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:32:46 378:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:32:46 390:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:32:46 400:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:32:46 410:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:32:46 417:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:32:46 431:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:32:46 441:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:33:46 398:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:33:46 399:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:33:46 399:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:33:46 400:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:34:46 259:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:34:46 281:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:34:46 288:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:34:46 295:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:34:46 301:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:34:46 308:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:34:46 315:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:34:46 322:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:34:46 327:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:34:46 334:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:34:46 341:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:34:46 349:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:34:46 358:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:34:46 369:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:34:46 370:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:34:46 370:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:34:46 371:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:34:46 371:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:34:46 376:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:35:46 430:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:35:46 432:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:35:46 432:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:35:46 432:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:36:46 260:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:36:46 283:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:36:46 290:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:36:46 296:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:36:46 304:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:36:46 309:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:36:46 317:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:36:46 321:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:36:46 324:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:36:46 330:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:36:46 336:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:36:46 340:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:36:46 350:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:36:46 360:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:36:46 371:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:36:46 378:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:36:46 379:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:36:46 380:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:36:46 380:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:37:46 412:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:37:46 413:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:37:46 413:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:37:46 414:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:38:46 309:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:38:46 340:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:38:46 356:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:38:46 374:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:38:46 399:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:38:46 415:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:38:46 429:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:38:46 444:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:38:46 462:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:38:46 477:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:38:46 486:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:38:46 487:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:38:46 488:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:38:46 488:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:38:46 493:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:38:46 509:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:38:46 526:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:38:46 544:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:38:46 559:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:39:46 422:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:39:46 422:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:39:46 424:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:39:46 424:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:39:53 538:  4879822101406291827,admin,執行刪除
+2023-10-19 14:39:53 560:  4664441376888897695,admin,執行刪除
+2023-10-19 14:39:53 581:  5520979076005505112,admin,執行刪除
+2023-10-19 14:39:53 598:  5227365933190454037,admin,執行刪除
+2023-10-19 14:39:53 614:  5109719794024006385,admin,執行刪除
+2023-10-19 14:39:53 629:  5056362297415376403,admin,執行刪除
+2023-10-19 14:39:53 652:  5082220982852612984,admin,執行刪除
+2023-10-19 14:39:53 685:  5601498785082823422,admin,執行刪除
+2023-10-19 14:39:53 715:  5455780155544212111,admin,執行刪除
+2023-10-19 14:39:53 740:  5591518116370946684,admin,執行刪除
+2023-10-19 14:39:53 775:  5530647901413396998,admin,執行刪除
+2023-10-19 14:39:53 852:  5051173559364606151,admin,執行刪除
+2023-10-19 14:39:53 863:  4892692057689668487,admin,執行刪除
+2023-10-19 14:39:53 875:  5164819315742071413,admin,執行刪除
+2023-10-19 14:39:53 886:  5267976158972157419,admin,執行刪除
+2023-10-19 14:39:53 897:  5673698559056170664,admin,執行刪除
+2023-10-19 14:39:53 907:  5468166290912493132,admin,執行刪除
+2023-10-19 14:39:53 917:  5325906614303649490,admin,執行刪除
+2023-10-19 14:39:53 927:  5510599734371357654,admin,執行刪除
+2023-10-19 14:39:53 937:  4889304715100626412,admin,執行刪除
+2023-10-19 14:39:53 947:  5010562999473315518,admin,執行刪除
+2023-10-19 14:39:53 956:  5606981438191450619,admin,執行刪除
+2023-10-19 14:39:53 967:  5507068726732643637,admin,執行刪除
+2023-10-19 14:39:53 978:  5343657322166341692,admin,執行刪除
+2023-10-19 14:39:53 989:  5221744967226657112,admin,執行刪除
+2023-10-19 14:39:54 002:  5037744848394212102,admin,執行刪除
+2023-10-19 14:39:54 015:  5525869622307574618,admin,執行刪除
+2023-10-19 14:39:54 027:  5280556394783991906,admin,執行刪除
+2023-10-19 14:39:54 039:  5437553377327119359,admin,執行刪除
+2023-10-19 14:39:54 051:  5051304554642109935,admin,執行刪除
+2023-10-19 14:39:54 066:  5267796498499292144,admin,執行刪除
+2023-10-19 14:39:54 080:  5537850317580556509,admin,執行刪除
+2023-10-19 14:39:54 093:  5209145532615390561,admin,執行刪除
+2023-10-19 14:39:54 106:  4726903016113028458,admin,執行刪除
+2023-10-19 14:39:54 120:  5669222358192099960,admin,執行刪除
+2023-10-19 14:39:54 133:  4760724017747606831,admin,執行刪除
+2023-10-19 14:39:54 146:  5516971258825393029,admin,執行刪除
+2023-10-19 14:39:54 162:  4852568196125569549,admin,執行刪除
+2023-10-19 14:39:54 177:  5293721287904861215,admin,執行刪除
+2023-10-19 14:39:54 192:  5723858115474724100,admin,執行刪除
+2023-10-19 14:39:54 206:  5025101013322347517,admin,執行刪除
+2023-10-19 14:39:54 221:  5164171629027676404,admin,執行刪除
+2023-10-19 14:39:54 236:  4622768047894849138,admin,執行刪除
+2023-10-19 14:39:54 251:  4671335125339742778,admin,執行刪除
+2023-10-19 14:39:54 267:  5297545295513869933,admin,執行刪除
+2023-10-19 14:39:54 285:  5428903704699051939,admin,執行刪除
+2023-10-19 14:39:54 304:  5077048224231105144,admin,執行刪除
+2023-10-19 14:40:06 913:  AddForm 測試 1
+2023-10-19 14:40:06 915:  AddForm 測試 2
+2023-10-19 14:40:06 943:  進入計算車位流程，BusinessType = 1
+2023-10-19 14:40:07 042:  臨停月租[分開]加減模式 / 原始[臨停]車位 21 => 更新[臨停]車位 20 / 當前總車位 [臨停 + 月租] 80 
+2023-10-19 14:40:07 042:  總剩餘車位數 ： 80，類型：臨停
+2023-10-19 14:40:07 059:  AddForm 測試 3
+2023-10-19 14:40:46 283:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:40:46 297:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:40:46 305:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:40:46 313:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:40:46 323:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:40:46 333:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:40:46 342:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:40:46 354:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:40:46 366:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:40:46 376:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:40:46 389:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:40:46 399:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:40:46 411:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:40:46 420:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:40:46 431:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:40:46 446:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:40:46 446:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:40:46 447:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:40:46 447:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:41:40 112:  Camera:192.168.1.66_VKP6235
+2023-10-19 14:41:40 264:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 14:41:40 308:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 14:41:40 310:  VKP6235 => 繳費機模式 [2]
+2023-10-19 14:41:40 311:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 14:41:40 311:  Return:VKP6235_No
+2023-10-19 14:41:46 466:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:41:46 467:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:41:46 468:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:41:46 470:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:42:20 197:  Camera:192.168.1.66_VKP6235
+2023-10-19 14:42:20 257:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 14:42:20 258:  VKP6235 => Insert stage 7
+2023-10-19 14:42:20 258:  VKP6235 => Insert stage 8
+2023-10-19 14:42:20 258:  VKP6235 => Insert stage 10
+2023-10-19 14:42:20 258:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 14:42:20 259:  VKP6235 => 繳費機模式 [2]
+2023-10-19 14:42:20 259:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 14:42:20 259:  VKP6235 => 由於為轉發模式，當線圈 A = 1 才會轉發，因此不詢問線圈服務，以降低延遲，出口線圈一定為 A = 1
+2023-10-19 14:42:20 259:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 14:42:20 259:  VKP6235 => 並非無車牌
+2023-10-19 14:42:20 260:  VKP6235 => 通道 : 2
+2023-10-19 14:42:20 268:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 02:40:06
+2023-10-19 14:42:20 352:  VKP6235 繳費時間 
+2023-10-19 14:42:20 352:  VKP6235 => [需過繳費機模式] / 計價為 0 元 / 尚未過繳費機 / 不開門
+2023-10-19 14:42:20 352:  VKP6235 => 開門旗標 = False
+2023-10-19 14:42:20 353:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 02:40:06_2023/10/19 下午 02:42:20_2_出口_00c94bea4a4f4c2eba2751ab1ca5316d_2__8011_False_/Images/Licences/20231019/af7177037f034939bbfc6f700092665120231019144223.jpg_1_5504031335479170511_2023101914422035287
+2023-10-19 14:42:20 354:  Return:VKP6235_No
+2023-10-19 14:42:46 315:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:42:46 334:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:42:46 342:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:42:46 348:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:42:46 353:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:42:46 359:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:42:46 367:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:42:46 374:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:42:46 380:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:42:46 386:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:42:46 391:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:42:46 397:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:42:46 402:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:42:46 410:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:42:46 420:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:42:46 439:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:42:46 440:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:42:46 440:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:42:46 441:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:43:46 536:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:43:46 537:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:43:46 537:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:43:46 537:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:44:46 301:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:44:46 312:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:44:46 321:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:44:46 330:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:44:46 340:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:44:46 349:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:44:46 360:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:44:46 368:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:44:46 378:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:44:46 387:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:44:46 394:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:44:46 398:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:44:46 402:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:44:46 407:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:44:46 413:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:44:46 429:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:44:46 430:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:44:46 430:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:44:46 431:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:45:46 462:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:45:46 465:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:45:46 465:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:45:46 466:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:46:46 308:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:46:46 315:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:46:46 321:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:46:46 327:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:46:46 335:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:46:46 344:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:46:46 351:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:46:46 359:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:46:46 368:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:46:46 375:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:46:46 380:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:46:46 386:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:46:46 395:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:46:46 403:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:46:46 407:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:46:46 449:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:46:46 450:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:46:46 451:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:46:46 451:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:47:46 515:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:47:46 516:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:47:46 516:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:47:46 516:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:48:46 326:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:48:46 343:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:48:46 351:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:48:46 357:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:48:46 365:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:48:46 372:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:48:46 380:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:48:46 387:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:48:46 393:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:48:46 396:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:48:46 405:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:48:46 410:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:48:46 415:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:48:46 419:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:48:46 423:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:48:46 488:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:48:46 489:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:48:46 490:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:48:46 490:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:49:46 496:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:49:46 496:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:49:46 497:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:49:46 497:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:50:46 339:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:50:46 355:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:50:46 363:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:50:46 372:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:50:46 381:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:50:46 389:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:50:46 397:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:50:46 405:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:50:46 413:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:50:46 417:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:50:46 421:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:50:46 426:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:50:46 430:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:50:46 433:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:50:46 436:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:50:46 520:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:50:46 520:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:50:46 520:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:50:46 521:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:51:46 556:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:51:46 558:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:51:46 558:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:51:46 559:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:52:46 335:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:52:46 358:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:52:46 366:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:52:46 375:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:52:46 382:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:52:46 390:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:52:46 398:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:52:46 404:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:52:46 409:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:52:46 413:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:52:46 418:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:52:46 423:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:52:46 427:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:52:46 432:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:52:46 438:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:52:46 548:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:52:46 548:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:52:46 548:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:52:46 549:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:53:46 571:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:53:46 572:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:53:46 572:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:53:46 573:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:54:46 324:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:54:46 345:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:54:46 353:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:54:46 359:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:54:46 364:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:54:46 371:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:54:46 376:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:54:46 383:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:54:46 388:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:54:46 391:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:54:46 397:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:54:46 402:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:54:46 408:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:54:46 414:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:54:46 418:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:54:46 550:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:54:46 550:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:54:46 551:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:54:46 551:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:55:46 582:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:55:46 582:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:55:46 582:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:55:46 582:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:56:46 818:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:56:46 818:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:56:46 818:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:56:46 818:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:56:46 850:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:56:46 865:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:56:46 876:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:56:46 887:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:56:46 897:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:56:46 907:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:56:46 918:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:56:46 929:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:56:46 939:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:56:46 949:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:56:46 960:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:56:46 971:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:56:46 982:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:56:46 992:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:56:47 001:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:57:46 772:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:57:46 773:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:57:46 773:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:57:46 774:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:58:46 415:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 14:58:46 425:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 14:58:46 432:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 14:58:46 441:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 14:58:46 450:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 14:58:46 458:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 14:58:46 466:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 14:58:46 476:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 14:58:46 483:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 14:58:46 489:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 14:58:46 496:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 14:58:46 503:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 14:58:46 511:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 14:58:46 516:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 14:58:46 520:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 14:58:46 732:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:58:46 733:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:58:46 733:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:58:46 734:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 14:59:46 697:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 14:59:46 698:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 14:59:46 699:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 14:59:46 699:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:00:46 427:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:00:46 432:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:00:46 436:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:00:46 440:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:00:46 444:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:00:46 449:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:00:46 453:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:00:46 457:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:00:46 461:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:00:46 464:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:00:46 467:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:00:46 469:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:00:46 473:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:00:46 476:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:00:46 479:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:00:46 732:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:00:46 733:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:00:46 734:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:00:46 735:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:01:45 814:  GetOptimalFree ....
+2023-10-19 15:01:45 827:  取得當前使用者 => admin
+2023-10-19 15:01:46 767:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:01:46 768:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:01:46 769:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:01:46 769:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:02:14 759:  5504031335479170511,admin,執行刪除
+2023-10-19 15:02:46 452:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:02:46 463:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:02:46 472:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:02:46 479:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:02:46 487:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:02:46 497:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:02:46 505:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:02:46 514:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:02:46 520:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:02:46 527:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:02:46 534:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:02:46 541:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:02:46 547:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:02:46 552:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:02:46 558:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:02:46 735:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:02:46 735:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:02:46 736:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:02:46 736:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:03:36 979:  AddForm 測試 1
+2023-10-19 15:03:36 981:  AddForm 測試 2
+2023-10-19 15:03:36 997:  進入計算車位流程，BusinessType = 1
+2023-10-19 15:03:37 019:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 15:03:37 019:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 15:03:37 031:  AddForm 測試 3
+2023-10-19 15:03:46 753:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:03:46 754:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:03:46 754:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:03:46 754:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:04:46 500:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:04:46 505:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:04:46 509:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:04:46 513:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:04:46 517:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:04:46 521:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:04:46 526:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:04:46 530:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:04:46 534:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:04:46 540:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:04:46 545:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:04:46 549:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:04:46 554:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:04:46 558:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:04:46 563:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:04:46 731:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:04:46 732:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:04:46 733:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:04:46 734:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:04:57 520:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:04:57 596:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:04:57 597:  VKP6235 => Insert stage 7
+2023-10-19 15:04:57 597:  VKP6235 => Insert stage 8
+2023-10-19 15:04:57 598:  VKP6235 => Insert stage 10
+2023-10-19 15:04:57 598:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:04:57 598:  VKP6235 => 繳費機模式 [2]
+2023-10-19 15:04:57 599:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:04:57 599:  VKP6235 => 由於為轉發模式，當線圈 A = 1 才會轉發，因此不詢問線圈服務，以降低延遲，出口線圈一定為 A = 1
+2023-10-19 15:04:57 600:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:04:57 600:  VKP6235 => 並非無車牌
+2023-10-19 15:04:57 600:  VKP6235 => 通道 : 2
+2023-10-19 15:04:57 610:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:03:36
+2023-10-19 15:04:57 654:  VKP6235 繳費時間 
+2023-10-19 15:04:57 654:  VKP6235 => [需過繳費機模式] / 計價為 0 元 / 尚未過繳費機 / 不開門
+2023-10-19 15:04:57 654:  VKP6235 => 開門旗標 = False
+2023-10-19 15:04:57 655:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:03:36_2023/10/19 下午 03:04:57_2_出口_9e1954184c3c494ab35260b9a23fac01_2__8011_False_/Images/Licences/20231019/e3706d83822b472989f8117045647abd20231019150455.jpg_1_5532277115738394898_2023101915045765474
+2023-10-19 15:04:57 655:  Return:VKP6235_No
+2023-10-19 15:05:10 615:  GetOptimalFree ....
+2023-10-19 15:05:10 629:  取得當前使用者 => admin
+2023-10-19 15:05:17 173:  mode.DiscountLimitType => None
+2023-10-19 15:05:17 174:  mode.DiscountMaxValue => 0
+2023-10-19 15:05:17 251:  mode.RelatedLimitID => 
+2023-10-19 15:05:17 280:  DiscountRecord Len => 0
+2023-10-19 15:05:17 282:  AfterDiscountRecord Len => 1
+2023-10-19 15:05:26 400:  mode.DiscountLimitType => None
+2023-10-19 15:05:26 401:  mode.DiscountMaxValue => 0
+2023-10-19 15:05:26 441:  mode.RelatedLimitID => 
+2023-10-19 15:05:26 456:  DiscountRecord Len => 0
+2023-10-19 15:05:26 457:  AfterDiscountRecord Len => 1
+2023-10-19 15:05:29 502:  mode.DiscountLimitType => DiscountedAmount
+2023-10-19 15:05:29 503:  mode.DiscountMaxValue => 50000
+2023-10-19 15:05:29 542:  mode.RelatedLimitID => 
+2023-10-19 15:05:29 557:  DiscountRecord Len => 0
+2023-10-19 15:05:29 558:  AfterDiscountRecord Len => 1
+2023-10-19 15:05:46 787:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:05:46 788:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:05:46 788:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:05:46 789:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:06:14 001:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:06:14 074:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:06:14 075:  VKP6235 => Insert stage 7
+2023-10-19 15:06:14 075:  VKP6235 => Insert stage 8
+2023-10-19 15:06:14 075:  VKP6235 => Insert stage 10
+2023-10-19 15:06:14 076:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:06:14 076:  VKP6235 => 繳費機模式 [2]
+2023-10-19 15:06:14 077:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:06:14 077:  VKP6235 => 由於為轉發模式，當線圈 A = 1 才會轉發，因此不詢問線圈服務，以降低延遲，出口線圈一定為 A = 1
+2023-10-19 15:06:14 078:  VKP6235 => loopMode = 6 並且是[攝影機轉發]模式
+2023-10-19 15:06:14 078:  VKP6235 => 並非無車牌
+2023-10-19 15:06:14 078:  VKP6235 => 通道 : 2
+2023-10-19 15:06:14 093:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:03:36
+2023-10-19 15:06:14 169:  VKP6235 繳費時間 
+2023-10-19 15:06:14 170:  VKP6235 => 規則 - 1
+2023-10-19 15:06:14 170:  VKP6235 => [需過繳費機模式] / 計價為 0 元 / 有過繳費機 / 開門
+2023-10-19 15:06:14 171:  VKP6235 => 開門旗標 = True
+2023-10-19 15:06:14 175:  VKP6235 => 記錄閉環操作完成
+2023-10-19 15:06:16 309:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 03:03:36 進場，於 2023/10/19 下午 03:06:14 離場失敗 System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 104.199.228.251:8081
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.Bll.VIVIPARK.Vivipark.NotifyAPPOut(String plateNumber, DateTime enterAt, DateTime leaveAt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\VIVIPARK\Vivipark.cs: 行 90
+2023-10-19 15:06:16 310:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:03:36_2023/10/19 下午 03:06:14_2_出口_6195d16328854db4b9b4e83177c9eedb_2__8011_True_/Images/Licences/20231019/cb50e89b68894fa4823100292683a03b20231019150603.jpg_1_5532277115738394898_2023101915061631037
+2023-10-19 15:06:16 311:  Return:VKP6235_ok
+2023-10-19 15:06:46 486:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:06:46 492:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:06:46 496:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:06:46 499:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:06:46 504:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:06:46 507:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:06:46 510:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:06:46 513:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:06:46 516:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:06:46 519:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:06:46 521:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:06:46 524:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:06:46 528:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:06:46 531:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:06:46 534:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:06:46 807:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:06:46 808:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:06:46 808:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:06:46 808:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:07:46 857:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:07:46 859:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:07:46 860:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:07:46 860:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:08:46 521:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:08:46 535:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:08:46 546:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:08:46 557:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:08:46 569:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:08:46 581:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:08:46 593:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:08:46 605:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:08:46 617:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:08:46 630:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:08:46 644:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:08:46 657:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:08:46 665:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:08:46 671:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:08:46 675:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:08:46 839:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:08:46 840:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:08:46 840:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:08:46 841:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:09:46 819:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:09:46 820:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:09:46 820:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:09:46 821:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:10:46 508:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:10:46 515:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:10:46 520:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:10:46 524:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:10:46 527:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:10:46 531:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:10:46 536:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:10:46 540:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:10:46 543:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:10:46 548:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:10:46 552:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:10:46 555:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:10:46 558:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:10:46 562:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:10:46 566:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:10:46 827:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:10:46 828:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:10:46 829:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:10:46 829:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:11:46 885:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:11:46 885:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:11:46 886:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:11:46 886:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:12:46 501:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:12:46 508:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:12:46 513:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:12:46 517:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:12:46 521:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:12:46 527:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:12:46 535:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:12:46 540:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:12:46 546:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:12:46 550:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:12:46 554:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:12:46 559:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:12:46 563:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:12:46 566:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:12:46 570:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:12:46 928:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:12:46 928:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:12:46 929:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:12:46 929:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:13:46 874:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:13:46 875:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:13:46 876:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:13:46 876:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:14:46 551:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:14:46 561:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:14:46 570:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:14:46 578:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:14:46 585:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:14:46 592:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:14:46 599:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:14:46 606:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:14:46 613:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:14:46 621:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:14:46 627:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:14:46 636:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:14:46 647:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:14:46 657:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:14:46 666:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:14:46 910:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:14:46 911:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:14:46 912:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:14:46 912:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:15:46 939:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:15:46 939:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:15:46 941:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:15:46 941:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:16:46 576:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:16:46 587:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:16:46 600:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:16:46 611:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:16:46 621:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:16:46 634:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:16:46 643:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:16:46 650:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:16:46 661:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:16:46 674:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:16:46 685:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:16:46 694:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:16:46 703:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:16:46 715:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:16:46 727:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:16:46 945:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:16:46 946:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:16:46 946:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:16:46 946:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:17:46 972:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:17:46 972:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:17:46 972:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:17:46 972:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:18:46 569:  GetDeviceName => serialNumber = flap-1-on
+2023-10-19 15:18:46 578:  GetDeviceName => serialNumber = flap-2-on
+2023-10-19 15:18:46 586:  GetDeviceName => serialNumber = flap-3-on
+2023-10-19 15:18:46 592:  GetDeviceName => serialNumber = flap-4-on
+2023-10-19 15:18:46 597:  GetDeviceName => serialNumber = flap-5-on
+2023-10-19 15:18:46 601:  GetDeviceName => serialNumber = flap-6-on
+2023-10-19 15:18:46 606:  GetDeviceName => serialNumber = flap-7-on
+2023-10-19 15:18:46 610:  GetDeviceName => serialNumber = flap-8-on
+2023-10-19 15:18:46 614:  GetDeviceName => serialNumber = flap-9-on
+2023-10-19 15:18:46 619:  GetDeviceName => serialNumber = flap-10-on
+2023-10-19 15:18:46 624:  GetDeviceName => serialNumber = flap-11-on
+2023-10-19 15:18:46 628:  GetDeviceName => serialNumber = flap-12-on
+2023-10-19 15:18:46 632:  GetDeviceName => serialNumber = flap-13-on
+2023-10-19 15:18:46 637:  GetDeviceName => serialNumber = flap-14-on
+2023-10-19 15:18:46 642:  GetDeviceName => serialNumber = flap-15-on
+2023-10-19 15:18:46 981:  SwitchDiscountConfig => Thursday, int => 4
+2023-10-19 15:18:46 982:  折扣種類 消費601~800元 今日為 Thursday ，為可啟用日 
+2023-10-19 15:18:46 982:  折扣種類 燦坤一小時 今日為 Thursday ，為可啟用日 
+2023-10-19 15:18:46 983:  折扣種類 工程車垃圾車全折 今日為 Thursday ，為可啟用日 
+2023-10-19 15:18:57 688:  mode.DiscountLimitType => None
+2023-10-19 15:18:57 688:  mode.DiscountMaxValue => 0
+2023-10-19 15:18:57 708:  mode.RelatedLimitID => 
+2023-10-19 15:18:57 714:  DiscountRecord Len => 1
+2023-10-19 15:18:57 715:  AfterDiscountRecord Len => 2
+2023-10-19 15:28:42 473:  AddForm 測試 1
+2023-10-19 15:28:42 476:  AddForm 測試 2
+2023-10-19 15:28:42 536:  進入計算車位流程，BusinessType = 1
+2023-10-19 15:28:42 615:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 15:28:42 615:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 15:28:42 629:  AddForm 測試 3
+2023-10-19 15:29:26 964:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:29:27 078:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:29:27 098:  VKP6235 => Insert stage 7
+2023-10-19 15:29:27 099:  VKP6235 => Insert stage 8
+2023-10-19 15:29:27 100:  VKP6235 => Insert stage 10
+2023-10-19 15:29:27 101:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:29:27 102:  VKP6235 => 繳費機模式 [2]
+2023-10-19 15:29:27 102:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:29:27 103:  VKP6235 => 由於為轉發模式，當線圈 A = 1 才會轉發，因此不詢問線圈服務，以降低延遲，出口線圈一定為 A = 1
+2023-10-19 15:29:27 103:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:29:27 104:  VKP6235 => 並非無車牌
+2023-10-19 15:29:27 104:  VKP6235 => 通道 : 2
+2023-10-19 15:29:27 128:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:28:41
+2023-10-19 15:29:27 239:  VKP6235 繳費時間 
+2023-10-19 15:29:27 240:  VKP6235 => [需過繳費機模式] / 計價為 0 元 / 尚未過繳費機 / 不開門
+2023-10-19 15:29:27 240:  VKP6235 => 開門旗標 = False
+2023-10-19 15:29:27 240:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:28:41_2023/10/19 下午 03:29:27_2_出口_d0400f81c70d4ec18ef572de7f2596d1_2__8011_False_/Images/Licences/20231019/3fd6c80a3e89469e88174962ca8f45f320231019152999.jpg_1_5168996448999748202_2023101915292724099
+2023-10-19 15:29:27 241:  Return:VKP6235_No
+2023-10-19 15:31:29 160:  GetOptimalFree ....
+2023-10-19 15:31:29 194:  取得當前使用者 => admin
+2023-10-19 15:31:34 254:  mode.DiscountLimitType => None
+2023-10-19 15:31:34 255:  mode.DiscountMaxValue => 0
+2023-10-19 15:31:34 291:  mode.RelatedLimitID => 
+2023-10-19 15:31:34 297:  DiscountRecord Len => 0
+2023-10-19 15:31:34 298:  AfterDiscountRecord Len => 1
+2023-10-19 15:31:37 357:  mode.DiscountLimitType => None
+2023-10-19 15:31:37 357:  mode.DiscountMaxValue => 0
+2023-10-19 15:31:37 380:  mode.RelatedLimitID => 
+2023-10-19 15:31:37 387:  DiscountRecord Len => 1
+2023-10-19 15:31:37 387:  AfterDiscountRecord Len => 2
+2023-10-19 15:31:56 758:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:31:56 824:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:31:56 825:  VKP6235 => Insert stage 7
+2023-10-19 15:31:56 825:  VKP6235 => Insert stage 8
+2023-10-19 15:31:56 825:  VKP6235 => Insert stage 10
+2023-10-19 15:31:56 826:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:31:56 826:  VKP6235 => 繳費機模式 [2]
+2023-10-19 15:31:56 827:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:31:56 827:  VKP6235 => 由於為轉發模式，當線圈 A = 1 才會轉發，因此不詢問線圈服務，以降低延遲，出口線圈一定為 A = 1
+2023-10-19 15:31:56 828:  VKP6235 => loopMode = 6 並且是[攝影機轉發]模式
+2023-10-19 15:31:56 828:  VKP6235 => 並非無車牌
+2023-10-19 15:31:56 828:  VKP6235 => 通道 : 2
+2023-10-19 15:31:56 842:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:28:41
+2023-10-19 15:31:56 892:  VKP6235 繳費時間 
+2023-10-19 15:31:56 893:  VKP6235 => 規則 - 1
+2023-10-19 15:31:56 893:  VKP6235 => [需過繳費機模式] / 計價為 0 元 / 有過繳費機 / 開門
+2023-10-19 15:31:56 894:  VKP6235 => 開門旗標 = True
+2023-10-19 15:31:56 895:  VKP6235 => 記錄閉環操作完成
+2023-10-19 15:31:59 060:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 03:28:41 進場，於 2023/10/19 下午 03:31:56 離場失敗 System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 104.199.228.251:8081
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.Bll.VIVIPARK.Vivipark.NotifyAPPOut(String plateNumber, DateTime enterAt, DateTime leaveAt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\VIVIPARK\Vivipark.cs: 行 90
+2023-10-19 15:31:59 060:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:28:41_2023/10/19 下午 03:31:56_2_出口_b23ebfd787a54d2db81c0e982419584a_2__8011_True_/Images/Licences/20231019/b1fec00a176841b7b89acf9e9cc1adf320231019153179.jpg_1_5168996448999748202_2023101915315906023
+2023-10-19 15:31:59 061:  Return:VKP6235_ok
+2023-10-19 15:35:55 498:  AddForm 測試 1
+2023-10-19 15:35:55 500:  AddForm 測試 2
+2023-10-19 15:35:55 551:  進入計算車位流程，BusinessType = 1
+2023-10-19 15:35:55 577:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 15:35:55 577:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 15:35:55 600:  AddForm 測試 3
+2023-10-19 15:36:29 274:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:36:29 379:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:36:29 394:  VKP6235 => Insert stage 7
+2023-10-19 15:36:29 395:  VKP6235 => Insert stage 8
+2023-10-19 15:36:29 395:  VKP6235 => Insert stage 10
+2023-10-19 15:36:29 396:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:36:29 396:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:36:29 396:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:36:29 429:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:29 498:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:36:29 501:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 15:36:29 501:  Return:VKP6235_No
+2023-10-19 15:36:34 993:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:36:35 086:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:36:35 087:  VKP6235 => Insert stage 7
+2023-10-19 15:36:35 087:  VKP6235 => Insert stage 8
+2023-10-19 15:36:35 088:  VKP6235 => Insert stage 10
+2023-10-19 15:36:35 088:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:36:35 089:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:36:35 089:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:36:35 091:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:35 096:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:36:35 096:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 15:36:35 096:  Return:VKP6235_No
+2023-10-19 15:36:36 023:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:36:36 090:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:36:36 091:  VKP6235 => Insert stage 7
+2023-10-19 15:36:36 091:  VKP6235 => Insert stage 8
+2023-10-19 15:36:36 092:  VKP6235 => Insert stage 10
+2023-10-19 15:36:36 092:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:36:36 092:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:36:36 092:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:36:36 092:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:36 103:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:36:36 103:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:36:36 103:  VKP6235 => 並非無車牌
+2023-10-19 15:36:36 103:  VKP6235 => 通道 : 2
+2023-10-19 15:36:36 169:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:35:54
+2023-10-19 15:36:36 371:  VKP6235 繳費時間 
+2023-10-19 15:36:36 372:  VKP6235 => 規則 - 2
+2023-10-19 15:36:36 372:  VKP6235 => 開門旗標 = True
+2023-10-19 15:36:36 372:  VKP6235 => 延遲寫入模式 Phase 0，由攝影機觸發，開門但是不閉環
+2023-10-19 15:36:36 372:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-19 15:36:36 374:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:36 387:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:35:54_2023/10/19 下午 03:36:36_2_出口_00fa224e326449afb92724badc39355a_2__8011_True_/Images/Licences/20231019/55f6b99fd9624927a7379b87d983681320231019153605.jpg_1_5340929683644442502_2023101915363638741
+2023-10-19 15:36:36 388:  Return:VKP6235_ok
+2023-10-19 15:36:39 246:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:36:39 320:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:36:39 321:  VKP6235 => Insert stage 7
+2023-10-19 15:36:39 322:  VKP6235 => Insert stage 8
+2023-10-19 15:36:39 322:  VKP6235 => Insert stage 10
+2023-10-19 15:36:39 322:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:36:39 323:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:36:39 323:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:36:39 324:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:39 333:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:36:39 334:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:36:39 334:  VKP6235 => 並非無車牌
+2023-10-19 15:36:39 335:  VKP6235 => 通道 : 2
+2023-10-19 15:36:39 347:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:35:54
+2023-10-19 15:36:39 385:  VKP6235 繳費時間 
+2023-10-19 15:36:39 386:  VKP6235 => 規則 - 2
+2023-10-19 15:36:39 386:  VKP6235 => 開門旗標 = True
+2023-10-19 15:36:39 386:  VKP6235 => 延遲寫入模式 Phase 0，由攝影機觸發，開門但是不閉環
+2023-10-19 15:36:39 386:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-19 15:36:39 386:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:36:39 393:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:35:54_2023/10/19 下午 03:36:39_2_出口_74189772f8c94e71842278928f56b9c3_2__8011_True_/Images/Licences/20231019/90fc177528024114b7c03c6d11a63b9f20231019153628.jpg_1_5340929683644442502_2023101915363939337
+2023-10-19 15:36:39 395:  Return:VKP6235_ok
+2023-10-19 15:37:01 358:  ===============[入場]資料處理開始====================
+2023-10-19 15:37:01 358:  /api/LazyInsert/Entrace status = 1 / laneID = 2
+2023-10-19 15:37:01 358:  此次為延遲寫入
+2023-10-19 15:37:01 374:   => Insert stage 1
+2023-10-19 15:37:01 374:   => Insert stage 2
+2023-10-19 15:37:01 374:   => Insert stage 3
+2023-10-19 15:37:01 374:   => Insert stage 5
+2023-10-19 15:37:01 374:  VKP6235 => Insert stage 6
+2023-10-19 15:37:01 390:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 15:37:01 390:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-19 15:37:01 390:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:37:01 390:  線圈狀態 => A = 1 / B = 1
+2023-10-19 15:37:01 390:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:38:50 903:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:38:50 973:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:38:50 974:  VKP6235 => Insert stage 7
+2023-10-19 15:38:50 974:  VKP6235 => Insert stage 8
+2023-10-19 15:38:50 975:  VKP6235 => Insert stage 10
+2023-10-19 15:38:50 975:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:38:50 975:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:38:50 975:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:38:50 975:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:38:50 975:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:38:50 975:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 15:38:50 988:  Return:VKP6235_No
+2023-10-19 15:38:54 417:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:38:54 496:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:38:54 497:  VKP6235 => Insert stage 7
+2023-10-19 15:38:54 497:  VKP6235 => Insert stage 8
+2023-10-19 15:38:54 497:  VKP6235 => Insert stage 10
+2023-10-19 15:38:54 497:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:38:54 498:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:38:54 498:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:38:54 499:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:38:54 507:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:38:54 507:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:38:54 507:  VKP6235 => 並非無車牌
+2023-10-19 15:38:54 507:  VKP6235 => 通道 : 2
+2023-10-19 15:38:54 518:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:35:54
+2023-10-19 15:38:54 573:  VKP6235 繳費時間 
+2023-10-19 15:38:54 573:  VKP6235 => 規則 - 2
+2023-10-19 15:38:54 573:  VKP6235 => 開門旗標 = True
+2023-10-19 15:38:54 573:  VKP6235 => 延遲寫入模式 Phase 0，由攝影機觸發，開門但是不閉環
+2023-10-19 15:38:54 573:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-19 15:38:54 574:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:38:54 581:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:35:54_2023/10/19 下午 03:38:54_2_出口_68244be11ed741cc902b7a4670c81c1a_2__8011_True_/Images/Licences/20231019/19cebe855a0a49d4a09d29679a1ceeab20231019153846.jpg_1_5340929683644442502_2023101915385458099
+2023-10-19 15:38:54 582:  Return:VKP6235_ok
+2023-10-19 15:38:55 513:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:38:55 585:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:38:55 586:  VKP6235 => Insert stage 7
+2023-10-19 15:38:55 586:  VKP6235 => Insert stage 8
+2023-10-19 15:38:55 586:  VKP6235 => Insert stage 10
+2023-10-19 15:38:55 586:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 15:38:55 586:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:38:55 586:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:38:55 587:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:38:55 595:  線圈狀態 => A = -1 / B = -1
+2023-10-19 15:38:55 595:  VKP6235 => 由於 loopMode = 6 需要觸發 實體線圈 A，但並未觸發 A 線圈，直接返回
+2023-10-19 15:38:55 595:  Return:VKP6235_No
+2023-10-19 15:39:03 569:  Camera:192.168.1.66_VKP6235
+2023-10-19 15:39:03 636:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 15:39:03 637:  VKP6235 => Insert stage 7
+2023-10-19 15:39:03 637:  VKP6235 => Insert stage 8
+2023-10-19 15:39:03 637:  VKP6235 => Insert stage 10
+2023-10-19 15:39:03 637:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:39:03 637:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:39:03 637:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:39:03 638:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:39:03 643:  線圈狀態 => A = 1 / B = 0
+2023-10-19 15:39:03 644:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:39:03 644:  VKP6235 => 並非無車牌
+2023-10-19 15:39:03 644:  VKP6235 => 通道 : 2
+2023-10-19 15:39:03 649:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:35:54
+2023-10-19 15:39:03 677:  VKP6235 繳費時間 
+2023-10-19 15:39:03 678:  VKP6235 => 規則 - 2
+2023-10-19 15:39:03 678:  VKP6235 => 開門旗標 = True
+2023-10-19 15:39:03 679:  VKP6235 => 延遲寫入模式 Phase 0，由攝影機觸發，開門但是不閉環
+2023-10-19 15:39:03 679:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-19 15:39:03 679:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:39:03 684:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:35:54_2023/10/19 下午 03:39:03_2_出口_f6d77d74684b41ad87944ed93f69c309_2__8011_True_/Images/Licences/20231019/1edcc751565243d99509805ab4ed113620231019153960.jpg_1_5340929683644442502_2023101915390368386
+2023-10-19 15:39:03 685:  Return:VKP6235_ok
+2023-10-19 15:39:28 063:  ===============[離場]資料處理開始====================
+2023-10-19 15:39:28 064:  /api/LazyInsert/Exit status = 1 / laneID = 2
+2023-10-19 15:39:28 064:  此次為延遲寫入
+2023-10-19 15:39:28 065:   => Insert stage 1
+2023-10-19 15:39:28 065:   => Insert stage 2
+2023-10-19 15:39:28 065:   => Insert stage 3
+2023-10-19 15:39:28 066:   => Insert stage 5
+2023-10-19 15:39:28 066:  VKP6235 => Insert stage 6
+2023-10-19 15:39:28 067:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 15:39:28 067:  VKP6235 => 繳費機模式 [1]
+2023-10-19 15:39:28 068:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 15:39:28 069:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 15:39:28 078:  線圈狀態 => A = 1 / B = 1
+2023-10-19 15:39:28 079:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 15:39:28 080:  VKP6235 => 並非無車牌
+2023-10-19 15:39:28 080:  VKP6235 => 通道 : 2
+2023-10-19 15:39:28 091:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 03:35:54
+2023-10-19 15:39:28 146:  VKP6235 繳費時間 
+2023-10-19 15:39:28 147:  VKP6235 => 規則 - 2
+2023-10-19 15:39:28 147:  VKP6235 => 開門旗標 = True
+2023-10-19 15:39:28 148:  VKP6235 => 延遲寫入模式 Phase 1，由線圈服務觸發，正式閉環
+2023-10-19 15:39:28 148:  VKP6235 => 記錄閉環操作完成
+2023-10-19 15:39:28 151:  NotifyAPPOut 1
+2023-10-19 15:39:28 151:  NotifyAPPOut 2
+2023-10-19 15:39:28 152:  NotifyAPPOut 3
+2023-10-19 15:39:28 152:  NotifyAPPOut 4
+2023-10-19 15:39:28 152:  NotifyAPPOut 5
+2023-10-19 15:39:28 154:  NotifyAPPOut 6
+2023-10-19 15:39:28 154:  VIVIPARK API URL http://vivipark.goosafe.net:8081/notify/app/out
+2023-10-19 15:39:28 154:  NotifyAPPOut 7
+2023-10-19 15:39:30 279:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 03:35:54 進場，於 2023/10/19 下午 03:39:03 離場失敗 System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 104.199.228.251:8081
+   於 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.Bll.VIVIPARK.Vivipark.NotifyAPPOut(String plateNumber, DateTime enterAt, DateTime leaveAt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\VIVIPARK\Vivipark.cs: 行 100
+2023-10-19 15:39:30 280:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 03:35:54_2023/10/19 下午 03:39:03_2_出口_f6d77d74684b41ad87944ed93f69c309_2__8011_True_/Images/Licences/20231019/1edcc751565243d99509805ab4ed113620231019153960.jpg_1_5340929683644442502_2023101915393027978
+2023-10-19 16:03:32 849:  AddForm 測試 1
+2023-10-19 16:03:32 854:  AddForm 測試 2
+2023-10-19 16:03:32 903:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:03:33 033:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 16:03:33 034:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 16:03:33 070:  AddForm 測試 3
+2023-10-19 16:04:33 267:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:04:33 382:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:04:33 415:  VKP6235 => Insert stage 7
+2023-10-19 16:04:33 415:  VKP6235 => Insert stage 8
+2023-10-19 16:04:33 417:  VKP6235 => Insert stage 10
+2023-10-19 16:04:33 418:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:04:33 419:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:04:33 420:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:04:33 455:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:04:33 499:  線圈狀態 => A = 0 / B = 0
+2023-10-19 16:04:33 500:  VKP6235 => 線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-10-19 16:04:33 500:  VKP6235 => 由於 loopMode = 6 需要觸發 實體線圈 A，但並未觸發 A 線圈，直接返回
+2023-10-19 16:04:33 501:  Return:VKP6235_No
+2023-10-19 16:04:35 526:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:04:35 578:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:04:35 578:  VKP6235 => Insert stage 7
+2023-10-19 16:04:35 578:  VKP6235 => Insert stage 8
+2023-10-19 16:04:35 578:  VKP6235 => Insert stage 10
+2023-10-19 16:04:35 578:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:04:35 578:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:04:35 578:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:04:35 579:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:04:35 587:  線圈狀態 => A = 0 / B = 0
+2023-10-19 16:04:35 588:  VKP6235 => 線圈 A = 0，清除 LanePlate 暫存車牌為 [None]
+2023-10-19 16:04:35 588:  VKP6235 => 由於 loopMode = 6 需要觸發 實體線圈 A，但並未觸發 A 線圈，直接返回
+2023-10-19 16:04:35 588:  Return:VKP6235_No
+2023-10-19 16:06:03 097:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:06:03 161:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:06:03 162:  VKP6235 => Insert stage 7
+2023-10-19 16:06:03 162:  VKP6235 => Insert stage 8
+2023-10-19 16:06:03 163:  VKP6235 => Insert stage 10
+2023-10-19 16:06:03 163:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:06:03 163:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:06:03 164:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:06:03 165:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:03 174:  線圈狀態 => A = 1 / B = 0
+2023-10-19 16:06:03 175:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 16:06:03 176:  Return:VKP6235_No
+2023-10-19 16:06:06 501:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:06:06 562:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:06:06 562:  VKP6235 => Insert stage 7
+2023-10-19 16:06:06 562:  VKP6235 => Insert stage 8
+2023-10-19 16:06:06 562:  VKP6235 => Insert stage 10
+2023-10-19 16:06:06 562:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:06:06 563:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:06:06 563:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:06:06 563:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:06 570:  線圈狀態 => A = 1 / B = 0
+2023-10-19 16:06:06 571:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 16:06:06 571:  Return:VKP6235_No
+2023-10-19 16:06:16 979:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:06:17 074:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:06:17 075:  VKP6235 => Insert stage 7
+2023-10-19 16:06:17 075:  VKP6235 => Insert stage 8
+2023-10-19 16:06:17 076:  VKP6235 => Insert stage 10
+2023-10-19 16:06:17 076:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:06:17 076:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:06:17 077:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:06:17 078:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:17 087:  線圈狀態 => A = 1 / B = 0
+2023-10-19 16:06:17 088:  VKP6235 => 由於 loopMode = 6 (非攝影機轉發模式下) 只支援[車牌觸發] + 實體線圈，但此次為 虛擬線圈觸發 直接返回
+2023-10-19 16:06:17 088:  Return:VKP6235_No
+2023-10-19 16:06:26 062:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:06:26 135:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:06:26 135:  VKP6235 => Insert stage 7
+2023-10-19 16:06:26 135:  VKP6235 => Insert stage 8
+2023-10-19 16:06:26 135:  VKP6235 => Insert stage 10
+2023-10-19 16:06:26 135:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:06:26 135:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:06:26 136:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:06:26 136:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:26 143:  線圈狀態 => A = 1 / B = 0
+2023-10-19 16:06:26 143:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 16:06:26 144:  VKP6235 => 並非無車牌
+2023-10-19 16:06:26 144:  VKP6235 => 通道 : 2
+2023-10-19 16:06:26 158:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:03:31
+2023-10-19 16:06:26 231:  VKP6235 繳費時間 
+2023-10-19 16:06:26 232:  VKP6235 => 規則 - 2
+2023-10-19 16:06:26 232:  VKP6235 => 開門旗標 = True
+2023-10-19 16:06:26 232:  VKP6235 => 延遲寫入模式 Phase 0，由攝影機觸發，開門但是不閉環
+2023-10-19 16:06:26 232:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-19 16:06:26 234:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:26 247:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:03:31_2023/10/19 下午 04:06:26_2_出口_cd2f61224b91419a8caa2408d38b1071_2__8011_True_/Images/Licences/20231019/80b81be68ddb4247a55e427b61390d0620231019160610.jpg_1_4895439707206774612_2023101916062624724
+2023-10-19 16:06:26 248:  Return:VKP6235_ok
+2023-10-19 16:06:54 404:  ===============[離場]資料處理開始====================
+2023-10-19 16:06:54 404:  /api/LazyInsert/Exit status = 1 / laneID = 2
+2023-10-19 16:06:54 404:  此次為延遲寫入
+2023-10-19 16:06:54 404:   => Insert stage 1
+2023-10-19 16:06:54 404:   => Insert stage 2
+2023-10-19 16:06:54 404:   => Insert stage 3
+2023-10-19 16:06:54 404:   => Insert stage 5
+2023-10-19 16:06:54 404:  VKP6235 => Insert stage 6
+2023-10-19 16:06:54 404:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:06:54 404:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:06:54 404:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 6
+2023-10-19 16:06:54 404:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-10-19 16:06:54 419:  線圈狀態 => A = 1 / B = 1
+2023-10-19 16:06:54 419:  VKP6235 => 線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-19 16:06:54 419:  VKP6235 => 並非無車牌
+2023-10-19 16:06:54 419:  VKP6235 => 通道 : 2
+2023-10-19 16:06:54 438:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:03:31
+2023-10-19 16:06:54 465:  VKP6235 繳費時間 
+2023-10-19 16:06:54 466:  VKP6235 => 規則 - 2
+2023-10-19 16:06:54 466:  VKP6235 => 開門旗標 = True
+2023-10-19 16:06:54 467:  VKP6235 => 延遲寫入模式 Phase 1，由線圈服務觸發，正式閉環
+2023-10-19 16:06:54 467:  VKP6235 => 記錄閉環操作完成
+2023-10-19 16:06:54 468:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:03:31_2023/10/19 下午 04:06:26_2_出口_cd2f61224b91419a8caa2408d38b1071_2__8011_True_/Images/Licences/20231019/80b81be68ddb4247a55e427b61390d0620231019160610.jpg_1_4895439707206774612_2023101916065446823
+2023-10-19 16:08:58 310:  AddForm 測試 1
+2023-10-19 16:08:58 312:  AddForm 測試 2
+2023-10-19 16:08:58 330:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:08:58 354:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 16:08:58 354:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 16:08:58 368:  AddForm 測試 3
+2023-10-19 16:09:14 779:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:09:14 849:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:09:14 850:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:09:14 851:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:09:14 851:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:09:14 852:  Return:VKP6235_No
+2023-10-19 16:09:30 426:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:09:30 494:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:09:30 495:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:09:30 495:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:09:30 496:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:09:30 496:  VKP6235 => 並非無車牌
+2023-10-19 16:09:30 496:  VKP6235 => 通道 : 2
+2023-10-19 16:09:30 505:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:08:57
+2023-10-19 16:09:30 550:  VKP6235 繳費時間 
+2023-10-19 16:09:30 551:  VKP6235 => 規則 - 2
+2023-10-19 16:09:30 551:  VKP6235 => 開門旗標 = True
+2023-10-19 16:09:30 551:  VKP6235 => 記錄閉環操作完成
+2023-10-19 16:09:30 552:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:08:57_2023/10/19 下午 04:09:30_2_出口_76dda1027e774a4c89151025114c59aa_2__8011_True_/Images/Licences/20231019/6fe8379150d24399ad8b38633eaa957820231019160945.jpg_1_4978397278313844521_2023101916093055250
+2023-10-19 16:09:30 558:  Return:VKP6235_ok
+2023-10-19 16:17:09 189:  AddForm 測試 1
+2023-10-19 16:17:09 194:  AddForm 測試 2
+2023-10-19 16:17:09 284:  AddForm 錯誤 => System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.WebUI.Areas.Report.Controllers.InRecordController.AddForm(String plate, String dateStr, String timeStr) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\Report\Controllers\InRecordController.cs: 行 1224
+2023-10-19 16:17:51 356:  AddForm 測試 1
+2023-10-19 16:17:51 359:  AddForm 測試 2
+2023-10-19 16:17:51 408:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:17:51 560:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 16:17:51 560:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 16:17:51 582:  AddForm 測試 3
+2023-10-19 16:18:50 523:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:18:50 643:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:18:50 663:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:18:50 664:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:18:50 665:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:18:50 665:  Return:VKP6235_No
+2023-10-19 16:18:51 444:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:18:51 532:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:18:51 532:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:18:51 532:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:18:51 532:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:18:51 532:  VKP6235 => 並非無車牌
+2023-10-19 16:18:51 533:  VKP6235 => 通道 : 2
+2023-10-19 16:18:51 574:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:17:45
+2023-10-19 16:18:51 708:  VKP6235 繳費時間 
+2023-10-19 16:18:51 709:  VKP6235 => 規則 - 2
+2023-10-19 16:18:51 709:  VKP6235 => 開門旗標 = True
+2023-10-19 16:18:51 710:  VKP6235 => 記錄閉環操作完成
+2023-10-19 16:18:51 712:  NotifyAPPOut 1
+2023-10-19 16:18:51 712:  NotifyAPPOut 2
+2023-10-19 16:18:51 712:  NotifyAPPOut 3
+2023-10-19 16:18:51 712:  NotifyAPPOut 4
+2023-10-19 16:18:51 713:  NotifyAPPOut 5
+2023-10-19 16:18:51 715:  NotifyAPPOut 6
+2023-10-19 16:18:51 715:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/out
+2023-10-19 16:18:51 715:  NotifyAPPOut 7
+2023-10-19 16:18:52 833:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 04:17:45 進場，於 2023/10/19 下午 04:18:51 離場成功
+2023-10-19 16:18:52 833:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:17:45_2023/10/19 下午 04:18:51_2_出口_004cd7d6438d47f0ac2be6aa98cf859a_2__8011_True_/Images/Licences/20231019/7d1a44e9946e48a89326e9ba9ff4801920231019161848.jpg_1_4871033975045793903_2023101916185283378
+2023-10-19 16:18:52 835:  Return:VKP6235_ok
+2023-10-19 16:23:48 095:  AddForm 測試 1
+2023-10-19 16:23:48 100:  AddForm 測試 2
+2023-10-19 16:23:48 150:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:23:48 209:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 16:23:48 210:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 16:23:48 224:  AddForm 測試 3
+2023-10-19 16:24:14 133:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:14 221:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:14 241:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:14 243:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:14 243:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:14 244:  Return:VKP6235_No
+2023-10-19 16:24:18 669:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:18 735:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:18 735:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:18 735:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:18 736:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:18 736:  Return:VKP6235_No
+2023-10-19 16:24:23 202:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:23 257:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:23 257:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:23 257:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:23 257:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:23 258:  Return:VKP6235_No
+2023-10-19 16:24:26 431:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:26 510:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:26 510:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:26 510:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:26 510:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:26 511:  Return:VKP6235_No
+2023-10-19 16:24:50 646:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:50 708:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:50 708:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:50 710:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:50 710:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:50 710:  Return:VKP6235_No
+2023-10-19 16:24:58 104:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:58 166:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:58 166:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:24:58 166:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:58 166:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:58 166:  VKP6235 => 並非無車牌
+2023-10-19 16:24:58 167:  VKP6235 => 通道 : 2
+2023-10-19 16:24:58 209:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:23:46
+2023-10-19 16:24:58 283:  VKP6235 繳費時間 
+2023-10-19 16:24:58 284:  VKP6235 => 規則 - 2
+2023-10-19 16:24:58 284:  VKP6235 => 開門旗標 = True
+2023-10-19 16:24:58 284:  VKP6235 => 記錄閉環操作完成
+2023-10-19 16:24:58 286:  NotifyAPPOut 1
+2023-10-19 16:24:58 286:  NotifyAPPOut 2
+2023-10-19 16:24:58 286:  NotifyAPPOut 3
+2023-10-19 16:24:58 286:  NotifyAPPOut 4
+2023-10-19 16:24:58 286:  NotifyAPPOut 5
+2023-10-19 16:24:58 287:  NotifyAPPOut 6
+2023-10-19 16:24:58 288:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/out
+2023-10-19 16:24:58 288:  NotifyAPPOut 7
+2023-10-19 16:24:59 100:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:24:59 165:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:24:59 166:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:24:59 167:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:24:59 167:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:24:59 167:  Return:VKP6235_No
+2023-10-19 16:25:04 935:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 04:23:46 進場，於 2023/10/19 下午 04:24:58 離場成功
+2023-10-19 16:25:04 936:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:23:46_2023/10/19 下午 04:24:58_2_出口_523426444ea34910a34fde9cd674224b_2__8011_True_/Images/Licences/20231019/51f956edc8d94b3bab5bd927e51572c220231019162413.jpg_1_5355025455719873223_2023101916250493651
+2023-10-19 16:25:04 937:  Return:VKP6235_ok
+2023-10-19 16:53:48 358:  AddForm 測試 1
+2023-10-19 16:53:48 361:  AddForm 測試 2
+2023-10-19 16:53:48 404:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:53:48 570:  臨停月租[分開]加減模式 / 原始[臨停]車位 20 => 更新[臨停]車位 19 / 當前總車位 [臨停 + 月租] 79 
+2023-10-19 16:53:48 571:  總剩餘車位數 ： 79，類型：臨停
+2023-10-19 16:53:48 606:  AddForm 測試 3
+2023-10-19 16:54:52 914:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:54:53 044:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:54:53 072:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:54:53 073:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:54:53 074:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:54:53 074:  Return:VKP6235_No
+2023-10-19 16:55:02 561:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:02 621:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:02 622:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:55:02 622:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:02 622:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:02 622:  Return:VKP6235_No
+2023-10-19 16:55:06 390:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:06 468:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:06 468:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:55:06 468:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:06 470:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:06 470:  Return:VKP6235_No
+2023-10-19 16:55:09 501:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:09 571:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:09 572:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:55:09 572:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:09 573:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:09 573:  VKP6235 => 並非無車牌
+2023-10-19 16:55:09 574:  VKP6235 => 通道 : 2
+2023-10-19 16:55:09 630:  VKP6235 => 沒有匹配到進場紀錄
+2023-10-19 16:55:09 666:  VKP6235 => 没有匹配到對應的入場記錄，但找到該車牌已於稍早閉環 ( 10 分鐘內 )，柵欄已於稍早開啟過，此次為系统二次辨識開啟柵欄
+2023-10-19 16:55:09 667:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_VKP6235_0_1_2_0_0_1_出口_ee40639b7f774cb4b29c1c441030e9b0_2__8011_True_/Images/Licences/20231019/96c137aa068b42a390d9036ca5a149af20231019165553.jpg_1_0_2023101916550966704}
+2023-10-19 16:55:09 668:  Return:VKP6235_ok
+2023-10-19 16:55:43 456:  AddForm 測試 1
+2023-10-19 16:55:43 458:  AddForm 測試 2
+2023-10-19 16:55:43 475:  進入計算車位流程，BusinessType = 1
+2023-10-19 16:55:43 499:  臨停月租[分開]加減模式 / 原始[臨停]車位 19 => 更新[臨停]車位 18 / 當前總車位 [臨停 + 月租] 78 
+2023-10-19 16:55:43 499:  總剩餘車位數 ： 78，類型：臨停
+2023-10-19 16:55:43 510:  AddForm 測試 3
+2023-10-19 16:55:49 474:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:49 536:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:49 537:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:55:49 537:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:49 537:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:49 538:  Return:VKP6235_No
+2023-10-19 16:55:53 429:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:53 503:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:53 503:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:55:53 504:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:53 504:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:53 504:  Return:VKP6235_No
+2023-10-19 16:55:57 395:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:55:57 455:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:55:57 456:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:55:57 456:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:55:57 456:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:55:57 457:  Return:VKP6235_No
+2023-10-19 16:56:02 632:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:56:02 715:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:56:02 715:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:56:02 716:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:56:02 716:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:56:02 716:  Return:VKP6235_No
+2023-10-19 16:56:07 522:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:56:07 587:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:56:07 588:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-19 16:56:07 589:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:56:07 589:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:56:07 590:  Return:VKP6235_No
+2023-10-19 16:56:14 573:  Camera:192.168.1.66_VKP6235
+2023-10-19 16:56:14 652:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-19 16:56:14 653:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-19 16:56:14 653:  VKP6235 => 繳費機模式 [1]
+2023-10-19 16:56:14 653:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 16:56:14 654:  VKP6235 => 並非無車牌
+2023-10-19 16:56:14 654:  VKP6235 => 通道 : 2
+2023-10-19 16:56:14 665:  VKP6235 => 匹配到進場紀錄 / 進場時間 = 2023/10/19 下午 04:55:42
+2023-10-19 16:56:14 799:  VKP6235 繳費時間 
+2023-10-19 16:56:14 800:  VKP6235 => 規則 - 2
+2023-10-19 16:56:14 801:  VKP6235 => 開門旗標 = True
+2023-10-19 16:56:14 802:  VKP6235 => 記錄閉環操作完成
+2023-10-19 16:56:14 805:  NotifyAPPOut 1
+2023-10-19 16:56:14 805:  NotifyAPPOut 2
+2023-10-19 16:56:14 806:  NotifyAPPOut 3
+2023-10-19 16:56:14 806:  NotifyAPPOut 4
+2023-10-19 16:56:14 806:  NotifyAPPOut 5
+2023-10-19 16:56:14 810:  NotifyAPPOut 6
+2023-10-19 16:56:14 811:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/out
+2023-10-19 16:56:14 812:  NotifyAPPOut 7
+2023-10-19 16:56:24 874:  通知 VIVIPARK APP VKP6235 於 2023/10/19 下午 04:55:42 進場，於 2023/10/19 下午 04:56:14 離場失敗 System.Net.WebException: 作業逾時
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 121
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.Bll.VIVIPARK.Vivipark.NotifyAPPOut(String plateNumber, DateTime enterAt, DateTime leaveAt) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\VIVIPARK\Vivipark.cs: 行 107
+2023-10-19 16:56:24 875:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_VKP6235_0_1_2_2023/10/19 下午 04:55:42_2023/10/19 下午 04:56:14_2_出口_81b0797e348c4d70a36467079db66f5c_2__8011_True_/Images/Licences/20231019/657770a3203642d2ac24f2f6997982da20231019165661.jpg_1_5448380072496492776_2023101916562487414
+2023-10-19 16:56:24 876:  Return:VKP6235_ok
+2023-10-19 17:38:04 677:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:38:04 684:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:38:06 171:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:38:06 173:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:38:06 183:  VKP6235 => Insert stage 7
+2023-10-19 17:38:06 184:  VKP6235 => Insert stage 8
+2023-10-19 17:38:06 186:  VKP6235 => Insert stage 10
+2023-10-19 17:38:06 186:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 17:38:06 186:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-19 17:38:06 195:  VKP6235 => Insert stage 7
+2023-10-19 17:38:06 196:  VKP6235 => Insert stage 8
+2023-10-19 17:38:06 197:  VKP6235 => Insert stage 10
+2023-10-19 17:38:06 198:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 17:38:06 199:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-19 17:38:06 218:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-19 17:38:06 220:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-19 17:38:08 341:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 811
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 351
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-10-19 17:38:08 483:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-19 17:38:08 505:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101917380850451
+2023-10-19 17:38:08 505:  發送入口字幕機 TriggerType : 8
+2023-10-19 17:38:08 505:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:38:08 505:  
+2023-10-19 17:38:08 506:  ===============[入場]資料處理結束====================
+2023-10-19 17:38:08 506:  Return:VKP6235_No
+2023-10-19 17:38:10 316:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 811
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 351
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-10-19 17:38:10 340:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-19 17:38:10 347:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101917381034772
+2023-10-19 17:38:10 348:  發送入口字幕機 TriggerType : 4
+2023-10-19 17:38:10 348:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:38:10 350:  
+2023-10-19 17:38:10 350:  ===============[入場]資料處理結束====================
+2023-10-19 17:38:10 351:  Return:VKP6235_No
+2023-10-19 17:39:31 813:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:39:31 872:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:39:31 874:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 17:39:31 874:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 17:39:31 902:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101917393190238
+2023-10-19 17:39:31 903:  發送入口字幕機 TriggerType : 8
+2023-10-19 17:39:31 904:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:39:31 939:  進入計算車位流程，BusinessType = 1
+2023-10-19 17:39:32 000:  臨停月租[分開]加減模式 / 原始[臨停]車位 19 => 更新[臨停]車位 18 / 當前總車位 [臨停 + 月租] 78 
+2023-10-19 17:39:32 000:  總剩餘車位數 ： 78，類型：臨停
+2023-10-19 17:39:32 046:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 17:39:32 046:  ===============[入場]資料處理結束====================
+2023-10-19 17:39:32 046:  Return:VKP6235_ok
+2023-10-19 17:44:14 217:  5465941688251698836,admin,執行刪除
+2023-10-19 17:44:14 240:  5260200435395716912,admin,執行刪除
+2023-10-19 17:44:21 542:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:44:21 676:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:44:21 690:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 17:44:21 690:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 17:44:21 742:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101917442174210
+2023-10-19 17:44:21 742:  發送入口字幕機 TriggerType : 4
+2023-10-19 17:44:21 742:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:44:21 761:  進入計算車位流程，BusinessType = 1
+2023-10-19 17:44:21 905:  臨停月租[分開]加減模式 / 原始[臨停]車位 18 => 更新[臨停]車位 17 / 當前總車位 [臨停 + 月租] 77 
+2023-10-19 17:44:21 906:  總剩餘車位數 ： 77，類型：臨停
+2023-10-19 17:44:21 926:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-19 17:44:21 927:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-19 17:44:21 928:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 17:44:21 928:  ===============[入場]資料處理結束====================
+2023-10-19 17:44:21 929:  Return:VKP6235_ok
+2023-10-19 17:44:24 353:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:44:24 397:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:44:24 398:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 17:44:24 398:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 17:44:24 423:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101917442442395
+2023-10-19 17:44:24 424:  發送入口字幕機 TriggerType : 4
+2023-10-19 17:44:24 424:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:44:24 425:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-19 17:44:24 425:  ===============[入場]資料處理結束====================
+2023-10-19 17:44:24 426:  Return:VKP6235_ok
+2023-10-19 17:50:03 383:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:50:03 473:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:50:03 478:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 17:50:03 478:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 17:50:03 523:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101917500352275
+2023-10-19 17:50:03 523:  發送入口字幕機 TriggerType : 8
+2023-10-19 17:50:03 523:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:50:03 540:  進入計算車位流程，BusinessType = 1
+2023-10-19 17:50:03 590:  臨停月租[分開]加減模式 / 原始[臨停]車位 17 => 更新[臨停]車位 16 / 當前總車位 [臨停 + 月租] 76 
+2023-10-19 17:50:03 590:  總剩餘車位數 ： 76，類型：臨停
+2023-10-19 17:50:03 604:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-19 17:50:03 604:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-19 17:50:03 604:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 17:50:03 604:  ===============[入場]資料處理結束====================
+2023-10-19 17:50:03 605:  Return:VKP6235_ok
+2023-10-19 17:50:04 491:  Camera:192.168.1.65_VKP6235
+2023-10-19 17:50:04 533:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 17:50:04 533:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 17:50:04 533:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 17:50:04 559:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101917500455945
+2023-10-19 17:50:04 559:  發送入口字幕機 TriggerType : 4
+2023-10-19 17:50:04 559:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 17:50:04 560:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-19 17:50:04 560:  ===============[入場]資料處理結束====================
+2023-10-19 17:50:04 561:  Return:VKP6235_ok
+2023-10-19 18:05:01 037:  5098152771962188236,admin,執行刪除
+2023-10-19 18:05:01 048:  4843209390183606226,admin,執行刪除
+2023-10-19 18:05:10 221:  Camera:192.168.1.65_VKP6235
+2023-10-19 18:05:10 327:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 18:05:10 339:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 18:05:10 339:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 18:05:10 419:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101918051041899
+2023-10-19 18:05:10 420:  發送入口字幕機 TriggerType : 8
+2023-10-19 18:05:10 420:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 18:05:10 446:  進入計算車位流程，BusinessType = 1
+2023-10-19 18:05:10 562:  臨停月租[分開]加減模式 / 原始[臨停]車位 16 => 更新[臨停]車位 15 / 當前總車位 [臨停 + 月租] 75 
+2023-10-19 18:05:10 563:  總剩餘車位數 ： 75，類型：臨停
+2023-10-19 18:05:10 575:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-19 18:05:10 576:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-19 18:05:10 577:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 18:05:10 577:  ===============[入場]資料處理結束====================
+2023-10-19 18:05:10 577:  Return:VKP6235_ok
+2023-10-19 18:05:11 118:  Camera:192.168.1.65_VKP6235
+2023-10-19 18:05:11 159:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 18:05:11 160:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-19 18:05:11 160:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 18:05:11 195:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101918051119524
+2023-10-19 18:05:11 195:  發送入口字幕機 TriggerType : 4
+2023-10-19 18:05:11 195:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 18:05:11 197:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-19 18:05:11 197:  ===============[入場]資料處理結束====================
+2023-10-19 18:05:11 197:  Return:VKP6235_ok
+2023-10-19 18:09:21 004:  Camera:192.168.1.65_VKP6235
+2023-10-19 18:09:22 133:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-19 18:09:22 145:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 18:09:22 146:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-19 18:09:22 307:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101918092230714
+2023-10-19 18:09:22 307:  發送入口字幕機 TriggerType : 8
+2023-10-19 18:09:22 308:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 18:09:22 327:  進入計算車位流程，BusinessType = 1
+2023-10-19 18:09:22 441:  臨停月租[分開]加減模式 / 原始[臨停]車位 15 => 更新[臨停]車位 14 / 當前總車位 [臨停 + 月租] 74 
+2023-10-19 18:09:22 442:  總剩餘車位數 ： 74，類型：臨停
+2023-10-19 18:09:22 484:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-19 18:09:22 486:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-19 18:09:22 486:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 18:09:22 486:  ===============[入場]資料處理結束====================
+2023-10-19 18:09:22 487:  Return:VKP6235_ok
+2023-10-19 21:33:11 783:  Return:_No
+2023-10-19 21:51:34 838:  Camera:192.168.1.100_ABC1234
+2023-10-19 21:51:34 851:  Return:ABC1234_No
+2023-10-19 22:01:39 954:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:01:39 955:  Return:ABC1234_No
+2023-10-19 22:02:02 988:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:02:02 991:  Return:ABC1234_No
+2023-10-19 22:02:13 876:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:02:13 877:  Return:ABC1234_No
+2023-10-19 22:04:18 537:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:04:18 539:  Return:ABC1234_No
+2023-10-19 22:06:31 892:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:06:31 892:  Return:ABC1234_No
+2023-10-19 22:08:25 874:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:08:27 068:  NRCameraController_辨識結果輸入字串格式不正確。_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 88
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-19 22:08:27 126:  Return:ABC1234_No
+2023-10-19 22:14:32 072:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:14:32 095:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-19 22:14:32 101:  ABC1234 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 22:14:32 102:  ABC1234 => 此通道僅支援純虛擬線圈模式
+2023-10-19 22:14:32 131:  發送入口字幕機 : 入口相机_5_ABC1234_True_1_1_2023101922143213107
+2023-10-19 22:14:32 131:  發送入口字幕機 TriggerType : 8
+2023-10-19 22:14:32 131:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 22:14:32 147:  進入計算車位流程，BusinessType = 1
+2023-10-19 22:14:32 169:  臨停月租[分開]加減模式 / 原始[臨停]車位 14 => 更新[臨停]車位 13 / 當前總車位 [臨停 + 月租] 73 
+2023-10-19 22:14:32 169:  總剩餘車位數 ： 73，類型：臨停
+2023-10-19 22:14:32 189:  ABC1234 => 有開啟 Vivipark 功能
+2023-10-19 22:14:32 190:  ABC1234 => 有開啟 Vivipark 功能結束
+2023-10-19 22:14:32 190:  入口車道 / 車牌辨識 : ABC1234 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 22:14:32 190:  ===============[入場]資料處理結束====================
+2023-10-19 22:14:32 190:  Return:ABC1234_ok
+2023-10-19 22:27:04 859:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:27:04 892:  NRCameraController_辨識結果值不能為 null。
+參數名稱: s_   於 System.Convert.FromBase64String(String s)
+   於 Elight.WebUI.WebUtil.UtilCommon.DownloadIOData(String PlateName, String Base64Imge, String FilePathName) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 57
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 88
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-19 22:27:04 952:  Return:ABC1234_No
+2023-10-19 22:29:35 485:  Camera:192.168.1.100_ABC1234
+2023-10-19 22:29:36 589:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-19 22:29:36 607:  ABC1234 => 本次辨識為 : 虛擬線圈觸發
+2023-10-19 22:29:36 607:  ABC1234 => 此通道僅支援純虛擬線圈模式
+2023-10-19 22:29:36 780:  發送入口字幕機 : 入口相机_5_ABC1234_True_1_1_2023101922293678085
+2023-10-19 22:29:36 781:  發送入口字幕機 TriggerType : 8
+2023-10-19 22:29:36 781:  發送入口字幕機 noPlateOpenType : 2
+2023-10-19 22:29:36 826:  進入計算車位流程，BusinessType = 1
+2023-10-19 22:29:37 000:  臨停月租[分開]加減模式 / 原始[臨停]車位 13 => 更新[臨停]車位 12 / 當前總車位 [臨停 + 月租] 72 
+2023-10-19 22:29:37 001:  總剩餘車位數 ： 72，類型：臨停
+2023-10-19 22:29:37 020:  ABC1234 => 有開啟 Vivipark 功能
+2023-10-19 22:29:37 021:  ABC1234 => 有開啟 Vivipark 功能結束
+2023-10-19 22:29:37 022:  入口車道 / 車牌辨識 : ABC1234 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-19 22:29:37 022:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-19 22:29:37 022:  Return:ABC1234_ok

@@ -1,0 +1,96 @@
+ 發生時間：2023-11-21 15:45:51.7783
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:51.8142
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:51.9009
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:52.0770
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:52.2228
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:52.8814
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:53.0313
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+
+ 發生時間：2023-11-21 15:45:53.2131
+             日誌級別：ERROR
+             操作帳號：Manage
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Chrome 119.0
+             操作模組：WriteConfig_写入配置
+             提示訊息：無法插入節點或任何該節點的祖系當作它本身的子系。_   於 System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   於 Elight.Bll.PRecord.SystemConfig.GetChannelDeviceInfo() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\SystemConfig.cs: 行 135
+   於 Elight.WebUI.WebUtil.UtilCommon.WriteConfig(String strXml) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\WebUtil\UtilCommon.cs: 行 147
+   於 Elight.WebUI.Areas.PConfig.Controllers.AllocationController.AllocationForm(AllocationInfo model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\PConfig\Controllers\AllocationController.cs: 行 96
+

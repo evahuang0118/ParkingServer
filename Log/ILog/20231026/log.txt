@@ -1,0 +1,4 @@
+﻿2023-10-26 10:49:42 034:  Btime : 2023-10-26 00:00:00, Etime : 2023-10-26 23:59:59, username : , payType : 0
+2023-10-26 10:49:42 039:  GroupOperatorCash db = SqlSugar.SqlSugarClient
+2023-10-26 10:49:42 039:  GroupOperatorCash where =  1=1 and ChargeState=1  and PayTime>='2023-10-26 00:00:00' and PayTime<='2023-10-26 23:59:59' and PayType=1
+2023-10-26 10:49:42 039:  GroupOperatorCash groupFile = CreateName

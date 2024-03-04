@@ -1,0 +1,66 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>移动支付对账信息</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        .layui-table-cell {
+            height: auto !important;
+            white-space: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            $.ajax({
+                url: '/Report/Reconciliation/GetUrlAddress'
+                , dataType: 'json'
+                , success: function (result) {
+                    if (result.state == 1) {
+                        window.location.href = result.data;
+                    }
+                }
+                , error: function () {
+                    layer.alert('云端连接失败！！！')
+                }
+            })
+        }
+
+        initGrid();
+    });
+</script>
+

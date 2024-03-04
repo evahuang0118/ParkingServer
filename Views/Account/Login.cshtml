@@ -1,0 +1,107 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<style type="text/css">
+    .elight-product-box .product-desc li {
+        font-size: 20px;
+    }
+</style>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.SiteName - Goosafe Parking</title>
+	<meta name="keywords" content="@ViewBag.SoftwareName">
+	<meta name="description" content="@ViewBag.SoftwareName">
+	<link rel="shortcut icon" type="image/ico" href="~/favicon.ico" />
+	<link rel="bookmark" type="image/ico" href="~/favicon.ico" />
+	<link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+	<link href="~/Content/framework/css/login.css" rel="stylesheet" />
+	<link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+	<link href="~/Content/framework/css/font.css" rel="stylesheet" />
+</head>
+<body>
+	<div class = "elight-video-bg">
+		<video playsinline autoplay muted loop>
+			<source src="/Content/framework/videos/login.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+	</div>
+
+	<div class="elight-product-box animated fadeInUp">
+
+	</div>
+	<div class="elight-login-box animated fadeInRight">
+		<div class = "elight-login-header logo-font">@ViewBag.BrandName</div>
+		<div class="elight-login-body">
+
+			<div class = "" style = "color : #334054; padding : 20px 0; font-weight : 500; font-size : 16px">@ViewBag.SiteName</div>
+			@* <div class = "" style = "color : #334054;; padding : 10px 0; font-weight : 500; font-size : 16px">@ViewBag.SiteName</div> *@
+			<form class="layui-form">
+				<div class="layui-form-item">
+					<label class="login-icon"><i class="layui-icon">&#xe612;</i></label>
+					<input type="text" name="username" lay-verify="required" autocomplete="off" placeholder="帳號 / 已認證信箱" class="layui-input">
+				</div>
+				<div class="layui-form-item">
+					<label class="login-icon">
+						<i class="layui-icon">&#xe642;</i>
+					</label>
+					<input type="password" name="password" lay-verify="required" autocomplete="off" placeholder="密碼" class="layui-input">
+				</div>
+				@*<div class="layui-form-item">
+					<div class="login-code-box">
+						<label class="login-icon"><i class="layui-icon">&#xe62d;</i></label>
+						<input type="text" name="verifycode" lay-verify="required" autocomplete="off" placeholder="驗證碼" class="layui-input">
+						<img id="verifyCode" src="/Account/VerifyCode" title="更換驗證碼">
+					</div>
+					<input class="elight-pull-right" type="checkbox" lay-skin="primary" name="isSaveAccount" value="true" title="記住帳號" />
+				</div>*@
+				<div class="layui-form-item">
+					<button class="layui-btn btn-submit" lay-submit lay-filter="login">立即登入</button>
+				</div>
+			</form>
+			<div class = "version" style = "color : black">Version : 1.3.1</div>
+		</div>
+		<div class="elight-login-fooder"></div>
+	</div>
+</body>
+</html>
+<script src="~/Content/jquery/jquery.min.js"></script>
+<script src="~/Content/jquery/jquery.md5.js"></script>
+<script src="~/Content/framework/js/global.js"></script>
+<script src="~/Content/layui/layui.js"></script>
+<script>
+    layui.use(['layer', 'form'], function () {
+        //var $ = layui.jquery;
+        var layer = layui.layer;
+        var form = layui.form;
+        form.on('submit(login)', function (data) {
+            data.field.password = $.md5(data.field.password);
+            $(".btn-submit").html("正在登錄...");
+            $(".btn-submit").attr('disabled', true).addClass('layui-disabled');
+            $.ajax({
+                url: "/Account/Login",
+                data: data.field,
+                type: "post",
+                dataType: "json",
+                success: function (result) {
+                    if (result.state == 1) {
+                        window.location.href = "/Home/Index";
+                        $(".btn-submit").html("登錄成功，跳轉中...");
+                    } else {
+                        $(".btn-submit").html("立即登錄");
+                        $(".btn-submit").attr('disabled', false).removeClass('layui-disabled');
+                        $("#verifyCode").trigger('click');
+                        $.layerMsg(result.message, result.state);
+                    }
+                }
+            });
+				return false;
+			});
+				// 客戶要求 // 先 disable by steven 2023-09-18
+        //$("#verifyCode").click(function () {
+        //    $(this).attr("src", "/Account/VerifyCode?r=" + Math.random());
+        //});
+    });
+</script>

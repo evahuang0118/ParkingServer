@@ -1,0 +1,15 @@
+﻿2023-08-25 15:18:04 767:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4755580948021841841","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023824\/7f24b8705fc94f50b3d5986ddc9eea2520230824153002.jpg","InTime":"2023-08-24 15:30:55","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-25 15:34:12 507:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4755580948021841841","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023824\/7f24b8705fc94f50b3d5986ddc9eea2520230824153002.jpg","InTime":"2023-08-24 15:30:55","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":500,"Payment":500,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-25 15:35:21 307:  deviceId = 24, State = 2, 已下降
+2023-08-25 15:35:39 089:  deviceId = 24, State = 2, 已下降
+2023-08-25 16:19:04 412:  AAQ9527,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4755580948021841841","InPlate":"AAQ9527","InPlateImg":"\/Images\/Licences\/2023824\/7f24b8705fc94f50b3d5986ddc9eea2520230824153002.jpg","InTime":"2023-08-24 15:30:55","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":540,"Payment":540,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-08-25 17:32:21 622:  GetDeviceName => serialNumber = pos-1
+2023-08-25 17:32:35 991:  GetDeviceName => serialNumber = flap-1-on
+2023-08-25 17:34:35 793:  GetDeviceName => serialNumber = flap-1-on
+2023-08-25 17:36:35 808:  GetDeviceName => serialNumber = flap-1-on
+2023-08-25 17:38:17 292:  GetDeviceName => serialNumber = pos-1
+2023-08-25 17:38:17 293:  tuple[0] => 26, tuple[1] => 繳費機  - 1
+2023-08-25 17:38:35 998:  GetDeviceName => serialNumber = flap-1-on
+2023-08-25 17:39:16 637:  GetDeviceName => serialNumber = pos-1
+2023-08-25 17:39:16 638:  tuple[0] => 26, tuple[1] => pos-1
+2023-08-25 17:40:35 828:  GetDeviceName => serialNumber = flap-1-on

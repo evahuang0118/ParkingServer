@@ -1,0 +1,806 @@
+ ?生??：2023-08-22 12:06:17.9704
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:06:39.0229
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:07:00.0847
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:07:21.1425
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:07:48.3053
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:08:09.3841
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:08:30.4736
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:10:55.8746
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:11:41.0441
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:12:24.4803
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:12:45.5336
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:13:06.6262
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:13:27.7007
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:13:48.7897
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:14:17.6639
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:33:07.7754
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:33:28.8293
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:33:49.8857
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:34:10.9395
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1998
+
+ ?生??：2023-08-22 12:37:27.8574
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1999
+
+ ?生??：2023-08-22 12:40:37.0602
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:192.168.1.182_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1999
+
+ ?生??：2023-08-22 12:41:13.8751
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:127.0.0.1_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1999
+
+ ?生??：2023-08-22 15:41:32.1034
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:127.0.0.1_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1999
+
+ ?生??：2023-08-22 15:41:34.1549
+             日志??：ERROR
+             操作??：系?
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：SendClintInfo
+             提示信息：Can't connection:127.0.0.1_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 1999
+
+ ?生??：2023-08-22 15:50:47.7553
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 15:52:50.9907
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 15:54:48.6035
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 15:56:47.6130
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 15:58:47.0740
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:00:52.5503
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:01:32.5592
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:02:44.8258
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:04:52.5176
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:06:46.9378
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:08:46.9387
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:10:46.9560
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:12:45.0063
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:14:47.3974
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:16:45.5125
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:18:47.0224
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:20:48.2753
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:22:45.0591
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:24:52.5258
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:26:48.4494
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:28:47.5803
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:30:47.2750
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:32:46.9564
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:34:48.0324
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:36:47.9335
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:38:44.8698
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:40:46.9447
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:42:48.0203
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:44:44.8538
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:46:52.5442
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:48:48.4768
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：無法連接至遠端伺服器_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 16:50:52.5340
+             日志??：ERROR
+             操作??：Interface
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：IE 7.0
+             操作模?：HeartUpload_心跳上?
+             提示信息：作業逾時_   於 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   於 System.Net.HttpWebRequest.GetRequestStream()
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(Byte[] data, String url, String sign, Dictionary`2 headersDictionary, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 106
+   於 Elight.Utility.ResponseModels.RequestPost.PostDataToUrl(String data, String url, Int32 timeout) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\ResponseModels\RequestPost.cs: 行 35
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\CloudInterfaceController.cs: 行 1855
+
+ ?生??：2023-08-22 18:42:07.1553
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Reading from the stream has failed.
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Reading from the stream has failed.._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9788
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9764
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:39.9788
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+
+ ?生??：2023-08-22 20:03:40.0358
+             日志??：ERROR
+             操作??：AAQ952
+             操作者IP：192.168.1.100
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Timeout in IO operation
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Timeout in IO operation._   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 51
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 112
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 44
+

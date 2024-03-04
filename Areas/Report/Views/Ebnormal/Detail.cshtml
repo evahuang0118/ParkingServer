@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<style>
+    .td_background {
+        font-weight: bold;
+    }
+
+    .td_center {
+        text-align: center;
+    }
+</style>
+<form id="form" class="layui-form" style="margin-top:10px">
+
+    <div class="layui-tab layui-tab-card" style="margin:10px 30px 10px 30px">
+        <ul class="layui-tab-title">
+            <li class="layui-this">匹配記錄</li>
+        </ul>
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="90">
+                        <col width="150">
+                        <col width="150">
+                        <col width="90">
+                        <col width="150">
+                        <col width="80">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;font-weight:bold;color:blue">車牌號碼</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">入場時間</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">出場時間</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">已付(免費)金額</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">操作時間</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">類  型</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="hidden" name="InCarImg" id="InCarImg" />
+                                <input type="hidden" name="OutCarImg" id="OutCarImg" />
+
+                                <input type="text" name="PlateNo" style="width:90px; border:none;text-align:center" class="layui-input">
+                            </td>
+                            <td><input type="text" name="InTime" style="width:150px;border:none;text-align:center" class="layui-input"></td>
+                            <td><input type="text" name="OutTime" style="width:150px;border:none;text-align:center" class="layui-input"></td>
+                            <td><input type="text" name="Actual" style="width:90px;border:none;text-align:center" class="layui-input"></td>
+                            <td><input type="text" name="OperateTime" style="width:150px;border:none;text-align:center" class="layui-input"></td>
+                            <td><input type="text" name="TypeName" style="width:80px;border:none;text-align:center" class="layui-input"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+                <table class="layui-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;font-weight:bold;color:blue">出口圖片</th>
+                            <th style="text-align:center;font-weight:bold;color:blue">抓拍圖片</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img style="height:300px;width:400px;max-width:400px" id="in_img"></td>
+                            <td><img style="height:300px;width:400px;max-width:400px" id="out_img"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</form>
+
+<script>
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }) .use(['jquery','paging', 'layer'], function () {
+        var layer =layui.layer;
+        var form = layui.form;
+        var Key = $.getQueryString("primaryKey");
+
+    });
+
+    layui.use(['form', 'element'], function () {
+        var form = layui.form,
+            element = layui.element;
+        var primaryKey = $.getQueryString("primaryKey");
+
+        $.ajax({
+            url: "/Report/Ebnormal/GetFrom?",
+            data: { primaryKey: primaryKey },
+            type: "post",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                $("#form").formSerialize(data);
+            }
+        });
+
+        var Inimg = $("#InCarImg").val();
+        var Outimg = $("#OutCarImg").val();
+        if (Inimg != "")
+            $("#in_img").attr("src", Inimg);
+        if (Outimg != "")
+            $("#out_img").attr("src",Outimg);
+
+        form.render();
+    });
+
+</script>

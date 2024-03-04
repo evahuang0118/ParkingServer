@@ -1,0 +1,230 @@
+﻿2023-10-16 09:32:21 610:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-10-16 09:32:34 700:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-10-16 09:33:41 976:  產品啟動序號錯誤，請提供硬體編碼 = [myhwid] 對應之啟動序號
+2023-10-16 17:19:47 953:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:19:48 073:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:19:48 085:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 17:19:48 086:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : 實體線圈模式 (入口用) (3)
+2023-10-16 17:19:48 116:  取得[線圈服務]連線設定 => IP : 211.21.92.211 / Port : 6799
+2023-10-16 17:19:48 262:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.ArgumentNullException: 值不能為 null。
+參數名稱: String
+   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatusFromSR810(Int32 sr810ID, InOutType inOutType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 724
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 350
+2023-10-16 17:19:48 315:  VKP6235 => 此通道之線圈模式為 實體線圈模式 (入口用)，由於沒壓到線圈 A，因此不開門
+2023-10-16 17:19:48 336:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101617194833576
+2023-10-16 17:19:48 336:  發送入口字幕機 TriggerType : 4
+2023-10-16 17:19:48 336:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:19:48 337:  
+2023-10-16 17:19:48 337:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 565
+2023-10-16 17:19:48 337:  ===============[入場]資料處理結束====================
+2023-10-16 17:19:48 338:  Return:VKP6235_No
+2023-10-16 17:20:59 756:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:20:59 810:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:20:59 810:  VKP6235 => Insert stage 7
+2023-10-16 17:20:59 811:  VKP6235 => Insert stage 8
+2023-10-16 17:20:59 812:  VKP6235 => Insert stage 10
+2023-10-16 17:20:59 813:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-16 17:20:59 813:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:20:59 819:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:21:01 888:  VKP6235 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 784
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 348
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9000
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-10-16 17:21:01 906:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-16 17:21:01 911:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101617210191150
+2023-10-16 17:21:01 912:  發送入口字幕機 TriggerType : 8
+2023-10-16 17:21:01 912:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:21:01 913:  
+2023-10-16 17:21:01 913:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 565
+2023-10-16 17:21:01 913:  ===============[入場]資料處理結束====================
+2023-10-16 17:21:01 913:  Return:VKP6235_No
+2023-10-16 17:22:23 210:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:22:23 253:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:22:23 254:  VKP6235 => Insert stage 7
+2023-10-16 17:22:23 254:  VKP6235 => Insert stage 8
+2023-10-16 17:22:23 254:  VKP6235 => Insert stage 10
+2023-10-16 17:22:23 254:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 17:22:23 254:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:22:23 255:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:22:23 266:  線圈狀態 => A = 1 / B = 0
+2023-10-16 17:22:23 267:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-16 17:22:23 298:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101617222329801
+2023-10-16 17:22:23 299:  發送入口字幕機 TriggerType : 4
+2023-10-16 17:22:23 299:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:22:23 301:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-16 17:22:23 304:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:22:23 319:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-16 17:22:23 320:  CMSLogWrite 寫入錯誤 System.NullReferenceException: 並未將物件參考設定為物件的執行個體。
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 565
+2023-10-16 17:22:23 320:  ===============[入場]資料處理結束====================
+2023-10-16 17:22:23 320:  Return:VKP6235_ok
+2023-10-16 17:56:54 805:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:56:54 807:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:56:54 809:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:56:54 811:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:56:56 539:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:56:56 540:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:56:56 542:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:56:56 545:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:56:56 552:  VKP6235 => Insert stage 7
+2023-10-16 17:56:56 552:  VKP6235 => Insert stage 8
+2023-10-16 17:56:56 554:  VKP6235 => Insert stage 7
+2023-10-16 17:56:56 555:  VKP6235 => Insert stage 8
+2023-10-16 17:56:56 558:  VKP6235 => Insert stage 10
+2023-10-16 17:56:56 560:  VKP6235 => Insert stage 10
+2023-10-16 17:56:56 564:  VKP6235 => Insert stage 7
+2023-10-16 17:56:56 565:  VKP6235 => Insert stage 8
+2023-10-16 17:56:56 566:  VKP6235 => Insert stage 10
+2023-10-16 17:56:56 569:  VKP6235 => Insert stage 7
+2023-10-16 17:56:56 570:  VKP6235 => Insert stage 8
+2023-10-16 17:56:56 571:  VKP6235 => Insert stage 10
+2023-10-16 17:56:56 579:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 17:56:56 580:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:56:56 582:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 17:56:56 583:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:56:56 585:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-16 17:56:56 587:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:56:56 590:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 17:56:56 591:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:56:56 626:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:56:56 627:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:56:56 630:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:56:56 648:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:56:56 760:  線圈狀態 => A = -1 / B = -1
+2023-10-16 17:56:56 762:  線圈狀態 => A = -1 / B = -1
+2023-10-16 17:56:56 763:  線圈狀態 => A = -1 / B = -1
+2023-10-16 17:56:56 765:  線圈狀態 => A = 1 / B = 0
+2023-10-16 17:56:56 766:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-16 17:56:56 954:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-16 17:56:56 956:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-16 17:56:56 957:  VKP6235 => 此通道之線圈模式為 B 線圈流程延遲寫入模式，由於沒壓到線圈 A，因此不開門
+2023-10-16 17:56:56 998:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101617565699813
+2023-10-16 17:56:56 999:  發送入口字幕機 TriggerType : 4
+2023-10-16 17:56:56 999:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:56:56 999:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101617565699914
+2023-10-16 17:56:57 000:  發送入口字幕機 TriggerType : 8
+2023-10-16 17:56:57 001:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:56:57 002:  發送入口字幕機 : 入口相机_1_VKP6235_False_1_1_2023101617565700017
+2023-10-16 17:56:57 002:  發送入口字幕機 TriggerType : 4
+2023-10-16 17:56:57 003:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:56:57 004:  
+2023-10-16 17:56:57 006:  ===============[入場]資料處理結束====================
+2023-10-16 17:56:57 007:  Return:VKP6235_No
+2023-10-16 17:56:57 008:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101617565700017
+2023-10-16 17:56:57 009:  發送入口字幕機 TriggerType : 4
+2023-10-16 17:56:57 010:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:56:57 012:  
+2023-10-16 17:56:57 013:  ===============[入場]資料處理結束====================
+2023-10-16 17:56:57 014:  Return:VKP6235_No
+2023-10-16 17:56:57 016:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-16 17:56:57 023:  
+2023-10-16 17:56:57 023:  ===============[入場]資料處理結束====================
+2023-10-16 17:56:57 023:  Return:VKP6235_No
+2023-10-16 17:56:57 026:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:56:57 056:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-16 17:56:57 057:  ===============[入場]資料處理結束====================
+2023-10-16 17:56:57 057:  Return:VKP6235_ok
+2023-10-16 17:57:06 040:  Camera:192.168.1.65_VKP6235
+2023-10-16 17:57:06 086:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 17:57:06 086:  VKP6235 => Insert stage 7
+2023-10-16 17:57:06 087:  VKP6235 => Insert stage 8
+2023-10-16 17:57:06 087:  VKP6235 => Insert stage 10
+2023-10-16 17:57:06 087:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-16 17:57:06 088:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 17:57:06 088:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:57:06 096:  線圈狀態 => A = 1 / B = 0
+2023-10-16 17:57:06 127:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101617570612680
+2023-10-16 17:57:06 127:  發送入口字幕機 TriggerType : 8
+2023-10-16 17:57:06 127:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 17:57:06 129:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-16 17:57:06 130:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 17:57:06 137:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-16 17:57:06 137:  ===============[入場]資料處理結束====================
+2023-10-16 17:57:06 137:  Return:VKP6235_ok
+2023-10-16 17:57:28 117:  ===============[入場]資料處理開始====================
+2023-10-16 17:57:28 118:  /api/LazyInsert/Entrace status = 1 / laneID = 0
+2023-10-16 17:57:28 119:  此次為延遲寫入
+2023-10-16 17:57:28 120:   => Insert stage 1
+2023-10-16 17:57:28 121:   => Insert stage 4
+2023-10-16 18:04:41 976:  Camera:192.168.1.65_VKP6235
+2023-10-16 18:04:42 103:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 18:04:42 104:  VKP6235 => Insert stage 7
+2023-10-16 18:04:42 104:  VKP6235 => Insert stage 8
+2023-10-16 18:04:42 105:  VKP6235 => Insert stage 10
+2023-10-16 18:04:42 106:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-16 18:04:42 106:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 18:04:42 107:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 18:04:42 122:  線圈狀態 => A = 1 / B = 0
+2023-10-16 18:04:42 146:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101618044214520
+2023-10-16 18:04:42 146:  發送入口字幕機 TriggerType : 8
+2023-10-16 18:04:42 146:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 18:04:42 147:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-16 18:04:42 147:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 18:04:42 156:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-16 18:04:42 157:  ===============[入場]資料處理結束====================
+2023-10-16 18:04:42 157:  Return:VKP6235_ok
+2023-10-16 18:05:02 000:  ===============[入場]資料處理開始====================
+2023-10-16 18:05:02 001:  /api/LazyInsert/Entrace status = 1 / laneID = 0
+2023-10-16 18:05:02 002:  此次為延遲寫入
+2023-10-16 18:05:02 003:   => Insert stage 1
+2023-10-16 18:05:02 003:   => Insert stage 4
+2023-10-16 18:08:17 538:  Camera:192.168.1.65_VKP6235
+2023-10-16 18:08:17 580:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-16 18:08:17 580:  VKP6235 => Insert stage 7
+2023-10-16 18:08:17 580:  VKP6235 => Insert stage 8
+2023-10-16 18:08:17 580:  VKP6235 => Insert stage 10
+2023-10-16 18:08:17 581:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 18:08:17 581:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 18:08:17 581:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 18:08:17 591:  線圈狀態 => A = 1 / B = 0
+2023-10-16 18:08:17 591:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-16 18:08:17 616:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101618081761604
+2023-10-16 18:08:17 616:  發送入口字幕機 TriggerType : 4
+2023-10-16 18:08:17 617:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 18:08:17 618:  VKP6235 => 開門但尚未寫入，通知線圈服務 車道狀態
+2023-10-16 18:08:17 620:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 18:08:17 630:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-16 18:08:17 631:  ===============[入場]資料處理結束====================
+2023-10-16 18:08:17 632:  Return:VKP6235_ok
+2023-10-16 18:08:39 199:  ===============[入場]資料處理開始====================
+2023-10-16 18:08:39 200:  /api/LazyInsert/Entrace status = 1 / laneID = 1
+2023-10-16 18:08:39 201:  此次為延遲寫入
+2023-10-16 18:08:39 201:   => Insert stage 1
+2023-10-16 18:08:39 202:   => Insert stage 2
+2023-10-16 18:08:39 202:   => Insert stage 3
+2023-10-16 18:08:39 203:   => Insert stage 5
+2023-10-16 18:08:39 204:  VKP6235 => Insert stage 6
+2023-10-16 18:08:39 205:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-16 18:08:39 205:  VKP6235 => 此通道支援實體線圈模式，線圈模式 : B 線圈流程延遲寫入模式 (6)
+2023-10-16 18:08:39 207:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9000
+2023-10-16 18:08:39 218:  線圈狀態 => A = 1 / B = 1
+2023-10-16 18:08:39 219:  VKP6235 => 入口線圈 A = 1，進入 RecognizeType = 4，車牌觸發 + 實體線圈模式
+2023-10-16 18:08:39 244:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023101618083924371
+2023-10-16 18:08:39 244:  發送入口字幕機 TriggerType : 4
+2023-10-16 18:08:39 245:  發送入口字幕機 noPlateOpenType : 2
+2023-10-16 18:08:39 246:  VKP6235 => 由線圈發出的[延遲寫入]，正式寫入系統
+2023-10-16 18:08:39 268:  進入計算車位流程，BusinessType = 1
+2023-10-16 18:08:39 433:  臨停月租[分開]加減模式 / 原始[臨停]車位 23 => 更新[臨停]車位 22 / 當前總車位 [臨停 + 月租] 82 
+2023-10-16 18:08:39 433:  總剩餘車位數 ： 82，類型：臨停
+2023-10-16 18:08:39 453:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟

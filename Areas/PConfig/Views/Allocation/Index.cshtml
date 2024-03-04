@@ -1,0 +1,912 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>其它參數配置管理</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <link href="~/Content/layui/edit.css" rel="stylesheet" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="container-fluid animated fadeIn">
+        <div class="row">
+            <div class="col-md-9" style="width:100%">
+                <div class="panel container-panel">
+                    <div class="panel-body">
+                        <div class="layui-tab layui-tab-brief">
+                            <ul class="layui-tab-title">
+                                <li class="layui-this"><i class="fa fa-credit-card" aria-hidden="true"></i>&nbsp;參數設置</li>
+                            </ul>
+                            <div class="layui-tab-content">
+                                <div class="layui-tab-item layui-show">
+                                    <form id="form" class="layui-form" style="margin-top: 30px;">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="Id" />
+                                        <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                                            <tbody>
+                                                <tr style="display:none">
+                                                    <td>
+                                                        入口車牌確認方式
+                                                    </td>
+                                                    <td>
+                                                        <input type="radio" name="AffirmType" value="1" title="手动" checked="checked" />
+                                                        <input type="radio" name="AffirmType" value="2" title="自动" />
+                                                        <span>辨識車牌牌可信度達到</span>&nbsp;<input type="text" name="Similarity" id="Similarity" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="70"> &nbsp;<span> 系统自动确认</span>
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>停車免費次數</td>
+                                                    <td>
+                                                        臨時停車,每次停車出場&nbsp;<input type="text" name="StayOutTime" id="StayOutTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0"> &nbsp;<span>分鐘以後，再次進入停車場才可以享受停車場免費時間(固定車不包含在內),否則按正常的停車收費</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>移動中央收費設置</td>
+                                                    <td>
+                                                        移動中央停車繳費&nbsp;<input type="text" name="CentralTime" id="CentralTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0"> &nbsp;<span>分鐘以後，車輛必須出場,否則需補繳停車費用</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>0元繳費緩衝</td>
+                                                    <td>
+                                                        0元繳費緩衝&nbsp;<input type="text" name="APSPaidZeroBufferTime" id="APSPaidZeroBufferTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0"> &nbsp;<span>分鐘以後，車輛必須出場,否則需補繳停車費用</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>節假日免費設置</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="HolidayRules" id="HolidayRules" lay-verify="required" style="width:80px;">
+                                                                <option value="1">關閉</option>
+                                                                <option value="2">啟用</option>
+                                                            </select>
+                                                        </div>
+                                                        時段範圍 &nbsp;<input type="text" name="HolidayBegin" id="HolidayBegin" placeholder="" autocomplete="off" style="width:140px;display:inline-block" class="layui-input"> 至 <input type="text" name="HolidayEnd" id="HolidayEnd" placeholder="" autocomplete="off" style="width:140px;display:inline-block" class="layui-input">
+                                                        提前進場車輛出去
+                                                        <div class="layui-input-inline">
+                                                            <select name="HolidayInRules" lay-verify="required" style="width:80px;">
+                                                                <option value="1">按實際進出時間計費</option>
+                                                                <option value="2">按進入和節假日起始時間</option>
+                                                                <option value="3">同樣節假日期間免費</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>計時四捨五入規則</td>
+                                                    <td>
+                                                        時間小於&nbsp;<input type="text" name="MinTime" id="MinTime" lay-verify="required" placeholder="" autocomplete="off" style="width:60px;display:inline-block" class="layui-input" value="30"> &nbsp;<span>分鐘按收費金額單位一半計算,大於</span><input type="text" name="MaxTime" id="MaxTime" lay-verify="required" placeholder="" autocomplete="off" style="width:60px;display:inline-block" class="layui-input" value="30"><span>
+                                                            分鐘按收費金額單位計算,計時單位
+                                                        </span><div class="layui-input-inline">
+                                                            <select name="AccurateUnit" lay-verify="required" style="width:80px;">
+                                                                <option value="1">精確到秒</option>
+                                                                <option value="2">精確到分鐘</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>API服務本地地址</td>
+                                                    <td>
+                                                        <input type="text" name="ApiServer" id="ApiServer" lay-verify="required" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input"> &nbsp;<span>（格式： http://192.168.1.134:8048）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>管理系統本地地址</td>
+                                                    <td>
+                                                        <input type="text" name="ManageAddress" id="ManageAddress" lay-verify="required" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input"> &nbsp;<span>（格式： http://192.168.1.134:8088）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>系統外網地址或域名</td>
+                                                    <td>
+                                                        <input type="text" name="NetworkAddress" id="NetworkAddress" lay-verify="required" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input"> &nbsp;<span>（格式： http://192.168.1.134:8088，若没有外網請填內網網址）</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>服務器IP地址</td>
+                                                    <td>
+                                                        <input type="text" name="ServerIP" id="ServerIP" lay-verify="required" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input"> &nbsp;<span>（格式：192.168.1.134）</span>
+                                                    </td>
+                                                </tr>
+                                                 <tr>
+                                                    <td>車位鎖服務地址</td>
+                                                    <td>
+                                                        <input type="text" name="FloorLockUrl" id="FloorLockUrl"  placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input"> &nbsp;<span>（格式：http://192.168.1.134:8088）</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>月租車提醒設置</td>
+                                                    <td>
+                                                        <span>月租車過期系統提前</span>&nbsp;<input type="text" name="OverdueDay" id="OverdueDay" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0"> &nbsp;<span>天,提醒會員到管理處續費,如不需要提醒默認為"0"就可以</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>固定車放行設置</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="FixCarOpenRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">直接放行</option>
+                                                                <option value="2">人工參與放行(管制)</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>如果入口辨識錯誤，出場正確辨識,系統根據規則設定放行</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>網頁折扣權限管理</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="DiscountPermissionManagement" lay-verify="required" style="width:120px;">
+                                                                <option value="0">不開啟</option>
+                                                                <option value="1">開啟</option>
+                                                            </select>
+                                                        </div>
+                                                        @* <div class="layui-input-inline"> *@
+                                                        @*     <select name="DiscountPreTopUpMode" lay-verify="required" style="width:120px;"> *@
+                                                        @*         <option value="0">不開啟</option> *@
+                                                        @*         <option value="1">開啟</option> *@
+                                                        @*     </select> *@
+                                                        @* </div> *@
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>網頁折扣混合上限</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="DiscountMixedLimitMode" lay-verify="required" style="width:120px;">
+                                                                <option value="0">無限制</option>
+                                                                <option value="1">計次</option>
+                                                                <option value="2">計分鐘</option>
+                                                                <option value="3">計金額</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>網頁折扣混合上限</td>
+                                                    <td>
+                                                        <input type="text" name="DiscountMixedMaxValue" id="DiscountMixedMaxValue" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0">&nbsp;<span>次數 / 分鐘 / 元</span>
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>電子小時卷抵扣類型</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="DiscountRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">按時間折算金額</option>
+                                                                <option value="2">按時間抵扣小時</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td colspan="2"><span style="color:darkgrey;font-size:12px">"時間折算金額"系統接收到抵扣信息時立即把小時數轉換成金額,享受中央付費免費離場時間,「時間抵扣小時」系統在車場出場時才抵扣結算,不享受中央付費免費離場時間</span></td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>電子小時卷抵扣金額</td>
+                                                    <td>
+                                                        <span>電子小時卷每小時抵扣</span>&nbsp;<input type="text" name="VouchersMoney" id="VouchersMoney" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0"><span>元</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>折扣卷統一編號</td>
+                                                    <td>
+                                                     <input type="text" name="VouchersUnifyNo" id="VouchersUnifyNo" lay-verify="required" placeholder="" autocomplete="off" style="width:600px;display:inline-block" class="layui-input" value="0"><span>有多個用‘|’ 分隔 </span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>入口無牌車開閘方式</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="NoPlateOpenType" lay-verify="required" style="width:120px;">
+                                                                <option value="1">車牌識別開閘</option>
+                                                                <option value="2">掃碼驗證開閘</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>無牌車進出碼鏈接Url</td>
+                                                    <td>
+                                                        <input type="text" name="CloudQrCode" id="CloudQrCode" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+
+                                                        &nbsp;<span>無牌車入場選擇"掃碼驗證開閘"時,此鏈接地址必須配置</span>
+                                                    </td>
+
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>無牌車是否扣減車位</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="NoPlateSpaceRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">否</option>
+                                                                <option value="2">是</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>黑名單進出規則</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="BlackRules" lay-verify="required" style="width:250px;">
+                                                                <option value="1">不啟用規則</option>
+                                                                <option value="2">能進不能出(入口自動抬桿,雖然本次停車已付費)</option>
+                                                                <option value="3">不能進不能出(入口人工放行,雖然本次停車已付費)</option>
+                                                            </select>
+                                                        </div>
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>出口掃碼付費</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="OutPayRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">關閉</option>
+                                                                <option value="2">開啟</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>如果"開啟"在出口掃碼付費,付費完成以後系統自動抬桿放行</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>月租車手機移動繳費</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="MobileFixRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">判斷是月租</option>
+                                                                <option value="2">無需判斷</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>“無需判斷」表示當作臨停車判斷計費(解決停車場有的停車區域月租不能停,同樣支持手機付費)</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>月租車牌修改</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="FixCarEdit" lay-verify="required" style="width:120px;">
+                                                                <option value="1">在場可以修改</option>
+                                                                <option value="2">在場不能修改</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>月租車在場時,是否可以修改調整為其它車牌</span>
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>共享車位計算規則</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="SharedRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">每天累計分配</option>
+                                                                <option value="2">每天重新分配</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>共享車位人工確認</td>
+                                                    <td>
+                                                        車輛入場&nbsp;<input type="text" name="SharedConfirmTime" id="SharedConfirmTime" lay-verify="required" placeholder="" autocomplete="off" style="width:125px;display:inline-block" class="layui-input" value="0"> &nbsp;<span>分鐘以內，人工須確認此車為共享車，否則系統按臨停車計算收費</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>停車按次收費</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="NumChargeRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">按車輛出入時間計算</option>
+                                                                <option value="2">按24小時入場時間計算</option>
+                                                                <option value="3">按24小時出場時間計算</option>
+                                                                <option value="4">按24小時出入時間計算</option>
+                                                                <option value="5">按當天入場時間計算</option>
+                                                                <option value="6">按當天出場時間計算</option>
+                                                                <option value="7">按當天出入時間計算</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>2-7選項,系統是根據上一次出入時間進行比較,如果本次停車符合規則並且上一次已付停車費,那麽本次免費</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr style="display:none">
+                                                    <td>共享車位擡桿規則</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="SharedOpenRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">抬桿</option>
+                                                                <option value="2">不抬桿</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>共享車位被占用完,後續共享車輛入場是否擡桿</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>收費交班規則</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="DutyRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">每天要求交班</option>
+                                                                <option value="2">每天只要求換班</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>停車預約功能</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="BookingRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">啟動</option>
+                                                                <option value="2" selected="selected">關閉</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>系統二次抬桿</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="TwoOpen" lay-verify="required" style="width:120px;">
+                                                                <option value="1" selected="selected">關閉</option>
+                                                                <option value="2">開啟</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>入場車牌校正</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="PlateCorrection" lay-verify="required" style="width:120px;">
+                                                                <option value="1" selected="selected">不上傳</option>
+                                                                <option value="2">上 傳</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>入場車牌識別錯誤，人工校正是否上傳雲端</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr style="display:none">
+                                                    <td>公共平臺數據上傳</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="HighWays" lay-verify="required" style="width:120px;">
+                                                                <option value="1">啟 動</option>
+                                                                <option value="2" selected="selected">關 閉</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>政府交通公共數據平臺,要求相關停車數據上傳</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>移動支付扣款順序</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="InductivePay" lay-verify="required" style="width:120px;">
+                                                                <option value="0" selected="selected">關 閉</option>
+                                                                <option value="1">台北pay,車麻吉</option>
+                                                                <option value="2">車麻吉,台北pay</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>系統向支付平台主動發起扣款的順序</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>場中場計費規則</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="FieldRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">不需要(根據正常出入時間)</option>
+                                                                <option value="2">需要根據場中場出場時間</option>
+                                                                <option value="3">需要根據場中場出入時間</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>車輛出場是否需要根據場中場進出場中場的時間計費</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>出口折扣操作規則</td>
+                                                    <td>
+                                                        <span>是否需要授權</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <select name="OutFreeRules" id="OutFreeRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">否</option>
+                                                                <option value="2">是</option>
+                                                            </select>
+                                                        </div>
+                                                        設定授權碼：&nbsp;<input type="password" name="OutFreeRulesPass" id="OutFreeRulesPass" placeholder="" autocomplete="off" style="width:130px;display:inline-block" class="layui-input">
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>數據備份清理</td>
+                                                    <td>
+                                                        <span>自動清理設置</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <select name="DatabackupRules" id="DatabackupRules" lay-verify="required" style="width:120px;">
+                                                                <option value="1">關 閉</option>
+                                                                <option value="2">開 啟</option>
+                                                            </select>
+                                                        </div>
+                                                        保留月數：&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <select name="DataKeepTime" id="DataKeepTime" lay-verify="required" style="width:120px;">
+                                                                <option value="12">12</option>
+                                                                <option value="10">10</option>
+                                                                <option value="8">8</option>
+                                                                <option value="6">6</option>
+                                                                <option value="5">5</option>
+                                                                <option value="4">4</option>
+                                                                <option value="3">3</option>
+                                                                <option value="2">2</option>
+                                                                <option value="1">1</option>
+                                                            </select>
+                                                        </div>
+                                                        &nbsp;<span>系統每個月1號,根據設置對進出歷史記錄進行遷移清理</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>雲端停車場編號</td>
+                                                    <td>
+                                                        <input type="text" name="CloudParkId" id="CloudParkId" placeholder="" autocomplete="off" style="width:185px;display:inline-block" class="layui-input" value="0">
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>台北Pay参数</td>
+                                                    <td>
+                                                        <span></span>
+                                                        <div class="layui-input-inline" style="display:none">
+                                                            <input type="text" name="HighwaysApp" id="HighwaysApp" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>金鑰Key</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="HighwaysKey" id="HighwaysKey" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>車場編號</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="HighwaysId" id="HighwaysId" placeholder="" autocomplete="off" style="width:120px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>支付地址</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="HighwaysUrl" id="HighwaysUrl" placeholder="" autocomplete="off" style="width:250px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>發票信息配置</td>
+                                                    <td>
+                                                        <span>金鑰Key</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="InvoiceKey" id="InvoiceKey" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>車場營業編號</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="Sidentifier" id="Sidentifier" placeholder="" autocomplete="off" style="width:120px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>發票地址</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="InvoiceUrl" id="InvoiceUrl" placeholder="" autocomplete="off" style="width:250px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>車麻吉配置</td>
+                                                    <td>
+                                                        <span>AccessToken</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="CMJAccessToken" id="CMJAccessToken" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>區域編號</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="CMJAreaCode" id="CMJAreaCode" placeholder="" autocomplete="off" style="width:120px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>車場編號</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="CMJParkingCode" id="CMJParkingCode" placeholder="" autocomplete="off" style="width:120px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>支付地址</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="CMJUrl" id="CMJUrl" placeholder="" autocomplete="off" style="width:250px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+
+
+                                                <tr>
+                                                    <td>VIVIPARK 配置</td>
+                                                    <td>
+                                                        <span>服務</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px">
+                                                            <select name="ViviparkAPPEnable" id="ViviparkAPPEnable" lay-verify="required">
+                                                                <option value="0">關 閉</option>
+                                                                <option value="1">開 啟</option>
+                                                            </select>
+                                                        </div>
+                                                        <span>案場編號</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px">
+                                                            <input type="text" name="ViviparkSiteID" id="ViviparkSiteID" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>雲端伺服器網址 (結尾不帶 / )</span>&nbsp;
+                                                        <div class="layui-input-inline">
+                                                            <input type="text" name="ViviparkCloudAPIUrl" id="ViviparkCloudAPIUrl" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>IRent 配置</td>
+                                                    <td>
+                                                        <span>服務</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px">
+                                                            <select name="IRentAPPEnable" id="IRentAPPEnable" lay-verify="required">
+                                                                <option value="0">關 閉</option>
+                                                                <option value="1">開 啟</option>
+                                                            </select>
+                                                        </div>
+                                                        <span>案場編號</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                            <input type="text" name="IRentSiteID" id="IRentSiteID" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>APP優先權</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 50px; padding-right: 5px;">
+                                                            <input type="text" name="IRentAPPOrder" id="IRentAPPOrder" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>運行環境</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                            <select name="IRentAPPEnvMode" id="IRentAPPEnvMode" lay-verify="required" style="width:20px;">
+                                                                <option value="1">測試</option>
+                                                                <option value="2">正式</option>
+                                                            </select>
+                                                        </div>
+                                                        @* <span>本地帳號</span>&nbsp; *@
+                                                        @* <div class="layui-input-inline"> *@
+                                                        @*     <input type="text" name="IRentLocalUsername" id="IRentLocalUsername" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input"> *@
+                                                        @* </div> *@
+                                                        @* <span>本地密碼</span>&nbsp; *@
+                                                        @* <div class="layui-input-inline"> *@
+                                                        @*     <input type="text" name="IRentLocalPassword" id="IRentLocalPassword" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input"> *@
+                                                        @* </div> *@
+                                                        <span>雲端帳號</span>&nbsp;
+                                                        <div class="layui-input-inline" style="padding-right: 5px;">
+                                                            <input type="text" name="IRentCloudUsername" id="IRentCloudUsername" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>雲端密碼</span>&nbsp;
+                                                        <div class="layui-input-inline" style="padding-right: 5px;">
+                                                            <input type="text" name="IRentCloudPassword" id="IRentCloudPassword" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        
+                                                        <div class="layui-input-inline">
+                                                            <div id="btnBindIRentCloudServer" class="layui-btn layui-btn-radius" onclick = "BindCloudServer(15)">綁定</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>停車大聲公 配置</td>
+                                                    <td>
+                                                        <span>服務</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                            <select name="PklotAppEnable" id="PklotAppEnable" lay-verify="required">
+                                                                <option value="0">關 閉</option>
+                                                                <option value="1">開 啟</option>
+                                                            </select>
+                                                        </div>
+                                                        <span>案場編號</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                            <input type="text" name="PklotAppSiteID" id="PklotAppSiteID" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>APP優先權</span>&nbsp;
+                                                        <div class="layui-input-inline"  style="width: 50px; padding-right: 5px;">
+                                                            <input type="text" name="PklotAppOrder" id="PklotAppOrder" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>運行環境</span>&nbsp;
+                                                        <div class="layui-input-inline" style="width : 100px; padding-right: 5px;">
+                                                            <select name="PklotAppEnvMode" id="PklotAppEnvMode" lay-verify="required" style="width:20px;">
+                                                                <option value="1">測試</option>
+                                                                <option value="2">正式</option>
+                                                            </select>
+                                                        </div>
+                                                        @* <span>本地帳號</span>&nbsp; *@
+                                                        @* <div class="layui-input-inline"> *@
+                                                        @*     <input type="text" name="IRentLocalUsername" id="IRentLocalUsername" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input"> *@
+                                                        @* </div> *@
+                                                        @* <span>本地密碼</span>&nbsp; *@
+                                                        @* <div class="layui-input-inline"> *@
+                                                        @*     <input type="text" name="IRentLocalPassword" id="IRentLocalPassword" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input"> *@
+                                                        @* </div> *@
+                                                        <span>雲端帳號</span>&nbsp;
+                                                        <div class="layui-input-inline" style="padding-right: 5px;">
+                                                            <input type="text" name="PklotAppCloudUsername" id="PklotAppCloudUsername" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        <span>雲端密碼</span>&nbsp;
+                                                        <div class="layui-input-inline" style="padding-right: 5px;">
+                                                            <input type="text" name="PklotAppCloudPassword" id="PklotAppCloudPassword" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                        </div>
+                                                        
+                                                        <div class="layui-input-inline">
+                                                            <div id="btnBindPklotAppCloudServer" class="layui-btn layui-btn-radius" onclick = "BindCloudServer(16)">綁定</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>多 APP 模式</td>
+                                                    <td>
+                                                        <div class="layui-input-inline">
+                                                            <select name="MultiAppMode" id="MultiAppMode" lay-verify="required" style="width:80px">
+                                                                <option value="1">無限制</option>
+                                                                <option value="2">照當次優先順序</option>
+                                                                <option value="3">記憶上次優先順序</option>
+                                                            </select>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            <tr>
+                                                <td>OCPP 服務配置</td>
+                                                <td>
+                                                <span>服務</span>&nbsp;
+                                                <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                    <select name="OcppServiceEnable" id="OcppServiceEnable" lay-verify="required">
+                                                        <option value="0">關 閉</option>
+                                                        <option value="1">開 啟</option>
+                                                    </select>
+                                                </div>
+                                                <span>案場編號</span>&nbsp;
+                                                <div class="layui-input-inline" style="width: 100px; padding-right: 5px;">
+                                                    <input type="text" name="ChargeStationID" id="ChargeStationID" placeholder="" autocomplete="off" style="display:inline-block" class="layui-input">
+                                                </div>
+                                                <span>帳號</span>&nbsp;
+                                                <div class="layui-input-inline" style="padding-right: 5px;">
+                                                    <input type="text" name="OcppUsername" id="OcppUsername" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                </div>
+                                                <span>密碼</span>&nbsp;
+                                                <div class="layui-input-inline" style="padding-right: 5px;">
+                                                    <input type="text" name="OcppPassword" id="OcppPassword" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <td>OCPP 伺服器配置</td>
+                                            <td>
+                                                
+                                                <span>API 網址</span>&nbsp;
+                                                <div class="layui-input-inline" style="padding-right: 5px;">
+                                                    <input type="text" name="OcppApiServerUrl" id="OcppApiServerUrl" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                    &nbsp;<span></span>
+                                                </div>
+                                                <span>API Key</span>&nbsp;
+                                                <div class="layui-input-inline" style="padding-right: 5px;">
+                                                    <input type="text" name="OcppApiKey" id="OcppApiKey" placeholder="" autocomplete="off" style="width:200px;display:inline-block" class="layui-input">
+                                                </div>
+                                                
+                                            </td>
+                                            @* <tr> *@
+                                            @*      *@
+                                            @*      *@
+                                            @* </tr> *@
+                                                <tr>
+                                                    <td>雲端API地址</td>
+                                                    <td>
+                                                        <input type="text" name="CloudInterface" id="CloudInterface" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>雲端管理系統地址</td>
+                                                    <td>
+                                                        <input type="text" name="CloudManage" id="CloudManage" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <td>支付二維碼鏈接地址</td>
+                                                    <td>
+                                                        <input type="text" name="CloudPayQrCode" id="CloudPayQrCode" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                        &nbsp;<span>出口手機移動支付,字幕機顯示支付碼的鏈接地址</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>月租車進場鏈接地址</td>
+                                                    <td>
+                                                        <input type="text" name="FixCarQrCode" id="FixCarQrCode" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                        &nbsp;<span>月租車過期如果需要車主確認才可以進場,此鏈接地址需配置</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>共享車位鏈接地址</td>
+                                                    <td>
+                                                        <input type="text" name="SharedParkingUrl" id="SharedParkingUrl" placeholder="" autocomplete="off" style="width:400px;display:inline-block" class="layui-input">
+                                                        &nbsp;<span>如果共享車位已被占用完需要車主確認才可以入場,此鏈接地址需配置</span>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>系統服務參數加載</td>
+                                                    <td>
+                                                        <span>系統相關設備配置參數修改完成,以後請點擊此按鈕</span>&nbsp;<button id="btnSubmit" class="layui-btn layui-btn-normal layui-btn-radius" lay-submit lay-filter="saveBasicInfo">加載配置</button>
+                                                        &nbsp; (包括相機LED字幕機，收費電腦等參數修改).
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <div class="layui-form-item">
+                                            <div class="layui-input-block">
+                                                <button id="btnSubmit" class="layui-btn layui-btn-radius" lay-submit lay-filter="saveBasicInfo">提交保存</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#HolidayBegin"
+            , type: 'datetime'
+            , min: getbeginDateTime()
+
+        });
+
+        laydate.render({
+            elem: "#HolidayEnd"
+            , type: 'datetime'
+            , min: getbeginDateTime()
+
+        });
+
+    });
+
+    layui.use(['form'], function () {
+
+        var form = layui.form;
+        $.ajax({
+            url: "/PConfig/Allocation/GetForm",
+            type: "post",
+            dataType: "json",
+            async: false,
+            success: function (data) {
+                $("#form").formSerialize(data);
+            }
+        });
+
+        form.render();
+        
+        // form.on('submit(bindIRentCloud)', function (data) {
+        //     // alert("BindIRentCloud");
+        //    
+        //     console.log("BindIRentCloud .... ")
+        // })
+
+        form.on('submit(saveBasicInfo)', function (data) {
+            if ($("#OutFreeRules").val() == "2" && $("#OutFreeRulesPass").val() == "") {
+                $.layerMsg("免費開閘需要設定授權碼", "warning");
+                return false;
+            }
+            if ($("#HolidayRules").val() == "2" && $("#HolidayBegin").val() == "" && $("#HolidayEnd").val() == "") {
+                $.layerMsg("節假日時間不能為空!", "warning");
+                return false;
+            }
+            var fl = true;
+            $("input[name='AffirmType']:checked").each(function () {
+                str = $(this).val();
+                if (str == "2" && $("#Similarity").val() == "") {
+                    $.layerMsg("請輸入識別可信度", "warning");
+                    fl = flase;
+                    return false;
+                }
+            })
+            if (fl == true) {
+                $.formSubmit({
+                    url: "/PConfig/Allocation/AllocationForm",
+                    data: data.field
+                })
+            };
+            return false;
+        });
+    });
+    
+    function BindCloudServer (appType) {
+       var xhr = new XMLHttpRequest();
+       // xhr.open("POST", "/PConfig/Allocation/BindCloudServer", true);
+       xhr.open("POST", "/api/Auth/BindCloudServer", true);
+       xhr.setRequestHeader("Content-Type", "application/json");
+       // Define a callback function when the request completes
+       xhr.onload = function () {
+         if (xhr.status >= 200 && xhr.status < 300) {
+           // Request was successful
+           try {
+             var jsonResponse = JSON.parse(xhr.responseText)
+             if (jsonResponse.status === "success") {
+               // layer.msg(jsonResponse.message); 
+               layer.open({ title : "成功", content : jsonResponse.message, time : 1000 }); 
+             } else {
+               layer.open({ title : "錯誤", content : jsonResponse.message, time : 1000 }); 
+             }
+           }
+           catch (e) {
+             console.log(`Error : ${e}`)
+           }
+         } 
+         else {
+           console.log("response ", xhr.status)
+           // Request failed
+           // responseDiv.textContent = "Request failed with status: " + xhr.status;
+         }
+       }
+       // Prepare and send the data
+       var data = JSON.stringify({ appType : appType });
+       xhr.send(data); 
+    }
+    
+</script>

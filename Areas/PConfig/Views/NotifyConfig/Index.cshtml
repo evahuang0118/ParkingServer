@@ -1,0 +1,242 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>通知設定</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                    <i class="layui-icon">&#xe615;</i>
+                </button>
+                <div class="toolbar-search-input">
+                    <input type="text" id="keyWord" placeholder="輸入通知設定名稱" autocomplete="off" class="layui-input" style="height:39px" />
+                </div>
+            </div>
+
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                <thead>
+                    <tr>
+                        <th>
+                            <input type="checkbox" lay-skin="primary">
+                        </th>
+                        <th>ID</th>
+                        <th>通知名稱</th>
+                        <th>通知種類</th>
+                        <th>接收人 / Token</th>
+                        @* <th>折扣起始段</th> *@
+                        @* <th>上限次數</th> *@
+                        @* <th>關聯上限</th> *@
+                        @* <th>關聯規則</th> *@
+                        <th>狀 態</th>
+                        <th>備 註</th>
+                    </tr>
+                </thead>
+                <!--内容容器-->
+                <tbody id="content"></tbody>
+            </table>
+            <div id="paged"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            @* {{# if(item.OperateType==2){ }} *@
+            <input type="checkbox" lay-skin="primary" value="{{item.CouponConfigID}}">
+            @* {{# } }} *@
+        </td>
+        <td>{{item.NotifyConfigID}}</td>
+        <td>
+            {{item.NotifyConfigName}}
+        </td>
+        <td>
+            {{# if(item.NotifyType == 1){ }} Line
+            {{# }else if(item.NotifyType == 2){ }} Email
+            {{# } }}
+        </td>
+        <td>
+            {{item.Receiver}}
+            @* {{# }else if(item.Type==4){ }} 電子單全免 *@
+        </td>
+        @* <td> *@
+        @*     {{item.StartVal}}- {{item.EndVal}} *@
+        @* </td> *@
+        @* *@
+        @* <td> *@
+        @*     $1$ {{# if(item.Type==1){ }}  {{item.AmountTime}} 元 #1# *@
+        @*     $1$ {{# }else if(item.Type==2){ }}{{item.AmountTime}} 分鐘 #1# *@
+        @*     $1$ {{# }else if(item.Type==3){ }} / #1# *@
+        @*     $1$ {{# }else if(item.Type==4){ }} / #1# *@
+        @*     $1$ {{# } }} #1# *@
+        @*     $1$ #1# *@
+        @*     $1$ #1# *@
+        @*     {{item.SelfSubmitTimesLimit}} 次 *@
+        @* *@
+        @* </td> *@
+        @* *@
+        @* <td> *@
+        @*     $1$ {{# if(item.DiscountLimitType==0){ }}  無限制 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==1){ }} 折抵 {{item.DiscountMaxValue}} 次 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==2){ }} 折抵 {{item.DiscountMaxValue}} 分鐘 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==3){ }} 折抵 {{item.DiscountMaxValue}} 元 #1# *@
+        @*     $1$ {{# } }} #1# *@
+        @*     {{item.RelatedTotalSubmitTimesLimit}} 次 *@
+        @* *@
+        @* </td> *@
+        @* <td> *@
+        @*     $1$ {{# if(item.DiscountLimitType==0){ }}  無限制 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==1){ }} 折抵 {{item.DiscountMaxValue}} 次 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==2){ }} 折抵 {{item.DiscountMaxValue}} 分鐘 #1# *@
+        @*     $1$ {{# }else if(item.DiscountLimitType==3){ }} 折抵 {{item.DiscountMaxValue}} 元 #1# *@
+        @*     $1$ {{# } }} #1# *@
+        @*     {{item.RelatedCouponConfigNames}} *@
+        @* *@
+        @* </td> *@
+        <td>
+            {{# if(item.Activated == 1){ }}  <span class="label label-success label-sm">啟 用</span>
+            {{# }else{ }}  <span class="label label-dark label-sm">禁 用</span>
+            {{# } }}
+        </td>
+        <td>
+            {{# if(item.Remark!=null){ }} {{item.Remark}}
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="6">查無數據。</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+        initGrid();
+        $("#toolbar").authorizeButton();
+        $('#btnSearch').click(initGrid);
+        $('#keyWord').bindEnterEvent(initGrid);
+    });
+
+    function initGrid() {
+        paging.init({
+            url: '/PConfig/NotifyConfig/GetIndexData',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            params: {
+                keyWord: $("#keyWord").val()
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 50,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_add() {
+
+
+
+        $.layerOpen({
+            id: "add",
+            title: "新增折扣券設定",
+            width: "500px",
+            height: "450px",
+            content: "/PBusiness/CouponConfig/Form",
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+
+    function btn_edit() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        
+        // console.log('ids => ', ids)
+
+        $.layerOpen({
+            id: "edit",
+            title: "修改折扣券設定",
+            width: "500px",
+            height: "450px",
+            content: "/PBusiness/CouponConfig/Form?primaryKey=" + ids[0],
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+    
+    function btn_del() {
+        var ids = $("#gridList").gridSelectedRowValue();
+        if (ids.length != 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        
+        
+        if (ids.length>=2) {
+            $.layerMsg("每次只能勾選一條數據。", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您確定要刪除此規則嗎？此操作不可恢復！",
+            callback: function () {
+                $.formSubmit({
+                    url: "/PBusiness/CouponConfig/Delete?primaryKey=" + ids[0],
+                    data: { primaryKey: ids[0] },
+                    success: function () {
+                        initGrid();
+                    }
+                });
+            }
+        });
+        
+        // $.layerOpen({
+        //     id: "delete",
+        //     title: "修改折扣券設定",
+        //     width: "500px",
+        //     height: "450px",
+        //     content: "/PBusiness/CouponConfig/Delete?primaryKey=" + ids[0],
+        //     yes: function (iBody) {
+        //         iBody.find('#btnSubmit').click();
+        //         initGrid();
+        //     }
+        // });
+    }
+</script>

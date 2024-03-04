@@ -1,0 +1,297 @@
+ ?生??：2023-09-21 19:17:41.2336
+             日志??：ERROR
+             操作??：RBP6
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:21:57.1603
+             日志??：ERROR
+             操作??：A02PN6
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:22:32.6185
+             日志??：ERROR
+             操作??：2K4F
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:23:48.3740
+             日志??：ERROR
+             操作??：AAEM
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:24:54.8942
+             日志??：ERROR
+             操作??：VABMMM
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:25:19.3265
+             日志??：ERROR
+             操作??：WTBMMF
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:29:14.7283
+             日志??：ERROR
+             操作??：A0EMR85
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:29:54.5371
+             日志??：ERROR
+             操作??：ABF
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:30:38.9497
+             日志??：ERROR
+             操作??：KA01
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:48:11.5798
+             日志??：ERROR
+             操作??：TBBMA11
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+
+ ?生??：2023-09-21 19:55:58.0776
+             日志??：ERROR
+             操作??：AABM8E
+             操作者IP：192.168.1.101
+             IP??地：
+             ? ? 器：Unknown 0.0
+             操作模?：RCameraController_???果
+             提示信息：English Message : Connection open error . Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)
+Chinese Message :  ?接?据??程中?生??，?查服?器是否正常?接字符串是否正确，?在找不到原因?先Google??信息：Authentication to host '127.0.0.1' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'172.17.0.1' (using password: NO)._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   於 SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass31_0`1.<GetListOrCache>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetListOrCache[T](String cacheKey, String sql)
+   於 SqlSugar.DbMaintenanceProvider.GetColumnInfosByTableName(String tableName, Boolean isCache)
+   於 SqlSugar.DbMaintenanceProvider.<>c__DisplayClass4_0.<GetPrimaries>b__0()
+   於 SqlSugar.ReflectionInoCore`1.GetOrCreate(String cacheKey, Func`1 create)
+   於 SqlSugar.ReflectionInoCacheService.GetOrCreate[V](String cacheKey, Func`1 create, Int32 cacheDurationInSeconds)
+   於 SqlSugar.DbMaintenanceProvider.GetPrimaries(String tableName)
+   於 SqlSugar.InsertableProvider`1.GetPrimaryKeys()
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.PRecord.LicencerecogineRecordLogic.Insert(LicencerecogineRecord model) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PRecord\LicencerecogineRecordLogic.cs: 行 21
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 76
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 107
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 42
+

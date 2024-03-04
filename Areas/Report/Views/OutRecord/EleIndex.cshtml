@@ -1,0 +1,314 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>電子卷（实际）抵扣报表</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        .layui-table-cell {
+            height: auto !important;
+            white-space: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline" style="display:none">
+                                <label class="layui-form-label" style="width:120px">入場時段範圍</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="BIntime" name="BIntime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="EIntime" name="EIntime" placeholder="" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+
+                                <label class="layui-form-label" style="width:120px;">出場時段範圍</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="BOuttime" name="BOuttime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="EOuttime" name="EOuttime" placeholder="" autocomplete="off" />
+                                </div>
+
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">商店名稱</label>
+                                <div class="layui-input-inline">
+                                  
+                                    <div class="layui-input-inline">
+                                        <select lay-ignore class="layui-input" name="Merchants" lay-verify="required" id="Merchants" style="width: 190px;"></select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+            </script>
+
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md6">
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top:2px;">
+                        <legend><span style="font-size:14px;color:crimson">匯總信息</span></legend>
+                    </fieldset>
+                    <table class="layui-hide" id="gridLists" lay-filter="gridList"></table>
+
+                </div>
+
+                <div class="layui-col-md6">
+                    <fieldset class="layui-elem-field layui-field-title" style="margin-top:2px;">
+                        <legend><span style="font-size:14px;color:crimson">報表說明</span></legend>
+                    </fieldset>
+                    <p style="color:currentColor">
+                        1. 此報表展現電子卷實際抵扣停車金額,用於停車場和卷商的結算
+                        <br>
+                        2. 此報表只有車輛出場了,系統才會生成相應的記錄。
+                        <br />
+                        3. 【卷面金額】是指電子卷卷面金額,「結算金額」是指電子卷實際抵扣停車費
+                        <br />
+                        4. 如果卷面金額已實際停車時長未結算依據，那【券面金額】和【結算金額】顯示一樣
+                        <br />
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#EOuttime"
+            , type: 'datetime'
+        });
+
+        laydate.render({
+            elem: "#BOuttime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#EIntime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#BIntime"
+            , type: 'datetime'
+
+        });
+
+        $("#Merchants").bindSelect({
+            url: "/Report/OutRecord/GetMerchants"
+        });
+
+        $("#toolbar").authorizeButton();
+
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/Report/OutRecord/EleIndex',
+                where: {
+                    Bintime: $("#BIntime").val(),
+                    Eintime: $("#EIntime").val(),
+                    Bouttime: $("#BOuttime").val(),
+                    Eouttime: $("#EOuttime").val(),
+                    plateNo: $("#PlateNo").val(),
+                    Merchants: $("#Merchants").val(),
+                    Channel:'0',
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                height: 'full-200',
+                totalRow: true,
+                cols: [[
+                    { fixed: '', width: 55, align: 'center', toolbar: '#barDemo',fixed:'left' },
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'InPlate', width: 115, title: '車 牌', style: 'color:blue', totalRowText: '合計',fixed:'left' },
+                    { field: 'InTime', width: 170, title: '入場時間', sort: true,fixed:'left' },
+                    { field: 'OutTime', width: 170, title: '出場時間', sort: true,fixed:'left' },
+                    { field: 'Actual', width: 90, title: '應收金額', totalRow: true, style: 'text-align:right', templet: function (d) {return Number(d.Actual).toFixed(0); } },
+                    { field: 'CashCost', width: 90, title: '現金支付', totalRow: true, style: 'text-align:right', templet: function (d) {return Number(d.CashCost).toFixed(0); }  },
+                    { field: 'MobileCost', width: 90, title: '行動支付', totalRow: true, style: 'text-align:right', templet: function (d) {return Number(d.MobileCost).toFixed(0); }  },
+                    { field: 'FreeCost', width: 90, title: '本地折扣', totalRow: true, style: 'text-align:right', templet: function (d) { return Number(d.FreeCost).toFixed(0); } },
+                    { field: 'TemporaryCost', width: 90, title: '卷面金額', totalRow: true, style: 'color:darkblue;text-align:right' , templet: function (d) {return Number(d.TemporaryCost).toFixed(0); } },
+                    { field: 'ElectronicCost', width: 90, title: '結算金額', totalRow: true, style: 'color:blue;text-align:right' , templet: function (d) {return Number(d.ElectronicCost).toFixed(0); } },
+                    { field: 'Remark', width: 175, title: '停留時長', style: 'color:forestgreen' },
+                    { field: 'BusinessName', width: 90, title: '停車類型', style: 'color:blue' },
+                    { fixed: '', align: 'center', toolbar: '#barDemo' }
+                ]],
+                limits: [30, 50, 80, 100, 150, 200],
+                limit: 30,
+                page: true,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                    if (res.data != null || res.data.length != 0) {
+                        initGrids();
+                    }
+                }
+            });
+        }
+
+        function initGrids() {
+            table.render({
+                elem: '#gridLists',
+                url: '/Report/OutRecord/GetElectronicSummary',
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { field: 'PaySum',title: '卷面合計',value:'0',  templet: function (d) {return Number(d.PaySum).toFixed(0); }},
+                    { field: 'PSummary',title: '結算合計',value:'0',templet: function (d) {return Number(d.PSummary).toFixed(0); }},
+                    { field: 'PayName', title: '合計筆數' },
+                ]],
+                done: function (res) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        $('#btnSearch').on("click", function () {
+            initGrid();
+        });
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.layerOpen({
+                    id: "Detail",
+                    title: "車輛記錄詳情",
+                    width: "1140px",
+                    height: "520px",
+                    content: "/Report/OutRecord/Detail?primaryKey=" + data.Id,
+                    btn: null
+                })
+            }
+        });
+
+    });
+
+    function btn_Excel() {
+        layui.use(['layer'], function () {
+            var $ = layui.jquery
+            var layer = layui.layer
+            var excel = layui.excel
+
+            $.ajax({
+                url: '/Report/OutRecord/EleExport'
+                , dataType: 'json'
+                , success: function (res) {
+                    var data = res.data
+                    data = excel.filterExportData(data, {
+                          InPlate: 'InPlate'
+                        , InTime: 'InTime'
+                        , OutPlate: 'OutPlate'
+                        , OutTime: 'OutTime'
+                        , StayTime: 'StayTime'
+                        , BusinessName: 'BusinessName'
+                        , Actual: 'Actual'
+                        , CashCost: 'CashCost'
+                        , MobileCost: 'MobileCost'
+                        , FreeCost: 'FreeCost'
+                        , TemporaryCost:'TemporaryCost'
+                        , ElectronicCost: 'ElectronicCost'
+                    })
+                    data.unshift({
+                        InPlate: "入場車牌",
+                        InTime: "入場時間",
+                        OutPlate: "出場車牌",
+                        OutTime: "出場時間",
+                        StayTime:'停留時長',
+                        BusinessName: '停車類型',
+                        Actual: "應付金額",
+                        CashCost: "現金支付",
+                        MobileCost: "行動支付",
+                        FreeCost: "本地折扣",
+                        TemporaryCost:"電子卷卷面金額",
+                        ElectronicCost: "電子卷结算金額",
+                    });
+                    top.LAY_EXCEL.exportExcel({
+                        sheet1: data
+                    }, '電子卷抵扣記錄_' +getDateTime() + '.xlsx', 'xlsx')
+                }
+                , error: function () {
+                    layer.alert('获取数据失败!!!')
+                }
+            })
+        })
+    }
+
+    function btn_PDF() {
+        window.location.href = "/Report/OutRecord/EleRecordPDF"
+    }
+
+</script>

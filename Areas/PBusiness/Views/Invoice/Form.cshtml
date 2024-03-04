@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "CForm";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script src="~/Content/framework/js/com.js"></script>
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    <div class="layui-form-item">
+
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">年 份</label>
+            <div class="layui-input-inline">
+                <input type="text" name="year" id="year" lay-verify="required" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">月 份</label>
+            <div class="layui-input-inline">
+                <input type="text" name="month" id="month" autocomplete="off" lay-verify="required" class="layui-input" />
+            </div>
+        </div>
+
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">機具編號</label>
+            <div class="layui-input-inline">
+                <input type="text" name="machineNo" id="machineNo" autocomplete="off" lay-verify="required" class="layui-input" />
+            </div>
+        </div>
+
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal" type="button" id="btnInvoice">獲取數據</button>
+        </div>
+    </div>
+
+
+</form>
+
+<script>
+    layui.use(['form', 'laydate'], function () {
+        var form = layui.form;
+
+        $('#btnInvoice').click(InvoiceNo);
+    });
+
+    function InvoiceNo() {
+        $.ajax({
+            url: '/PBusiness/Invoice/FormInfo?year=' + $("#year").val() + '&month=' + $("#month").val() + "&machineNo=" + $("#machineNo").val()
+            , dataType: 'json'
+            , success: function (res) {
+                layer.alert(res)
+            }
+            , error: function () {
+                layer.alert('獲取票卷數據失敗')
+            }
+        })
+    }
+</script>

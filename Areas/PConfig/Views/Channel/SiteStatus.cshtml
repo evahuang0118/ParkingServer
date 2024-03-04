@@ -1,0 +1,2426 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>停車場即時狀態</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/tabulator-override.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/tailwind/dist/output.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <script src="~/Content/splide/splide.min.js"></script>
+    <link href="~/Content/splide/splide.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+
+    <style>
+
+        .layui-table-cell {
+            height: 44px !important;
+            line-height: 28px;
+            padding: 8px 15px;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+
+        .panel {
+          @* padding : 0 !important; *@
+          margin : 0;
+          height: 100%;
+        }
+
+        iframe {
+          padding: 0 !important;
+          height: 100%;
+        }
+
+        html {
+          height: 100%;
+
+        }
+
+        html * {
+          font-family: 'Noto Sans TC', sans-serif !important;
+
+        }
+
+        @* button.active {
+
+          background-color: unset !important;
+        } *@
+
+        .index-footer {
+          display : none !important;
+        }
+
+        body {
+          @* height: 100%; *@
+
+          min-height: 1750px;
+          overflow-y: scroll !important;
+          overflow-x: hidden;
+        }
+
+        @* .splide__ {
+
+          height: 750px;
+        } *@
+
+
+        .splide-track {
+
+          overflow-y: visible;
+          min-height: 350px;
+          @* height : 100%; *@
+        }
+
+
+        .tab-content {
+          padding : 5px;
+          height: 100%;
+        }
+
+        .tabulator-popup {
+          transform: translateY(-150px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "panel animated fadeIn bg-white">
+        @* <div class="panel-body">
+
+            <div class="layui-row">
+
+                <div class="layui-col-md12">
+
+                    <table class="layui-table" id="gridList" lay-filter="gridList" style="margin-top:-20px;"></table>
+
+                </div>
+            </div>
+
+        </div> *@
+
+    <div>
+      <div class="sm:hidden" style="display:none">
+        <label for="tabs-bar" class="sr-only">Select a tab</label>
+        <!-- Use an "onChange" listener to redirect the user to the selected tab URL. -->
+        <select id ="tabs-bar" name="tabs-bar" class="block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-base focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm">
+          <option id = 'tabs-option-LPR' value = "LPR" onclick = "setOption('LPR')">車牌辨識</option>
+          <option id = 'tabs-option-Flap' value = "Flap" onclick = "setOption('Flap')">車位地鎖</option>
+          <option id = 'tabs-option-APS' value = "APS" onclick = "setOption('APS')">繳費機</option>
+          <option value = "no-barrier">無柵欄</option>
+          <option value = "charge-box">充電樁</option>
+        </select>
+      </div>
+      @* <div class="hidden sm:block">
+        <div class="border-b border-gray-200">
+          <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+            <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700" -->
+            <a onclick = "setOption('LPR')" href="#" class="border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">
+              車牌辨識
+              <!-- Current: "bg-indigo-100 text-indigo-600", Default: "bg-gray-100 text-gray-900" -->
+              <span class="bg-gray-100 text-gray-900 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block">52</span>
+            </a>
+            <a onclick = "setOption('Flap')" href="#" class="border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium">
+              車位地鎖
+              <span class="bg-gray-100 text-gray-900 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block">6</span>
+            </a>
+            <a onclick = "setOption('APS')" href="#" class="border-indigo-500 text-indigo-600 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium" aria-current="page">
+              繳費機
+              <span class="bg-indigo-100 text-indigo-600 ml-3 hidden rounded-full py-0.5 px-2.5 text-xs font-medium md:inline-block">4</span>
+            </a>
+            <a href="#" class="border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium"> 無柵欄 </a>
+            <a href="#" class="border-transparent text-gray-500 hover:border-gray-200 hover:text-gray-700 flex whitespace-nowrap border-b-2 py-4 px-1 text-sm font-medium"> 充電樁 </a>
+          </nav>
+        </div>
+      </div> *@
+
+      @* <div id = 'tab-content'> *@
+        <div class = 'video-slider grid sm:grid-cols-2 md:grid-cols-3'>
+          <div id = 'splide-container-LPREntry'> @* tailwindcss.grid *@
+          </div>
+          <div id = 'splide-container-LPRExit'> @* tailwindcss.grid *@
+          </div>
+          <div id = 'splide-container-APS'> @* tailwindcss.grid *@
+          </div>
+        </div> @* video-slider *@
+
+        @* <div id = 'main-log-table'></div> *@
+        <div class = "grid sm:grid-cols-2 md:grid-cols-2">
+          <div id = 'splide-container-SlotNumber'> @* tailwindcss.grid *@
+          </div>
+          <div id = 'splide-container-APSCoinStatus'> @* tailwindcss.grid *@
+          </div>
+          <div id = 'splide-container-APSStatus'> @* tailwindcss.grid *@
+          </div>
+          @* <div class = "flex flex-col slot-number-container">
+            <div id = "temp-car-slot-number"></div>
+            <div class = "flex justify-evenly	items-center slot-number-button-container">
+              <button type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                </svg>
+                <span class="sr-only">減少車格</span>
+              </button>
+              <form>   
+                <label for = "temp-car-slot-number-input" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">車位數</label>
+                <div class="relative">
+                    <input type="search" id = "temp-car-slot-number-input" class="block w-[100px] p-4 text-sm text-gray-900 border-0 border-b border-b-zinc-500 bg-gray-50 focus:ring-0 focus:border-b-zinc-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder = "車位數" required>
+                    <button type="submit" class = "text-white absolute right-2.5 bottom-2.5 bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">設定</button>
+                </div>
+              </form>
+              <button onclick = "updateParkingSlot(2, 'fixed', 'add')" type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+                <span class="sr-only">新增車格</span>
+              </button>
+            </div>
+          </div> *@
+
+          @* <div class = "flex flex-col slot-number-container">
+            <div id = "fixed-car-slot-number"></div>
+            <div class = "flex justify-evenly	items-center slot-number-button-container">
+              <button type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                </svg>
+                <span class="sr-only">減少車格</span>
+              </button>
+              <form>   
+                <label for = "fixed-car-slot-number-input" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">車位數</label>
+                <div class="relative">
+                    <input type="search" id = "fixed-car-slot-number-input" class="block w-[100px] p-4 text-sm text-gray-900 border-0 border-b border-b-zinc-500 bg-gray-50 focus:ring-0 focus:border-b-zinc-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder = "車位數" required>
+                    <button type="submit" class = "text-white absolute right-2.5 bottom-2.5 bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">設定</button>
+                </div>
+              </form>
+              <button type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+                <span class="sr-only">新增車格</span>
+              </button>
+            </div>
+          </div> *@
+
+          @* <div id = "aps-coin-status"></div> *@
+        </div>
+
+
+        <!-- drawer init and toggle -->
+        <div class="text-center" style = "display:none">
+          <button data-drawer-backdrop="false" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" type = "button" data-drawer-target = "drawer-swipe" data-drawer-show = "drawer-swipe" data-drawer-placement = "bottom" data-drawer-edge = "true" data-drawer-edge-offset = "bottom-[50px]" aria-controls = "drawer-swipe">
+          Show swipeable drawer
+          </button>
+        </div>
+          
+        @* 分隔線 *@
+
+        <!-- drawer component -->
+        <div id = "drawer-swipe" data-drawer-backdrop = "false" class = "fixed z-40 w-full overflow-y-hidden bg-zinc-100 border-t border-gray-200 rounded-t-lg dark:border-gray-700 dark:bg-gray-800 transition-transform bottom-0 left-0 right-0 translate-y-full bottom-[50px]" tabindex = "-1" aria-labelledby = "drawer-swipe-label">
+          <div class = "relative overflow-x-hidden"> @* tab-content-container *@
+          <div class="p-4 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700" data-drawer-toggle = "drawer-swipe">
+              <span class = "absolute w-8 h-1 -translate-x-1/2 bg-gray-300 rounded-lg top-3 left-1/2 dark:bg-gray-600"></span>
+              @* <h5 id = "drawer-swipe-label" class = "inline-flex items-center text-base text-gray-500 dark:text-gray-400 font-medium">
+                <svg class = "w-4 h-4 mr-2" aria-hidden = "true" xmlns = "http://www.w3.org/2000/svg" fill = "currentColor" viewBox = "0 0 18 18">
+                  <path d = "M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10ZM17 13h-2v-2a1 1 0 0 0-2 0v2h-2a1 1 0 0 0 0 2h2v2a1 1 0 0 0 2 0v-2h2a1 1 0 0 0 0-2Z"/>
+                </svg>
+                開啟底部選單
+              </h5> *@
+          </div>
+
+          @* 底部 TabBar Container  *@
+          @* 使用 Tailwind *@
+              <div 
+                role = "tablist"
+                aria-label = "tabs"
+                class = "border-solid border-b border-slate-700 relative w-max grid grid-cols-3 items-center px-[3px] overflow-hidden shadow-2xl shadow-900/20 transition"
+                @* class = "relative w-max mx-auto h-12 grid grid-cols-3 items-center px-[3px] bg-gray-900/20 overflow-hidden shadow-2xl shadow-900/20 transition" *@
+              >
+                @* indicator 是一個移動的 bar *@
+                <div class="absolute indicator h-11 my-auto top-0 bottom-0 left-0 bg-zinc-700 shadow-md"></div>
+                <button
+                  role = "tab"
+                  aria-selected = "true"
+                  aria-controls = "panel-1"
+                  id = "tab-1"
+                  tabindex = "0"
+                  class = "hover:bg-zinc-200 h-full bg-transparent active:bg-zinc-200 active:text-zinc-50 active:border-blue-600 relative block px-6 tab inline-flex items-center justify-center dark:text-blue-500 dark:border-blue-500 group"
+                >
+                  <a href="#" class="inline-flex h-full items-center justify-center border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                      @* <svg class="w-4 h-4 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
+                      </svg> *@
+                      <svg class="h-6 w-6 text-gray-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="21 12 17 12 14 20 10 4 7 12 3 12" /></svg>
+                      @* <svg class="h-8 w-8 text-black"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <polyline points="21 12 17 12 14 20 10 4 7 12 3 12" /></svg> *@
+                      即時記錄
+                  </a>
+                  @* <span class="text-gray-800">即時訊息</span> *@
+                </button>
+                <button
+                  role = "tab"
+                  aria-selected = "false"
+                  aria-controls = "panel-2"
+                  id = "tab-2"
+                  tabindex = "-1"
+                  @* class = "relative block h-10 px-6 tab" *@
+                  class = "hover:bg-zinc-200 h-full bg-transparent active:bg-zinc-200 active:text-zinc-50 active:border-blue-600 relative block px-6 tab inline-flex items-center justify-center dark:text-blue-500 dark:border-blue-500 group"
+                >
+                  @* <span class="text-gray-800">繳費記錄</span> *@
+                  <a href="#" class="inline-flex h-full items-center justify-center border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
+                      <svg class="w-4 h-4 mr-2 text-gray-400 group-hover:text-gray-500 dark:text-gray-500 dark:group-hover:text-gray-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z"/>
+                      </svg>繳費記錄
+                  </a>
+                </button>
+                @* <button
+                  role = "tab"
+                  aria-selected = "false"
+                  aria-controls = "panel-3"
+                  id = "tab-3"
+                  tabindex = "-1"
+                  class = "hover:bg-zinc-200 relative block h-10 px-6 tab"
+                >
+                  <span class="text-gray-800">測試頁面</span>
+                </button> *@
+              </div>
+          <div class = "max-w sm:px-0 h-[300px] overflow-x-auto">
+            @* 底部 TabBar (TabList) *@
+            <div class = "mx-w min-w-[1000px]">
+
+              @* 底部 TabPanel *@
+              <div class="relative rounded-3xl">
+                <div
+                  role = "tabpanel"
+                  id = "panel-1"
+                  class = "tab-panel transition duration-300"
+                >
+                  @* <h2 class = "text-xl font-semibold text-gray-800">First tab panel</h2>
+                  <p class = "mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas dolores voluptate temporibus, atque ab eos, delectus at ad hic voluptatem veritatis iure, nulla voluptates quod nobis doloremque eaque! Perferendis, soluta.</p> *@
+                  @* Filter 開始 *@
+                  <div>
+                    @* <select id="filter-field">
+                      <option></option>
+                      <option value = "name">Name</option>
+                      <option value = "progress">Progress</option>
+                      <option value = "gender">Gender</option>
+                      <option value = "rating">Rating</option>
+                      <option value = "col">Favourite Colour</option>
+                      <option value = "dob">Date Of Birth</option>
+                      <option value = "car">Drives</option>
+                      <option value = "function">Drives & Rating < 3</option>
+                    </select>
+                    <select id="filter-type">
+                      <option value="=">=</option>
+                      <option value="<"><</option>
+                      <option value="<="><=</option>
+                      <option value=">">></option>
+                      <option value=">=">>=</option>
+                      <option value="!=">!=</option>
+                      <option value="like">like</option>
+                    </select> *@
+                    <div class = "flex p-3 items-center">
+                      <label for = "plate-number" class = "flex-none mx-2.5 text-sm font-medium text-gray-900 dark:text-white">車牌號碼</label>
+                      <input type = "text" onchange = "updateFilterStatus(liveInfoFilterStatusMap, 'identifier', 'plate-number', 'search')" id = "plate-number" class = "mx-2.5 flex-none w-[120px] h-[25px] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder = "ABC1234">
+                      @* <div style = "display : flex; align-items : center;"> button group 2 即時影像 *@
+                      @* 設備種類 dropdown checkbox 開始 *@
+                      
+                      <button id="deviceTypeDropdownBgHoverButton" data-dropdown-toggle="deviceTypeDropdownBgHover" class="mx-2.5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">設備種類 <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+                      <!-- Dropdown menu -->
+                      <div id="deviceTypeDropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow dark:bg-gray-700">
+                          <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="deviceTypeDropdownBgHoverButton">
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="deviceType-2" checked onchange="updateFilterStatus(liveInfoFilterStatusMap, 'deviceType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="deviceType-2" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">車辨</label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="deviceType-7" checked onchange="updateFilterStatus(liveInfoFilterStatusMap, 'deviceType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="deviceType-7" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">繳費機</label>
+                              </div>
+                            </li>
+                          </ul>
+                      </div>
+
+
+                      @* <div id="deviceTypeDropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow dark:bg-gray-700">
+                          <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="deviceTypeDropdownBgHoverButton">
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="businessType" checked onchange="setTableFilter('#example-table', 'deviceType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="businessType" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300"></label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="deviceTypeAPS" checked onchange="setTableFilter('#example-table', 'deviceType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="deviceTypeAPS" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">繳費機</label>
+                              </div>
+                            </li>
+                          </ul>
+                      </div> *@
+
+                      @* 設備種類 dropdown checkbox 結束 *@
+
+                      @* 事件種類 dropdown checkbox 開始 *@
+                      
+                      @* <button id="eventTypeDropdownBgHoverButton" data-dropdown-toggle="eventTypeDropdownBgHover" class="mx-2.5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">事件種類 <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+                      <!-- Dropdown menu -->
+                      <div id="eventTypeDropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow dark:bg-gray-700">
+                          <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="eventTypeDropdownBgHoverButton">
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="checkbox-item-4" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="checkbox-item-4" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">成功</label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                  <input checked id="checkbox-item-5" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                  <label for="checkbox-item-5" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">異常</label>
+                                </div>
+                            </li>
+                          </ul>
+                      </div> *@
+
+                      @* 事件種類 dropdown checkbox 結束 *@
+
+                      @* 入場別 dropdown checkbox 開始 *@
+                      
+                      <button id="dropdownBgHoverButton" data-dropdown-toggle="dropdownBgHover" class="mx-2.5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">入場別 <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+
+                      <!-- Dropdown menu -->
+                      <div id="dropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow dark:bg-gray-700">
+                          <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownBgHoverButton">
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="businessType-1" checked onchange="updateFilterStatus(liveInfoFilterStatusMap, 'businessType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="businessType-1" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">臨停車</label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                  <input id="businessType-2" checked onchange="updateFilterStatus(liveInfoFilterStatusMap, 'businessType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                  <label for="businessType-2" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">月租車</label>
+                                </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                <input id="businessType-3"  checked onchange="updateFilterStatus(liveInfoFilterStatusMap, 'businessType', this.id, 'checkbox')" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                <label for="businessType-3" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">共享車</label>
+                              </div>
+                            </li>
+                          </ul>
+                      </div>
+
+                      @* 入場別 dropdown checkbox 結束 *@
+
+
+                      @* 列數量 dropdown checkbox 開始 *@
+                      
+                      <button id="rowNumDropdownRadioBgHoverButton" data-dropdown-toggle="rowNumDropdownRadioBgHover" class="mx-2.5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">顯示列數 <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                        </svg></button>
+
+                      <!-- Dropdown menu -->
+                      <div id="rowNumDropdownRadioBgHover" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
+                          <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="rowNumDropdownRadioBgHoverButton">
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                  <input checked id="default-radio-4" onclick = "rowNumChange(this);" type="radio" value="5" name="row-num-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                  <label for="default-radio-4" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">5</label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                  <input id="default-radio-5" onclick = "rowNumChange(this);" type="radio" value="10" name="row-num-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                  <label for="default-radio-5" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">10</label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+                                  <input id="default-radio-6" onclick = "rowNumChange(this);" type="radio" value="15" name="row-num-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+                                  <label for="default-radio-6" class="w-full ml-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">15</label>
+                              </div>
+                            </li>
+                          </ul>
+                      </div>
+
+                      @* 列數量 dropdown checkbox 結束 *@
+
+                      
+                      @* 即時資訊 toggle button 開始 *@
+                      <div class = "flex-none mx-2.5">
+                        <label class = "relative inline-flex items-center cursor-pointer" style = "float : right">
+                          <input id = 'sync-live-data-example-table' type = "checkbox" value = "" class = "sr-only peer">
+                          <div class = "w-11 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                          @* <div class="w-15 h-8 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div> *@
+                          <span class = "ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">即時資訊</span>
+                        </label>
+                      </div>
+                      @* 即時資訊 toggle button 結束 *@
+                    </div>
+                    @* <input id = "filter-value" type = "text" placeholder = "value to filter">
+                    <button id = "filter-clear">Clear Filter</button> *@
+                  </div>
+                  @* Filter 結束 *@
+
+                  <div id = "example-table" class = "py-0"></div>
+                </div>
+                <div
+                  role = "tabpanel"
+                  id = "panel-2"
+                  class = "absolute top-0 invisible opacity-0 tab-panel p-6 transition duration-300"
+                >
+                  <h2 class = "text-xl font-semibold text-gray-800">尚未開放使用</h2>
+                  @* <p class = "mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas dolores voluptate temporibus, atque ab eos, delectus at ad hic voluptatem veritatis iure, nulla voluptates quod nobis doloremque eaque! Perferendis, soluta.</p> *@
+                </div>
+                @* <div
+                  role = "tabpanel"
+                  id = "panel-3"
+                  class = "absolute top-0 invisible opacity-0 tab-panel p-6 transition duration-300"
+                > *@
+                @* <h2 class = "text-xl font-semibold text-gray-800">Third tab panel</h2>
+                  <p class = "mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas dolores voluptate temporibus, atque ab eos, delectus at ad hic voluptatem veritatis iure, nulla voluptates quod nobis doloremque eaque! Perferendis, soluta.</p> *@
+                @* </div> *@
+            </div>
+          </div>
+          </div> @* tab-content-container *@
+        </div>
+        <div id = 'bottom-tab-content'>
+          @* <div id = 'example-table'></div> *@
+        </div>
+      @* </div> *@
+    </div>
+
+
+    </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/stream/flv.js"></script>
+    <script src="~/Content/stream/stream.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
+    @* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> *@
+
+    <script>
+
+
+
+      @* Tab List 控制開始 *@
+      @* 這邊的作法是移動 indicator 的位置，而不是讓 button 自己變色 *@
+
+      let tabs = document.querySelectorAll(".tab")
+      let indicator = document.querySelector(".indicator")
+      let panels = document.querySelectorAll(".tab-panel")
+
+      @* 預設是 Focus 在第 0 個 tab *@
+      indicator.style.width = tabs[0].getBoundingClientRect().width + 'px'
+      indicator.style.left = tabs[0].getBoundingClientRect().left - tabs[0].parentElement.getBoundingClientRect().left + 'px'
+      tabs[0].classList.add("text-zinc-50")
+
+      tabs.forEach(tab =>{
+        tab.addEventListener("click", () => {
+          let tabTarget = tab.getAttribute("aria-controls")
+          indicator.style.width = tab.getBoundingClientRect().width + 'px'
+          @* tab.style.color = 'white' //  *@
+          tab.classList.add("text-zinc-50")
+          tab.classList.remove("text-zinc-700")
+          indicator.style.left = tab.getBoundingClientRect().left - tab.parentElement.getBoundingClientRect().left + 'px'
+
+          @* 重設定，非 Focus 的文字顏色 *@
+          tabs.forEach(tabOther => {
+            if (tabOther != tab) {
+              @* tabOther.style.color = 'black' //  *@
+              tabOther.classList.remove("text-zinc-50")
+              tabOther.classList.add("text-zinc-700")
+            }
+          })
+
+          panels.forEach(panel =>{
+            let panelId = panel.getAttribute("id")
+            if(tabTarget === panelId){
+              panel.classList.remove("invisible", "opacity-0")
+              panel.classList.add("visible", "opacity-100")
+            } else {
+              panel.classList.add("invisible", "opacity-0")
+            }
+          })
+        })
+      })
+
+      @* Tab List 控制結束 *@
+          
+      var tableDataMap = new Map()
+      var tableMap = new Map()
+      var chartMap = new Map()
+
+
+       document.addEventListener('DOMContentLoaded', function() {
+
+        @* tableDataMap.set("APS-1", [
+          {logAt : "2023-02-11 10:11:11", identifier : "ABC-1234", logType : "繳費機", logContent : "繳費完成" },
+          {logAt : "2023-02-11 10:11:11", identifier : "CCC-1234", logType : "出口票證機", logContent : "繳費完成" },
+          {logAt : "2023-02-11 10:11:11", identifier : "AAC-1234", logType : "入口車辨", logContent : "辨識成功，月租車" },
+          {logAt : "2023-02-11 10:11:11", identifier : "DDC-1234", logType : "出口出辨", logContent : "成功辨識，離場完成" },
+          {logAt : "2023-02-11 10:11:11", identifier : "HGC-1234", logType : "出口車辨", logContent : "出口卡住超過 10 秒" }
+        ])
+
+        var rowPopupFormatter = function(e, row, onRendered){
+          var data = row.getData(),
+          container = document.createElement("div")
+          var lineHeight = 15;
+          var style = `margin : 10px 0px; line-height : ${lineHeight}px`
+          contents = `<div style = 'padding : 10px'><strong style='font-size:1.2em;'>詳細資訊</strong><br/><ul style='padding:0px;  margin-top:10px; margin-bottom:0;'>`;
+          contents += `<li style = '${style}'><strong>記錄時間 : </strong>  ${data.logAt}  </li>`;
+          contents += `<li style = '${style}'><strong>識別號碼 : </strong> ${data.identifier}  </li>`;
+          contents += `<li style = '${style}'><strong>訊息種類 : </strong> ${data.logType} </li>`;
+          contents += `<li style = '${style}'><strong>訊息內容 : </strong> ${data.logContent} </li>`;
+          contents += `</ul></div>`;
+          container.innerHTML = contents;
+          return container;
+        };
+
+
+        var table = new Tabulator("#example-table", {
+          rowClickPopup:rowPopupFormatter,
+          rowHeight:35,
+          data:tableDataMap.get("APS-1"),           //load row data from array
+          layout:"fitColumns",      //fit columns to width of table
+          responsiveLayout:"hide",  //hide columns that don't fit on the table
+          addRowPos:"top",          //when adding a new row, add it to the top of the table
+          history:true,             //allow undo and redo actions on the table
+          pagination:"local",       //paginate the data
+          paginationSize:7,         //allow 7 rows per page of data
+          paginationCounter:"rows", //display count of paginated rows in footer
+          movableColumns:false,      //allow column order to be changed
+          initialSort:[             //set the initial sort order of the data
+            {column:"logAt", dir:"desc"},
+          ],
+          columnDefaults:{
+            tooltip:true,         //show tool tips on cells
+          },
+          columns:[                 //define the table columns
+              {title:"記錄時間", field:"logAt"} ,
+              {title:"識別號", field:"identifier", hozAlign:"left"},
+              {title:"訊息種類", field:"logType", hozAlign:"left"},
+              {title:"訊息", field:"logContent" },
+          ],
+        }); *@
+
+          @* flowbite.initFlowbite() *@
+          @* getStreamURL();
+          buildPage();
+          var splide = new Splide('.splide-LPREntry', {
+            updateOnMove : true,
+          });
+          splide.mount(); *@
+        
+          @* (async() => {
+          await getStreamURL();
+          await buildPage();
+          var splide = await new Splide('.splide-LPREntry', {
+            updateOnMove : true,
+          });
+          await splide.mount();
+          })() *@
+
+      } );
+
+      tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    @* <style type="text/tailwindcss">
+        @layer utilities {
+        .content-auto {
+            content-visibility: auto;
+        }
+        }
+    </style> *@
+
+
+</body>
+</html>
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/PConfig/Channel/WaterLevel',
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'DeviceName', align: 'left', title: '設備名稱', },
+                    {
+                        field: 'CashType', title: "類 型", align: 'left', style: 'color:red', 
+                        templet: function (d) {
+                            if (d.CashType == 5)
+                                return "5 元";
+                            else if (d.CashType == 10)
+                                return "10 元";
+                            else if (d.CashType == 20)
+                                return "20 元";
+                            else if (d.CashType == 50)
+                                return "50 元";
+                            else if (d.CashType == 100)
+                                return "100 元";
+                            else
+                                return "/";
+                        }
+                    },
+                    { field: 'Num', align: 'left', title: '數 量 (張)', style: 'color:blue;' },
+                ]],
+                limit: 50,
+                page: false,
+                done: function (res, curr, count) {
+                    layuiRowspan("DeviceName", 1);
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        form.render();
+    });
+
+    var layuiRowspan = function (fieldNameTmp, index, flag) {
+        let fieldName = [];
+        if (typeof fieldNameTmp == "string") {
+            fieldName.push(fieldNameTmp);
+        } else {
+            fieldName = fieldName.concat(fieldNameTmp);
+        }
+        for (let i = 0; i < fieldName.length; i++) {
+            execRowspan(fieldName[i], index, flag);
+        }
+    }
+
+    var execRowspan = function (fieldName, index, flag) {
+        // 1为不冻结的情况，左侧列为冻结的情况
+        let fixedNode = index == "1" ? $(".layui-table-body")[index - 1] : (index == "3" ? $(".layui-table-fixed-r") : $(".layui-table-fixed-l"));
+        // 左侧导航栏不冻结的情况
+        let child = $(fixedNode).find("td");
+        let childFilterArr = [];
+        // 获取data-field属性为fieldName的td
+        for (let i = 0; i < child.length; i++) {
+            if (child[i].getAttribute("data-field") == fieldName) {
+                childFilterArr.push(child[i]);
+            }
+        }
+        // 获取td的个数和种类
+        let childFilterTextObj = {};
+        for (let i = 0; i < childFilterArr.length; i++) {
+            let childText = flag ? childFilterArr[i].innerHTML : childFilterArr[i].textContent;
+            if (childFilterTextObj[childText] == undefined) {
+                childFilterTextObj[childText] = 1;
+            } else {
+                let num = childFilterTextObj[childText];
+                childFilterTextObj[childText] = num * 1 + 1;
+            }
+        }
+        let canRowspan = true;
+        let maxNum;//以前列单元格为基础获取的最大合并数
+        let finalNextIndex;//获取其下第一个不合并单元格的index
+        let finalNextKey;//获取其下第一个不合并单元格的值
+        for (let i = 0; i < childFilterArr.length; i++) {
+            (maxNum > 9000 || !maxNum) && (maxNum = $(childFilterArr[i]).prev().attr("rowspan") && fieldName != "8" ? $(childFilterArr[i]).prev().attr("rowspan") : 9999);
+            let key = flag ? childFilterArr[i].innerHTML : childFilterArr[i].textContent;//获取下一个单元格的值
+            let nextIndex = i + 1;
+            let tdNum = childFilterTextObj[key];
+            let curNum = maxNum < tdNum ? maxNum : tdNum;
+            if (canRowspan) {
+                for (let j = 1; j <= curNum && (i + j < childFilterArr.length);) {//循环获取最终合并数及finalNext的index和key
+                    finalNextKey = flag ? childFilterArr[i + j].innerHTML : childFilterArr[i + j].textContent;
+                    finalNextIndex = i + j;
+                    if ((key != finalNextKey && curNum > 1) || maxNum == j) {
+                        canRowspan = true;
+                        curNum = j;
+                        break;
+                    }
+                    j++;
+                    if ((i + j) == childFilterArr.length) {
+                        finalNextKey = undefined;
+                        finalNextIndex = i + j;
+                        break;
+                    }
+                }
+                childFilterArr[i].setAttribute("rowspan", curNum);
+                if ($(childFilterArr[i]).find("div.rowspan").length > 0) {//设置td内的div.rowspan高度适应合并后的高度
+                    $(childFilterArr[i]).find("div.rowspan").parent("div.layui-table-cell").addClass("rowspanParent");
+                    $(childFilterArr[i]).find("div.layui-table-cell")[0].style.height = curNum * 38 - 10 + "px";
+                }
+                canRowspan = false;
+            } else {
+                childFilterArr[i].style.display = "none";
+            }
+            if (--childFilterTextObj[key] == 0 | --maxNum == 0 | --curNum == 0 | (finalNextKey != undefined && nextIndex == finalNextIndex)) {//||(finalNextKey!=undefined&&key!=finalNextKey)
+                canRowspan = true;
+            }
+        }
+    }
+
+
+    @* var streamDeviceInfoList = null *@
+    var streamDeviceMap = new Map()
+    var LPREntry = 'LPREntry'
+    var LPRExit = 'LPRExit'
+    @* add by steven 2023-09-01 *@
+    @* /Device/GetStreamURL *@
+		function getStreamURL() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/api/Stream/GetStreamConfig", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+					var streamConfigs = jsonResponse.data
+
+          var entranceStreamConfigs = streamConfigs.Entrance
+          var exitStreamConfigs = streamConfigs.Exit
+          var apsStreamConfigs = streamConfigs.APS
+
+
+          for (var i = 0; i < entranceStreamConfigs.length; ++i){
+            var streamDeviceInfo = entranceStreamConfigs[i];
+            if (!streamDeviceMap.has(LPREntry)){
+              streamDeviceMap.set(LPREntry, [])
+            }
+            streamDeviceMap.get(LPREntry).push(streamDeviceInfo)
+          }
+
+          for (var i = 0; i < exitStreamConfigs.length; ++i){
+            var streamDeviceInfo = exitStreamConfigs[i];
+            if (!streamDeviceMap.has(LPRExit)){
+              streamDeviceMap.set(LPRExit, [])
+            }
+            streamDeviceMap.get(LPRExit).push(streamDeviceInfo)
+          }
+
+          for (var i = 0; i < apsStreamConfigs.length; ++i){
+            var streamDeviceInfo = apsStreamConfigs[i];
+            if (!streamDeviceMap.has("APS")){
+              streamDeviceMap.set("APS", [])
+              streamDeviceMap.get("APS").push(streamDeviceInfo)
+            }
+          }
+
+
+          console.log("streamDeviceMap ", streamDeviceMap)
+
+              
+
+					@* 如果有攝影機才會往 video-container 裡面加入 div *@
+					@* if (streamDeviceInfoList.length > 0) {
+						var videoContainer =  document.getElementById("video-container-pos");
+						for (var i = 0; i < streamDeviceInfoList.length; ++i){
+							var streamID = `APS-${i}`
+							var streamDeviceInfo = streamDeviceInfoList[i]
+							if (streamDeviceInfoList[i].LANStreamURL != null || streamDeviceInfoList[i].WANStreamURL != null){
+								console.log(streamDeviceInfoList[i]);
+								var videoInstance = `
+                  <center><span style = "font-size:32px; font-weight:bold">${streamDeviceInfoList[i].Name}</span></center>
+                  <div class = "layui-panel" style = "display : flex; justify-content: center;">
+                    <video name = "video-element-[${streamID}]" class = "centeredVideo" style = "height: 250px;" controls autoplay>
+                      Your browser is too old which doesn't support HTML5 video.
+                    </video>
+                  </div>
+								`
+								videoContainer.insertAdjacentHTML("beforeend", videoInstance)
+								flv_load(streamID, streamDeviceInfo) 
+							}
+						};
+					} *@
+
+          buildVideoBlock()
+				} 
+				else {
+					console.log("response ", xhr.status)
+					// Request failed
+					// responseDiv.textContent = "Request failed with status: " + xhr.status;
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ key: "value" });
+			xhr.send(data);
+		}
+
+
+
+    @* const tabsBar = document.querySelector("#tabs-bar"); *@
+    var tabsBar = document.getElementById("tabs-bar");
+    @* document.getElementById('personlist').value=Person_ID; *@
+    const tabContent = document.querySelector("#tab-content");
+    const bottomTabContent = document.querySelector("#bottom-tab-content");
+
+    function setOption (option) {
+      var tabsOption = document.getElementById(`tabs-option-${option}`);
+      tabsOption.selected = true;
+      tabContent.textContent = `You like ${option}`;
+    }
+
+    @* 設定底部 Tab *@
+    function setBottomTabFocus (tab) {
+      var tabsOption = document.getElementById(`bottom-tabs-option-${option}`);
+      bottomTabContent.selected = true;
+      @* tabContent.textContent = `You like ${option}`; *@
+
+
+    }
+
+
+
+    tabsBar.addEventListener("change", (event) => {
+
+      setOption(event.target.value)
+      @* console.log("change => ", event.target.value)
+      tabsBar.value = event.target.value;
+      var tabsOption = document.getElementById(`tabs-option-${event.target.value}`);
+      tabsOption.selected = true; *@
+      @* const options = Array.from(tabsBar.options);
+      const optionToSelect = options.find(item => item.text ===text);
+      optionToSelect.selected = true; *@
+    });
+
+
+    blocks = {}
+
+
+    @* 1	設備類型
+    2	車辨攝影機
+    3	Led字幕機
+    4	電腦
+    5	柵欄機
+    6	出驗票機
+    7	自動繳費設備
+    8	熱感式列印機
+    9	監控設備
+    10	掃描器設備
+    11	語音對講設備 *@
+
+    var splidesMap = new Map()
+    const splideHeight = 500
+    window.addEventListener("resize", onResize);
+    @* 因為 splide 的高度好像有點對不準，只好動態 fit  *@
+    async function splideFitVideo () {
+      var videos = Array.from(document.getElementsByClassName("centeredVideo"))
+      @* var splides = Array.from(document.getElementsByClassName("splide-track")) *@
+      const splides = document.querySelectorAll('.splide__list.Stream');
+      @* for (const box of splides) {
+        box.style.width = '100px';
+        box.style.height = '100px';
+      } *@
+      videos.forEach((video, i) => {
+        @* console.log("current size ", video.offsetHeight)
+        console.log("i => ", i) *@
+        @* video.offsetHeight = video.offsetHeight + 50 *@
+        splides[i].style.height = `${video.offsetHeight + 125}px`
+        @* splides[i].style.height = '600px' *@
+        @* console.log("after size ", video.offsetHeight)
+        console.log("splide size ", splides[i].style.height) *@
+        @* var splides2 = Array.from(document.getElementsByClassName("splide-track")) *@
+        @* console.log("splide size ", splides2[i].style.height) *@
+      })
+    }
+
+    async function splideFitSlotNum () {
+      var elements = Array.from(document.getElementsByClassName("slot-numbers-container"))
+      const splides = document.querySelectorAll('.splide__list.SlotNum');
+      elements.forEach((element, i) => {
+        splides[i].style.height = `${element.offsetHeight + 125}px`
+      })
+    }
+    function onResize () {
+      splideFitVideo()
+      splideFitSlotNum()
+    }
+    async function buildVideoBlock () {
+      await createSplideBlock (LPREntry, streamDeviceMap)
+      await createSplideBlock (LPRExit, streamDeviceMap)
+      await createSplideBlock ("APS", streamDeviceMap)
+      var splideLPREntry = await new Splide(`.splide.${LPREntry}`, {
+        @* minHeight : splideMinHeight, *@
+        @* fixedHeight : splideHeight, *@
+        @* height : "auto", *@
+        @* autoHeight : true, *@
+        arrows : false,
+        updateOnMove : true,
+      });
+
+      await splideLPREntry.mount();
+      
+      var splideLPRExit = await new Splide(`.splide.${LPRExit}`, {
+        @* minHeight : splideMinHeight, *@
+        @* fixedHeight : splideHeight, *@
+        @* height : "auto",
+        autoHeight : true, *@
+        arrows : false,
+        updateOnMove : true,
+      });
+
+      await splideLPRExit.mount();
+      var splideAPS = await new Splide(`.splide.APS`, {
+        @* fixedHeight : splideHeight, *@
+        @* minHeight : splideMinHeight, *@
+        @* minHeight : 500, *@
+        @* autoHeight : true, *@
+        @* height : "auto",
+        autoHeight : true, *@
+        arrows : false,
+        updateOnMove : true,
+      });
+
+      await splideAPS.mount();
+
+      splideFitVideo() // 調整 .spide__list 高度
+    }
+    
+    
+    async function buildAPSStatus (elementID) {
+      
+      
+    }
+
+    async function buildAPSCoinStatus (elementID) {
+      var options = {
+        series: [{
+          name : "水位",
+          data : [0, 0, 0, 0]
+        }],
+        chart: {
+          type: 'bar',
+          height: 200,
+          toolbar: {
+            show: false,
+            tools : {
+              download: false
+            }
+          },
+        },
+        plotOptions: {
+          bar: {
+            @* borderRadius: 4, *@
+            columnWidth : 21,
+            distributed: true
+
+            @* horizontal: true, *@
+          }
+        },
+        @* theme: {
+          monochrome: {
+            enabled: true,
+            color: '#00B1F2',
+            shadeTo: 'light',
+            shadeIntensity: 0.65
+          }
+        }, *@
+        legend : {
+          show : false,
+          colors: ['#86B6C6', '#3A72BE', '#1F5372', '#0C3756']
+
+        },
+        fill: {
+          colors: ['#86B6C6', '#3A72BE', '#1F5372', '#0C3756']
+        },
+        dataLabels: {
+          enabled: true,
+          style: {
+            fontSize: '10px',
+            fontFamily: 'Helvetica, Arial, sans-serif',
+            @* fontWeight: 'bold', *@
+            @* colors: 'white' *@
+          },
+        },
+        @* labels: ['Apples', 'Oranges', 'Berries', 'Grapes'], *@
+        xaxis: {
+          categories: ['5元', '10元', '50元', '100元'],
+        }
+      };
+
+      @* var chart = new ApexCharts(document.querySelector("#aps-coin-status"), options); *@
+      chartMap.set(elementID, new ApexCharts(document.querySelector(`#${elementID}`), options))
+      chartMap.get(elementID).render();
+    }
+
+
+    async function buildSlotNumberChart (elementID, slotNumType, slotTypeStr, totalSlotNum) {
+      console.log("buildSlotNumberChart elementID => ", elementID)
+      var options = {
+          series: [0],
+          chart: {
+          height: 200,
+          type: 'radialBar',
+          toolbar: {
+            show: false
+          }
+        },
+        plotOptions: {
+          radialBar: {
+            startAngle: -135,
+            endAngle: 225,
+             hollow: {
+              margin: 0,
+              size: '70%',
+              background: '#fff',
+              image: undefined,
+              imageOffsetX: 0,
+              imageOffsetY: 0,
+              position: 'front',
+              dropShadow: {
+                enabled: true,
+                top: 3,
+                left: 0,
+                blur: 4,
+                opacity: 0.24
+              }
+            },
+            track: {
+              background: '#fff',
+              strokeWidth: '67%',
+              margin: 0, // margin is in pixels
+              dropShadow: {
+                enabled: true,
+                top: -3,
+                left: 0,
+                blur: 4,
+                opacity: 0.35
+              }
+            },
+        
+            dataLabels: {
+              show: true,
+              name: {
+                offsetY: -10,
+                show: true,
+                color: '#888',
+                fontSize: '20px'
+              },
+              value: {
+                formatter: function(val) {
+                  @* console.log("remain slot 1 => ", parseFloat(totalSlotNum))
+                  console.log("remain slot 2 => ", (val * parseFloat(totalSlotNum) / parseFloat(100)))
+                  console.log("remain slot 3 => ", (val))
+                  console.log("remain slot 4 => ", (parseFloat(val) / 100)) *@
+                  return Math.floor(parseFloat(val) / 100 * parseFloat(totalSlotNum));
+                  @* return val; *@
+                },
+                color: '#111',
+                fontSize: '24px',
+                show: true,
+              },
+            }
+          }
+        },
+        fill: {
+          type: 'gradient',
+          gradient: {
+            shade: 'dark',
+            type: 'horizontal',
+            shadeIntensity: 0.5,
+            gradientToColors: ['#ABE5A1'],
+            inverseColors: true,
+            opacityFrom: 1,
+            opacityTo: 1,
+            stops: [0, 100]
+          }
+        },
+        stroke: {
+          lineCap: 'round'
+        },
+        labels: [slotTypeStr],
+        };
+
+        chartMap.set(elementID, new ApexCharts(document.querySelector(`#${elementID}`), options))
+        chartMap.get(elementID).render();
+      
+
+    }
+    // @* 流程 : getStreamURL => buildVideoBlock =>  *@
+
+
+    var parkingAreas = []
+
+    var apsStatusList = []
+
+    var parkingSlotMap = new Map()
+
+
+    // 
+    async function getAPSStatus (init = false) {
+      var f = "getAPSStatus"
+      console.log(`${f} entry`)
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/api/ApsStatus/GetApsStatus", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+          console.log(`${f} response => `, jsonResponse)
+          apsStatusList = jsonResponse.apsStatus
+          // apsStatusList.forEach((apsStatus) => {
+          //   var apsElementID = `aps-status-${apsStatus.ApsID}`
+          //   console.log(`${f} => aps-id = ${apsElementID}`)
+            if (init) {
+              createSplideBlock ("APSStatus", null) // 需要等第一次 getParkingArea 初始化 parkingAreas
+              // buildAPSStatus(apsElementID)
+              var splideAPSInvoicePrinterStatus = new Splide(`.splide.APSStatus`, {
+                arrows : false,
+                updateOnMove : true,
+              });
+              splideAPSInvoicePrinterStatus.mount();
+            } else {
+              console.log("updateSeries aps invoice printer status .... ")
+            }
+            @* var apsElementID = `aps-status-${apsStatus.APSID}`
+            console.log("get aps status element id -> ", apsElementID)
+            if (!chartMap.has(apsElementID)) {
+              createSplideBlock ("APSStatus", null)
+              buildAPSCoinStatus(apsElementID)
+            } else {
+            } *@
+          // })
+				} 
+				else {
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ key: "value" });
+			xhr.send(data); 
+    }
+
+    async function getAPSCoinStatus (init = false) {
+      console.log("get aps coin status --- 1")
+      @* var apsChart = document.getElementById("#aps-coin-status") *@
+      console.log("get aps coin status --- 2")
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/PConfig/Channel/GetAPSCoinStatus", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+          console.log('get aps coin status json response => ', jsonResponse)
+          apsStatusList = jsonResponse.data
+          apsStatusList.forEach((apsStatus) => {
+            var apsElementID = `aps-coin-status-${apsStatus.APSID}`
+            if (init) {
+              createSplideBlock ("APSCoinStatus", null) // 需要等第一次 getParkingArea 初始化 parkingAreas
+              buildAPSCoinStatus(apsElementID)
+              var splideAPSStatus = new Splide(`.splide.APSCoinStatus`, {
+                arrows : false,
+                updateOnMove : true,
+              });
+              splideAPSStatus.mount();
+              chartMap.get(apsElementID).updateSeries([{ name : "水位", data : [apsStatus.Coin5, apsStatus.Coin10, apsStatus.Coin50, apsStatus.Bill100]}] )
+            } else {
+              @* ['5元', '10元', '50元', '100元'], *@
+              console.log("updateSeries apscoinstatus .... ")
+              @* chartMap.get(apsElementID).updateSeries(nam[apsStatus.coin5, apsStatus.coin10, apsStatus.coin50, apsStatus.bill100]) *@
+              chartMap.get(apsElementID).updateSeries([{ name : "水位", data : [apsStatus.Coin5, apsStatus.Coin10, apsStatus.Coin50, apsStatus.Bill100]}] )
+              @* chartMap.get(apsElementID).updateSeries([{ name : "水位", data : [5, 10, 50, 100] }]) *@
+            }
+            @* var apsElementID = `aps-status-${apsStatus.APSID}`
+            console.log("get aps status element id -> ", apsElementID)
+            if (!chartMap.has(apsElementID)) {
+              createSplideBlock ("APSStatus", null)
+              buildAPSCoinStatus(apsElementID)
+            } else {
+            } *@
+          })
+				} 
+				else {
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ key: "value" });
+			xhr.send(data); 
+
+    }
+
+
+    async function getParkingArea (init = false) {
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/PConfig/ParkingArea/GetParkingArea", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+          console.log('ParkingArea => ', jsonResponse)
+          parkingAreas = jsonResponse.data
+          parkingAreas.forEach((v, i) => {
+            parkingSlotMap.set(v.Id, {
+              fixedRemaining : v.TRemainingNum,
+              tempRemaining : v.FRemainingNum,
+              TemporaryNum : v.TemporaryNum,
+              FixedNum : v.FixedNum
+            })
+            
+            console.log("ParkingArea parkingslotMap = ", parkingSlotMap)
+
+            if (init) {
+              createSplideBlock ("SlotNumber", null) // 需要等第一次 getParkingArea 初始化 parkingAreas
+              buildSlotNumberChart(`temp-car-slot-number-area-${v.Id}`, "temp", "臨停", v.TemporaryNum)
+              buildSlotNumberChart(`fixed-car-slot-number-area-${v.Id}`, "fixed", "月租", v.FixedNum)
+              var splideSlotNumber = new Splide(`.splide.SlotNumber`, {
+                arrows : false,
+                updateOnMove : true,
+              });
+              splideSlotNumber.mount();
+            }
+
+            try {
+              chartMap.get(`temp-car-slot-number-area-${v.Id}`).updateSeries([v.TRemainingNum.toFixed(8) / v.TemporaryNum.toFixed(8) * 100])
+              chartMap.get(`fixed-car-slot-number-area-${v.Id}`).updateSeries([v.FRemainingNum.toFixed(8) / v.FixedNum.toFixed(8) * 100])
+              @* chartMap.get(`temp-car-slot-number-area-${v.Id}`).updateSeries([v.TRemainingNum])
+              chartMap.get(`fixed-car-slot-number-area-${v.Id}`).updateSeries([v.FRemainingNum]) *@
+            }
+            catch (e) {
+              console.log(`更新車位數錯誤 = ${e}`)
+            }
+          })
+          @* console.log("parkingSlotMap => ", parkingSlotMap) *@
+				} 
+				else {
+					@* console.log("response ", xhr.status) *@
+					// Request failed
+					// responseDiv.textContent = "Request failed with status: " + xhr.status;
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ key: "value" });
+			xhr.send(data); 
+
+    }
+
+    async function barrier_contorl (laneID, action) {
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/api/channel/BarrierControl", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+				} 
+				else {
+					@* console.log("response ", xhr.status) *@
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ laneID : laneID, action : action });
+			xhr.send(data); 
+    }
+
+
+    // async init function
+
+    async function async_init () {
+      
+      getStreamURL() // 同時 init video 相關的 splide block
+      getParkingArea(true) // 初始化
+      @* buildSlotNumber("fixed-car-slot-number", "fixed", "月租")
+      buildSlotNumber("temp-car-slot-number", "temp", "臨停") *@
+      @* buildAPSCoinStatus() *@
+      getAPSCoinStatus(true)
+      getAPSStatus(true)
+      
+    }
+    async_init()
+    @* // <%-- 新增 splide 區塊 --%> *@
+    function createSplideBlock (deviceType, streamDeviceMap) {
+      var splideContainerID = `splide-container-${deviceType}`
+      var splideListID = `splide-list-${deviceType}`
+      var splideContainer = document.getElementById(splideContainerID)
+      @* console.log("splideContainer => ", splideContainer)
+      console.log("splideContainerID => ", splideContainerID) *@
+      var splidType = null
+      if (deviceType.includes("LPR") || deviceType == "APS") {
+        splideType = 'Stream'
+      } else if (deviceType == 'SlotNumber') {
+        splideType = 'SlotNum'
+      } else if (deviceType == 'APSCoinStatus') {
+        splideType = 'APSCoinStatus'
+      } else if (deviceType == 'APSStatus') {
+        splideType = 'APSStatus'
+      }
+      var block = `
+        <section class = "splide ${deviceType} splide__" aria-labelledby = "carousel-heading">
+          <div class = "splide__track splide-track">
+            <ul id = "${splideListID}" class = "splide__list ${splideType}">
+              @* <li class = "splide__slide"></li> *@
+              @* <li class = "splide__slide">
+                <div class = "rounded overflow-hidden shadow-lg">
+                  <div class = "px-6 py-4">
+                    <div id = 'video-container-' class = "video-container layui-row layui-col-space15"></div>
+                  </div>
+                </div>
+              </li> *@
+            </ul>
+          </div>
+        </section>
+      `
+      splideContainer.insertAdjacentHTML("beforeend", block)
+      if (deviceType.includes("LPR") || deviceType == "APS") {
+        var streamDeviceInfoList = streamDeviceMap.get(deviceType)
+        streamDeviceInfoList.forEach((streamDeviceInfo, i) => {
+          var streamID = `${deviceType}-${i}`
+          if (streamDeviceInfo.LANStreamURL != null || streamDeviceInfo.WANStreamURL != null){
+            if (deviceType.includes("LPR"))
+              createLPRBlock(splideListID, streamID, streamDeviceInfo)
+            else if (deviceType == "APS")
+              createAPSBlock(splideListID, streamID, streamDeviceInfo)
+          }
+        });
+      } else if (deviceType == 'SlotNumber') {
+        @* console.log(`createSlotNumberBlock`) *@
+        parkingAreas.forEach((parkingArea, i) => {
+          @* console.log(`createSlotNumberBlock areaID = ${parkingArea.Id}`) *@
+          createSlotNumberBlock(splideListID, parkingArea.Id, parkingArea.AreaName)
+          @* createSlotNumberBlock(splideListID, parkingArea.Id, "fixed") *@
+        })
+        @* function createSlotNumberBlock (containerID, areaID, slotType) { *@
+      } else if (deviceType == 'APSCoinStatus') {
+        apsStatusList.forEach((apsStatus, i) => {
+          console.log(`createSplideBlock APSCoinStatus = ${apsStatus}`)
+          createAPSCoinStatusBlock(splideListID, apsStatus)
+          @* createSlotNumberBlock(splideListID, parkingArea.Id, "fixed") *@
+        })
+      } else if (deviceType == 'APSStatus') {
+        apsStatusList.forEach((apsStatus, i) => {
+          console.log(`createSplideBlock APSStatus = ${apsStatus}`)
+          createAPSStatusBlock(splideListID, apsStatus)
+          @* createSlotNumberBlock(splideListID, parkingArea.Id, "fixed") *@
+        })
+      }
+      
+      else {
+        console.log(`deviceType ${deviceType} is not exist`)
+      }
+
+    }
+
+   
+    function createLPRBlock (containerID, streamID, streamDeviceInfo) {
+      @* <%-- console.log("createLPRBlock containerID => ", containerID) --%> *@
+      var container = document.getElementById(containerID)
+      @* <%-- console.log("createLPRBlock container => ", container) --%> *@
+      @* <%-- var streamID = '' --%> *@
+      @* var block = `
+        <li class = "splide__slide">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">
+              <div style = "display:flex; justify-content:space-evenly; margin:20px 0px;">
+                <video name = "video-element-[${streamID}]" class = "centeredVideo" style = "height: 250px;" controls autoplay>
+                Your browser is too old which doesn't support HTML5 video.
+                </video>
+              </div>
+              <button class = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">開門</button>
+              <button class = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">關門</button>
+              <label class="relative inline-flex items-center cursor-pointer">
+                <input type="checkbox" value="" class="sr-only peer">
+                <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">即時</span>
+              </label>
+              <button type="button" class="px-3 py-2 text-sm font-medium text-center inline-flex items-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <svg class="w-3 h-3 text-white mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                  <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+                  <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+                </svg>
+                Small
+              </button>
+              </div>
+            </div>
+          //每個出入口當前的狀態 跟 繳費機輸入車號的相關紀錄 
+            <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                  <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                      <tr>
+                          <th scope="col" class="px-6 py-3">
+                              Product name
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                              <div class="flex items-center">
+                                  Color
+                                  <a href="#"><svg class="w-3 h-3 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+            </svg></a>
+                              </div>
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                              <div class="flex items-center">
+                                  Category
+                                  <a href="#"><svg class="w-3 h-3 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+            </svg></a>
+                              </div>
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                              <div class="flex items-center">
+                                  Price
+                                  <a href="#"><svg class="w-3 h-3 ml-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z"/>
+            </svg></a>
+                              </div>
+                          </th>
+                          <th scope="col" class="px-6 py-3">
+                              <span class="sr-only">Edit</span>
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Apple MacBook Pro 17"
+                          </th>
+                          <td class="px-6 py-4">
+                              Silver
+                          </td>
+                          <td class="px-6 py-4">
+                              Laptop
+                          </td>
+                          <td class="px-6 py-4">
+                              $2999
+                          </td>
+                          <td class="px-6 py-4 text-right">
+                              <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                          </td>
+                      </tr>
+                      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Microsoft Surface Pro
+                          </th>
+                          <td class="px-6 py-4">
+                              White
+                          </td>
+                          <td class="px-6 py-4">
+                              Laptop PC
+                          </td>
+                          <td class="px-6 py-4">
+                              $1999
+                          </td>
+                          <td class="px-6 py-4 text-right">
+                              <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                          </td>
+                      </tr>
+                      <tr class="bg-white dark:bg-gray-800">
+                          <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Magic Mouse 2
+                          </th>
+                          <td class="px-6 py-4">
+                              Black
+                          </td>
+                          <td class="px-6 py-4">
+                              Accessories
+                          </td>
+                          <td class="px-6 py-4">
+                              $99
+                          </td>
+                          <td class="px-6 py-4 text-right">
+                              <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+
+          </div>
+        </li>
+      ` *@
+
+
+        var block = ` <li class = "splide__slide" style = "padding : 0px 20px">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">
+              <div>${streamDeviceInfo.LaneName}</div>
+              <div style = "display:flex; justify-content:space-evenly; margin:0px; margin-top : 10px; margin-bottom : 15px">
+                <video name = "video-element-[${streamID}]" class = "centeredVideo" style = "width : 100%" controls autoplay>
+                  Your browser is too old which doesn't support HTML5 video.
+                </video>
+              </div>
+              <div style = "display : flex; justify-content : space-between;">
+                <div> @* button group 1 *@
+                  <button onclick = "barrierControl(${streamDeviceInfo.LaneID}, 1)" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      開門
+                    </span>
+                    </button>
+                  <button onclick = "barrierControl(${streamDeviceInfo.LaneID}, 0)" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      關門
+                    </span>
+                  </button>
+                </div>
+
+                <div style = "display : flex; align-items : center;"> @* button group 2 即時影像 *@
+                  <label class="relative inline-flex items-center cursor-pointer" style = "float : right">
+                    <input checked id = 'video-element-[${streamID}]-live' type="checkbox" value="" class="sr-only peer">
+                    <div class="w-11 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    @* <div class="w-15 h-8 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div> *@
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">即時影像</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class = "rounded overflow-hidden shadow-lg">
+              <div class = "px-6 py-4">
+                @* <div id="example-table"></div> *@
+              </div>
+            </div>
+          </div>
+        </li>`
+      container.insertAdjacentHTML("beforeend", block)
+      flv_load(streamID, streamDeviceInfo) 
+    }
+
+    var getLogService = window.setInterval(getLog, 1000);
+    var getParkingAreaService = window.setInterval(getParkingArea, 1000);
+    var getAPSCoinStatusService = window.setInterval(getAPSCoinStatus, 30 * 1000);
+    var getAPSStatusService = window.setInterval(getAPSStatus, 30 * 1000);
+
+
+
+
+    @* var logStatus = new Map() *@
+
+
+    var queryMode = 'time-range'
+    var queryTimeRange = 10 // 查詢當前 10 分鐘內的所有紀錄
+    var collectedRangeStartAt = null
+    var collectedRangeEndAt = null
+
+    @* 
+
+      Table 具體實現方式
+
+      當瀏覽器初始加載的時候, 先抓前面 100 筆記錄，或是前 10 分鐘的紀錄
+
+      當有記錄超過設定時間就可以移除
+
+      假設現在是 11 點 10 分 加載瀏覽器，系統往前抓 10 分鐘的紀錄
+
+      也就是 
+        collectedRangeStartAt = 11 點 00 分
+        collectedRangeEndAt = 11 點 10 分
+
+      假設一分鐘更新一次
+        getLog 會在 11 點 11 分抓，但是由於上次是從
+        11 點 00 分抓到 11 點 10 分
+        所以我們只抓 11 點 10 分 到 11 點 11 分這一段的記錄，
+        抓回來後再往原本的 table 裡加入最新且之前沒加過的記錄
+
+      getLog 會一次抓完全部種類的 log 如果要針對不同類別的話，後續再用 javascript 去分類
+
+      
+    
+    *@
+
+      @* 每個通道都特別存一個 List *@
+      @* 2023-09-09 先弄一個主要的 Table 再來決定是否需要子 Table 的版本 *@
+      @* tableDataMap.set("All-", []) // 全部一定範圍內 *@
+      @* 由於 streamDeviceInfoList 是 Async 的，所以必須等到 getStreamURL 完成才行 *@
+    @* function initTables () {
+      tableDataMap.set("All", []) // 全部種類一定範圍內 // 例如最新 100 筆記錄
+      tableDataMap.set("All-Filtered", []) // 全部種類一定時間範圍內 // 或是筆數 // 過濾的
+      streamDeviceInfoList.forEach((streamDeviceInfo, i) => {
+        var tableID = `${deviceType}-${i}` // 跟 StreamID 一樣
+        tableDataMap.set(
+          tableID,
+          {
+            "data" : [] // 真正的 tableData,
+            "collectedRangeStartAt" : null,
+            "collectedRangeEndAt" : null
+          }
+        ) 
+      })
+    }
+    *@
+    @* function updateTable (elementID, tableName, rawData) {
+
+      // 
+
+    }
+
+    function updateLogStatus (rowData, action, value) {
+
+      f = "upateLogStatus"
+
+      console.log(`${f} => rowData = ${rowData}, action = ${action}, value = ${value}`)
+
+      // set action model
+
+
+    } *@
+
+    @* 
+    
+      tableName
+      log-all : 全部記錄
+    
+    *@
+
+
+    function logContentToString (logType, logContent) {
+      return logContent.msg
+    }
+
+
+    @* 更新 Table 顯示列數 *@
+    var rowNum = 5; // 預設 row number
+    function rowNumChange (rowNumRadio) {
+        @* alert('Old value: ' + rowNum);
+        alert('New value: ' + rowNumRadio.value); *@
+        rowNum = rowNumRadio.value;
+        @* buildTableFirstTime("#example-table", "#example-table", rowNum) *@
+    }
+
+    @* 即時訊息 / 所有的 filter 每次都要全部 apply *@
+
+    var liveInfoFilterStatusMap = new Map ();
+    
+    liveInfoFilterStatusMap.set("deviceType", {
+      2 : true,
+      7 : true,
+      14 : true
+    })
+
+    liveInfoFilterStatusMap.set("businessType", {
+      1 : true,
+      2 : true,
+      4 : true,
+    })
+
+    @* 即時訊息 / *@
+
+    @* 套用 filter *@
+
+    function applyLiveInfoFilter () {
+      var applyFilterList = []
+      var table = tableMap.get("#example-table")
+      console.log("applyLiveInfo table => ", table)
+      for (const [filterType, filterTypeDict] of liveInfoFilterStatusMap) {
+        console.log(`applyLiveInfoFilter => ${filterType}: ${filterTypeDict}`);
+        filterStatusList = Object.keys(filterTypeDict);
+
+        var applyFilterListSameGroup = []
+        filterStatusList.forEach((key) => {
+          if (filterTypeDict[key]) {
+            var value = "";
+            if (filterType == 'deviceType') {
+              value = parseInt(key)
+            } else if (filterType == 'businessType') {
+              @* value = businessTypeKeyToStrMap.get(key); // 直接比對中文 // 因為在 tabulator 裡 businessType 是中文 *@
+              value = parseInt(key)
+            }
+            applyFilterListSameGroup.push([ // 同組用 or
+              { field : filterType, type : "=", value : value }, //filter by age greater than 52
+            ]);
+          }
+        });
+        applyFilterList.push(applyFilterListSameGroup) // and // 不同組別的用 and
+      }
+
+
+      // 搜尋車牌
+
+      var identifier = document.getElementById("plate-number").value
+      if (identifier != "")
+        applyFilterList.push({ field : "identifier", type : "like", value : identifier });
+      table.setFilter(applyFilterList);
+      console.log("applyFilter => ", applyFilterList)
+
+    }
+
+
+    @* 單純 update filter status // 下次重抓資料的時候會自動套用 filter *@
+
+    @* updateFilterStatus(liveInfoFilterStatusMap, "deviceType", "deviceTypeLPR") *@
+
+    @* 
+      filterType = {
+        filterKey1,
+        filterKey2
+      }
+    *@
+
+
+
+
+    function updateFilterStatus (filterStatusMap, filterType, filterID, mode) {
+      if (mode == 'checkbox') {
+        var filterTypeDict = filterStatusMap.get(filterType) // 取得當前 Key 的所
+        var checkbox = document.getElementById(filterID)
+        var filterIDInt = parseInt(filterID.split("-").pop()) // deviceType-1 
+        console.log("updateFilterStatus before update => ", filterTypeDict)
+        filterTypeDict[filterIDInt] = checkbox.checked; // filterTypeStatus["LPR"] = true 更新狀態
+        console.log("updateFilterStatus after update => ", filterTypeDict)
+        filterStatusMap.set(filterType, filterTypeDict) // 更新狀態
+        console.log("updateFilterStatus => ", filterStatusMap)
+      }
+    }
+
+
+    @* 更新 Table Filter *@
+    function setTableFilter (tableID, tableKey, elementID, mode) {
+      @* search 模式透過 elementID 取得裡面內容 *@
+      if (mode == 'search') {
+        @* var elementID = element *@
+        var identifier = document.getElementById(elementID).value
+        var table = tableMap.get(tableID)
+        table.setFilter(tableKey, "like", identifier);
+      } else if (mode == 'checkbox') {
+        var checkbox = document.getelementById(elementID)
+        @* var table = tablemap.get(tableid) *@
+        @* var elementid = element *@
+        @* var checkboxValue = checkbox.value *@
+        @* console.log("setTableFilter element => " + element)
+        console.log("setTableFilter mode => " + mode)
+        console.log("setTableFilter checkbox => " + checkbox)
+        console.log("setTableFilter checkboxValue => " + checkboxValue)
+        console.log("setTableFilter checkbox.checked => " + checkbox.checked)
+        console.log("setTableFilter tableKey => " + tableKey) *@
+        @* console.log("setTableFilter filter => ", filter) *@
+        @* var filterStatusMap = tableFilterStatusMap.get(tableKey) // 取得當前 tableKey 的 filterMap
+        filterStatusMap[elementID] = checkbox.checked; // 更新狀態
+        tableFilterStatusMap.set(tableKey, filterStatusMap) // 更新狀態
+        filterStatusList = Object.keys(filterStatusMap); *@
+        @* console.log("setTableFilter filterStatusMap ", filterStatusMap) *@
+        @* applyFilterList = []
+        filterStatusList.forEach((key) => {
+          if (filterStatusMap[key]) {
+            var value = "";
+            if (tableKey == 'deviceType') {
+              value = deviceTypeStrToIntMap.get(key)
+            } else if (tableKey == 'businessType') {
+              value = businessTypeKeyToStrMap.get(key); // 直接比對中文 // 因為在 tabulator 裡 businessType 是中文
+            }
+            applyFilterList.push([
+              { field : tableKey, type : "=", value : value }, //filter by age greater than 52
+            ]);
+          }
+        }); *@
+        @* 
+        console.log("setTableFilter applyFilterList => ", applyFilterList)
+        console.log("setTableFilter table => ", table)
+        table.setFilter(applyFilterList); *@
+        @* table.setFilter(tableKey, "like", identifier); *@
+      }
+    }
+
+    @* 更新車位數 *@
+    async function updateParkingSlot (areaID, parkingSlotTypeStr, actionStr, valueID) {
+      var f = "updateParkingSlot"
+      console.log(`${f} => entry`)
+      console.log(`${f} => areaId ${areaID}`)
+      console.log(`${f} => parkingSlotMap`, parkingSlotMap.get('2'))
+      // console.log(`${f} => parkingSlotMap`, parkingSlotMap.get(2))
+      var parkingSlotNow = parkingSlotMap.get(areaID.toString())
+      console.log(`${f} => parkingSlotNow`, parkingSlotNow)
+
+      var action = 0
+      var slotType = 1
+      var value = -1
+
+      if (actionStr == 'add') {
+        action = 1
+      } else if (actionStr == 'sub') {
+        action = -1
+      } else if (actionStr == 'set') {
+        action = 0
+        value = document.getElementById(valueID).value
+
+        console.log("updateParkingSlot set value = ", value)
+      }
+
+      if (parkingSlotTypeStr == 'temp')
+        slotType = 1
+      else
+        slotType = 2
+
+
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/PConfig/ParkingArea/SetRemainingSlotNum", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+
+					var jsonResponse = JSON.parse(xhr.responseText)
+          if (jsonResponse.state == 2)
+            alert(jsonResponse.message)
+					console.log(`${f} response `, jsonResponse)
+				} 
+				else {
+					console.log(`${f} response `, xhr.status)
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ areaID : areaID, action : action, slotType : slotType, value : value });
+			xhr.send(data); 
+    }
+
+
+    @* 更新最新資訊 *@
+
+    function buildTableUpdate (elementID, tableNme, rawData) {
+      var table = tableMap.get(tableName)
+    }
+
+
+    @* deivceTypeMap 設備種類映射 *@
+    let deviceTypeIntToStrMap = new Map()
+    deviceTypeIntToStrMap.set(7, "繳費機")
+    deviceTypeIntToStrMap.set(2, "車辨")
+    deviceTypeIntToStrMap.set(14, "SR810")
+
+    let businessTypeIntToStrMap = new Map()
+    businessTypeIntToStrMap.set(1, "臨停")
+    businessTypeIntToStrMap.set(2, "月租")  
+    businessTypeIntToStrMap.set(4, "共享")
+
+    let deviceTypeStrToIntMap = new Map()
+    deviceTypeStrToIntMap.set("LPR", 2)
+    deviceTypeStrToIntMap.set("APS", 7)
+    deviceTypeStrToIntMap.set("SR810", 14)
+
+    let businessTypeStrToIntMap = new Map()
+    businessTypeStrToIntMap.set("臨停", 1)
+    businessTypeStrToIntMap.set("月租", 2)
+    businessTypeStrToIntMap.set("共享", 4)
+
+    let businessTypeKeyToStrMap = new Map()
+    businessTypeKeyToStrMap.set("businessTypeTemp", "臨停")
+    businessTypeKeyToStrMap.set("businessTypeFixed", "月租")
+    businessTypeKeyToStrMap.set("businessTypeShare", "共享")
+
+
+
+
+    @* 資料處理 *@
+    function rawDataToTableData (rawData) {
+      var tableData = []
+      rawData.forEach((logRecord, i) => {
+
+        console.log("rawData " + i + " => ", logRecord)
+        tableData.push({
+          logAt : logRecord.logAt,
+          identifier : logRecord.identifier,
+          deviceTypeStr : deviceTypeIntToStrMap.get(logRecord.deviceType), // deviceType int to str
+          deviceType : logRecord.deviceType, // filter 用
+          cmsLogType : logRecord.cmsLogType,
+          cmsEventMsg : logRecord.cmsEventMsg,
+          cmsLogRecordID : logRecord.cmsLogRecordID,
+          laneName : logRecord.laneName,
+          businessTypeStr : businessTypeIntToStrMap.get(logRecord.businessType),
+          businessType : logRecord.businessType
+        })
+      })
+      return tableData
+    }
+
+
+    @* 第一次載入 *@
+    function buildTableFirstTime (elementID, tableName, rawData) {
+
+      var tableData = rawDataToTableData(rawData)
+
+      console.log("deviceTypeIntToStrMap => ", deviceTypeIntToStrMap)
+
+      @* tableDataMap.set("log-all", []) *@
+      
+
+      @* tableDataMap.set("log", [ *@
+      @* tableData = [
+        {logAt : "2023-02-11 10:11:11", identifier : "ABC-1234", logType : "繳費機", logContent : "繳費完成" },
+        {logAt : "2023-02-11 10:11:11", identifier : "CCC-1234", logType : "出口票證機", logContent : "繳費完成" },
+        {logAt : "2023-02-11 10:11:11", identifier : "AAC-1234", logType : "入口車辨", logContent : "辨識成功，月租車" },
+        {logAt : "2023-02-11 10:11:11", identifier : "DDC-1234", logType : "出口出辨", logContent : "成功辨識，離場完成" },
+        {logAt : "2023-02-11 10:11:11", identifier : "HGC-1234", logType : "出口車辨", logContent : "出口卡住超過 10 秒" }
+      ] *@
+      @* ) *@
+
+      var rowPopupFormatter = function(e, row, onRendered){
+        var data = row.getData(),
+        container = document.createElement("div")
+        var action = "update"
+        var actionValue = "confirmed"
+        var lineHeight = 15;
+        var style = `margin : 10px 0px; line-height : ${lineHeight}px`
+        contents = `<div class = 'row-pop-up' style = 'padding : 10px'><strong style='font-size:1.2em;'>詳細資訊</strong><br/><ul style='padding:0px;  margin-top:10px; margin-bottom:0;'>`;
+        contents += `<li style = '${style}'><strong>記錄時間 : </strong> ${data.logAt} </li>`;
+        contents += `<li style = '${style}'><strong>識別號碼 : </strong> ${data.identifier == null ? "" : data.identifier} </li>`;
+        contents += `<li style = '${style}'><strong>設備種類 : </strong> ${data.deviceTypeStr} </li>`;
+        contents += `<li style = '${style}'><strong>車道名稱 : </strong> ${data.laneName == null ? "" : data.laneName} </li>`;
+        contents += `<li style = '${style}'><strong>業務類別 : </strong> ${data.businessTypeStr} </li>`;
+        @* contents += `<li style = '${style}'><strong>訊息種類 : </strong> ${data.cmsEventType} </li>`; *@
+        contents += `<li style = '${style}'><strong>訊息內容 : </strong> ${data.cmsEventMsg} </li>`;
+        // contents += `<li style = '${style}' 
+          // <button onclick = "updateLogStatus(${data}, ${action}, ${actionValue})" class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
+          //   <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          //     確認
+          //   </span>
+          // </button>
+        // </li>`;
+        contents += `</ul></div>`;
+        container.innerHTML = contents;
+        return container;
+      };
+
+
+      tableMap.set(tableName, new Tabulator(elementID, {
+        rowClickPopup:rowPopupFormatter,
+        rowHeight:31,
+        data:tableData,           //load row data from array
+        layout:"fitColumns",      //fit columns to width of table
+        responsiveLayout:"hide",  //hide columns that don't fit on the table
+        addRowPos:"top",          //when adding a new row, add it to the top of the table
+        history:true,             //allow undo and redo actions on the table
+        pagination:"local",       //paginate the data
+        paginationSize:rowNum,         //allow 7 rows per page of data
+        textSize : 8,
+        paginationCounter:"rows", //display count of paginated rows in footer
+        movableColumns:false,      //allow column order to be changed
+        initialSort:[             //set the initial sort order of the data
+          {column : "logAt", dir : "desc"},
+        ],
+        columnDefaults:{
+          tooltip:false,         //show tool tips on cells
+        },
+        columns:[                 //define the table columns
+          {title : "記錄時間", field : "logAt", width : 150} ,
+          {title : "識別號", field : "identifier", hozAlign : "left", width : 150},
+          {title : "業務別", field : "businessTypeStr", hozAlign : "left", width : 100},
+          {title : "車道", field : "laneName", hozAlign : "left", width : 150},
+          {title : "設備種類", field : "deviceTypeStr", hozAlign : "left", width : 150},
+          @* {title : "訊息種類", field : "cmsEventType", hozAlign : "left", width : 100}, *@
+          {title : "訊息", field : "cmsEventMsg", widthGrow : 1 },
+          {title : "記錄編號", field : "cmsLogRecordID", visible : false}, 
+        ],
+      }))
+
+      // 更新或第一次，只要 input-plate-nubmer 有值的話，就要 apply filter
+      @* if (document.getElementById("plate-number").value != "") {
+        setTableFilter(tableName, "identifier", "plate-number")
+      } *@
+
+      @* applyLiveInfoFilter() *@
+    }
+
+    async function barrierControl (laneID, action) {
+      var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/PConfig/Channel/BarrierControl", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+				} 
+				else {
+					console.log("response ", xhr.status)
+					// Request failed
+					// responseDiv.textContent = "Request failed with status: " + xhr.status;
+				}
+			};
+			// Prepare and send the data
+      var data = JSON.stringify({ LaneID : laneID, Action : action });
+      xhr.send(data); 
+
+    }
+
+
+    function updateFilterData (elementID, tableID, rawDataNext) {
+      var table = tableMap.get(tableID)
+      var tableDataNext = rawDataToTableData(rawDataNext)
+
+
+      console.log("tableDataNext => ", tableDataNext)
+      table.replaceData(tableDataNext)
+        .then(function() {
+          applyLiveInfoFilter()
+      })
+    }
+
+
+    function padTo2Digits(num) {
+  return num.toString().padStart(2, '0');
+}
+
+function formatDate(date) {
+  return (
+    [
+      date.getFullYear(),
+      padTo2Digits(date.getMonth() + 1),
+      padTo2Digits(date.getDate()),
+    ].join('-') +
+    ' ' +
+    [
+      padTo2Digits(date.getHours()),
+      padTo2Digits(date.getMinutes()),
+      padTo2Digits(date.getSeconds()),
+    ].join(':')
+  );
+}
+
+
+
+
+    async function getLog () {
+
+      @* console.log("getLog => entry") *@
+      var xhr = new XMLHttpRequest();
+			@* xhr.open("POST", "/PConfig/CMSLogInternal/GetCMSLog", true); *@
+			xhr.open("POST", "/api/CMSLog/GetCMSLog", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+
+          @* if ((collectedRangeStartAt == null) || (collectedRangeEndAt == null)) { *@
+            @* console.log("getLog response => first Query buildTable()")
+            console.log("getLog response => ", jsonResponse) *@
+
+
+          console.log("tableMap => ", tableMap)
+          console.log("getLog => ", jsonResponse.data)
+
+          if ( !tableMap.has('#example-table') ) {
+            console.log("tableMap do not has example-table")
+            buildTableFirstTime(`#example-table`, `#example-table`, jsonResponse.data)
+          } 
+          
+          else {
+            console.log("tableMap already has example-table")
+            @* console.log("getLog response => ", jsonResponse) *@
+            @* console.log("getLog response => not first Query updateTable()") *@
+            @* console.log("not buildTableFirstTime, update Data") *@
+            updateFilterData(`#example-table`, `#example-table`, jsonResponse.data)
+          }
+
+          @* applyLiveInfoFilter() *@
+				} 
+				else {
+					console.log("response ", xhr.status)
+					// Request failed
+					// responseDiv.textContent = "Request failed with status: " + xhr.status;
+				}
+			};
+
+
+			// Prepare and send the data
+
+      @* if ((collectedRangeStartAt == null) || (collectedRangeEndAt == null)) {
+
+        console.log("getLog request => first Query without time range")
+
+      } else { *@
+        @* console.log("getLog request => not first Query with collected range") *@
+      var logRangeEndAt = null;//new Date().getTime();
+      var logRangeStartAt = new Date(Date.now() - 15 * 1000 * 60);//collectedRangeStartAt.setMinutes(collectedRangeStartAt.getMinutes() - queryTimeRange);
+
+      @* } *@
+      console.log("logRangeEndAt => ", logRangeEndAt)
+      console.log("logRangeStartAt => ", formatDate(logRangeStartAt))
+
+      @* collectedRangeStartAt =  *@
+
+
+      var checkbox = document.getElementById("sync-live-data-example-table");
+      if (checkbox.checked) {
+        var data = JSON.stringify({ logRangeStartAt : formatDate(logRangeStartAt), logRangeEndAt : logRangeEndAt });
+        xhr.send(data); 
+      }
+    }
+
+    function createAPSStatusBlock (containerID, apsStatus) {
+      var container = document.getElementById(containerID)
+      console.log("createAPSStatusBlock container => ", container)
+      @* console.log("createAPSCoinStatusBlock container => ", container) *@
+      console.log("createAPSStatusapsStatus => ", apsStatus)
+      @* var fixedSlotID = `fixed-car-slot-number-area-${areaID}`
+      var tempSlotID = `temp-car-slot-number-area-${areaID}` *@
+      var sm = window.matchMedia("(max-width: 768px)")
+      
+      var chargeBoxStatusDivCls = 'p-1.5 w-full text-1xl border-b my-1'
+      var chargeBoxStatusSpanCls = 'text-center rounded-full px-6 py-1.5'
+      // var chargeBoxStatusSpanCls = 'text-white rounded-full px-6 py-1.3'
+      
+      if (sm.matches) {
+        chargeBoxStatusDivCls = 'p-1.5 w-full text-lg border-b my-1'
+      }
+      var apsElementID = `aps-status-${apsStatus.ApsID}`
+      @* console.log("createSlotNumberBlock slotID => ", slotID) *@
+      var block = `
+        <li class = "splide__slide" style = "padding : 0px 20px">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">${apsStatus.ApsName} - 發票狀態</div>
+            <div class = 'flex flex-row items-center justify-center w-full p-10'>
+              <div class = "inline-flex flex-col basis-1/3">
+                <div class = '${chargeBoxStatusDivCls}'> <span class = '${chargeBoxStatusSpanCls}'>發票區間</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = '${chargeBoxStatusSpanCls}'>當前期別</span></div>
+<!--                <div class = '${chargeBoxStatusDivCls}'> <span class = "bg-cyan-400 text-white rounded-full px-6 py-1.3">發票訖</span></div>-->
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">當前發票</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">剩餘發票</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">當前票機</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">發票機 1</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">發票機 2</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">當前模式</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">預設模式</span></div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}">下期取號</span></div>
+              </div>
+              <div class = "inline-flex flex-col w-half grow">
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.InvoiceStart} - ${apsStatus.InvoiceEnd} </span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.YM} </span> </div>
+<!--                <div class = '${chargeBoxStatusDivCls}'> <span class = "px-6 py-1.3"> ${apsStatus.InvoiceEnd} </span> </div>-->
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.InvoiceCurrent} </span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}3"> ${apsStatus.InvoiceRemainNum} 張 </span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.CurrentPrinterID} 號</span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.PrinterEnable1 ? "啟用" : "關閉"} </span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.PrinterEnable2 ? "啟用" : "關閉"} </span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.CurrentInvoiceType == 1 ? "發票" : "收據"}</span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.ExpectedInvoiceType == 1 ? "發票" : "收據"}</span> </div>
+                <div class = '${chargeBoxStatusDivCls}'> <span class = "${chargeBoxStatusSpanCls}"> ${apsStatus.IsGetNextYM? "已取回" : "尚未取回"}</span> </div>
+                </div>
+          </div>
+        </li>
+      `
+      container.insertAdjacentHTML("beforeend", block)
+    }
+    @* containerID => Splide Container *@
+    @* slotType = fixed / temp *@
+    function createAPSCoinStatusBlock (containerID, apsStatus) {
+      var container = document.getElementById(containerID)
+      console.log("createAPSCoinStatusBlock container => ", container)
+      @* console.log("createAPSCoinStatusBlock container => ", container) *@
+      console.log("createAPSCoinStatusBlock apsStatus => ", apsStatus)
+      @* var fixedSlotID = `fixed-car-slot-number-area-${areaID}`
+      var tempSlotID = `temp-car-slot-number-area-${areaID}` *@
+      var apsElementID = `aps-coin-status-${apsStatus.APSID}`
+      @* console.log("createSlotNumberBlock slotID => ", slotID) *@
+      var block = `
+        <li class = "splide__slide" style = "padding : 0px 20px">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">${apsStatus.APSName} - 零錢水位</div>
+            <div class = "flex flex-row px-6 py-4 aps-coin-status-list-container justify-center">
+              <div class = "flex flex-col">
+                <div class = "flex flex-row">
+                  <div class = "flex flex-col aps-coin-status-container">
+                    <div id = "${apsElementID}"></div>
+                  </div>
+<!--                  <div class = "flex flex-col aps-coin-status-container">-->
+<!--                    <div> 發票 AB1234</div>-->
+<!--                    <div> 發票 AB1234</div>-->
+<!--                    <div> 剩餘 1234 張</div>-->
+<!--                    <div> 發票機 1 : 70%</div>-->
+<!--                    <div> 發票機 2 : 100%</div>-->
+<!--                  </div>-->
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+      `
+      container.insertAdjacentHTML("beforeend", block)
+    }
+
+
+    function createSlotNumberBlock (containerID, areaID, areaName) {
+      var container = document.getElementById(containerID)
+
+      console.log("createSlotNumberBlock container => ", container)
+      console.log("createSlotNumberBlock areaName => ", areaName)
+      var fixedSlotID = `fixed-car-slot-number-area-${areaID}`
+      var tempSlotID = `temp-car-slot-number-area-${areaID}`
+      @* console.log("createSlotNumberBlock slotID => ", slotID) *@
+      var block = `
+        <li class = "splide__slide" style = "padding : 0px 20px">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">${areaName}</div>
+            <div class = "flex flex-row px-6 py-4 slot-numbers-container justify-center">
+              <div class = "flex flex-col">
+                <div class = "flex flex-row">
+                  <div class = "flex flex-col slot-number-container basis-3/6">
+                   <div id = "${tempSlotID}"></div>
+                    <div class = "flex justify-evenly	items-center slot-number-button-container">
+                      <button onclick = "updateParkingSlot(${areaID}, 'temp', 'sub')"type = "button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class = "w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                        </svg>
+                        <span class="sr-only">減少車格</span>
+                      </button>
+                      @* <form>    *@
+                        <div>
+                          <label for = '${tempSlotID}-input' class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">車位數</label>
+                          <div class="relative">
+                              <input type = "text" id = '${tempSlotID}-input' class="block w-[100px] p-4 text-sm text-gray-900 border-0 border-b border-b-zinc-500 bg-gray-50 focus:ring-0 focus:border-b-zinc-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder = "車位數" required>
+                              <button onclick = "updateParkingSlot(${areaID}, 'temp', 'set', '${tempSlotID}-input')" class = "text-white absolute right-2.5 bottom-2.5 bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">設定</button>
+                          </div>
+                        </div>
+                      @* </form> *@
+                      <button onclick = "updateParkingSlot(${areaID}, 'temp', 'add')" type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                        <span class="sr-only">新增車格</span>
+                      </button>
+                    </div>
+                  </div>
+
+
+                  <div class = "flex flex-col slot-number-container">
+                    <div id = "${fixedSlotID}"></div>
+                    <div class = "flex justify-evenly	items-center slot-number-button-container">
+                      <button onclick = "updateParkingSlot(${areaID}, 'fixed', 'sub')" type = "button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class = "w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                        </svg>
+                        <span class="sr-only">減少車格</span>
+                      </button>
+                      @* <form>    *@
+                        <div>
+                          <label for = '${fixedSlotID}-input' class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">車位數</label>
+                          <div class="relative">
+                              <input type = "text" id = '${fixedSlotID}-input' class="block w-[100px] p-4 text-sm text-gray-900 border-0 border-b border-b-zinc-500 bg-gray-50 focus:ring-0 focus:border-b-zinc-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder = "車位數" required>
+                              <button onclick = "updateParkingSlot(${areaID}, 'fixed', 'set', '${fixedSlotID}-input')" class = "text-white absolute right-2.5 bottom-2.5 bg-zinc-700 hover:bg-zinc-800 focus:ring-4 focus:outline-none focus:ring-zinc-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">設定</button>
+                          </div>
+                        </div>
+                      @* </form> *@
+                      <button onclick = "updateParkingSlot(${areaID}, 'fixed', 'add')" type="button" class="w-10 h-10 text-white bg-zinc-700 hover:bg-zinc-500 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                        <span class="sr-only">新增車格</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </li>
+      `
+      container.insertAdjacentHTML("beforeend", block)
+    }
+
+
+    function createAPSBlock (containerID, streamID, streamDeviceInfo) {
+
+
+      console.log("createAPSBlock containerID => ", containerID)
+      console.log("createAPSBlock streamID => ", streamID)
+      console.log("createAPSBlock streamDeviceInfo => ", streamDeviceInfo)
+      var container = document.getElementById(containerID)
+      var block = `
+        <li class = "splide__slide" style = "padding : 0px 20px">
+          <div class = "rounded overflow-hidden shadow-lg">
+            <div class = "px-6 py-4">
+              <div>${streamDeviceInfo.DeviceName}</div>
+              <div style = "display:flex; justify-content:space-evenly; margin:0px; margin-top : 10px; margin-bottom : 15px">
+                <video name = "video-element-[${streamID}]" class = "centeredVideo" style = "width : 100%" controls autoplay>
+                  Your browser is too old which doesn't support HTML5 video.
+                </video>
+              </div>
+              <div style = "display : flex; justify-content : space-between;">
+                @* button group 1 *@
+                @* <div>
+                  <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      開門
+                    </span>
+                    </button>
+                  <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                      關門
+                    </span>
+                  </button>
+                </div> *@
+
+                <div style = "display : flex; align-items : center;"> @* button group 2 即時影像 *@
+                  <label class="relative inline-flex items-center cursor-pointer" style = "float : right">
+                    <input checked id = 'video-element-[${streamID}]-live' type="checkbox" value="" class="sr-only peer">
+                    <div class="w-11 h-7 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    @* <div class="w-15 h-8 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div> *@
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">即時影像</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class = "rounded overflow-hidden shadow-lg">
+              <div class = "px-6 py-4">
+                @* <div id="example-table"></div> *@
+              </div>
+            </div>
+          </div>
+        </li>
+      `
+      container.insertAdjacentHTML("beforeend", block)
+      flv_load(streamID, streamDeviceInfo) 
+
+    }
+
+
+
+</script>
+

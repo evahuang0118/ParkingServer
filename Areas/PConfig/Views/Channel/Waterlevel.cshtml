@@ -1,0 +1,247 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>零錢水位信息</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style>
+        .layui-table-cell {
+            height: 44px !important;
+            line-height: 28px;
+            padding: 8px 15px;
+            position: relative;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+
+            <div class="layui-row">
+
+                <div class="layui-col-md12">
+
+                    <table class="layui-table" id="gridList" lay-filter="gridList" style="margin-top:-20px;"></table>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id = 'video-container-pos' class = "video-container layui-row layui-col-space15">
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/stream/flv.js"></script>
+    <script src="~/Content/stream/stream.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/PConfig/Channel/Waterlevel',
+                method: 'post',
+                cellMinWidth: 80,
+                cols: [[
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'DeviceName', align: 'left', title: '設備名稱', },
+                    {
+                        field: 'CashType', title: "類 型", align: 'left', style: 'color:red', 
+                        templet: function (d) {
+                            if (d.CashType == 5)
+                                return "5 元";
+                            else if (d.CashType == 10)
+                                return "10 元";
+                            else if (d.CashType == 20)
+                                return "20 元";
+                            else if (d.CashType == 50)
+                                return "50 元";
+                            else if (d.CashType == 100)
+                                return "100 元";
+                            else
+                                return "/";
+                        }
+                    },
+                    { field: 'Num', align: 'left', title: '數 量 (張)', style: 'color:blue;' },
+                ]],
+                limit: 50,
+                page: false,
+                done: function (res, curr, count) {
+                    layuiRowspan("DeviceName", 1);
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        form.render();
+    });
+
+    var layuiRowspan = function (fieldNameTmp, index, flag) {
+        let fieldName = [];
+        if (typeof fieldNameTmp == "string") {
+            fieldName.push(fieldNameTmp);
+        } else {
+            fieldName = fieldName.concat(fieldNameTmp);
+        }
+        for (let i = 0; i < fieldName.length; i++) {
+            execRowspan(fieldName[i], index, flag);
+        }
+    }
+
+    var execRowspan = function (fieldName, index, flag) {
+        // 1为不冻结的情况，左侧列为冻结的情况
+        let fixedNode = index == "1" ? $(".layui-table-body")[index - 1] : (index == "3" ? $(".layui-table-fixed-r") : $(".layui-table-fixed-l"));
+        // 左侧导航栏不冻结的情况
+        let child = $(fixedNode).find("td");
+        let childFilterArr = [];
+        // 获取data-field属性为fieldName的td
+        for (let i = 0; i < child.length; i++) {
+            if (child[i].getAttribute("data-field") == fieldName) {
+                childFilterArr.push(child[i]);
+            }
+        }
+        // 获取td的个数和种类
+        let childFilterTextObj = {};
+        for (let i = 0; i < childFilterArr.length; i++) {
+            let childText = flag ? childFilterArr[i].innerHTML : childFilterArr[i].textContent;
+            if (childFilterTextObj[childText] == undefined) {
+                childFilterTextObj[childText] = 1;
+            } else {
+                let num = childFilterTextObj[childText];
+                childFilterTextObj[childText] = num * 1 + 1;
+            }
+        }
+        let canRowspan = true;
+        let maxNum;//以前列单元格为基础获取的最大合并数
+        let finalNextIndex;//获取其下第一个不合并单元格的index
+        let finalNextKey;//获取其下第一个不合并单元格的值
+        for (let i = 0; i < childFilterArr.length; i++) {
+            (maxNum > 9000 || !maxNum) && (maxNum = $(childFilterArr[i]).prev().attr("rowspan") && fieldName != "8" ? $(childFilterArr[i]).prev().attr("rowspan") : 9999);
+            let key = flag ? childFilterArr[i].innerHTML : childFilterArr[i].textContent;//获取下一个单元格的值
+            let nextIndex = i + 1;
+            let tdNum = childFilterTextObj[key];
+            let curNum = maxNum < tdNum ? maxNum : tdNum;
+            if (canRowspan) {
+                for (let j = 1; j <= curNum && (i + j < childFilterArr.length);) {//循环获取最终合并数及finalNext的index和key
+                    finalNextKey = flag ? childFilterArr[i + j].innerHTML : childFilterArr[i + j].textContent;
+                    finalNextIndex = i + j;
+                    if ((key != finalNextKey && curNum > 1) || maxNum == j) {
+                        canRowspan = true;
+                        curNum = j;
+                        break;
+                    }
+                    j++;
+                    if ((i + j) == childFilterArr.length) {
+                        finalNextKey = undefined;
+                        finalNextIndex = i + j;
+                        break;
+                    }
+                }
+                childFilterArr[i].setAttribute("rowspan", curNum);
+                if ($(childFilterArr[i]).find("div.rowspan").length > 0) {//设置td内的div.rowspan高度适应合并后的高度
+                    $(childFilterArr[i]).find("div.rowspan").parent("div.layui-table-cell").addClass("rowspanParent");
+                    $(childFilterArr[i]).find("div.layui-table-cell")[0].style.height = curNum * 38 - 10 + "px";
+                }
+                canRowspan = false;
+            } else {
+                childFilterArr[i].style.display = "none";
+            }
+            if (--childFilterTextObj[key] == 0 | --maxNum == 0 | --curNum == 0 | (finalNextKey != undefined && nextIndex == finalNextIndex)) {//||(finalNextKey!=undefined&&key!=finalNextKey)
+                canRowspan = true;
+            }
+        }
+    }
+
+
+    var streamDeviceInfoList;
+
+    @* add by steven 2023-09-01 *@
+    @* /Device/GetStreamURL *@
+
+		function getStreamURL() {
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", "/PConfig/Device/GetStreamURL", true);
+			xhr.setRequestHeader("Content-Type", "application/json");
+			// Define a callback function when the request completes
+			xhr.onload = function () {
+				if (xhr.status >= 200 && xhr.status < 300) {
+					// Request was successful
+					var jsonResponse = JSON.parse(xhr.responseText)
+					streamDeviceInfoList = jsonResponse.data
+					@* 如果有攝影機才會往 video-container 裡面加入 div *@
+					if (streamDeviceInfoList.length > 0) {
+						var videoContainer =  document.getElementById("video-container-pos");
+						for (var i = 0; i < streamDeviceInfoList.length; ++i){
+							var streamID = `APS-${i}`
+							var streamDeviceInfo = streamDeviceInfoList[i]
+							if (streamDeviceInfoList[i].LANStreamURL != null || streamDeviceInfoList[i].WANStreamURL != null){
+								console.log(streamDeviceInfoList[i]);
+								var videoInstance = `
+									<div class = "layui-col-md6">
+										<center><span style = "font-size:32px; font-weight:bold">${streamDeviceInfoList[i].Name}</span></center>
+										<div class = "layui-panel" style = "display : flex; justify-content: center;">
+											<video name = "video-element-[${streamID}]" class = "centeredVideo" style = "height: 450px;" controls autoplay>
+												Your browser is too old which doesn't support HTML5 video.
+											</video>
+										</div>
+									</div>
+								`
+								videoContainer.insertAdjacentHTML("beforeend", videoInstance)
+								flv_load(streamID, streamDeviceInfo) 
+							}
+							
+						};
+					}
+				} 
+				else {
+					console.log("response ", xhr.status)
+					// Request failed
+					// responseDiv.textContent = "Request failed with status: " + xhr.status;
+				}
+			};
+			// Prepare and send the data
+			var data = JSON.stringify({ key: "value" });
+			xhr.send(data);
+		}
+
+
+    @* (async() => {
+      console.log('1')
+      await getStreamURL()  
+      console.log('2')
+    })() *@
+
+
+</script>
+

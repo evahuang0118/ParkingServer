@@ -1,0 +1,1459 @@
+﻿2023-10-20 09:26:25 062:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:26:25 063:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:26:25 064:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:26:27 692:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:26:27 699:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 30
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:26:27 706:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 78
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:26:27 774:  Return:VKP6235_No
+2023-10-20 09:26:27 776:  Return:VKP6235_No
+2023-10-20 09:26:27 777:  Return:VKP6235_No
+2023-10-20 09:26:52 243:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:26:54 290:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:26:54 291:  Return:VKP6235_No
+2023-10-20 09:39:48 924:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:39:50 986:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:39:50 987:  Return:VKP6235_No
+2023-10-20 09:52:58 172:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:00 265:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:00 267:  Return:P6235_No
+2023-10-20 09:53:01 087:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:03 143:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:03 144:  Return:P6235_No
+2023-10-20 09:53:20 162:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:22 231:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:22 232:  Return:P6235_No
+2023-10-20 09:53:32 702:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:34 367:  Camera:192.168.1.65_6235
+2023-10-20 09:53:34 780:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:34 780:  Return:P6235_No
+2023-10-20 09:53:36 440:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:36 441:  Return:6235_No
+2023-10-20 09:53:37 146:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:37 893:  Camera:192.168.1.65_P6235
+2023-10-20 09:53:39 201:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:39 202:  Return:P6235_No
+2023-10-20 09:53:39 967:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:53:39 968:  Return:P6235_No
+2023-10-20 09:54:12 809:  Camera:192.168.1.65_KP6235
+2023-10-20 09:54:14 863:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:54:14 865:  Return:KP6235_No
+2023-10-20 09:54:51 791:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:54:53 852:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:54:53 853:  Return:VKP6235_No
+2023-10-20 09:55:02 940:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:55:05 016:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:55:05 017:  Return:VKP6235_No
+2023-10-20 09:55:05 295:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:55:07 357:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:55:07 358:  Return:VKP6235_No
+2023-10-20 09:55:18 391:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:55:20 457:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:55:20 458:  Return:VKP6235_No
+2023-10-20 09:55:50 470:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:55:51 774:  Camera:192.168.1.65_KP6235
+2023-10-20 09:55:52 565:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:55:52 569:  Return:VKP6235_No
+2023-10-20 09:55:53 847:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:55:53 849:  Return:KP6235_No
+2023-10-20 09:56:18 294:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:56:20 333:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:56:20 335:  Return:VKP6235_No
+2023-10-20 09:56:20 767:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:56:22 836:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:56:22 838:  Return:VKP6235_No
+2023-10-20 09:56:53 200:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:56:55 256:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:56:55 258:  Return:VKP6235_No
+2023-10-20 09:56:56 569:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:56:58 625:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:56:58 626:  Return:VKP6235_No
+2023-10-20 09:56:59 405:  Camera:192.168.1.65_1KP6235
+2023-10-20 09:57:01 477:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:57:01 478:  Return:1KP6235_No
+2023-10-20 09:57:02 266:  Camera:192.168.1.65_1KP6235
+2023-10-20 09:57:04 336:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:57:04 337:  Return:1KP6235_No
+2023-10-20 09:58:11 039:  Camera:192.168.1.65_KP6235
+2023-10-20 09:58:13 112:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:58:13 113:  Return:KP6235_No
+2023-10-20 09:58:16 021:  Camera:192.168.1.65_6235
+2023-10-20 09:58:18 059:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:58:18 060:  Return:6235_No
+2023-10-20 09:58:21 114:  Camera:192.168.1.65_6235
+2023-10-20 09:58:23 177:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:58:23 178:  Return:6235_No
+2023-10-20 09:58:24 169:  Camera:192.168.1.65_VKP6235
+2023-10-20 09:58:26 233:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 09:58:26 235:  Return:VKP6235_No
+2023-10-20 10:01:47 775:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:01:49 827:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:01:49 828:  Return:VKP6235_No
+2023-10-20 10:02:12 523:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:02:14 604:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:02:14 605:  Return:VKP6235_No
+2023-10-20 10:03:01 104:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:03:03 163:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:03:03 165:  Return:VKP6235_No
+2023-10-20 10:03:05 944:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:03:08 014:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:03:08 016:  Return:VKP6235_No
+2023-10-20 10:03:09 789:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:03:11 856:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:03:11 857:  Return:VKP6235_No
+2023-10-20 10:05:25 111:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:05:27 190:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:05:27 191:  Return:VKP6235_No
+2023-10-20 10:07:48 177:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:07:50 238:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:07:50 239:  Return:VKP6235_No
+2023-10-20 10:07:59 817:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:08:01 884:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:08:01 886:  Return:VKP6235_No
+2023-10-20 10:08:03 516:  Camera:192.168.1.65_VKP
+2023-10-20 10:08:05 596:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:08:05 598:  Return:VKP_No
+2023-10-20 10:11:40 217:  Camera:192.168.1.65_VKP62
+2023-10-20 10:11:41 593:  Camera:192.168.1.65_VK8
+2023-10-20 10:11:42 282:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:11:42 284:  Return:VKP62_No
+2023-10-20 10:11:43 667:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:11:43 669:  Return:VK8_No
+2023-10-20 10:11:46 186:  Camera:192.168.1.65_VKP6
+2023-10-20 10:11:48 255:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:11:48 256:  Return:VKP6_No
+2023-10-20 10:11:51 371:  Camera:192.168.1.65_XP6235
+2023-10-20 10:11:53 434:  NRCameraController_辨識結果English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 10:11:53 436:  Return:XP6235_No
+2023-10-20 10:14:59 853:  5087572323988651886,admin,執行刪除
+2023-10-20 10:38:11 168:  Camera:192.168.1.65_VKP6
+2023-10-20 10:38:12 255:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 10:38:12 267:  VKP6 => 本次辨識為 : 車牌觸發
+2023-10-20 10:38:12 268:  VKP6 => 此通道僅支援純虛擬線圈模式
+2023-10-20 10:38:12 414:  發送入口字幕機 : 入口相机_1_VKP6_True_1_1_2023102010381241432
+2023-10-20 10:38:12 414:  發送入口字幕機 TriggerType : 4
+2023-10-20 10:38:12 415:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 10:38:12 437:  進入計算車位流程，BusinessType = 1
+2023-10-20 10:38:12 604:  臨停月租[分開]加減模式 / 原始[臨停]車位 12 => 更新[臨停]車位 11 / 當前總車位 [臨停 + 月租] 71 
+2023-10-20 10:38:12 604:  總剩餘車位數 ： 71，類型：臨停
+2023-10-20 10:38:12 620:  VKP6 => 有開啟 Vivipark 功能
+2023-10-20 10:38:12 621:  VKP6 => 有開啟 Vivipark 功能結束
+2023-10-20 10:38:12 622:  入口車道 / 車牌辨識 : VKP6 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 10:38:12 622:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 10:38:12 622:  Return:VKP6_ok
+2023-10-20 10:38:46 107:  Camera:192.168.1.65_VKP6
+2023-10-20 10:38:46 142:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 10:38:46 142:  VKP6 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 10:38:46 142:  VKP6 => 此通道僅支援純虛擬線圈模式
+2023-10-20 10:38:46 179:  發送入口字幕機 : 入口相机_1_VKP6_True_1_1_2023102010384617935
+2023-10-20 10:38:46 179:  發送入口字幕機 TriggerType : 8
+2023-10-20 10:38:46 179:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 10:38:46 181:  VKP6 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 10:38:46 182:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 10:38:46 182:  Return:VKP6_ok
+2023-10-20 10:39:07 973:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:39:08 015:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 10:39:08 017:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 10:39:08 017:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 10:39:08 039:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102010390803946
+2023-10-20 10:39:08 040:  發送入口字幕機 TriggerType : 8
+2023-10-20 10:39:08 040:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 10:39:08 047:  進入計算車位流程，BusinessType = 1
+2023-10-20 10:39:08 060:  臨停月租[分開]加減模式 / 原始[臨停]車位 11 => 更新[臨停]車位 10 / 當前總車位 [臨停 + 月租] 70 
+2023-10-20 10:39:08 060:  總剩餘車位數 ： 70，類型：臨停
+2023-10-20 10:39:08 065:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 10:39:08 067:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 10:39:08 067:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 10:39:08 068:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 10:39:08 068:  Return:VKP6235_ok
+2023-10-20 10:55:20 300:  Camera:192.168.1.65_VKP6235
+2023-10-20 10:55:20 304:  Camera:192.168.1.65_VKP623
+2023-10-20 10:55:22 286:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 10:55:22 288:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 10:55:22 333:  VKP623 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 10:55:22 334:  VKP623 => 此通道僅支援純虛擬線圈模式
+2023-10-20 10:55:22 336:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 10:55:22 337:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 10:55:22 628:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102010552262892
+2023-10-20 10:55:22 629:  發送入口字幕機 TriggerType : 8
+2023-10-20 10:55:22 630:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 10:55:22 631:  發送入口字幕機 : 入口相机_1_VKP623_True_1_1_2023102010552263062
+2023-10-20 10:55:22 632:  發送入口字幕機 TriggerType : 8
+2023-10-20 10:55:22 633:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 10:55:22 664:  進入計算車位流程，BusinessType = 1
+2023-10-20 10:55:22 664:  進入計算車位流程，BusinessType = 1
+2023-10-20 10:55:23 077:  臨停月租[分開]加減模式 / 原始[臨停]車位 10 => 更新[臨停]車位 9 / 當前總車位 [臨停 + 月租] 69 
+2023-10-20 10:55:23 079:  總剩餘車位數 ： 69，類型：臨停
+2023-10-20 10:55:23 081:  臨停月租[分開]加減模式 / 原始[臨停]車位 10 => 更新[臨停]車位 9 / 當前總車位 [臨停 + 月租] 69 
+2023-10-20 10:55:23 081:  總剩餘車位數 ： 69，類型：臨停
+2023-10-20 10:55:23 124:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 10:55:23 125:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 10:55:23 125:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 10:55:23 126:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 10:55:23 126:  Return:VKP6235_ok
+2023-10-20 10:55:23 128:  VKP623 => 有開啟 Vivipark 功能
+2023-10-20 10:55:23 129:  VKP623 => 有開啟 Vivipark 功能結束
+2023-10-20 10:55:23 130:  入口車道 / 車牌辨識 : VKP623 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 10:55:23 131:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 10:55:23 131:  Return:VKP623_ok
+2023-10-20 11:03:45 891:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:03:45 982:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:03:45 989:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:03:45 989:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:03:46 035:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011034603508
+2023-10-20 11:03:46 035:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:03:46 036:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:03:46 049:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:03:46 151:  臨停月租[分開]加減模式 / 原始[臨停]車位 9 => 更新[臨停]車位 8 / 當前總車位 [臨停 + 月租] 68 
+2023-10-20 11:03:46 151:  總剩餘車位數 ： 68，類型：臨停
+2023-10-20 11:03:46 176:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 11:03:46 176:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:03:46 177:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:03:46 177:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:03:46 177:  Return:VKP6235_ok
+2023-10-20 11:25:46 192:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:25:46 195:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:25:47 417:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:25:47 418:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:25:47 435:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:25:47 436:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:25:47 439:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:25:47 439:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:25:47 625:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011254762453
+2023-10-20 11:25:47 625:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:25:47 625:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:25:47 627:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011254762724
+2023-10-20 11:25:47 627:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:25:47 627:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:25:47 645:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:25:47 645:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:25:47 723:  臨停月租[分開]加減模式 / 原始[臨停]車位 8 => 更新[臨停]車位 7 / 當前總車位 [臨停 + 月租] 67 
+2023-10-20 11:25:47 724:  總剩餘車位數 ： 67，類型：臨停
+2023-10-20 11:25:47 724:  臨停月租[分開]加減模式 / 原始[臨停]車位 8 => 更新[臨停]車位 7 / 當前總車位 [臨停 + 月租] 67 
+2023-10-20 11:25:47 725:  總剩餘車位數 ： 67，類型：臨停
+2023-10-20 11:25:47 748:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 11:25:47 749:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:25:47 750:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:25:47 751:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:25:47 751:  Return:VKP6235_ok
+2023-10-20 11:25:47 752:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 11:25:47 756:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:25:47 757:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:25:47 757:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:25:47 758:  Return:VKP6235_ok
+2023-10-20 11:27:28 107:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:27:28 108:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:27:29 109:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:27:29 111:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:27:29 116:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:27:29 116:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:27:29 123:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:27:29 123:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:27:29 290:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011272929041
+2023-10-20 11:27:29 291:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:27:29 291:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:27:29 293:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 11:27:29 293:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:27:29 294:  Return:VKP6235_ok
+2023-10-20 11:27:29 296:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011272929630
+2023-10-20 11:27:29 296:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:27:29 296:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:27:29 297:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 11:27:29 297:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:27:29 298:  Return:VKP6235_ok
+2023-10-20 11:27:58 514:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:27:58 557:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:27:58 558:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:27:58 558:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:27:58 587:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011275858658
+2023-10-20 11:27:58 587:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:27:58 587:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:27:58 608:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:27:58 712:  臨停月租[分開]加減模式 / 原始[臨停]車位 7 => 更新[臨停]車位 6 / 當前總車位 [臨停 + 月租] 66 
+2023-10-20 11:27:58 713:  總剩餘車位數 ： 66，類型：臨停
+2023-10-20 11:27:58 726:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:27:58 727:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:27:58 727:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:27:58 728:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:27:58 728:  Return:VKP6235_ok
+2023-10-20 11:27:59 819:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:27:59 854:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:27:59 854:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:27:59 854:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:27:59 895:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011275989500
+2023-10-20 11:27:59 896:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:27:59 896:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:27:59 897:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 11:27:59 898:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:27:59 898:  Return:VKP6235_ok
+2023-10-20 11:29:45 300:  Camera:192.168.1.65_GSZ9UXA
+2023-10-20 11:29:46 229:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:29:46 238:  GSZ9UXA => 本次辨識為 : 車牌觸發
+2023-10-20 11:29:46 239:  GSZ9UXA => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:29:46 348:  發送入口字幕機 : 入口相机_1_GSZ9UXA_True_1_1_2023102011294634805
+2023-10-20 11:29:46 348:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:29:46 348:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:29:46 363:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:29:46 421:  臨停月租[分開]加減模式 / 原始[臨停]車位 6 => 更新[臨停]車位 5 / 當前總車位 [臨停 + 月租] 65 
+2023-10-20 11:29:46 421:  總剩餘車位數 ： 65，類型：臨停
+2023-10-20 11:29:46 435:  GSZ9UXA => 有開啟 Vivipark 功能 === 
+2023-10-20 11:29:46 436:  GSZ9UXA => 有開啟 Vivipark 功能結束
+2023-10-20 11:29:46 436:  入口車道 / 車牌辨識 : GSZ9UXA / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:29:46 436:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:29:46 436:  Return:GSZ9UXA_ok
+2023-10-20 11:50:18 934:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:50:19 953:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:50:19 961:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:50:19 961:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:50:20 079:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011502007980
+2023-10-20 11:50:20 080:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:50:20 080:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:50:20 098:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:50:20 246:  臨停月租[分開]加減模式 / 原始[臨停]車位 5 => 更新[臨停]車位 4 / 當前總車位 [臨停 + 月租] 64 
+2023-10-20 11:50:20 246:  總剩餘車位數 ： 64，類型：臨停
+2023-10-20 11:50:20 270:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:50:20 274:  NotifyAPPOut 1
+2023-10-20 11:50:20 275:  NotifyAPPOut 2
+2023-10-20 11:50:20 275:  NotifyAPPOut 3
+2023-10-20 11:50:20 276:  NotifyAPPOut 5
+2023-10-20 11:50:20 279:  NotifyAPPOut 6
+2023-10-20 11:50:20 279:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/in
+2023-10-20 11:50:20 280:  NotifyAPPOut 7
+2023-10-20 11:50:20 312:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:50:20 312:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:50:20 313:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:50:20 313:  Return:VKP6235_ok
+2023-10-20 11:54:12 489:  Camera:192.168.1.65_9SZ9UXA
+2023-10-20 11:54:12 490:  Camera:192.168.1.65_SSZ9JMA
+2023-10-20 11:54:13 739:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:54:13 739:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:54:13 752:  9SZ9UXA => 本次辨識為 : 車牌觸發
+2023-10-20 11:54:13 753:  9SZ9UXA => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:54:13 759:  SSZ9JMA => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:54:13 760:  SSZ9JMA => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:54:13 910:  發送入口字幕機 : 入口相机_1_SSZ9JMA_True_1_1_2023102011541391064
+2023-10-20 11:54:13 911:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:54:13 911:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:54:13 912:  發送入口字幕機 : 入口相机_1_9SZ9UXA_True_1_1_2023102011541391229
+2023-10-20 11:54:13 912:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:54:13 912:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:54:13 926:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:54:13 927:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:54:14 099:  臨停月租[分開]加減模式 / 原始[臨停]車位 4 => 更新[臨停]車位 3 / 當前總車位 [臨停 + 月租] 63 
+2023-10-20 11:54:14 099:  總剩餘車位數 ： 63，類型：臨停
+2023-10-20 11:54:14 101:  臨停月租[分開]加減模式 / 原始[臨停]車位 4 => 更新[臨停]車位 3 / 當前總車位 [臨停 + 月租] 63 
+2023-10-20 11:54:14 101:  總剩餘車位數 ： 63，類型：臨停
+2023-10-20 11:54:14 114:  9SZ9UXA => 有開啟 Vivipark 功能 === 
+2023-10-20 11:54:14 115:  SSZ9JMA => 有開啟 Vivipark 功能 === 
+2023-10-20 11:54:14 118:  NotifyAPPOut 1
+2023-10-20 11:54:14 118:  NotifyAPPOut 2
+2023-10-20 11:54:14 118:  NotifyAPPOut 3
+2023-10-20 11:54:14 118:  NotifyAPPOut 1
+2023-10-20 11:54:14 119:  NotifyAPPOut 2
+2023-10-20 11:54:14 119:  NotifyAPPOut 3
+2023-10-20 11:54:14 119:  NotifyAPPOut 5
+2023-10-20 11:54:14 120:  NotifyAPPOut 5
+2023-10-20 11:54:14 121:  NotifyAPPOut 6
+2023-10-20 11:54:14 122:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/in
+2023-10-20 11:54:14 122:  NotifyAPPOut 7
+2023-10-20 11:54:14 122:  NotifyAPPOut 6
+2023-10-20 11:54:14 123:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/in
+2023-10-20 11:54:14 123:  NotifyAPPOut 7
+2023-10-20 11:54:14 165:  9SZ9UXA => 有開啟 Vivipark 功能結束
+2023-10-20 11:54:14 166:  入口車道 / 車牌辨識 : 9SZ9UXA / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:54:14 166:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:54:14 167:  Return:9SZ9UXA_ok
+2023-10-20 11:54:14 168:  SSZ9JMA => 有開啟 Vivipark 功能結束
+2023-10-20 11:54:14 170:  入口車道 / 車牌辨識 : SSZ9JMA / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:54:14 170:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:54:14 170:  Return:SSZ9JMA_ok
+2023-10-20 11:54:14 881:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:54:14 919:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:54:14 920:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:54:14 920:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:54:14 944:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011541494407
+2023-10-20 11:54:14 944:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:54:14 944:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:54:14 954:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:54:14 972:  臨停月租[分開]加減模式 / 原始[臨停]車位 3 => 更新[臨停]車位 2 / 當前總車位 [臨停 + 月租] 62 
+2023-10-20 11:54:14 972:  總剩餘車位數 ： 62，類型：臨停
+2023-10-20 11:54:14 979:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:54:14 979:  NotifyAPPOut 1
+2023-10-20 11:54:14 979:  NotifyAPPOut 2
+2023-10-20 11:54:14 979:  NotifyAPPOut 3
+2023-10-20 11:54:14 979:  NotifyAPPOut 5
+2023-10-20 11:54:14 979:  NotifyAPPOut 6
+2023-10-20 11:54:14 979:  VIVIPARK API URL http://vivipark.goosafe.net:8001/notify/app/in
+2023-10-20 11:54:14 979:  NotifyAPPOut 7
+2023-10-20 11:54:14 979:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:54:14 980:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:54:14 980:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:54:14 980:  Return:VKP6235_ok
+2023-10-20 11:54:19 965:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:54:20 007:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:54:20 008:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:54:20 008:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:54:20 048:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011542004791
+2023-10-20 11:54:20 048:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:54:20 048:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:54:20 050:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 11:54:22 046:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:54:22 047:  Return:VKP6235_ok
+2023-10-20 11:58:38 997:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:58:38 999:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:58:39 000:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:58:39 003:  Camera:192.168.1.65_VKP6235
+2023-10-20 11:58:40 316:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:58:40 317:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:58:40 319:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:58:40 325:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:58:40 348:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:58:40 348:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:58:40 350:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:58:40 351:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:58:40 358:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 11:58:40 359:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:58:40 362:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:58:40 363:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:58:40 539:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011584053904
+2023-10-20 11:58:40 539:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:58:40 539:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:58:40 540:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011584053955
+2023-10-20 11:58:40 540:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:58:40 540:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:58:40 541:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011584054071
+2023-10-20 11:58:40 541:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:58:40 541:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:58:40 543:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102011584054071
+2023-10-20 11:58:40 544:  發送入口字幕機 TriggerType : 4
+2023-10-20 11:58:40 544:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:58:40 585:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:58:40 587:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:58:40 588:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:58:40 589:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:58:40 823:  臨停月租[分開]加減模式 / 原始[臨停]車位 2 => 更新[臨停]車位 1 / 當前總車位 [臨停 + 月租] 61 
+2023-10-20 11:58:40 824:  總剩餘車位數 ： 61，類型：臨停
+2023-10-20 11:58:40 825:  臨停月租[分開]加減模式 / 原始[臨停]車位 2 => 更新[臨停]車位 1 / 當前總車位 [臨停 + 月租] 61 
+2023-10-20 11:58:40 826:  總剩餘車位數 ： 61，類型：臨停
+2023-10-20 11:58:40 827:  臨停月租[分開]加減模式 / 原始[臨停]車位 2 => 更新[臨停]車位 1 / 當前總車位 [臨停 + 月租] 61 
+2023-10-20 11:58:40 828:  總剩餘車位數 ： 61，類型：臨停
+2023-10-20 11:58:40 834:  臨停月租[分開]加減模式 / 原始[臨停]車位 2 => 更新[臨停]車位 1 / 當前總車位 [臨停 + 月租] 61 
+2023-10-20 11:58:40 835:  總剩餘車位數 ： 61，類型：臨停
+2023-10-20 11:58:40 863:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:58:40 864:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:58:40 864:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:58:40 864:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:58:40 864:  Return:VKP6235_ok
+2023-10-20 11:58:40 871:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:58:40 873:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:58:40 877:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 11:58:40 878:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:58:40 879:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:58:40 880:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:58:40 881:  Return:VKP6235_ok
+2023-10-20 11:58:40 885:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:58:40 886:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:58:40 887:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:58:40 887:  Return:VKP6235_ok
+2023-10-20 11:58:40 891:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 11:58:40 893:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:58:40 894:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:58:40 895:  Return:VKP6235_ok
+2023-10-20 11:58:55 536:  Camera:192.168.1.65_SSZ9UXN
+2023-10-20 11:58:55 578:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 11:58:55 578:  SSZ9UXN => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 11:58:55 578:  SSZ9UXN => 此通道僅支援純虛擬線圈模式
+2023-10-20 11:58:55 590:  發送入口字幕機 : 入口相机_1_SSZ9UXN_True_1_1_2023102011585559025
+2023-10-20 11:58:55 590:  發送入口字幕機 TriggerType : 8
+2023-10-20 11:58:55 590:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 11:58:55 596:  進入計算車位流程，BusinessType = 1
+2023-10-20 11:58:55 606:  臨停月租[分開]加減模式 / 原始[臨停]車位 1 => 更新[臨停]車位 0 / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 11:58:55 607:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 11:58:55 611:  SSZ9UXN => 有開啟 Vivipark 功能 === 
+2023-10-20 11:58:55 611:  SSZ9UXN => 有開啟 Vivipark 功能結束
+2023-10-20 11:58:55 612:  入口車道 / 車牌辨識 : SSZ9UXN / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 11:58:55 612:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 11:58:55 612:  Return:SSZ9UXN_ok
+2023-10-20 12:01:52 341:  Camera:192.168.1.65_VKP6235
+2023-10-20 12:01:53 262:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 12:01:53 275:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 12:01:53 275:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 12:01:53 421:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102012015342070
+2023-10-20 12:01:53 421:  發送入口字幕機 TriggerType : 8
+2023-10-20 12:01:53 421:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 12:01:53 448:  進入計算車位流程，BusinessType = 1
+2023-10-20 12:01:53 552:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 12:01:53 553:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 12:01:53 605:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 12:01:53 628:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 12:01:53 629:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 12:01:53 629:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 12:01:53 629:  Return:VKP6235_ok
+2023-10-20 13:07:46 562:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:07:47 625:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:07:47 632:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:07:47 633:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:07:47 749:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013074774886
+2023-10-20 13:07:47 750:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:07:47 750:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:07:47 783:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:07:47 935:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:07:47 935:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:07:47 967:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 13:07:47 968:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 13:07:47 968:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:07:47 969:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:07:47 969:  Return:VKP6235_ok
+2023-10-20 13:08:42 406:  Camera:192.168.1.65_SSZ9UXN
+2023-10-20 13:08:42 447:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:08:42 448:  SSZ9UXN => 本次辨識為 : 車牌觸發
+2023-10-20 13:08:42 448:  SSZ9UXN => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:08:42 471:  發送入口字幕機 : 入口相机_1_SSZ9UXN_True_1_1_2023102013084247190
+2023-10-20 13:08:42 472:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:08:42 472:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:08:42 483:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:08:42 495:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:08:42 496:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:08:42 506:  SSZ9UXN => 有開啟 Vivipark 功能 === 
+2023-10-20 13:08:42 506:  SSZ9UXN => 有開啟 Vivipark 功能結束
+2023-10-20 13:08:42 506:  入口車道 / 車牌辨識 : SSZ9UXN / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:08:42 506:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:08:42 506:  Return:SSZ9UXN_ok
+2023-10-20 13:13:29 114:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:13:29 116:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:13:30 253:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:13:30 255:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:13:30 267:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:13:30 268:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:13:30 270:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:13:30 271:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:13:30 464:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013133046482
+2023-10-20 13:13:30 465:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:13:30 466:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:13:30 466:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013133046554
+2023-10-20 13:13:30 466:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:13:30 467:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:13:30 501:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:13:30 502:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:13:30 586:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:13:30 587:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:13:30 589:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:13:30 589:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:13:30 669:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 13:13:30 670:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 13:13:30 670:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:13:30 671:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:13:30 671:  Return:VKP6235_ok
+2023-10-20 13:13:30 673:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 13:13:30 674:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 13:13:30 674:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:13:30 674:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:13:30 675:  Return:VKP6235_ok
+2023-10-20 13:14:33 738:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:14:33 774:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:14:33 775:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:14:33 775:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:14:33 805:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013143380455
+2023-10-20 13:14:33 805:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:14:33 805:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:14:33 806:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 13:14:33 806:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:14:33 806:  Return:VKP6235_ok
+2023-10-20 13:14:34 497:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:14:34 539:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:14:34 540:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:14:34 540:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:14:34 573:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013143457298
+2023-10-20 13:14:34 573:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:14:34 574:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:14:34 575:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 13:14:34 575:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:14:34 575:  Return:VKP6235_ok
+2023-10-20 13:14:46 965:  Camera:192.168.1.65_SSZ9UXP
+2023-10-20 13:14:47 008:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:14:47 009:  SSZ9UXP => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:14:47 009:  SSZ9UXP => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:14:47 031:  發送入口字幕機 : 入口相机_1_SSZ9UXP_True_1_1_2023102013144703093
+2023-10-20 13:14:47 031:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:14:47 032:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:14:47 042:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:14:47 053:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:14:47 053:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:14:47 061:  SSZ9UXP => 有開啟 Vivipark 功能 === 
+2023-10-20 13:14:47 061:  SSZ9UXP => 有開啟 Vivipark 功能結束
+2023-10-20 13:14:47 061:  入口車道 / 車牌辨識 : SSZ9UXP / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:14:47 061:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:14:47 062:  Return:SSZ9UXP_ok
+2023-10-20 13:15:31 115:  4922954797312061634,admin,執行刪除
+2023-10-20 13:15:31 134:  4840637681149520244,admin,執行刪除
+2023-10-20 13:15:31 151:  4965457287560277103,admin,執行刪除
+2023-10-20 13:15:31 165:  5373500955915682834,admin,執行刪除
+2023-10-20 13:15:31 178:  4910355336673981505,admin,執行刪除
+2023-10-20 13:15:31 190:  5735133222189413570,admin,執行刪除
+2023-10-20 13:15:31 200:  4875452705245343368,admin,執行刪除
+2023-10-20 13:15:31 210:  4652751114239422002,admin,執行刪除
+2023-10-20 13:15:31 219:  5378823344528405395,admin,執行刪除
+2023-10-20 13:15:31 229:  4998255830627910776,admin,執行刪除
+2023-10-20 13:15:31 239:  5532397751165270734,admin,執行刪除
+2023-10-20 13:15:31 250:  4862246921700269195,admin,執行刪除
+2023-10-20 13:15:31 260:  5392222837799532106,admin,執行刪除
+2023-10-20 13:15:31 269:  5114861621156609814,admin,執行刪除
+2023-10-20 13:15:31 279:  5071672107956504607,admin,執行刪除
+2023-10-20 13:15:31 289:  4861546358549009439,admin,執行刪除
+2023-10-20 13:15:31 301:  5563249741037640289,admin,執行刪除
+2023-10-20 13:15:31 311:  5167621772136416104,admin,執行刪除
+2023-10-20 13:15:31 325:  5321866432127278941,admin,執行刪除
+2023-10-20 13:15:31 340:  5490799864865366869,admin,執行刪除
+2023-10-20 13:15:31 353:  5006277819111077365,admin,執行刪除
+2023-10-20 13:15:31 365:  5404343936594423299,admin,執行刪除
+2023-10-20 13:15:31 375:  5317876902625549343,admin,執行刪除
+2023-10-20 13:15:31 385:  5268613550521040917,admin,執行刪除
+2023-10-20 13:15:31 395:  5158277675406010111,admin,執行刪除
+2023-10-20 13:15:31 408:  4839725748344474279,admin,執行刪除
+2023-10-20 13:15:31 417:  5558061762852414252,admin,執行刪除
+2023-10-20 13:15:31 428:  5348132804816232534,admin,執行刪除
+2023-10-20 13:15:31 439:  5215403123921281461,admin,執行刪除
+2023-10-20 13:15:31 448:  5410465302290760675,admin,執行刪除
+2023-10-20 13:15:31 456:  5316826449263127492,admin,執行刪除
+2023-10-20 13:15:31 464:  5617888889486679405,admin,執行刪除
+2023-10-20 13:15:31 473:  4718733081885820133,admin,執行刪除
+2023-10-20 13:15:31 482:  5659326433015518333,admin,執行刪除
+2023-10-20 13:15:31 492:  5358325785432566464,admin,執行刪除
+2023-10-20 13:15:31 504:  5291352155445519666,admin,執行刪除
+2023-10-20 13:15:31 516:  5489399747368942215,admin,執行刪除
+2023-10-20 13:15:31 527:  5217808354415722234,admin,執行刪除
+2023-10-20 13:15:31 541:  5439556177103730398,admin,執行刪除
+2023-10-20 13:15:31 553:  5533613246843321795,admin,執行刪除
+2023-10-20 13:15:31 564:  5486995622623167604,admin,執行刪除
+2023-10-20 13:15:31 575:  4782337093723665128,admin,執行刪除
+2023-10-20 13:15:31 586:  5369816545087929412,admin,執行刪除
+2023-10-20 13:15:31 597:  5047283377399359268,admin,執行刪除
+2023-10-20 13:15:31 605:  4681658821836854391,admin,執行刪除
+2023-10-20 13:15:31 614:  5254022087101173466,admin,執行刪除
+2023-10-20 13:15:31 624:  5434275544957321020,admin,執行刪除
+2023-10-20 13:15:31 635:  5712840736385689630,admin,執行刪除
+2023-10-20 13:15:31 644:  5706717105143575564,admin,執行刪除
+2023-10-20 13:15:31 652:  5596104960822258240,admin,執行刪除
+2023-10-20 13:15:48 218:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:15:48 251:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:15:48 252:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:15:48 252:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:15:48 288:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013154828790
+2023-10-20 13:15:48 288:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:15:48 289:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:15:48 301:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:15:48 315:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:15:48 315:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:15:48 324:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 13:15:48 325:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 13:15:48 325:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:15:48 326:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:15:48 326:  Return:VKP6235_ok
+2023-10-20 13:18:44 398:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:18:44 400:  Camera:192.168.1.65_GSZ90XA
+2023-10-20 13:18:45 414:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:18:45 415:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:18:45 423:  GSZ90XA => 本次辨識為 : 車牌觸發
+2023-10-20 13:18:45 423:  GSZ90XA => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:18:45 425:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:18:45 425:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:18:45 545:  發送入口字幕機 : 入口相机_1_GSZ90XA_True_1_1_2023102013184554575
+2023-10-20 13:18:45 546:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:18:45 546:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:18:45 547:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013184554737
+2023-10-20 13:18:45 547:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:18:45 547:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:18:45 563:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:18:45 564:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:18:45 658:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:18:45 658:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:18:45 659:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:18:45 659:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:18:45 712:  VKP6235 => 有開啟 Vivipark 功能 === 
+2023-10-20 13:18:45 712:  GSZ90XA => 有開啟 Vivipark 功能 === 
+2023-10-20 13:18:45 714:  GSZ90XA => 有開啟 Vivipark 功能結束
+2023-10-20 13:18:45 714:  入口車道 / 車牌辨識 : GSZ90XA / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:18:45 714:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:18:45 714:  Return:GSZ90XA_ok
+2023-10-20 13:18:45 718:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 13:18:45 719:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:18:45 719:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:18:45 719:  Return:VKP6235_ok
+2023-10-20 13:20:58 459:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:20:58 461:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:20:58 462:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:20:59 574:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:20:59 574:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:20:59 575:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:20:59 591:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:20:59 592:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:20:59 598:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:20:59 599:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:20:59 600:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:20:59 600:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:20:59 728:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013205972821
+2023-10-20 13:20:59 728:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:20:59 728:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:20:59 730:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013205973045
+2023-10-20 13:20:59 731:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:20:59 731:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:20:59 732:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013205973045
+2023-10-20 13:20:59 732:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:20:59 732:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:20:59 750:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:20:59 751:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:20:59 752:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:20:59 805:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:20:59 805:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:20:59 806:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:20:59 806:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:20:59 809:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:20:59 809:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:20:59 851:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:20:59 851:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:20:59 851:  Return:VKP6235_ok
+2023-10-20 13:20:59 852:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:20:59 853:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:20:59 853:  Return:VKP6235_ok
+2023-10-20 13:20:59 855:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 13:20:59 856:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:20:59 856:  Return:VKP6235_ok
+2023-10-20 13:25:25 264:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:25:25 376:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:25:25 385:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:25:25 386:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:25:25 424:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013252542362
+2023-10-20 13:25:25 424:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:25:25 424:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:25:25 439:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:25:25 549:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:25:25 550:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:25:25 574:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟 / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:25:25 575:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:25:25 576:  Return:VKP6235_ok
+2023-10-20 13:31:28 906:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:31:28 946:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:31:28 947:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 13:31:28 947:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:31:28 967:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013312896750
+2023-10-20 13:31:28 968:  發送入口字幕機 TriggerType : 8
+2023-10-20 13:31:28 968:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:31:28 974:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:31:28 985:  臨停月租[分開]加減模式 / 原始[臨停]車位 500 => 更新[臨停]車位 499 / 當前總車位 [臨停 + 月租] 559 
+2023-10-20 13:31:28 985:  總剩餘車位數 ： 559，類型：臨停
+2023-10-20 13:31:28 991:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟臨停月租[分開]加減模式 / 原始[臨停]車位 500 => 更新[臨停]車位 499 / 當前總車位 [臨停 + 月租] 559 
+2023-10-20 13:31:28 991:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:31:28 991:  Return:VKP6235_ok
+2023-10-20 13:32:12 374:  5372948665687414464,admin,執行刪除
+2023-10-20 13:32:12 392:  4653526191790500889,admin,執行刪除
+2023-10-20 13:32:12 402:  4959325541434512626,admin,執行刪除
+2023-10-20 13:32:12 412:  5433652232675929961,admin,執行刪除
+2023-10-20 13:32:12 423:  4921960536012347842,admin,執行刪除
+2023-10-20 13:32:12 435:  5661556115019280255,admin,執行刪除
+2023-10-20 13:32:12 444:  5145252664590106905,admin,執行刪除
+2023-10-20 13:32:12 454:  4776014165286343398,admin,執行刪除
+2023-10-20 13:32:12 463:  5481448731723298081,admin,執行刪除
+2023-10-20 13:32:12 471:  5320846106584525955,admin,執行刪除
+2023-10-20 13:32:12 479:  5066449580548800818,admin,執行刪除
+2023-10-20 13:32:12 487:  5299150031837111962,admin,執行刪除
+2023-10-20 13:32:12 496:  5753387390991123401,admin,執行刪除
+2023-10-20 13:32:12 505:  4850895617976629400,admin,執行刪除
+2023-10-20 13:32:12 514:  5197098190883098656,admin,執行刪除
+2023-10-20 13:32:12 523:  5012752140806630883,admin,執行刪除
+2023-10-20 13:32:12 531:  5560044285594815138,admin,執行刪除
+2023-10-20 13:32:12 539:  5055172497783662415,admin,執行刪除
+2023-10-20 13:32:12 549:  5286001138209856713,admin,執行刪除
+2023-10-20 13:32:12 560:  4734696626628616559,admin,執行刪除
+2023-10-20 13:32:12 570:  5529684322024962829,admin,執行刪除
+2023-10-20 13:32:12 577:  5218895748837942024,admin,執行刪除
+2023-10-20 13:32:12 586:  4681976701480127400,admin,執行刪除
+2023-10-20 13:32:12 596:  5165493676984918322,admin,執行刪除
+2023-10-20 13:32:12 604:  5668020620781090994,admin,執行刪除
+2023-10-20 13:32:12 612:  5348079720428718563,admin,執行刪除
+2023-10-20 13:32:12 621:  5132775661323273897,admin,執行刪除
+2023-10-20 13:32:12 629:  5083845816102497386,admin,執行刪除
+2023-10-20 13:32:12 638:  4960448737177186633,admin,執行刪除
+2023-10-20 13:32:12 646:  4878813315789238022,admin,執行刪除
+2023-10-20 13:32:12 656:  4747207680388872036,admin,執行刪除
+2023-10-20 13:32:20 488:  Camera:192.168.1.65_VKP6235
+2023-10-20 13:32:20 607:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 13:32:20 618:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 13:32:20 618:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 13:32:20 669:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102013322066927
+2023-10-20 13:32:20 670:  發送入口字幕機 TriggerType : 4
+2023-10-20 13:32:20 670:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 13:32:20 688:  進入計算車位流程，BusinessType = 1
+2023-10-20 13:32:20 779:   / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:32:20 780:  總剩餘車位數 ： 60，類型：臨停
+2023-10-20 13:32:20 796:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟 / 當前總車位 [臨停 + 月租] 60 
+2023-10-20 13:32:20 796:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 13:32:20 797:  Return:VKP6235_ok
+2023-10-20 14:47:27 655:  Camera:192.168.1.65_VKP6235
+2023-10-20 14:47:27 770:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:27 779:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 14:47:27 779:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:27 823:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102014472782376
+2023-10-20 14:47:27 824:  發送入口字幕機 TriggerType : 8
+2023-10-20 14:47:27 824:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:27 842:  進入計算車位流程 / BusinessType = 1
+2023-10-20 14:47:27 883:  臨停月租[分開]加減模式 / 原始[臨停]車位 100 => 更新[臨停]車位 99 / 當前總車位 [臨停 + 月租] 159 
+2023-10-20 14:47:27 883:  總剩餘車位數 : 159 / 類型：臨停
+2023-10-20 14:47:27 897:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 14:47:27 898:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 14:47:27 898:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 14:47:27 898:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:27 898:  Return:VKP6235_ok
+2023-10-20 14:47:30 151:  Camera:192.168.1.65_VKP6235
+2023-10-20 14:47:30 188:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:30 189:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 14:47:30 189:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:30 225:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102014473022466
+2023-10-20 14:47:30 225:  發送入口字幕機 TriggerType : 4
+2023-10-20 14:47:30 225:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:30 226:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 14:47:30 226:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:30 226:  Return:VKP6235_ok
+2023-10-20 14:47:31 104:  Camera:192.168.1.65_VKP6235
+2023-10-20 14:47:31 146:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:31 146:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 14:47:31 147:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:31 184:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102014473118348
+2023-10-20 14:47:31 187:  發送入口字幕機 TriggerType : 8
+2023-10-20 14:47:31 188:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:31 189:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 14:47:31 190:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:31 190:  Return:VKP6235_ok
+2023-10-20 14:47:33 770:  Camera:192.168.1.65_VKP6235
+2023-10-20 14:47:33 809:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:33 810:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 14:47:33 810:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:33 847:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102014473384660
+2023-10-20 14:47:33 847:  發送入口字幕機 TriggerType : 4
+2023-10-20 14:47:33 847:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:33 849:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 14:47:33 849:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:33 849:  Return:VKP6235_ok
+2023-10-20 14:47:34 771:  Camera:192.168.1.65_VKP6235
+2023-10-20 14:47:34 815:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:34 816:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 14:47:34 817:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:34 861:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102014473486115
+2023-10-20 14:47:34 862:  發送入口字幕機 TriggerType : 8
+2023-10-20 14:47:34 862:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:34 864:  VKP6235 => 第二次辨識開啟柵欄，車位數不更新
+2023-10-20 14:47:34 864:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:34 864:  Return:VKP6235_ok
+2023-10-20 14:47:47 566:  Camera:192.168.1.65_GS79UXA
+2023-10-20 14:47:47 604:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:47:47 604:  GS79UXA => 本次辨識為 : 車牌觸發
+2023-10-20 14:47:47 605:  GS79UXA => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:47:47 622:  發送入口字幕機 : 入口相机_1_GS79UXA_True_1_1_2023102014474762245
+2023-10-20 14:47:47 622:  發送入口字幕機 TriggerType : 4
+2023-10-20 14:47:47 622:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:47:47 629:  進入計算車位流程 / BusinessType = 1
+2023-10-20 14:47:47 638:  臨停月租[分開]加減模式 / 原始[臨停]車位 99 => 更新[臨停]車位 98 / 當前總車位 [臨停 + 月租] 158 
+2023-10-20 14:47:47 638:  總剩餘車位數 : 158 / 類型：臨停
+2023-10-20 14:47:47 643:  GS79UXA => 有開啟 Vivipark 功能
+2023-10-20 14:47:47 644:  GS79UXA => 有開啟 Vivipark 功能結束
+2023-10-20 14:47:47 644:  入口車道 / 車牌辨識 : GS79UXA / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 14:47:47 644:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:47:47 645:  Return:GS79UXA_ok
+2023-10-20 14:57:31 713:  Camera:192.168.1.65_9SZ9UXN
+2023-10-20 14:57:32 393:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 14:57:32 405:  9SZ9UXN => 本次辨識為 : 車牌觸發
+2023-10-20 14:57:32 406:  9SZ9UXN => 此通道僅支援純虛擬線圈模式
+2023-10-20 14:57:32 545:  發送入口字幕機 : 入口相机_1_9SZ9UXN_True_1_1_2023102014573254515
+2023-10-20 14:57:32 545:  發送入口字幕機 TriggerType : 4
+2023-10-20 14:57:32 545:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 14:57:32 561:  進入計算車位流程 / BusinessType = 1
+2023-10-20 14:57:32 664:  臨停月租[分開]加減模式 / 原始[臨停]車位 98 => 更新[臨停]車位 97 / 當前總車位 [臨停 + 月租] 157 
+2023-10-20 14:57:32 665:  總剩餘車位數 : 157 / 類型：臨停
+2023-10-20 14:57:32 698:  9SZ9UXN => 有開啟 Vivipark 功能
+2023-10-20 14:57:32 699:  9SZ9UXN => 有開啟 Vivipark 功能結束
+2023-10-20 14:57:32 699:  入口車道 / 車牌辨識 : 9SZ9UXN / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 14:57:32 699:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 14:57:32 700:  Return:9SZ9UXN_ok
+2023-10-20 15:17:20 627:  Camera:192.168.1.100_NN2242
+2023-10-20 15:17:20 648:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-20 15:17:20 650:  NN2242 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 15:17:20 650:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-20 15:17:20 662:  發送入口字幕機 : 入口相机_5_NN2242_True_1_1_2023102015172066192
+2023-10-20 15:17:20 663:  發送入口字幕機 TriggerType : 8
+2023-10-20 15:17:20 663:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 15:17:20 670:  進入計算車位流程 / BusinessType = 1
+2023-10-20 15:17:20 680:  臨停月租[分開]加減模式 / 原始[臨停]車位 97 => 更新[臨停]車位 96 / 當前總車位 [臨停 + 月租] 156 
+2023-10-20 15:17:20 681:  總剩餘車位數 : 156 / 類型：臨停
+2023-10-20 15:17:20 686:  NN2242 => 有開啟 Vivipark 功能
+2023-10-20 15:17:20 687:  NN2242 => 有開啟 Vivipark 功能結束
+2023-10-20 15:17:20 687:  入口車道 / 車牌辨識 : NN2242 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 15:17:20 687:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-20 15:17:20 687:  Return:NN2242_ok
+2023-10-20 15:28:48 908:  GetOptimalFree ....
+2023-10-20 15:28:48 927:  取得當前使用者 => admin
+2023-10-20 18:31:20 791:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:31:20 792:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:31:20 793:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:31:20 795:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:31:20 796:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:31:22 342:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:31:22 343:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:31:22 343:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:31:22 344:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:31:22 346:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:31:22 413:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 18:31:22 413:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:31:22 414:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 18:31:22 415:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:31:22 416:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 18:31:22 417:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:31:22 419:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 18:31:22 419:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:31:22 421:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 18:31:22 422:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:31:22 666:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018312266528
+2023-10-20 18:31:22 666:  發送入口字幕機 TriggerType : 4
+2023-10-20 18:31:22 668:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:31:22 669:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018312266528
+2023-10-20 18:31:22 670:  發送入口字幕機 TriggerType : 8
+2023-10-20 18:31:22 671:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:31:22 671:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018312266618
+2023-10-20 18:31:22 672:  發送入口字幕機 TriggerType : 4
+2023-10-20 18:31:22 674:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:31:22 675:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018312267009
+2023-10-20 18:31:22 677:  發送入口字幕機 TriggerType : 4
+2023-10-20 18:31:22 678:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:31:22 680:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018312266909
+2023-10-20 18:31:22 681:  發送入口字幕機 TriggerType : 4
+2023-10-20 18:31:22 681:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:31:22 710:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:31:22 710:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:31:22 711:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:31:22 712:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:31:22 713:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:31:22 964:  臨停月租[分開]加減模式 / 原始[臨停]車位 88 => 更新[臨停]車位 87 / 當前總車位 [臨停 + 月租] 147 
+2023-10-20 18:31:22 964:  總剩餘車位數 : 147 / 類型：臨停
+2023-10-20 18:31:22 965:  臨停月租[分開]加減模式 / 原始[臨停]車位 88 => 更新[臨停]車位 87 / 當前總車位 [臨停 + 月租] 147 
+2023-10-20 18:31:22 965:  總剩餘車位數 : 147 / 類型：臨停
+2023-10-20 18:31:22 967:  臨停月租[分開]加減模式 / 原始[臨停]車位 88 => 更新[臨停]車位 87 / 當前總車位 [臨停 + 月租] 147 
+2023-10-20 18:31:22 967:  總剩餘車位數 : 147 / 類型：臨停
+2023-10-20 18:31:22 967:  臨停月租[分開]加減模式 / 原始[臨停]車位 88 => 更新[臨停]車位 87 / 當前總車位 [臨停 + 月租] 147 
+2023-10-20 18:31:22 968:  總剩餘車位數 : 147 / 類型：臨停
+2023-10-20 18:31:22 971:  臨停月租[分開]加減模式 / 原始[臨停]車位 88 => 更新[臨停]車位 87 / 當前總車位 [臨停 + 月租] 147 
+2023-10-20 18:31:22 971:  總剩餘車位數 : 147 / 類型：臨停
+2023-10-20 18:31:22 991:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:31:22 992:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:31:22 993:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:31:22 995:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:31:23 001:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:31:23 015:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:31:23 017:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:31:23 018:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:31:23 018:  Return:VKP6235_ok
+2023-10-20 18:31:23 019:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:31:23 020:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:31:23 021:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:31:23 022:  Return:VKP6235_ok
+2023-10-20 18:31:23 023:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:31:23 024:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:31:23 025:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:31:23 026:  Return:VKP6235_ok
+2023-10-20 18:31:23 030:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:31:23 031:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:31:23 032:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:31:23 033:  Return:VKP6235_ok
+2023-10-20 18:31:23 035:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:31:23 036:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:31:23 036:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:31:23 037:  Return:VKP6235_ok
+2023-10-20 18:32:16 030:  Camera:192.168.1.65_VKP6235
+2023-10-20 18:32:16 074:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 18:32:16 083:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 18:32:16 084:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 18:32:16 105:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102018321610562
+2023-10-20 18:32:16 106:  發送入口字幕機 TriggerType : 8
+2023-10-20 18:32:16 106:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 18:32:16 117:  進入計算車位流程 / BusinessType = 1
+2023-10-20 18:32:16 133:  臨停月租[分開]加減模式 / 原始[臨停]車位 87 => 更新[臨停]車位 86 / 當前總車位 [臨停 + 月租] 146 
+2023-10-20 18:32:16 133:  總剩餘車位數 : 146 / 類型：臨停
+2023-10-20 18:32:16 142:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 18:32:16 153:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 18:32:16 153:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 18:32:16 153:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 18:32:16 153:  Return:VKP6235_ok
+2023-10-20 19:09:21 710:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:09:22 739:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:09:22 786:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 19:09:22 791:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:09:22 921:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102019092292162
+2023-10-20 19:09:22 921:  發送入口字幕機 TriggerType : 4
+2023-10-20 19:09:22 922:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 19:09:22 941:  進入計算車位流程 / BusinessType = 1
+2023-10-20 19:09:23 103:  臨停月租[分開]加減模式 / 原始[臨停]車位 78 => 更新[臨停]車位 77 / 當前總車位 [臨停 + 月租] 137 
+2023-10-20 19:09:23 103:  總剩餘車位數 : 137 / 類型：臨停
+2023-10-20 19:09:23 119:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 19:09:23 128:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 19:09:23 128:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 19:09:23 133:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 19:09:23 133:  Return:VKP6235_ok
+2023-10-20 19:15:48 765:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:15:48 768:  Camera:192.168.1.66_VKP6235
+2023-10-20 19:15:48 771:  Camera:192.168.1.66_VKP6235
+2023-10-20 19:15:49 818:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:15:49 840:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-20 19:15:49 842:  ===============[離場][通道 = 2] 資料處理開始====================
+2023-10-20 19:15:49 871:  VKP6235 => 本次辨識為 [虛擬線圈觸發]
+2023-10-20 19:15:49 872:  VKP6235 => 繳費機模式 [1]
+2023-10-20 19:15:49 873:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:15:49 873:  VKP6235 => 並非無車牌
+2023-10-20 19:15:49 875:  VKP6235 => 通道 : 2
+2023-10-20 19:15:49 878:  VKP6235 => 本次辨識為 [車牌觸發]
+2023-10-20 19:15:49 878:  VKP6235 => 繳費機模式 [1]
+2023-10-20 19:15:49 879:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:15:49 880:  ===============[離場][通道 = 2] 資料處理結束====================
+2023-10-20 19:15:49 882:  Current != null / Path C:\ParkingServer\configs
+2023-10-20 19:15:49 890:  Return:VKP6235_No
+2023-10-20 19:15:49 892:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 19:15:49 904:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:15:49 973:  VKP6235 => 沒有匹配到進場紀錄
+2023-10-20 19:15:49 990:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102019154999012
+2023-10-20 19:15:49 990:  發送入口字幕機 TriggerType : 4
+2023-10-20 19:15:49 990:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 19:15:49 991:  Current != null / Path C:\ParkingServer\configs
+2023-10-20 19:15:50 014:  進入計算車位流程 / BusinessType = 1
+2023-10-20 19:15:50 028:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_VKP6235_0_1_2_0_0_1_出口_08d8c6794d624482925180bc61fd40e3_2__8011_False_/Images/Licences/20231020/054a3f3ff7df46adac6f028b13f03f4720231020191580.jpg_1_0_2023102019155002850}
+2023-10-20 19:15:50 029:  Current != null / Path C:\ParkingServer\configs
+2023-10-20 19:15:50 029:  ===============[離場][通道 = 2] 資料處理結束====================
+2023-10-20 19:15:50 036:  Return:VKP6235_No
+2023-10-20 19:15:50 170:  臨停月租[分開]加減模式 / 原始[臨停]車位 77 => 更新[臨停]車位 76 / 當前總車位 [臨停 + 月租] 136 
+2023-10-20 19:15:50 171:  總剩餘車位數 : 136 / 類型：臨停
+2023-10-20 19:15:50 187:  Current != null / Path C:\ParkingServer\configs
+2023-10-20 19:15:50 188:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 19:15:50 198:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 19:15:50 199:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 19:15:50 206:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 19:15:50 206:  Return:VKP6235_ok
+2023-10-20 19:21:45 055:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:21:45 056:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:21:46 231:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:21:46 233:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:21:46 300:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:21:46 302:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:21:46 320:  SettingHelper.GetXmlFileNodeValue => System.IO.DirectoryNotFoundException: 找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 41
+2023-10-20 19:21:46 328:  SettingHelper.GetXmlFileNodeValue => System.IO.DirectoryNotFoundException: 找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。
+   於 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   於 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   於 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   於 System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 41
+2023-10-20 19:21:46 355:  NRCameraController_辨識結果找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。_   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 53
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 322
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 104
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 19:21:46 356:  NRCameraController_辨識結果找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。_   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 53
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 322
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 104
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+2023-10-20 19:21:46 427:  Return:VKP6235_No
+2023-10-20 19:21:46 427:  Return:VKP6235_No
+2023-10-20 19:26:39 748:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:26:39 749:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:26:40 785:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:26:40 787:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:26:40 844:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:40 845:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:40 849:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 19:26:40 849:  VKP6235 => 本次辨識為 : 車牌觸發
+2023-10-20 19:26:40 853:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:26:40 854:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:26:40 996:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102019264099606
+2023-10-20 19:26:40 996:  發送入口字幕機 TriggerType : 4
+2023-10-20 19:26:40 997:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 19:26:40 997:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:40 998:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102019264099683
+2023-10-20 19:26:40 999:  發送入口字幕機 TriggerType : 4
+2023-10-20 19:26:40 999:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 19:26:40 999:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:41 026:  進入計算車位流程 / BusinessType = 1
+2023-10-20 19:26:41 026:  進入計算車位流程 / BusinessType = 1
+2023-10-20 19:26:41 191:  臨停月租[分開]加減模式 / 原始[臨停]車位 76 => 更新[臨停]車位 75 / 當前總車位 [臨停 + 月租] 135 
+2023-10-20 19:26:41 192:  總剩餘車位數 : 135 / 類型：臨停
+2023-10-20 19:26:41 193:  臨停月租[分開]加減模式 / 原始[臨停]車位 76 => 更新[臨停]車位 75 / 當前總車位 [臨停 + 月租] 135 
+2023-10-20 19:26:41 194:  總剩餘車位數 : 135 / 類型：臨停
+2023-10-20 19:26:41 224:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:41 225:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 19:26:41 225:  Current = null / Path c:\windows\system32\inetsrv
+2023-10-20 19:26:41 225:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 19:26:41 238:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 19:26:41 239:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 19:26:41 240:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 19:26:41 240:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 19:26:41 251:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 19:26:41 251:  Return:VKP6235_ok
+2023-10-20 19:26:41 253:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 19:26:41 253:  Return:VKP6235_ok
+2023-10-20 19:32:16 608:  Camera:192.168.1.65_VKP6235
+2023-10-20 19:32:17 574:  ===============[入場][通道 = 1] 資料處理開始====================
+2023-10-20 19:32:17 619:  VKP6235 => 本次辨識為 : 虛擬線圈觸發
+2023-10-20 19:32:17 625:  VKP6235 => 此通道僅支援純虛擬線圈模式
+2023-10-20 19:32:17 702:  發送入口字幕機 : 入口相机_1_VKP6235_True_1_1_2023102019321770150
+2023-10-20 19:32:17 702:  發送入口字幕機 TriggerType : 8
+2023-10-20 19:32:17 702:  發送入口字幕機 noPlateOpenType : 2
+2023-10-20 19:32:17 725:  進入計算車位流程 / BusinessType = 1
+2023-10-20 19:32:17 827:  臨停月租[分開]加減模式 / 原始[臨停]車位 75 => 更新[臨停]車位 74 / 當前總車位 [臨停 + 月租] 134 
+2023-10-20 19:32:17 828:  總剩餘車位數 : 134 / 類型：臨停
+2023-10-20 19:32:17 852:  VKP6235 => 有開啟 Vivipark 功能
+2023-10-20 19:32:17 869:  VKP6235 => 有開啟 Vivipark 功能結束
+2023-10-20 19:32:17 869:  入口車道 / 車牌辨識 : VKP6235 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-20 19:32:17 876:  ===============[入場][通道 = 1] 資料處理結束====================
+2023-10-20 19:32:17 877:  Return:VKP6235_ok
+2023-10-20 19:35:24 567:  GetOptimalFree ....
+2023-10-20 19:35:24 599:  取得當前使用者 => admin
+2023-10-20 19:35:30 864:  mode.DiscountLimitType => None
+2023-10-20 19:35:30 865:  mode.DiscountMaxValue => 0
+2023-10-20 19:35:30 901:  mode.RelatedLimitID => 
+2023-10-20 19:35:30 907:  DiscountRecord Len => 0
+2023-10-20 19:35:30 907:  AfterDiscountRecord Len => 1

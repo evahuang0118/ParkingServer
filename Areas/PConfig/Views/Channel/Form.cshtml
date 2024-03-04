@@ -1,0 +1,726 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <label class="layui-form-label label-required">車道名稱</label>
+        <div class="layui-input-inline">
+            <input type="hidden" name="Id" />
+            <input type="text" name="ChannelName" style="width:350px" lay-verify="required" placeholder="請輸入車道名稱" autocomplete="off" class="layui-input">
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">所屬區域</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Area" autocomplete="off" lay-verify="required" style="width: 190px;" id="Area"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label label-required">出入類型</label>
+            <div class="layui-input-inline">
+                <select name="InOutType" lay-verify="required">
+                    <option value="1">入口</option>
+                    <option value="2">出口</option>
+                    <option value="3">場內</option>
+                    <option value="4">單車道(雙向車道)</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">辨識相機</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Camera" autocomplete="off" lay-verify="required" style="width: 190px;" id="Camera"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">車位顯示器</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Led" lay-verify="required" style="width: 190px;" id="Led"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">字幕機模式</label>
+               <div class="layui-input-inline">
+                    <select name="CaptionMode" lay-verify="required">
+                        <option value="1">臻識</option>
+                        <option value="2">SR810</option>
+                    </select>
+                </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">字幕機</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="CaptionDeviceID" autocomplete="off" lay-verify="required" style="width: 190px;" id="CaptionDeviceID"></select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">計價電腦</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Computer" autocomplete="off" lay-verify="required" style="width: 190px;" id="Computer"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">影像監控</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="BallotBoxes" lay-verify="required" style="width: 190px;" id="BallotBoxes"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">柵欄機</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="RailingMachine" autocomplete="off" lay-verify="required" style="width: 190px;" id="RailingMachine"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">票 機</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="TicketMachine" lay-verify="required" style="width: 190px;" id="TicketMachine"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">讀卡器</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="CardReader" autocomplete="off" lay-verify="required" style="width: 190px;" id="CardReader"></select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">線圈來源</label>
+            <div class="layui-input-inline">
+                <select name="LoopSource" lay-verify="required">
+                    <option value="0">不開啟</option>
+                    <option value="1">線圈服務</option>
+                    <option value="2">SR810</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">車位計數</label>
+            <div class="layui-input-inline">
+                <select name="ParkingSlotCountMode" lay-verify="required">
+                    <option value="1">系統</option>
+                    <option value="2">SR810</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">SR-810</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="SR810ID" autocomplete="off" lay-verify="required" style="width: 190px;" id="SR810ID"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">SR-810 模式</label>
+            <div class="layui-input-inline">
+                <select name="SR810Mode" lay-verify="required">
+                    <option value="2">單向車道</option>
+                    <option value="3">雙向車道</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">SR-710</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="SR710ID" autocomplete="off" lay-verify="required" style="width: 190px;" id="SR710ID"></select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">線圈服務</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="LoopService" autocomplete="off" lay-verify="required" style="width: 190px;" id="LoopService"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">線圈模式</label>
+            <div class="layui-input-inline">
+                <select name="LoopMode" lay-verify="required">
+                    <option value="1">純虛擬線圈 [支援 出口 / 入口]</option>
+                    <option value="2">虛擬線圈 (辨識到直接開門寫入, Type = 8) 以及 (車牌觸發 Type = 4 + 車辨系統詢問線圈服務 + 壓到 A 才寫入) (事件由攝影機觸發) 並行模式 [僅支援 出口]</option>
+                    <option value="3">壓到 A 線圈才開門 (先辨識直到壓到線圈才放行, 車牌觸發 / 虛擬線圈觸發皆可) [支援 出口 / 入口]</option>
+                    <option value="4">(尚未啟用) 虛擬線圈 (Type = 8) 及車牌觸發 (Type = 4) 皆由車辨系統詢問線圈服務 + 壓到 A 寫入 (事件由攝影機觸發)　[出口 / 入口 / 單車道]</option>
+                    <option value="5">(尚未啟用) 線圈服務暫存轉發模式 (壓A線圈才轉發車牌至車辨系統，直接寫入) (事件由線圈服務觸發) [出口 / 入口 / 單車道 / 出口離場型]</option>
+                    <option value="6">B 線圈延遲寫入模式 (虛擬線圈 / 車牌觸發，壓到 A 才開門，壓到 B 線圈才寫入) (寫入事件由線圈服務觸發) [出口 / 入口 / 單車道雙電路板]</option>
+                    <option value="7">(尚未啟用) B 線圈延遲寫入模式 (虛擬線圈 / 車牌觸發，不用壓到 A 就會開門，壓到 B 線圈才寫入) (搭配 SR-810) [雙車道2x2 / 單車道五線圈 ]</option>
+                    @* <option value="8">(尚未啟用) B 線圈延遲寫入模式 (虛擬線圈 / 車牌觸發，不用壓到 A 才開門，壓到 B 線圈才寫入) (搭配 SR-810) [出口 = CD / 入口 = AB ]</option> *@
+                    @* <option value="7">(尚未啟用) C 線圈延遲寫入模式 (虛擬線圈 / 車牌觸發，壓到 A 開門，同時壓到 B 和 C 線圈才寫入) (事件由線圈服務觸發) [單車道]</option> *@
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">手動開閘協定</label>
+            <div class="layui-input-inline">
+                <select name="RemoteControlProtocol" lay-verify="required">
+                    <option value="0">臻識攝影機 (乾接點)</option>
+                    <option value="1">SR710 + KG-510 控制板</option>
+                    <option value="2">SR810</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">系統自動開閘協定</label>
+            <div class="layui-input-inline">
+                <select name="SystemAutoControlProtocol" lay-verify="required">
+                    <option value="0">臻識攝影機 (乾接點)</option>
+                    @* <option value="1">SR710 + KG-510 控制板</option> *@
+                    <option value="2">SR810</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">手動入場</label>
+            <div class="layui-input-inline">
+                <select name="ManualAddCountMode" lay-verify="required">
+                    <option value="0">不減車位</option>
+                    <option value="1">減車位</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">手動開閘</label>
+            <div class="layui-input-inline">
+                <select name="BarrierControlCountMode" lay-verify="required">
+                    <option value="0">不變</option>
+                    <option value="1">減車位</option>
+                    <option value="2">加車位</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">模糊比對</label>
+            <div class="layui-input-inline">
+                <select name="FuzzyRecMode" lay-verify="required">
+                    <option value="0">關閉</option>
+                    <option value="1">啟用</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">相似度閥值</label>
+            <div class="layui-input-inline">
+                <input type="text" name = "FuzzyRecThreshold" id="FuzzyRecThreshold" autocomplete="off" class="layui-input" />
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">預設車種</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="DefaultPlateVehicleType" autocomplete="off" lay-verify="required" style="width: 190px;" id="DefaultPlateVehicleType"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">車牌顏色辨識</label>
+            <div class="layui-input-inline">
+                <select name="PlateColorDetectionMode" lay-verify="required">
+                    <option value="0">不啟用</option>
+                    <option value="1">啟用</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">中文字辨識</label>
+            <div class="layui-input-inline">
+                <select name="PlateChineseCharDetectionMode" lay-verify="required">
+                    <option value="0">不啟用</option>
+                    <option value="1">啟用</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">黃色車牌</label>
+            <div class="layui-input-inline">
+                <select name="YellowPlateMode" lay-verify="required">
+                    <option value="0">預設車種</option>
+                    <option value="1">指定車種</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">車種</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="YellowPlateVehicleType" autocomplete="off" lay-verify="required" style="width: 190px;" id="YellowPlateVehicleType"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">紅色車牌</label>
+            <div class="layui-input-inline">
+                <select name="RedPlateMode" lay-verify="required">
+                    <option value="0">預設車種</option>
+                    <option value="1">指定車種</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">車種</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="RedPlateVehicleType" autocomplete="off" lay-verify="required" style="width: 190px;" id="RedPlateVehicleType"></select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">ETAG 模式</label>
+            <div class="layui-input-inline">
+                <select name="ETagMode" lay-verify="required">
+                    <option value="0">不啟用</option>
+                    <option value="1">啟用</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">ETAG ID</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="ETagID" lay-verify="required" style="width: 190px;" id="ETagID"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">高度偵測模式</label>
+            <div class="layui-input-inline">
+                <select name="HeightSensorMode" lay-verify="required">
+                    <option value="0">不啟用</option>
+                    <option value="1">啟用</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">攝影機轉發</label>
+            <div class="layui-input-inline">
+                <select name="LPRCameraProxy" lay-verify="required">
+                    <option value="1">不開啟</option>
+                    <option value="2">開啟</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">由[線圈服務]佔存車牌，等待壓到線圈，才轉發至車辨系統</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">語音對講</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Control" lay-verify="required" style="width: 190px;" id="Control"></select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">自助設備</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="Kiosk" lay-verify="required" style="width: 190px;" id="Kiosk"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">開閘方式</label>
+            <div class="layui-input-inline">
+                <select name="OpenType" lay-verify="required">
+                    <option value="1">車牌識別開閘</option>
+                    <option value="2">票箱藍牙開閘</option>
+                    <option value="3">混合開閘(1,2组合)</option>
+                    <option value="4">手動開閘</option>
+                    <option value="5">其他</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">開閘規則</label>
+            <div class="layui-input-inline">
+                <select name="OpenRules" lay-verify="required">
+                    <option value="5">臨停月租放行(車位無限制-入)</option>
+                    <option value="1">月租車放行(臨停限行-入)</option>
+                    <option value="2">授權放行(月租車授權-入)</option>
+                    <option value="3">臨停放行(月租車限行-出入)</option>
+                    <option value="4">臨停月租放行(車位有限制[只限制臨停]-入)</option>
+                    <option value="6">只允許新能源車入場</option>
+                    <option value="7">臨停月租放行(車位有限制[臨/月分開限制]-入)</option>
+                    <option value="8">臨停月租放行(車位有限制[臨/月混合限制]-入)</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">阻擋全英文</label>
+            <div class="layui-input-inline">
+                <select name="BlockAllAlphabet" lay-verify="required">
+                    <option value="0">關閉</option>
+                    <option value="1">開啟</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">阻擋全數字</label>
+            <div class="layui-input-inline">
+                <select name="BlockAllDigit" lay-verify="required">
+                    <option value="0">關閉</option>
+                    <option value="1">開啟</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">入口辨識</label>
+            <div class="layui-input-inline">
+                <select name="AcceptRecognizeLengthMin" lay-verify="required">
+                    <option value="-1">無限制</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label"> <= 長度 <= </label>
+            <div class="layui-input-inline">
+                <select name="AcceptRecognizeLengthMax" lay-verify="required">
+                    <option value="-1">無限制</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">過繳費機</label>
+            <div class="layui-input-inline">
+                <select name="ProcessByAPS" lay-verify="required">
+                    <option value="1">不需要</option>
+                    <option value="2">需要</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">出口才需要填 (至少需要經過折扣或是繳費一次才會放車)</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">詢問充電費</label>
+            <div class="layui-input-inline">
+                <select name="QueryChargingFeeMode" lay-verify="required">
+                    <option value="0">不需要</option>
+                    <option value="1">需要</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">出口才需要填 (若有充電費，需繳完才能離場)</span>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">狀 態</label>
+            <div class="layui-input-inline">
+                <input type="radio" name="State" value="1" title="是" checked />
+                <input type="radio" name="State" value="2" title="否" />
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">收費方式</label>
+            <div class="layui-input-inline">
+                <select name="WayCharge" lay-verify="required">
+                    <option value="1">票亭有人值守</option>
+                    <option value="2">無人值守有監控</option>
+                    <option value="3">無人值守無監控</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">共享車位</label>
+            <div class="layui-input-inline">
+                <select name="SharedRules" lay-verify="required">
+                    <option value="1">開 閘</option>
+                    <option value="2">不開閘(人工干預)</option>
+                    <option value="3">車主掃碼開閘</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">共享車位被占用完,後續共享車位車輛入場是否開閘</span>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">入場月租車</label>
+            <div class="layui-input-inline">
+                <select name="FixCarRules" lay-verify="required">
+                    <option value="1">開閘</option>
+                    <option value="2">不開閘(人工干預)</option>
+                    <option value="3">車主掃碼開閘</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">如果月租車過期,車輛進場根據設定方式開閘操作</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">開放時段</label>
+            <div class="layui-input-inline">
+                <input class="layui-input" id="OpenHours" name="OpenHours" type="text" placeholder=" - " value="00:00:00 - 00:00:00">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">默認"00:00-00:00",根據需要設定時段</span>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">自動切換車道配置</label>
+            <div class="layui-input-inline">
+                <select name="AutoSwitchLaneConfig" lay-verify="required">
+                    <option value="0">不開啟</option>
+                    <option value="1">開啟</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">根據開放時段，自動設定為 啟用 / 停用</span>
+        </div>
+    </div>
+
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">記錄保存</label>
+            <div class="layui-input-inline">
+                <select name="RecordSave" lay-verify="required">
+                    <option value="2">保 存</option>
+                    <option value="1">不保存</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <span style="color:silver;font-size:12px">根據實際需要識別記錄是否作為停車記錄保存</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">備註</label>
+        <div class="layui-input-inline" style="width: 514px;">
+            <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-form-mid layui-word-aux" style="margin-left:40px;">
+            <span style="color:palevioletred">
+                1:入口有限行,相應車輛識別到了不會自動開閘.出口有限行相應車輛不會自動開閘而且必須付費,如果設定時段範圍,車輛在此範圍可以進出
+                <br />
+                2:系統臨停車放行多是按照收費規則放行
+
+            </span>
+        </div>
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+
+</form>
+
+<script>
+    layui.use(['form','laydate'], function () {
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#OpenHours"
+            , type: 'time'
+            ,range: true
+        });
+
+        $("#Area").bindSelect({
+            url: "/PConfig/ParkingArea/GetAreaList"
+        });
+
+        $("#Camera").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=2"
+        });
+
+        $("#Led").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=3"
+        });
+
+        $("#Computer").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=4"
+        });
+
+        $("#BallotBoxes").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=9"
+        });
+
+        $("#Control").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=11"
+        });
+
+        $("#Kiosk").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=7"
+        });
+
+        $("#RailingMachine").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=5"
+        });
+
+        $("#TicketMachine").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=6"
+        });
+
+        $("#CardReader").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=10"
+        });
+
+        @* 線圈服務 add by steven 2023-09-17 *@
+        $("#LoopService").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=13"
+        });
+
+
+        @* SR810 add by steven 2023-10-13 *@
+        $("#SR810ID").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=14"
+        });
+
+        @* CaptionDeviceID add by steven 2024-01-16 *@
+        $("#CaptionDeviceID").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=21"
+        });
+
+        @* SR710 add by steven 2023-10-30 *@
+        $("#SR710ID").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=16"
+        });
+
+        $("#ETagID").bindSelect({
+            url: "/PConfig/Device/GetDeviceInfo?deviceType=19"
+        });
+        
+        $("#RedPlateVehicleType").bindSelect({
+            url: "/PConfig/ParkingArea/GetVehicleType"
+        });
+        $("#YellowPlateVehicleType").bindSelect({
+            url: "/PConfig/ParkingArea/GetVehicleType"
+        });
+        
+        $("#DefaultPlateVehicleType").bindSelect({
+            url: "/PConfig/ParkingArea/GetVehicleType"
+        });
+        
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PConfig/Channel/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            if ($("#Area").val() == "0") {
+                $.layerMsg("請選擇所屬區域！", "warning");
+                return false;
+            }
+            $.formSubmit({
+                url: "/PConfig/Channel/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>
+

@@ -1,0 +1,1046 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>收費方案配置三</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <link href="~/Content/layui/edit.css" rel="stylesheet" />
+    <link href="~/Content/LCalendar/css/calendar.css" rel="stylesheet" />
+    <script src="~/Content/LCalendar/js/calendar.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+</head>
+<body>
+    <div class="container-fluid animated fadeIn">
+        <div class="panel-body">
+            <form id="form" class="layui-form">
+
+                <input type="hidden" name="Id" />
+                <input type="hidden" name="MId" />
+                <input type="hidden" name="AreaType" value="3" />
+
+                <div class="layui-collapse" lay-accordion="">
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title"><i class="layui-icon">&#xe615;</i> 查看設置說明</h2>
+                        <div class="layui-colla-content">
+                            <p style="color:blue">
+                                在系統裏面同一區域同一車型同一停車類型,只能設置一種有效收費方案,也只能存在一種收費模板,否則系統無法判斷收費。
+                                <br>
+                                可以分時間段設置每個時間段的收費金額<br />
+                                」錯峰規則「 啟用，需要根據停車場特殊需求來設置，一般收費方案，無需啟用錯峰規則。<br />
+                                計時捨入方式「入」代表不滿一小時按小時算 「捨」不滿一小時按0元算 「四捨五入」按半小時單位算<br />
+                                計費捨入方式「入」代表不滿1元按1元算 「捨」不滿1元按0元算 「四捨五入」按0.5元算
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <table id="gridList" class="layui-form layui-table table-hover elight-table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                停車區域
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="Area" autocomplete="off" lay-verify="required" style="width: 120px;" id="Area"></select>
+                                </div>
+                            </td>
+                            <td>
+                                車  型
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="CarType" lay-verify="required" style="width:120px;">
+                                        <option value="1">小型車</option>
+                                        <option value="2">大型車</option>
+                                        <option value="5">公車</option>
+                                        <option value="6">自行車</option>
+                                        <option value="7">普通機車</option>
+                                        <option value="8">大型重機</option>
+                                    </select>
+                                </div>
+
+                            </td>
+                            <td>
+                                停車類型
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="BusinessId" autocomplete="off" lay-verify="required" style="width: 120px;" id="BusinessId"></select>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                費率名稱
+                            </td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="RateName" id="RateName" lay-verify="required" placeholder="" autocomplete="off" style="width:210px;display:inline-block" class="layui-input" />
+                                </div>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>費率等級</td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <select name="RateGrade" id="RateGrade" lay-verify="required" style="width:120px;">
+                                        <option value="1">一級</option>
+                                        <option value="2">二級</option>
+                                        <option value="3">三級</option>
+                                    </select>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                平日(假日)區分
+                            </td>
+                            <td>
+                                <input type="hidden" name="CheckUsuallyHoliday" id="CheckUsuallyHoliday" />
+                                <input type="radio" name="ISUsuallyHoliday" value="1" title="否" checked="checked" />
+                                <input type="radio" name="ISUsuallyHoliday" value="2" title="是" lay-filter="UsuallyHoliday" />
+                            </td>
+                            <td>平日假日計算拆分</td>
+                            <td colspan="3">
+                                <div class="layui-input-inline">
+                                    <select name="UHReckonSplitRule" id="UHReckonSplitRule" lay-verify="required" style="width:120px;">
+                                        <option value="1">按照計費分割時段拆分</option>
+                                        <option value="2">按照正常時段拆分計算</option>
+
+                                    </select>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr style="background-color:aliceblue">
+                            <td>
+                                平日定義
+                            </td>
+                            <td colspan="5">
+                                <input type="hidden" name="CheckUsuallyWeekInfo" id="CheckUsuallyWeekInfo" />
+                                <input name="UsuallyWeek" type="checkbox" value="7" />星期日
+                                <input name="UsuallyWeek" type="checkbox" value="1" />星期一
+                                <input name="UsuallyWeek" type="checkbox" value="2" />星期二
+                                <input name="UsuallyWeek" type="checkbox" value="3" />星期三
+                                <input name="UsuallyWeek" type="checkbox" value="4" />星期四
+                                <input name="UsuallyWeek" type="checkbox" value="5" />星期五
+                                <input name="UsuallyWeek" type="checkbox" value="6" />星期六
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                (平日)特殊日期
+                            </td>
+                            <td colspan="5">
+                                <input type="text" name="UsuallyDate" id="UsuallyDate" class="layui-input" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="1">
+                                平日計費規則
+                            </td>
+
+                            <td colspan="5">
+                                首時段拆分計算 &nbsp; <div class="layui-input-inline">
+                                    <select name="UsuallyHeadSplitRule" id="UsuallyHeadSplitRule" lay-verify="required" style="width:120px;">
+                                        <option value="1">否</option>
+                                        <option value="2">是</option>
+
+                                    </select>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td colspan="6">
+                                <table id="gridLists" class="layui-form layui-table table-hover elight-table">
+                                    <thead>
+                                        <tr style="background-color:aliceblue">
+                                            <td style="text-align:center">
+                                                編號
+                                            </td>
+                                            <td style="text-align:center">
+                                                時段範圍
+                                            </td>
+                                            <td style="text-align:center">
+                                                計費方法
+                                            </td>
+                                            <td style="text-align:center">
+                                                最高收費（元）
+                                            </td>
+
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td style="text-align:center">
+                                            1
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyBTimeIntervalOne" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyETimeIntervalOne" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="UsuallyDayPriceOne" id="UsuallyDayPriceOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyDayUnitOne" id="UsuallyDayUnitOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="UsuallyHDayPriceOne" id="UsuallyHDayPriceOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyHDayUnitOne" id="UsuallyHDayUnitOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            <input type="text" name="UsuallyDayMaxCostOne" id="UsuallyDayMaxCostOne" style="width:100px;display:inline-block" class="layui-input" value="" />
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td style="text-align:center">
+                                            2
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyBTimeIntervalTwo" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyETimeIntervalTwo" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="UsuallyDayPriceTwo" id="UsuallyDayPriceTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyDayUnitTwo" id="UsuallyDayUnitTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="UsuallyHDayPriceTwo" id="HDayPrice" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyHDayUnitTwo" id="UsuallyHDayUnitTwo" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            <input type="text" name="UsuallyDayMaxCostTwo" id="UsuallyDayMaxCostTwo" style="width:100px;display:inline-block" class="layui-input" value="" />
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td style="text-align:center">
+                                            3
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyBTimeIntervalThree" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="UsuallyETimeIntervalThree" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="UsuallyDayPriceThree" id="UsuallyDayPriceThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyDayUnitThree" id="UsuallyDayUnitThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="UsuallyHDayPriceThree" id="HDayPrice" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="UsuallyHDayUnitThree" id="UsuallyHDayUnitThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+                                        <td style="text-align:center">
+                                            <input type="text" name="UsuallyDayMaxCostThree" id="UsuallyDayMaxCostThree" style="width:100px;display:inline-block" class="layui-input" value="" />
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <div id="paged"></div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                免費時長/最高收費
+                            </td>
+                            <td colspan="3">
+                                免費  &nbsp; <input type="text" name="UsuallyFreeTime" id="UsuallyFreeTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;分鐘
+                                &nbsp;最高收費  &nbsp;<input type="text" name="UsuallyMaxMoney" id="UsuallyMaxMoney" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;元
+                                <span>（最高收費為空或者為0時,代表無最高收費）</span>
+                            <td>計費分割方式</td>
+                            <td>
+                                <select name="UsuallyDivisonType" lay-verify="required" style="width:120px;">
+                                    <option value="1">不分割</option>
+                                    <option value="2">每天24点以後分割</option>
+                                    <option value="3">滿24小時分割</option>
+                                    <option value="4">滿8小時分割</option>
+                                    <option value="5">滿12小時分割</option>
+                                </select>
+                            </td>
+                        </tr>
+
+
+                        <tr style="background-color:aliceblue">
+                            <td>
+                                假日定義
+                            </td>
+                            <td colspan="5">
+                                <input type="hidden" name="CheckHolidayWeekInfo" id="CheckHolidayWeekInfo" />
+                                <input name="HolidayWeek" type="checkbox" value="7" />星期日
+                                <input name="HolidayWeek" type="checkbox" value="1" />星期一
+                                <input name="HolidayWeek" type="checkbox" value="2" />星期二
+                                <input name="HolidayWeek" type="checkbox" value="3" />星期三
+                                <input name="HolidayWeek" type="checkbox" value="4" />星期四
+                                <input name="HolidayWeek" type="checkbox" value="5" />星期五
+                                <input name="HolidayWeek" type="checkbox" value="6" />星期六
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                (假日)特殊日期
+                            </td>
+                            <td colspan="5">
+                                <input type="text" name="HolidayDate" id="HolidayDate" class="layui-input" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1">
+                                假日計費規則
+                            </td>
+                            <td colspan="5">
+                                首時段拆分計算 &nbsp; <div class="layui-input-inline">
+                                    <select name="HolidHeadSplitRule" id="HolidHeadSplitRule" lay-verify="required" style="width:120px;">
+                                        <option value="1">否</option>
+                                        <option value="2">是</option>
+
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6">
+                                <table id="gridLists" class="layui-form layui-table table-hover elight-table">
+                                    <thead>
+                                        <tr style="background-color:aliceblue">
+                                            <td style="text-align:center">
+                                                編號
+                                            </td>
+                                            <td style="text-align:center">
+                                                時段範圍
+                                            </td>
+                                            <td style="text-align:center">
+                                                計費方法
+                                            </td>
+                                            <td style="text-align:center">
+                                                最高收費（元）
+                                            </td>
+
+                                        </tr>
+                                    </thead>
+                                    <tr>
+                                        <td style="text-align:center">
+                                            1
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayBTimeIntervalOne" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayETimeIntervalOne" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="HolidayDayPriceOne" id="HolidayDayPriceOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayDayUnitOne" id="HolidayDayUnitOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="HolidayHDayPriceOne" id="HolidayHDayPriceOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayHDayUnitOne" id="HolidayHDayUnitOne" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            <input type="text" name="HolidayDayMaxCostOne" id="HolidayDayMaxCostOne" style="width:100px;display:inline-block" class="layui-input" value="" />
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td style="text-align:center">
+                                            2
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayBTimeIntervalTwo" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayETimeIntervalTwo" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="HolidayDayPriceTwo" id="HolidayDayPriceTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayDayUnitTwo" id="HolidayDayUnitTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="HolidayHDayPriceTwo" id="HolidayHDayPriceTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayHDayUnitTwo" id="HolidayHDayUnitTwo" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+                                        <td style="text-align:center">
+                                            <input type="text" name="HolidayDayMaxCostTwo" id="HolidayDayMaxCostTwo" style="width:100px;display:inline-block" class="layui-input" value="" />
+
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+                                        <td style="text-align:center">
+                                            3
+                                        </td>
+                                        <td style="text-align:center">
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayBTimeIntervalThree" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                            <div class="layui-input-inline">
+                                                <select name="HolidayETimeIntervalThree" lay-verify="required" style="width:80px;">
+                                                    <option value="-1">請選擇</option>
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="15:00">15:00</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="23:00">23:00</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <td style="text-align:center">
+                                            首時段 &nbsp;<input type="text" name="HolidayDayPriceThree" id="HolidayDayPriceThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayDayUnitThree" id="HolidayDayUnitThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+
+                                            &nbsp; 首時段後 &nbsp;<input type="text" name="HolidayHDayPriceThree" id="HolidayHDayPriceThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="0" />&nbsp;/元
+                                            <input type="text" name="HolidayHDayUnitThree" id="HolidayHDayUnitThree" lay-verify="required" placeholder="" autocomplete="off" style="width:80px;display:inline-block" class="layui-input" value="60" />&nbsp;/分鐘
+                                        </td>
+                                        <td style="text-align:center">
+                                            <input type="text" name="HolidayDayMaxCostThree" id="HolidayDayMaxCostThree" style="width:100px;display:inline-block" class="layui-input" value="" />
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <div id="paged"></div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                免費時長/最高收費
+                            </td>
+                            <td colspan="3">
+                                免費  &nbsp; <input type="text" name="HolidayFreeTime" id="HolidayFreeTime" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;分鐘
+                                &nbsp;最高收費  &nbsp;<input type="text" name="HolidayMaxMoney" id="HolidayMaxMoney" style="width:100px;display:inline-block" class="layui-input" value="0" />&nbsp;元
+                                <span>（最高收費為空或者為0時,代表無最高收費）</span>
+                            <td>計費分割方式</td>
+                            <td>
+                                <select name="HolidayDivisonType" lay-verify="required" style="width:120px;">
+                                    <option value="1">不分割</option>
+                                    <option value="2">每天24点以後分割</option>
+                                    <option value="3">滿24小時分割</option>
+                                    <option value="4">滿8小時分割</option>
+                                    <option value="5">滿12小時分割</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr style="background-color:aliceblue">
+                            <td colspan="6">
+                                其它設置
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>計時捨入方式</td>
+                            <td>
+                                <select name="TimeRound" lay-verify="required" style="width:120px;">
+                                    <option value="0">入</option>
+                                    <option value="1">捨</option>
+                                    <option value="2">四捨五入</option>
+                                </select>
+                            </td>
+                            <td>
+                                計費捨入方式
+                            </td>
+                            <td>
+                                <select name="ChangeRound" lay-verify="required" style="width:120px;">
+                                    <option value="0">入</option>
+                                    <option value="1">捨</option>
+                                    <option value="2">四捨五入</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+
+                            <td>計費最小單位</td>
+                            <td>
+                                <input type="text" name="Unit" id="Unit" lay-verify="required" placeholder="" autocomplete="off" style="width:100px;display:inline-block" class="layui-input" value="0.1" />&nbsp;元
+                            </td>
+                            <td>
+                                有效狀態
+                            </td>
+                            <td colspan="3">
+                                <input type="radio" name="State" value="1" title="有效" checked />
+                                <input type="radio" name="State" value="2" title="無效" />
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td>起始時間</td>
+                            <td>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="BeginTime" id="BeginTime" lay-verify="required" placeholder="yyyy-MM-dd HH:mm:ss" autocomplete="off" class="layui-input" >
+                                </div>
+                            </td>
+                            <td>
+                                截止時間
+                            </td>
+                            <td colspan="3">
+                                <div class="layui-input-inline">
+                                    <input type="text" name="EndTime"  id="EndTime" lay-verify="required" placeholder="yyyy-MM-dd HH:mm:ss" autocomplete="off" class="layui-input">
+                                </div>
+                            </td>
+                        </tr>
+
+                    <tbody>
+                </table>
+                
+                <div class="layui-form-item" style="display: none">
+                    <div class="layui-input-block">
+                        <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+                    </div>
+               
+                </div>
+            
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'paging', 'layer', 'form', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+        var laydate = layui.laydate;
+
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey == "" || primaryKey == null) {
+            laydate.render({
+                elem: "#BeginTime"
+                , type: 'datetime'
+                , value: getbeginDateTime()
+            });
+
+            laydate.render({
+                elem: "#EndTime"
+                , type: 'datetime'
+                , value: getbeginDateTime()
+            });
+        }
+        else {
+            laydate.render({
+                elem: "#BeginTime"
+                , type: 'datetime'
+            });
+
+            laydate.render({
+                elem: "#EndTime"
+                , type: 'datetime'
+            });
+        }
+    });
+
+    layui.use(['form', 'laydate', 'element'], function () {
+        var form = layui.form;
+        var laydate = layui.laydate;
+        var element = layui.element;
+
+        $("#Area").bindSelect({
+            url: "/PConfig/ParkingArea/GetAreaList"
+        });
+
+        $("#BusinessId").bindSelect({
+            url: "/PBusiness/BusinessType/GetBusinessType"
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/ChargePlan/GetFForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                    $("#BeginTime").attr('readonly', 'readonly');
+
+                    var CheckUsuallyHoliday = $("#CheckUsuallyHoliday").val();
+
+                    if (CheckUsuallyHoliday == "1" || CheckUsuallyHoliday == "2") {
+                        $("input[name='ISUsuallyHoliday']").each(function () {
+                            if ($(this).val() == CheckUsuallyHoliday) {
+                                $(this).attr({ checked: "checked" });
+                            }
+                        });
+
+                        var CheckUsuallyWeekInfo = $("#CheckUsuallyWeekInfo").val();
+                        if (CheckUsuallyWeekInfo != "") {
+                            var ChecCheckCycles = CheckUsuallyWeekInfo.split(',');
+                            $("input[name='UsuallyWeek']").each(function () {
+                                for (var i = 0; i < ChecCheckCycles.length; i++) {
+                                    if ($(this).val() == ChecCheckCycles[i]) {
+                                        $(this).prop("checked", true);
+                                    }
+                                }
+                            });
+                        }
+
+                        var CheckHolidayWeekInfo = $("#CheckHolidayWeekInfo").val();
+                        if (CheckHolidayWeekInfo != "") {
+                            var ChecCheckCycles = CheckHolidayWeekInfo.split(',');
+                            $("input[name='HolidayWeek']").each(function () {
+                                for (var i = 0; i < ChecCheckCycles.length; i++) {
+                                    if ($(this).val() == ChecCheckCycles[i]) {
+                                        $(this).prop("checked", true);
+                                    }
+                                }
+                            });
+                        }
+                    }
+                }
+            });
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            if ($('#Area').val() == "0") {
+                $.layerMsg("請選擇停車區域！", "warning");
+                return false;
+            }
+            if ($('#BusinessId').val() == "0") {
+                $.layerMsg("請選擇停車類型！", "warning");
+                return false;
+            }
+
+            var WrongPeaks = 1;
+            $("input[name='ISUsuallyHoliday']").each(function () {
+                if ($(this).is(":checked")) {
+                    WrongPeaks = $(this).val();
+                }
+            });
+
+            var checkWeekHoliday = "";
+            $("input[name='HolidayWeek']").each(function () {
+                if ($(this).is(":checked")) {
+                    checkWeekHoliday = checkWeekHoliday + $(this).val() + ",";
+                }
+            });
+
+            var checkWeekUsually = "";
+            $("input[name='UsuallyWeek']").each(function () {
+                if ($(this).is(":checked")) {
+                    checkWeekUsually = checkWeekUsually + $(this).val() + ",";
+                }
+            });
+
+            if (WrongPeaks == "2" && (checkWeekHoliday == "" || checkWeekUsually == "")) {
+                $.layerMsg("請選擇假日定義！", "warning");
+                return false;
+            }
+
+            data.field.iSUsuallyHoliday = WrongPeaks;
+            data.field.checkHolidayWeek = checkWeekHoliday;
+            data.field.checkUsuallyWeek = checkWeekUsually;
+            $.formSubmit({
+                url: "/PBusiness/ChargePlan/FForm",
+                data: data.field
+            });
+            return false;
+        });
+
+        form.on('radio(UsuallyHoliday)', function (data) {
+            $("input[name='ISUsuallyHoliday']").each(function () {
+                if ($(this).is(":checked") && $(this).val() == "2") {
+                    $("input[name='HolidayWeek']").each(function () {
+                        if ($(this).val() == "6") {
+                            $(this).prop("checked", true);
+                        }
+                        else if ($(this).val() == "7") {
+                            $(this).prop("checked", true);
+                        }
+                    });
+                }
+                else {
+                    $("input[name='HolidayWeek']").each(function () {
+                        if ($(this).val() == "6") {
+                            $(this).removeAttr("checked");
+                        }
+                        else if ($(this).val() == "7") {
+                            $(this).removeAttr("checked");
+                        }
+                    });
+                }
+            });
+        });
+    });
+
+    var calendar = new Calendar();
+    calendar.init({
+        target: $('#HolidayDate'),
+        range: ['2022-03-05', '2045-03-25'],
+        multiple: true,
+        goCallback: function (type, date) {
+        },
+        overdays: function (a) {
+
+        }
+    });
+
+    var calendar2 = new Calendar();
+    calendar2.init({
+        target: $('#UsuallyDate'),
+        range: ['2022-03-05', '2045-03-25'],
+        multiple: true,
+        goCallback: function (type, date) {
+        },
+        overdays: function (a) {
+
+        }
+    });
+
+</script>
+
+

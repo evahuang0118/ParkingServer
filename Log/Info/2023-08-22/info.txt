@@ -1,0 +1,3366 @@
+ ?生??：2023-08-22 12:03:56.7180
+             日志??：INFO
+             操作??：admin
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 12:36:52.6585
+             日志??：INFO
+             操作??：admin
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 12:40:03.6935
+             日志??：INFO
+             操作??：admin
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 15:41:18.8362
+             日志??：INFO
+             操作??：admin
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 17:54:09.7601
+             日志??：INFO
+             操作??：admin
+             操作者IP：127.0.0.1
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 18:02:47.2699
+             日志??：INFO
+             操作??：admin
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+
+ ?生??：2023-08-22 18:22:31.3586
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:31.3586
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:31.4900
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.4960
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:31.6065
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.6065
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:31.6065
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:33.7570
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:33.7570
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:33.7570
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:35.3113
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:35.3113
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:35.3113
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:38.5742
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:38.5742
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:38.5742
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:41.9654
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:41.9654
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:41.9654
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:44.9963
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:44.9963
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:44.9963
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:48.2175
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:48.2175
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:48.2175
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:51.3212
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:51.3212
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:51.3212
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:54.5231
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:54.5231
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:54.5231
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:22:57.8341
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:57.8341
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:22:57.8341
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:00.9815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:00.9815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:00.9815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:04.1191
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:04.1191
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:04.1191
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:07.2956
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:07.2956
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:07.2956
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:10.5932
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:10.5932
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:10.5932
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:13.8911
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:13.8911
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:13.8911
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:17.0008
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:17.0008
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:17.0008
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:20.2421
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:20.2421
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:20.2421
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:23.2918
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:23.2918
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:23.2918
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:26.6057
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:26.6057
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:26.6057
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:29.5709
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:29.5709
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:29.5709
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:32.6536
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:32.6536
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:32.6536
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:35.7910
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:35.7910
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:35.7910
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:39.0227
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:39.0227
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:39.0227
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:42.2042
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:42.2042
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:42.2042
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:45.3556
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:45.3556
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:45.3556
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:48.5658
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:48.5658
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:48.5658
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:51.7730
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:51.7730
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:51.7730
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:55.0015
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:55.0015
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:55.0015
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:23:58.2308
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:58.2308
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:23:58.2308
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:01.5753
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:01.5753
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:01.5753
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:05.0333
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:05.0333
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:05.0333
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:08.0397
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:08.0397
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:08.0397
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:11.3446
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:11.3446
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:11.3446
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:14.3878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:14.3878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:14.3878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:17.6351
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:17.6351
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:17.6351
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:20.8733
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:20.8733
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:20.8733
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:24.1815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:24.1815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:24.1815
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:27.3632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:27.3632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:27.3632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:30.7179
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:30.7179
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:30.7179
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:34.1160
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:34.1160
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:34.1160
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:37.1846
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:37.1846
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:37.1846
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:40.3214
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:40.3214
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:40.3214
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:43.6149
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:43.6149
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:43.6149
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:46.8228
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:46.8228
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:46.8228
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:49.9909
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:49.9909
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:49.9909
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:53.0806
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:53.0806
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:53.0806
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:56.2844
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:56.2844
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:56.2844
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:24:59.4562
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:59.4562
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:24:59.4562
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:02.8210
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:02.8210
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:02.8210
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:05.8901
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:05.8901
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:05.8901
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:09.0633
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:09.0633
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:09.0633
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:12.1469
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:12.1469
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:12.1469
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:15.3634
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:15.3634
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:15.3634
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:18.5034
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:18.5034
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:18.5034
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:21.6250
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:21.6250
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:21.6250
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:24.8788
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:24.8788
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:24.8788
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:28.0701
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:28.0701
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:28.0701
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:31.2239
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:31.2239
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:31.2239
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:34.2878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:34.2878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:34.2878
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:37.4565
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:37.4565
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:37.4565
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:40.7350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:40.7350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:40.7350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:43.9194
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:43.9194
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:43.9194
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:47.0001
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:47.0001
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:47.0001
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:50.3136
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:50.3136
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:50.3136
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:53.5223
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:53.5223
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:53.5223
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:56.6545
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:56.6545
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:56.6545
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:25:59.9572
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:59.9572
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:25:59.9572
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:03.4277
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:03.4277
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:03.4277
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:06.3444
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:06.3444
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:06.3444
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:09.7298
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:09.7298
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:09.7298
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:12.8374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:12.8374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:12.8374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:15.9619
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:15.9619
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:15.9619
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:19.2955
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:19.2955
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:19.2955
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:22.4089
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:22.4089
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:22.4089
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:25.6668
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:25.6668
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:25.6668
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:29.0198
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:29.0198
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:29.0198
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:32.0491
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:32.0491
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:32.0491
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:35.3624
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:35.3624
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:35.3624
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:38.4508
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:38.4508
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:38.4508
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:41.6350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:41.6350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:41.6350
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:44.8632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:44.8632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:44.8632
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:26:48.1418
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:48.1418
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:26:48.1418
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.4849
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.5319
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.5179
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.5694
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.5724
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.5930
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:30.6363
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:36.2671
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:36.2671
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:36.2671
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:36.2671
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:39.5607
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:39.5607
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:39.5607
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:39.5607
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:42.6454
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:42.6454
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:42.6454
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:42.6454
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:45.9920
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:45.9920
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:45.9920
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:45.9920
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:49.1401
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:49.1401
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:49.1401
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:49.1401
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:52.3481
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:52.3481
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:52.3481
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:52.3481
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:55.6111
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:55.6111
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:55.6111
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:55.6111
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:27:58.9326
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:27:58.9326
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:58.9326
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:27:58.9326
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:02.1801
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:02.1801
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:02.1801
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:02.1801
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:05.4028
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:05.4028
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:05.4028
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:05.4028
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:08.6799
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:08.6799
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:08.6799
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:08.6799
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:11.8639
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:11.8639
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:11.8639
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:11.8639
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:15.0360
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:15.0360
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:15.0360
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:15.0360
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:18.4139
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:18.4139
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:18.4139
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:18.4139
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:21.4328
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:21.4328
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:21.4328
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:21.4328
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:24.6374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:24.6374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:24.6374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:24.6374
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:27.8771
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:27.8771
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:27.8771
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:27.8771
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:31.0025
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:31.0025
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:31.0025
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:31.0025
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:34.3869
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:34.3869
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:34.3869
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:34.3869
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:37.5371
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:37.5371
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:37.5371
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:37.5371
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:40.7712
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:40.7712
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:40.7712
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:40.7712
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:28:43.9180
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertOperate => Before InsertInOutRecord
+
+ ?生??：2023-08-22 18:28:43.9180
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => serialnumber = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:43.9180
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.InOutType = 9254b9b7-a92f45b1
+
+ ?生??：2023-08-22 18:28:43.9180
+             日志??：INFO
+             操作??：
+             操作者IP：
+             IP??地：
+             ? ? 器：
+             操作模?：
+             提示信息：InsertInOutRecord => model.Channel = 
+
+ ?生??：2023-08-22 18:30:41.8512
+             日志??：INFO
+             操作??：admin
+             操作者IP：192.168.1.192
+             IP??地：
+             ? ? 器：Chrome 116.0
+             操作模?：系統登入
+             提示信息：登入成功
+

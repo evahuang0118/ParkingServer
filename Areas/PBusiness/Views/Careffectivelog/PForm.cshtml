@@ -1,0 +1,265 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script src="~/Content/framework/js/com.js"></script>
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+ 
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required" style="width:120px">公司機構</label>
+            <div class="layui-input-inline">
+                <select lay-ignore class="select2" name="OrgId" lay-verify="required" style="width: 550px;" id="OrgId"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label" style="width:120px">不續費車牌</label>
+            <div class="layui-input-inline">
+                <textarea  name="MultiplePlate" id="MultiplePlate" placeholder="輸入不需要批量續費的車牌號碼,多個車牌號碼用 | 分開" title="输入不需要批量续费的車牌號碼,多个車牌號碼用 | 分隔开"  class="layui-textarea" style="width: 550px;"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+
+        <div class="layui-inline">
+            <label class="layui-form-label" style="width:120px">續期方式</label>
+            <div class="layui-input-inline">
+                <input type="radio" name="OperateType" value="1" title="充 值" checked />
+                <input type="radio" name="OperateType" value="2" title="延 期" disabled="disabled"/>
+            </div>
+        </div>
+
+        <div class="layui-inline">
+            <label class="layui-form-label label-required" style="width:120px">本次起始時間</label>
+            <div class="layui-input-inline">
+                <input type="text" name="Btime" id="Btime" lay-verify="required" placeholder="yyyy-MM-dd HH:mm:ss" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label  label-required" style="width:120px">續費周期</label>
+            <div class="layui-input-inline">
+                <select id="timeNum" lay-filter="timeNum" name="timeNum" lay-verify="required">
+                    <option value="0">請選擇</option>
+                    <option value="1">1個月</option>
+                    <option value="2">2個月</option>
+                    <option value="3">3個月</option>
+                    <option value="4">4個月</option>
+                    <option value="5">5個月</option>
+                    <option value="6">6個月</option>
+                    <option value="7">7個月</option>
+                    <option value="8">8個月</option>
+                    <option value="9">9個月</option>
+                    <option value="10">10個月</option>
+                    <option value="11">11個月</option>
+                    <option value="12">12個月</option>
+                    <option value="13">13個月</option>
+                    <option value="14">14個月</option>
+                    <option value="15">15個月</option>
+                    <option value="16">16個月</option>
+                    <option value="17">17個月</option>
+                    <option value="18">18個月</option>
+                    <option value="19">19個月</option>
+                    <option value="20">20個月</option>
+                    <option value="21">21個月</option>
+                    <option value="22">22個月</option>
+                    <option value="23">23個月</option>
+                    <option value="24">24個月</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="layui-inline">
+            <label class="layui-form-label label-required" style="width:120px">本次结束時間</label>
+            <div class="layui-input-inline">
+                <input class="layui-input" id="Etime" lay-verify="required" name="Etime" placeholder="yyyy-MM-dd" autocomplete="off" />
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label" style="width:120px">續費金額</label>
+            <div class="layui-input-inline">
+                <input type="text" name="PaidNo" id="PaidNo" placeholder="请输入續費金額" lay-verify="required|number" autocomplete="off" value="0" class="layui-input" >
+            </div>
+            <div class="layui-form-mid layui-word-aux" style="width:350px;margin-top:-10px">
+                如果默認續費金額為0時,系統根據月租車輛管理設定月租種類計算續費總金額
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+
+        <label class="layui-form-label" style="width:120px">備  註</label>
+        <div class="layui-input-inline" style="width: 450px;">
+            <textarea name="Describe" id="Describe" placeholder="請輸入內容" class="layui-textarea"></textarea>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+
+    <blockquote class="layui-elem-quote">
+        注意：
+        1 批量續費充值是根據選擇企業個人組織,然後對企業個人組織下面的車牌進行統一續費充值
+        <br />
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 2 如果續費充值的時間小於或者大於整數月時,可以手動修改有效結束時間<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;3 如果續期操作錯誤,請先在「續期管理」菜單,選擇相應續費記錄,取消續期！同樣需要取消續費有效時間,請按前面的操作！
+    </blockquote>
+</form>
+<script>
+    layui.use(['form', 'laydate'], function () {
+
+        var form = layui.form;
+        var laydate = layui.laydate;
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+            , value: getbeginDateTime()
+
+        });
+
+        laydate.render({
+            elem: "#Etime"
+           ,type: 'datetime'
+        });
+
+        $("#OrgId").bindSelect({
+            url: "/System/Organize/GetListSelect",
+            title: '請選擇组织機構'
+        });
+
+        form.on('select(timeNum)', function (data) {
+            var cal = $("#timeNum").val();
+            var bt = $("#Btime").val();
+            if (bt != "") {
+                var date = new Date(bt.replace(/-/g, "/"));
+                var str = monthCompute(date, Number(cal));
+                var lastDay = getLastDay(str);
+                var day = getDiffDay(lastDay, str);
+                if (day <= 1 || day==3)
+                    $("#Etime").val(lastDay);
+                else
+                    $("#Etime").val(str);
+            }
+        });
+        form.render();
+        form.on('submit(add)', function (data) {
+            var Btime = new Date($("#Btime").val());
+            var Etime = new Date($("#Etime").val());
+
+            if ($("#timeNum").val() == "0") {
+                $.layerMsg("請選擇續費周期！", "warning");
+                return false;
+            }
+            if (Btime > Etime) {
+                $.layerMsg("起始時間不能大於结束時間！", "warning");
+                return false;
+            }
+
+            if ($("#OrgId").val() == "771b628b-e43c-4592-b1ef-70ea23b0e378") {
+                $.layerMsg("請選擇公司機構！", "warning");
+                return false;
+            }
+            var vl=$("input[name='OperateType']:checked").val(); 
+            data.field.operateType = vl;
+            data.field.Btime = $("#Btime").val();
+            data.field.Etime = $("#Etime").val();
+            data.field.Accounts = $("#PaidNo").val();
+            data.field.timeNum = $("#timeNum").val();
+            data.field.OrgId = $("#OrgId").val();
+            data.field.remark = $("#Describe").val();
+            data.field.MultiplePlate = $("#MultiplePlate").val();
+            $.formSubmit({
+                url: "/PBusiness/Careffectivelog/PForm",
+                data: data.field
+            });
+            return false;
+        });
+    });
+
+    function monthCompute(date, num) {
+        var day = date.getDate(),
+            month = date.getMonth(),
+            year = date.getFullYear(),
+            dateArr = dateFormmat(date, 'yyyy-MM-dd hh:mm:ss').split(' ');
+
+        year = year + parseInt((month + num) / 12);
+        month = (month + num) % 12;
+        //0-11 转变为 1-12
+        month += 1;
+
+        maxDayCount = new Date(year, month, 0).getDate();
+        day > maxDayCount ? day = maxDayCount : '';
+
+        month < 10 ? (month = '0' + month) : '';
+        day < 10 ? (day = '0' + day) : '';
+        return year + '-' + month + '-' + day + ' ' + dateArr[1];
+    }
+
+    function dateFormmat(date, format) {
+        if (null == date) {
+            return ''
+        }
+        if (typeof (date) == 'string' || typeof date === 'number') {
+            date = (typeof date === 'number') ? new Date(date) : new Date((date || '').replace(/-/g, '/'))
+        }
+        var o = {
+            "M+": date.getMonth() + 1, //month
+            "d+": date.getDate(), //day
+            "h+": date.getHours(), //hour
+            "m+": date.getMinutes(), //minute
+            "s+": date.getSeconds(), //second
+            "q+": Math.floor((date.getMonth() + 3) / 3), //quarter
+            "S": date.getMilliseconds() //millisecond
+        }
+
+        if (/(y+)/.test(format)) {
+            format = format.replace(RegExp.$1, (date.getFullYear() + "").substr(4 - RegExp.$1.length));
+        }
+
+        for (var k in o) {
+            if (new RegExp("(" + k + ")").test(format)) {
+                format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? o[k] : ("00" + o[k]).substr(("" + o[k]).length));
+            }
+        }
+        return format;
+    }
+
+    function getLastDay(dt) {
+        var year = new Date(dt.replace(/-/g, "/")).getFullYear(); //获取年份
+        var month = new Date(dt.replace(/-/g, "/")).getMonth() + 1; //获取月份
+        var lastDate = new Date(year, month, 0).getDate(); //获取当月最后一日
+        month = month < 10 ? '0' + month : month;         //月份补 0
+        return [year, month, lastDate].join("-") + " 23:59:59"
+    }
+
+    function getDiffDay(date_1, date_2) {
+        // 计算两个日期之间的差值
+        let totalDays, diffDate
+        let myDate_1 = Date.parse(date_1)
+        let myDate_2 = Date.parse(date_2)
+        // 将两个日期都转换为毫秒格式，然后做差
+        diffDate = Math.abs(myDate_1 - myDate_2) // 取相差毫秒数的绝对值
+
+        totalDays = Math.floor(diffDate / (1000 * 3600 * 24)) // 向下取整
+        // console.log(totalDays)
+
+        return totalDays    // 相差的天数
+    }
+
+</script>
+

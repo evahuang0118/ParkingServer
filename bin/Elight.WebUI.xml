@@ -1,0 +1,4827 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Elight.WebUI</name>
+    </assembly>
+    <members>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.AppController">
+            <summary>
+            APP Controller, 給 Parking Back Server 呼叫的
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.AuthController">
+            <summary>
+            驗證相關 API
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController">
+            <summary>
+            本地系统相关接口
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.Login(System.String,System.String)">
+            <summary>
+            用户登录
+            </summary>
+            <param name="userName">用户名</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.ResetPassword(System.String,System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="userName">用户名</param>
+            <param name="password">旧密码</param>
+            <param name="newPassword">新密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetAllocation">
+            <summary>
+            获取系统配置信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetChannelDeviceinfo">
+            <summary>
+            获取通道设备配置文件信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetChannelInfo">
+            <summary>
+            获取出入通道信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetDeviceInfo(System.String)">
+            <summary>
+            获取设备信息
+            </summary>
+            <param name="DeviceType">设备类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetOptimalFree(System.String)">
+            <summary>
+            根据类型获取优免规则内容
+            </summary>
+            <param name="Type">1 现金优惠  2 小时优惠  3 全免优惠 4:電子签单</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetOrgList(System.String)">
+            <summary>
+            获取车场所有机构信息
+            </summary>
+            <param name="Type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.WriteSystemConfig">
+            <summary>
+            读取写入系统配置配置文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetSystemTime">
+            <summary>
+            获取系统时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.ShiftDutyOperate(System.String,System.String,System.String)">
+            <summary>
+            换班操作
+            </summary>
+            <param name="userNme">用户名</param>
+            <param name="operateTime">换班时间，格式(yyyy-MM-dd HH:mm:ss)</param>
+            <param name="operateType">1 ：岗亭收費 2 中央收費</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.BoolShiftDutyRecord(System.String,System.String)">
+            <summary>
+            判断是否有换班记录是否未交班
+            </summary>
+            <param name="userNme">用户名</param>
+            <param name="operateType">1 ：岗亭收費 2 中央收費</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.SuccessionDutyOperate(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo)">
+            <summary>
+            交班记录操作
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.UploadHeartBeat(System.Int32,System.Int32,System.String)">
+            <summary>
+            软件或设备心跳数据上传信息
+            </summary>
+            <param name="Location"></param>
+            <param name="Type"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetBusinesstype">
+            <summary>
+            停车车辆业务类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetSpaceNum">
+            <summary>
+            获取车场剩余总车位数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetLedContent">
+            <summary>
+            获取出入口显示屏显示内容
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetVoiceContent">
+            <summary>
+            获取出入口播报的语音内容
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.GetParkingArea">
+            <summary>
+            获取系统区域相关信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetController.ParkingSpaceRectify(System.String,System.Int32,System.Int32)">
+            <summary>
+            车位数校正操作
+            </summary>
+            <param name="areaId">区域ID</param>
+            <param name="fixedNum">固定车位数</param>
+            <param name="temporaryNum">临停车位数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController">
+            <summary>
+            本地相关系统的接口
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InOutManualRecord(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord)">
+            <summary>
+            出入口手动异常开闸记录
+            </summary>
+            <param name="manualRecord"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetInOutRecord(System.String)" -->
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetOutClosseRecord(System.String)">
+            <summary>
+            根据車牌號碼判断，车辆在10分鐘前是否已付費已出场
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SearchInRecord(System.String,System.String)">
+            <summary>
+            查找入口相应的记录
+            </summary>
+            <param name="type">1 車牌號碼 2 一维码 3 入場時間</param>
+            <param name="content"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.UpdateOutRecord(System.String,System.String,System.String,System.String)">
+            <summary>
+            车辆出场人工校正車牌號碼
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <param name="outNum">出口号</param>
+            <param name="fileImg">图片地址</param>
+            <param name="identifyId">识别记录ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.UpdateOutRecordId(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            根据入场记录Id,找到出口记录
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <param name="outNum">出口号</param>
+            <param name="plateImg">车牌图片地址</param>
+            <param name="CarImg">车辆图片地址</param>
+            <param name="recordId">停车记录ID</param>
+            <param name="identifyId">识别记录ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ChargeConfirmation(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo)">
+            <summary>
+            出场收費记录的提交
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.CentralChargeConfirmation(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo)">
+            <summary>
+            中央收費记录提交
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PreferentialDisConfirmation(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis)">
+            <summary>
+            中央和出口折扣优惠操作
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ArtificialCalculateCharge(System.String,System.String,System.String)">
+            <summary>
+            中央和出口收費客户端人工计费查询请求
+            </summary>
+            <param name="recordId">记录id</param>
+            <param name="outNum">出口号</param>
+            <param name="operateType">操作类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpSearchRecord(System.String,System.String,System.String)">
+             <summary>
+            自助繳費機查詢入口記錄
+             </summary>
+             <param name="type">1 車牌號碼 2 一维码 3 入場時間 4 : PId 票號 </param>
+             <param name="content"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(System.String)">
+            <summary>
+            自助繳費機計費查詢
+            </summary>
+            <param name="recordId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpChargeConfirmation(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo)">
+            <summary>
+            自助繳費機收費记录保存
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpPreferentialDis(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpDis)">
+            <summary>
+            繳費機抵扣
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.CalculateSumAmount(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            计算总金額
+            </summary>
+            <param name="userName">用户名</param>
+            <param name="dutyTime">开始时间</param>
+            <param name="operateType">1： 出口支付  2：中央支付 3： 移动支付 4 ：電子卷支付  5： 预约推送 6 ：设备上支付 </param>
+            <param name="payType">支付方式</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetOrgParkingRecord(System.String,System.String)">
+            <summary>
+            获取共享车位数的信息
+            </summary>
+            <param name="inTime">入場時間</param>
+            <param name="memberId">固定车ID号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.CarNoLeave(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            未离场操作
+            </summary>
+            <param name="recordId">记录id</param>
+            <param name="plateNo">車牌號碼</param>
+            <param name="operateName">操作者</param>
+            <param name="outNum">出入通道号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ManualAddInRecord(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            手动添加入场记录
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <param name="inTime">入場時間</param>
+            <param name="inNum">入口号</param>
+            <param name="areaId">区域ID</param>
+            <param name="UserName">操作者</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GroupStatisticalDutyCharge(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            交班信息汇总
+            </summary>
+            <param name="userName">操作者</param>
+            <param name="Btime">开始时间</param>
+            <param name="Etime">截止时间</param>
+            <param name="OperateType">1：出口 2：中央</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.OutLogFileUpload">
+            <summary>
+            出口客户端日志文件上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.CentralLogFileUpload">
+            <summary>
+            中央客户端日志文件上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ScanningCredentialsFileUpload(System.String)">
+            <summary>
+            优惠折扣扫描凭证上传
+            </summary>
+            <param name="recordId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InRecordDealWith">
+            <summary>
+            入场记录系统自动处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.CalculateChargeAmount(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            计算停车费用
+            </summary>
+            <param name="Intime">入場時間</param>
+            <param name="outTime">计费截止时间</param>
+            <param name="carType">车类型</param>
+            <param name="businessType">车辆停車類型</param>
+            <param name="Area">区域ID</param>
+            <param name="logo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetParkingFixCarList">
+            <summary>
+            获取系统所有固定车的信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetParkingFixCar(System.String,System.String)">
+            <summary>
+            判断入场车牌是不是月租信息
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <param name="intime">入場時間</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ParkingDataSummary(System.String,System.String)">
+            <summary>
+            停车场每天数据汇总
+            </summary>
+            <param name="beginDate">起始时间</param>
+            <param name="endDate">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.DeleteParkingRecord">
+            <summary>
+            删除系统当前时间几个月历史记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetIndoorRecord(System.String)">
+            <summary>
+            获取场内停车记录信息
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InRecordTimeClassified(System.String)">
+            <summary>
+            入场记录调整到指定时间
+            </summary>
+            <param name="inTime">指定时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.DeleteHiddenParkingRecord">
+            <summary>
+            根据隐藏車牌號碼,删除相关停车记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.AutomaticClosedRecord">
+            <summary>
+            如果有移动支付，车辆没有正常出场,系统自动闭环记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.DeletFileImge(System.Int32)">
+            <summary>
+            车牌图片文件删除
+            </summary>
+            <param name="months">月份数(当前月份4个月以前的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.DeletFilePDF">
+            <summary>
+            PDF导出文件删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.OutPayRecordOperate(System.String,System.String,System.Double,System.Int32)">
+            <summary>
+            出口人工确认移动支付标识操作
+            </summary>
+            <param name="recordId"></param>
+            <param name="plateNo"></param>
+            <param name="payMoney"></param>
+            <param name="channel"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetPayRecordList(System.String)">
+            <summary>
+            根据停车记录Id,获取所有的支付记录
+            </summary>
+            <param name="recordId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.AddElectronicInvoice(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ElectronicInvoiceInfo)">
+            <summary>
+            機打发票记录信息
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.EdidParkingCarShare">
+            <summary>
+            一位多车，包月类型统一修改
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetOutIdentifyCharge">
+            <summary>
+            获取出口实时收費信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InOutRecordBackup(System.String)">
+            <summary>
+            停车记录备份处理
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.ChargeRecordBackup(System.String)">
+            <summary>
+            收費记录备份处理
+            </summary>
+            <param name="Dealtime"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.IdentifyToInRecord(System.String,System.String,System.String)">
+            <summary>
+            识别记录转换成入场记录（防止出入口记录表误删除，快速还原相关数据）
+            </summary>
+            <param name="beginTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="pwd">验证码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetBlackPlateRecord(System.String)">
+            <summary>
+            根据車牌號碼获取黑名单车辆停车记录信息
+            </summary>
+            <param name="plateNo">車牌號碼</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.PushAPSTransaction(Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PaymentMachine)">
+            <summary>
+            零錢鈔票⽔位
+            </summary>
+            <param name="model"></param>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController">
+            <summary>
+            云端接口请求操作
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CloudCalculateCost(Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest{Elight.WebUI.Areas.LocalInterface.Models.Clound.CalculateRequest})">
+            <summary>
+            计算费用加密请求操作
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CalculateCost(System.String,System.String)">
+            <summary>
+            停车费用计算请求操作(无加密请求)
+            </summary>
+            <param name="plateNo">车牌号码</param>
+            <param name="recordId">记录ID号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CloudMobilePay(Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest{Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest})">
+            <summary>
+            移动支付加密推送
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.MobilePayCallBack(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             移动支付推送
+            </summary>
+            <param name="plateNo"></param>
+            <param name="recordId"></param>
+            <param name="payType"></param>
+            <param name="payable">支付金額,单元:元</param>
+            <param name="payTime">支付时间：格式:yyyyMMddHHmmss</param>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CloudVouchersPay(Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest{Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest})">
+            <summary>
+            优惠卷加密推送
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.VouchersPayCallBack(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            优惠卷推送操作
+            </summary>
+            <param name="plateNo"></param>
+            <param name="recordId"></param>
+            <param name="couponType">2:现金卷 1:小时卷</param>
+            <param name="couponMoney"></param>
+            <param name="couponTime"></param>
+            <param name="storeName">商户名字</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.TimeCouponsCalculate(System.String,System.String,System.String)">
+            <summary>
+            查看小时卷抵扣费用
+            </summary>
+            <param name="plateNo">车牌号码</param>
+            <param name="recordId">停车记录id</param>
+            <param name="couponsTime">优惠分鐘数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CloudIntegralPay(Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest{Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest})">
+            <summary>
+            积分兑换加密推送
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.IntegralPayCallBack(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            积分兑换推送
+            </summary>
+            <param name="plateNo">车牌号码</param>
+            <param name="recordId">记录id</param>
+            <param name="integralMoney">兑换金額</param>
+            <param name="integralTime">兑换时间（单位：分鐘）</param>
+            <param name="orderNo">订单号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.ScanningCodeInOut(System.String,System.String,System.String,System.String)">
+            <summary>
+            無牌车扫码进出场
+            </summary>
+            <param name="channlID">通道号</param>
+            <param name="ticketCode">标识码</param>
+            <param name="type">出入口类型</param>
+            <param name="verificationCode">验证码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.NoPlateScanningInOut(Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest{Elight.WebUI.Areas.LocalInterface.Models.Clound.NoPlateScanningRequest})">
+            <summary>
+            無牌车进出加密推送
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.AddFixCar(Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest)">
+            <summary>
+            添加固定车信息
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.FixCarCareffective(Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord)">
+            <summary>
+            续费充值记录添加
+            </summary>
+            <param name="mode"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.FixCarCareffectiveCancel(System.String,System.String,System.String)">
+            <summary>
+            续费充值记录取消
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.ElectronicSignBill(Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo)">
+            <summary>
+            電子签单信息推送
+            </summary>
+            <param name="plateNo"></param>
+            <param name="recordId"></param>
+            <param name="FreeId"></param>
+            <param name="orderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SharedScanningApproach(System.String)">
+            <summary>
+            一位多车超过车位数车主扫码入场
+            </summary>
+            <param name="plateNo">车牌号码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.FixCarScanningApproach(System.String)">
+            <summary>
+            固定车过期通过扫码确认的方式进场
+            </summary>
+            <param name="plateNo">车牌号码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.ImageToObtain(System.String,System.Int32)">
+            <summary>
+            图片的获取
+            </summary>
+            <param name="recordId">记录Id</param>
+            <param name="type">1：入口图片 2 ：出口图片 3 ：出入口图片</param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.GetElectronicFree">
+            <summary>
+            获取電子签单免费内容
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.GetOutPayRecord(System.String,System.String)">
+            <summary>
+            获取出口最新车辆计费信息
+            </summary>
+            <param name="channel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.RailingMachineOpenClose(System.String,System.String,System.String,System.String)">
+            <summary>
+            栏杆机开闸关闸操作
+            </summary>
+            <param name="channel">通道号</param>
+            <param name="ipInfo">Ip信息</param>
+            <param name="operateType">1：抬杆 2：落杆</param>
+            <param name="deviceType">设备类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.RailingMachineOperate(System.String,System.String,System.String,System.String)">
+            <summary>
+            栏杆机开闸关闸操作
+            </summary>
+            <param name="channel">通道号</param>
+            <param name="ipInfo">Ip信息</param>
+            <param name="operateType">1：抬杆 2：落杆</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InPlateCorrection(System.String,System.String)">
+            <summary>
+            入场车牌本地校正完上传云端
+            </summary>
+            <param name="recordId">停车记录ID</param>
+            <param name="plateNo">车牌号码</param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InOutRecordUpload">
+            <summary>
+            出入记录上传云端
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.DutyRecordUpload">
+            <summary>
+            值班记录上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.HeartUpload">
+            <summary>
+            心跳数据上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.DayAggregate(System.String,System.String)">
+            <summary>
+            日汇总信息数据上传
+            </summary>
+            <param name="beginTime"></param>
+            <param name="endTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.FixCarUpload">
+            <summary>
+            固定车信息上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CareffectiveRecordUpload">
+            <summary>
+            固定车续费记录上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.EbnormalRecordUpload">
+            <summary>
+            手动开闸记录上传
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.ReconciliationRecord(System.String)">
+            <summary>
+            移动支付对账上传
+            </summary>
+            <param name="date"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.GetFixCarValidation(System.String,System.String)">
+            <summary>
+             获取固定车信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.MicroPayOperate(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            扫描枪扫描支付码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.NativePayOperate(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            支付二维码生成
+            </summary>
+            <param name="plateNo"></param>
+            <param name="recordId"></param>
+            <param name="payAmount"></param>
+            <param name="payChannel"></param>
+            <param name="remark"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SearchMobilePayResult(System.String)">
+            <summary>
+            根据订单号查询支付结果
+            </summary>
+            <param name="orderNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.InductivePay(System.String,System.String,System.String,System.String)">
+            <summary>
+            車輛出去時未支付，系統主動發起扣款
+            </summary>
+            <param name="plateNo"></param>
+            <param name="recordId"></param>
+            <param name="payable"></param>
+            <param name="channel"></param>
+            <returns>code：200 推送成功 210 支付代扣成功</returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.QueryInRecordList(System.String)">
+            <summary>
+            根据车牌号码获取未出场的入场记录
+            </summary>
+            <param name="plateNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CouponsValidation(System.String)">
+            <summary>
+            验证优惠卷有效性
+            </summary>
+            <param name="couponsNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.CouponsVerification(System.String,System.String,System.String)">
+            <summary>
+            优惠卷核销操作
+            </summary>
+            <param name="couponsNo"></param>
+            <param name="plateNo"></param>
+            <param name="recordID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.GetChargeSpecialData">
+            <summary>
+            獲取收費規則特殊日期的信息
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.SendInRecord(Elight.Entity.PRecord.InOutRecord,System.String,System.String,System.String,System.String,System.Collections.Generic.List{Elight.Entity.PConfig.ParkingArea},System.Collections.Generic.List{Elight.Entity.PConfig.Channel})">
+            <summary>
+            入场记录打包上传
+            </summary>
+            <param name="mode"></param>
+            <param name="ParkId"></param>
+            <param name="ApiServer"></param>
+            <param name="Token"></param>
+            <param name="Url"></param>
+            <param name="Plist"></param>
+            <param name="Clist"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CloudInterfaceController.MobileCustomRecord(System.Int64,System.String,System.DateTime,System.Double,System.Double,System.Int32,System.Double)">
+            <summary>
+            移动支付记录保存
+            </summary>
+            <param name="recordId"></param>
+            <param name="paleNo"></param>
+            <param name="payTime"></param>
+            <param name="PayAmount"></param>
+            <param name="FreeCost"></param>
+            <param name="PayType"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController">
+            <summary>
+            車麻吉移動支付
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.GetParkingLot">
+            <summary>
+            车场信息的查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.EnterRecordUpload">
+            <summary>
+            入場記錄上傳
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.LeaveRecordUpload">
+            <summary>
+            出場記錄上傳
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.PayRequest(System.String,System.String)">
+            <summary>
+            車輛支付請求
+            </summary>
+            <param name="recordId">记录id</param>
+            <param name="amount">金額</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.PayRequestOperate(System.String,System.String)">
+            <summary>
+            車輛支付請求
+            </summary>
+            <param name="recordId">记录id</param>
+            <param name="amount">金額</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.CancelEnter(System.String)">
+            <summary>
+            車輛取消進場
+            </summary>
+            <param name="recordId">记录id号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.UpdateEnter(System.String)">
+            <summary>
+            更新進場信息
+            </summary>
+            <param name="recordId">记录号</param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.UpdatePayRequest(System.String)">
+            <summary>
+            更新請款請求信息
+            </summary>
+            <param name="recordId"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.UpdateLeaveRecord(System.String)">
+            <summary>
+            更新離場信息
+            </summary>
+            <param name="recordId"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.CMJMobilePayController.GetHead">
+            <summary>
+            獲取服務心跳請求
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.EVSEController">
+            <summary>
+            充電樁相關 API
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController">
+            <summary>
+            車位地鎖相關API
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LockUpDown(System.String,System.String)">
+            <summary>
+            鎖的上升和下降控制
+            </summary>
+            <param name="number">車位號</param>
+            <param name="execute">執行動作（UP,DOWN）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LocckStateQuery">
+            <summary>
+            车位锁的状态查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.FloorLockController.LockUpDownOperate(System.String,System.String,System.String@)">
+            <summary>
+            鎖的上升和下降控制
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.F4AController">
+            <summary>
+            Vivipark 相關 API
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController">
+            <summary>
+            上海路政数据上传处理
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.Heartbeat(System.String,System.String,System.String,System.String)">
+            <summary>
+            心跳请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.InRecordContent(System.String,System.String,System.String,System.String)">
+            <summary>
+            入场请求
+            </summary>
+            <param name="appId"></param>
+            <param name="appKey"></param>
+            <param name="parkingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.OutRecordContent(System.String,System.String,System.String,System.String)">
+            <summary>
+            出场请求
+            </summary>
+            <param name="appId"></param>
+            <param name="appKey"></param>
+            <param name="parkingId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.FillOutRecordContent(System.String,System.String,System.String,System.String)">
+            <summary>
+            补传数据操作
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.SearchContent(System.String,System.String,System.String,System.String)">
+            <summary>
+            查询上传的数据内容
+            </summary>
+            <param name="appId"></param>
+            <param name="appKey"></param>
+            <param name="parkingId"></param>
+            <param name="requestUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.ConfigQuery(System.String,System.String,System.String,System.String)">
+            <summary>
+            配置信息查询
+            </summary>
+            <param name="password"></param>
+            <param name="BusUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.RegisServerAddress(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            服务注册接口
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="urlType"></param>
+            <param name="urlAddress"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.DownloadReserves(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            预约信息下载
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="ReservesDate"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.GetReduces(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            停车免费信息的下载(政策性减免,不做商业缴费减免)
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="plateId"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.UploadOutPayRecord(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            停车缴费信息上传(出场时上传-相当于無感支付),当场库方选用市平台支付系统缴费时,调用此接口
+            </summary>
+            <param name="password"></param>
+            <param name="BusUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="recordId"></param>
+            <param name="PayMoney"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.QueryPayResult(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            支付结果查询
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="recordId"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.DownloadPayResult(System.String,System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            支付账单的下载（需要在完善）
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="datetime"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.DownloadInvoice(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            发票数据信息下载(需要在完善)
+            </summary>
+            <param name="appKey"></param>
+            <param name="requestUrl"></param>
+            <param name="parkingId"></param>
+            <param name="appId"></param>
+            <param name="InvoiceTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.DownloadStagger(System.String,System.String,System.String,System.String,System.String)">
+            错峰停车信息下载
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.GetCalculateCharge(Elight.WebUI.Areas.LocalInterface.Models.Highway.HCalculateRequest)">
+            <summary>
+            计费请求查询
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.QueryInvoice(Elight.WebUI.Areas.LocalInterface.Models.Highway.InvoiceRequest)">
+            <summary>
+            开发票请求
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.LocationQuery(Elight.WebUI.Areas.LocalInterface.Models.Highway.LocationRequset)">
+            <summary>
+            车辆车位号查询
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.HighwayController.MobilePayResult(Elight.WebUI.Areas.LocalInterface.Models.Highway.MobilePayResult)">
+            <summary>
+            支付结果的推送
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.IRentController">
+            <summary>
+            和雲 HMS 相關 API
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.IRentController.NotifySitePaid(Elight.WebUI.Areas.LocalInterface.Models.IRent.NotifySitePaidRequest)">
+            <summary>
+            hms 狀態查詢
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(Elight.WebUI.Areas.LocalInterface.Models.RCamera.AlarmInfoPlateInfo)">
+            <summary>
+            臻视R-系列相机通过虚拟,IO触发,软件触发相机，系统接收数据识别结果（软件和虚拟触发,系统保留所有识别结果,IO触发只保留無牌车数据结果）
+            2022-11-05 直接从相机里面获取小图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.SpaceNumController">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.SpaceNumController.GetSpaceNum">
+            <summary>
+            接口测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.SpaceNumController.Get">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.RCameraController.SIOIdentify(Elight.WebUI.Areas.LocalInterface.Models.RCamera.AlarmInfoPlateInfo)">
+            <summary>
+            臻视R-系列相机通过虚拟,IO触发,软件触发相机，系统接收数据识别结果（软件和虚拟触发,系统保留所有识别结果,IO触发只保留無牌车数据结果）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.SR810Controller">
+            <summary>
+            SR810 相關 API
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController">
+            <summary>
+             發票數據處理
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.GetInvoiceNo(System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            发票号码段的获取
+            </summary>
+            <param name="day"></param>
+            <param name="month"></param>
+            <param name="machineNo"></param>
+            <param name="volume"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.UploadInvoiceRecord(System.String)">
+            <summary>
+            上传开票记录
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.InvoiceRangeCheck(System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            验证票号区段
+            </summary>
+            <param name="year"></param>
+            <param name="month"></param>
+            <param name="machineNo"></param>
+            <param name="volume"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.InvoiceHeart(System.String)">
+            <summary>
+            心跳结果
+            </summary>
+            <param name="machineNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.GetInvoiceDayCheck(System.String,System.String)">
+            <summary>
+            每日发票记录上传
+            </summary>
+            <param name="day"></param>
+            <param name="machineNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWInvoiceController.UploadAceRecord">
+            <summary>
+            上传折上开票记录
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessQuery(System.String,System.String)">
+            <summary>
+            查询车辆是是否绑定自动扣款
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessNotify">
+            <summary>
+            入场上传记录请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessBillQuery(Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessBillQueryInfo)">
+            <summary>
+            车辆计费信息查询(支付平台调用的接口)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessPay(Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessPayInfo)">
+            <summary>
+            平台通知停车系统发起扣款
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.PayInductive(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            支付扣款操作
+            </summary>
+            <param name="recordId"></param>
+            <param name="plateNo"></param>
+            <param name="payMoney"></param>
+            <param name="InvoiceInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.InductivePay(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            停车场出口主動發起扣款
+            </summary>
+            <param name="recordId"></param>
+            <param name="plateNo"></param>
+            <param name="payMoney"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.PayBillNotice(System.String,System.Int32)">
+            <summary>
+            支付通知请求
+            </summary>
+            <param name="transNO"></param>
+            <param name="InvoiceInfo"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.PayBillResult(System.String)">
+            <summary>
+            向平台查询订单的支付状态
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessRefund(System.String,System.String)">
+            <summary>
+            发起退款请求
+            </summary>
+            <param name="OrderNo"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.InvoiceServiceNotify(System.String)">
+            <summary>
+            发票开票通知(停車系統通知平台)
+            </summary>
+            <param name="OrderNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.InvoiceServiceQuery(Elight.WebUI.Areas.LocalInterface.Models.TWPay.InvoiceServiceQueryRequestInfo)">
+            <summary>
+            开票信息的查询
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.AddPlatformMember(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            平台會員信息下載
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.CardlessQueryOperate(System.String,System.String,Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessQueryResultInfo@)">
+            --------------------数据操作处理-------------------------///////
+            <summary>
+            查询车辆是是否绑定自动扣款请求操作
+            </summary>
+            <param name="CarType"></param>
+            <param name="CarNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.TWMobilePayController.PayBillResultOperate(Elight.Entity.MobilePay.Mobilepayorder)">
+            <summary>
+            订单支付结果的查询
+            </summary>
+            <param name="mobilepayorder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Controllers.ViviparkController">
+            <summary>
+            Vivipark 相關 API
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ViviparkController.FlapControl(System.String,System.String)">
+            <summary>
+            鎖的上升和下降控制
+            </summary>
+            <param name="number">車位號</param>
+            <param name="execute">執行動作（UP,DOWN）</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ViviparkController.FlapSiteBarrierClose(Elight.WebUI.Areas.LocalInterface.Controllers.ViviparkController.FlapCloseRequest)">
+            <summary>
+            vivipark 狀態查詢
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Elight.WebUI.Areas.LocalInterface.Controllers.ViviparkController.LockUpDownOperate(System.String,System.String,System.String@)">
+            <summary>
+            鎖的上升和下降控制
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChannelInfo.Control">
+            <summary>
+            对讲
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChannelInfo.AuxiliaryCamera">
+            <summary>
+            辅助相机
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OperateType">
+            <summary>
+            1 代表正常收費 2 人工收費
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OutTime">
+            <summary>
+            出場時間（格式“yyyy-MM-dd HH:mm:ss”）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.LogId">
+            <summary>
+            停车记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OutNum">
+            <summary>
+            出口通道
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.MembersId">
+            <summary>
+            固定车记录Id号，可以为空
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.FreeId">
+            <summary>
+            优免类型Id 号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.DiscountMoney">
+            <summary>
+            优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.PayAmount">
+            <summary>
+            应付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.CashCost">
+            <summary>
+            實收金額（可以是现金和客户端移动支付金額）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.TemporaryCost">
+            <summary>
+            临时存放電子小时卷金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.ChargeRemark">
+            <summary>
+            收費备注
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OperateName">
+            <summary>
+            操作者
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OutOpen">
+            <summary>
+            开闸方式,默认为1
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.FreeNum">
+            <summary>
+            优惠抵扣张数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.BusinessType">
+            <summary>
+            车辆停車類型，默认为1
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.PayType">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.ClientName">
+            <summary>
+            客户端名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.PayTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargeInfo.OrederNo">
+            <summary>
+            支付订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.OrderNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.PlateNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.PayAmount">
+            <summary>
+            单位：元
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.PayTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.CreateName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.Remark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.TimeNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.Num">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.PayName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ChargePayInfo.FreeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo">
+            <summary>
+            出口爬虫简易收費
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.OperateType">
+            <summary>
+            1 代表正常收費 2 人工收費
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.InTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.InNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.PayType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.OutTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.LogId">
+            <summary>
+            停车记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.OutNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.MembersId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.FreeId">
+            <summary>
+            优免类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.DiscountMoney">
+            <summary>
+            优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.PlateNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.PayAmount">
+            <summary>
+            应付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.CashCost">
+            <summary>
+            实收现金
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.ChargeRemark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.OperateName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.OutOpen">
+            <summary>
+            开闸方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.FreeNum">
+            <summary>
+            优惠抵扣张数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.BusinessType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.TemporaryCost">
+            <summary>
+            临时存放電子小时卷金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.Area">
+            <summary>
+            默认区域
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.CrawlerChargeInfo.ClientName">
+            <summary>
+            客户端名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DisInfo.DisNum">
+            <summary>
+            折扣编号信息
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Id">
+            <summary>
+            记录Id编号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.DutyName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Btime">
+            <summary>
+            换班时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Etime">
+            <summary>
+            交班时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Payment">
+            <summary>
+            應收金額（现金）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Actual">
+            <summary>
+            实时金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.CNum">
+            <summary>
+            车辆次数（出去車次數）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.FreeMoney">
+            <summary>
+            免费金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.FreeNum">
+            <summary>
+            免费次数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.PreferentialMoney">
+            <summary>
+            折扣优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.PreferentialNum">
+            <summary>
+            折扣优惠次数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Describe">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.DutyInfo.LogType">
+            <summary>
+            记录操作类型（出口还是中央收費）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ElectronicInvoiceInfo.RecordType">
+            <summary>
+            1：停车记录 2 ：支付记录
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.Id">
+            <summary>
+            停车记录id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InTime">
+            <summary>
+            入場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InPlate">
+            <summary>
+            入场车牌
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InNum">
+            <summary>
+            入口号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InPorrectionPlate">
+            <summary>
+            确认的车牌号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InLogoNo">
+            <summary>
+            存放无牌车验证码或者系统随机码(根据实际情况进行读写)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InPlateImg">
+            <summary>
+            入场车牌图片地址
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.InCarImg">
+            <summary>
+            车辆图片地址
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.CarType">
+            <summary>
+            车辆类型（大小车型）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.Area">
+            <summary>
+            区域ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.IsCharge">
+            <summary>
+            是否收費标识
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.OutTime">
+            <summary>
+            出場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.OutPlate">
+            <summary>
+            出场车牌
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.OutNum">
+            <summary>
+            出口号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.OutPlateImg">
+            <summary>
+            出场车牌图片地址
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.OutCarImg">
+            <summary>
+            出场车辆图片
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.MembersId">
+            <summary>
+            固定车ID号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.BusinessType">
+            <summary>
+            车辆类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.Payment">
+            <summary>
+            應收金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.CashCost">
+            <summary>
+            现金金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.FreeCost">
+            <summary>
+            优免金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.MobileCost">
+            <summary>
+            移动付費金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.ElectronicCost">
+            <summary>
+            电子券优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.TemporaryCost">
+            <summary>
+            其它金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.PayTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.ChargingTime">
+            <summary>
+            收費计费截止时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.SharedLogo">
+            <summary>
+            分享标识
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.FreeLogo">
+            <summary>
+            是否全免标识
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.InOutRecordInfo.State">
+            <summary>
+            停车状态
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord">
+            <summary>
+            出入口手动开闸记录
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.EquipmentNo">
+            <summary>
+            设备编号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.InOutNum">
+            <summary>
+            出入口通道号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.LogId">
+            <summary>
+            停车记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.FreeType">
+            <summary>
+            优免类型ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.OperateName">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.Remark">
+            <summary>
+            备注描述
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.Attachment">
+            <summary>
+            附件图片
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.ManualRecord.LogType">
+            <summary>
+            1 入口手动开闸记录  2 出口手动开闸记录 3 未离场操作
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.OptimalFreeInfo.Type">
+            <summary>
+            1 现金优惠  2 小时优惠  3 全免优惠
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.OptimalFreeInfo.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.OptimalFreeInfo.AmountTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.OType">
+            <summary>
+            1 出口优惠 2 中央优惠
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.RecordId">
+            <summary>
+            停车记录id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.Plate">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.VouchersId">
+            <summary>
+            折扣類型Id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.VouchersAmount">
+            <summary>
+            实际优惠金額不是卷面金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.VouchersNum">
+            <summary>
+            优惠张数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.OperateName">
+            <summary>
+            操作者
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.EquipmentNo">
+            <summary>
+            设备号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.Remark">
+            <summary>
+            备注描述
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.PreferentialDis.OrgId">
+            <summary>
+            商户Id号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.RecognizeTime">
+            <summary>
+            采集时间,格式 （yyyy-MM-dd HH:mm:ss）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.PlateNo">
+            <summary>
+            車牌號碼 (其它内容)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.PlateType">
+            <summary>
+            车牌类型 1蓝牌车 2 黑牌车 3 黄牌车  4 新能源车  99  其他
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.BrandType">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.ColorType">
+            <summary>
+            颜色 1 红色 2 黄色 3 黑色 4 蓝色 5 绿色 6橙色
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.Credibility">
+            <summary>
+            可信度
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.PlateImg">
+            <summary>
+            车图片 base64位
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.CarImg">
+            <summary>
+            车身图片 base64位
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.RecognizeType">
+            <summary>
+            数据采集方式 1：自动触发类型、2：外部输入触发（IO 输入）、4：软件触发（SDK）、8：虚拟线圈触发
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.DeviceIP">
+            <summary>
+            设备ip
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.SerialNumber">
+            <summary>
+            设备序列号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.RecordContent.DeviceType">
+            <summary>
+            採集數據設備類型（ 2： 識別相機 5：栏杆机設備 6：票箱設備  10： 掃描读卡設備）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.LogId">
+            <summary>
+            记录ID号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.PayAmount">
+            <summary>
+            应付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.CashCost">
+            <summary>
+            實收金額（可以是现金和客户端移动支付金額）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.ChargeRemark">
+            <summary>
+            收費备注描述
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.OperateName">
+            <summary>
+            操作者
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.PayType">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.ClientName">
+            <summary>
+            客户端名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.PayTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpChargeInfo.OrederNo">
+            <summary>
+            支付订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpDis.RecordId">
+            <summary>
+            记录ID号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpDis.ClientName">
+            <summary>
+            客户端名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.ChargeClinet.SelfHelpDis.data">
+            <summary>
+            券信息集合
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CalculateRequest.plateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CalculateRequest.recordId">
+            <summary>
+            停车记录id号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.ParkId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.IId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.RenewalPlate">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.Btime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.Etime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.RenewalType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.RenewalPrice">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.DayNum">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.Accounts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.PaidNo">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.Describe">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.CreateTime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.CreateId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.UpdateTime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.UpdateId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.UpdateRemark">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.AuditName">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.AuditTime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.AuditRemark">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.OperationState">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.AuditState">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.FinaceName">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.FinaceTime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.FinaceRemark">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.BusinessType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.OperateType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.OrderNum">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CareffectiveLog.SourceType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.RecordId">
+            <summary>
+            记录id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.ParkId">
+            <summary>
+            车场id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Name">
+            <summary>
+            车主名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.CardNum">
+            <summary>
+            卡id号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Address">
+            <summary>
+            地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Phone">
+            <summary>
+            移动电话
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Brand">
+            <summary>
+            品牌
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Color">
+            <summary>
+            车颜色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.PlateType">
+            <summary>
+            车牌类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.PlaceNum">
+            <summary>
+            车位号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.CarType">
+            <summary>
+            车类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.BusinessType">
+            <summary>
+            停車類型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Compatibility">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.RecyclingState">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.BeginTime">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.EndTime">
+            <summary>
+            开卡时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Remark">
+            <summary>
+            截止时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.BlackWhite">
+            <summary>
+            黑白标识
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.VipNo">
+            <summary>
+            vip号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.VipMoney">
+            <summary>
+            充值金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.CreateId">
+            <summary>
+            创建时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Channel">
+            <summary>
+            授权通道
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.ChannelType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.HourPeriod">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.OrgId">
+            <summary>
+            组织机构
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.UpdateId">
+            <summary>
+            修改人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.AverageType">
+            <summary>
+            包月类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CarInfo.Area">
+            <summary>
+            停车区域
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate">
+            <summary>
+            返回费用计算信息
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.inTime">
+            <summary>
+            入場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.recordId">
+            <summary>
+            本地记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.calculateTime">
+            <summary>
+            系統計费时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.amount">
+            <summary>
+            应付总金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.discount">
+            <summary>
+            已优费金額（電子卷金額）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.paid">
+            <summary>
+            已支付金額（支付实际金額,不包括電子卷费用和本地优免费用）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.payable">
+            <summary>
+            待支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.serviceDuration">
+            <summary>
+            服务总时常
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.facilityDuration">
+            <summary>
+            支付免费出場時間(移动付費完成以后多久出场)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ChargeCalculate.plateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundCalculateRequest`1.RequestTime">
+            <summary>
+            格式yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest`1.RequestTime">
+            <summary>
+            格式yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest`1.Sing">
+            <summary>
+            密钥
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest`1.Version">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.CloundEncryptionRequest`1.Parame">
+            <summary>
+            业务参数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.ParkId">
+            <summary>
+            车场id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.DutyName">
+            <summary>
+            值班人名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Btime">
+            <summary>
+            换班时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Etime">
+            <summary>
+            交班时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Payment">
+            <summary>
+            應收金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Actual">
+            <summary>
+            实时金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.CNum">
+            <summary>
+            車次數
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.FreeMoney">
+            <summary>
+            免费金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.FreeNum">
+            <summary>
+            免费次数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.PreferentialMoney">
+            <summary>
+            优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.PreferentialNum">
+            <summary>
+            优惠次数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Describe">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.Remark">
+            <summary>
+            描述
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.DutyTime">
+            <summary>
+            换班时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.AuditName">
+            <summary>
+            审核人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.AuditTime">
+            <summary>
+            审核时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.AuditRemark">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.DState">
+            <summary>
+            1：已换班 2 ：已交班  3初审 4 已结算 5 作废
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.FinanceName">
+            <summary>
+            财务审核人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.FinanceTime">
+            <summary>
+            审核时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.FinanceRemark">
+            <summary>
+            审核备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Dutyinfo.LogType">
+            <summary>
+            1 ：岗亭收費 2 中央收費
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.ParkId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.RecordID">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.DutyName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.Btime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.Etime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.YCash">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.SCash">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.FreeMoney">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.DiscountsMoney">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.FlayPay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.TrafficCard">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.MobilePay">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.Describe">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.DutyRemark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.CreateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.AuditName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.AuditTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.AuditRemark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.Statue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.FinanceName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.FinanceTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.FinanceRemark">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.DutyRecord.LogType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.ParkId">
+            <summary>
+            车场id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.EquipmentNo">
+            <summary>
+            设备号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.RecordId">
+            <summary>
+            停车记录
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.InOutNum">
+            <summary>
+            出入号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.LogId">
+            <summary>
+            id号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.FreeType">
+            <summary>
+            免费类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.OperateTime">
+            <summary>
+            操作时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.OperateName">
+            <summary>
+            操作人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.Remark">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.Attachment">
+            <summary>
+            其它信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EbnormalrecordInfo.LogType">
+            <summary>
+            1 入口手动开闸记录  2 出口手动开闸记录 3 未离场操作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.RecordId">
+            <summary>
+            记录ID号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.RenewalTypeId">
+            <summary>
+            包月类型ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.RenewalPrice">
+            <summary>
+            包月单价
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.Accounts">
+            <summary>
+            续费金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.OperateName">
+            <summary>
+            操作者
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.OperateTime">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.Btime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.Etime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.OrderNo">
+            <summary>
+            续费订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.EffectiveRecord.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest">
+            <summary>
+            固定车信息请求
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.PlateNo">
+            <summary>
+            車牌號碼（不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.OrgId">
+            <summary>
+            组织机构
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.Name">
+            <summary>
+            车主名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.Address">
+            <summary>
+            地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.Phone">
+            <summary>
+            移动电话
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.Brand">
+            <summary>
+            品牌
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.PlaceNum">
+            <summary>
+            车位号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.CarType">
+            <summary>
+            车类型 1 小型车 2大型车（不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.BusinessType">
+            <summary>
+            停車類型 （不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.BeginTime">
+            <summary>
+            有效起始时间 （不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.EndTime">
+            <summary>
+            截止时间 （不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.Remark">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.BlackWhite">
+            <summary>
+            黑白标识 1：白名单 2：黑名单 （不能为空）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.FixCarRequest.CreateId">
+            <summary>
+            操作者 （不能为空）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.ParkId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.TotalNum">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.TemporaryNum">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.FixNum">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.InTraffic">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.OutTraffic">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.SystemHeart">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.SystemDescribe">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.EquipmentHeart">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.HeartbeatInfo.EquipmentDescribe">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.RecordId">
+            <summary>
+            记录编号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.ParkId">
+            <summary>
+            停车场ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.LMemberId">
+            <summary>
+            固定车编号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InDate">
+            <summary>
+            入場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InNum">
+            <summary>
+            入口号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InPlateImg">
+            <summary>
+            车身图片
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.PlateColor">
+            <summary>
+            车牌颜色
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.CarColor">
+            <summary>
+            车颜色
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.PlateType">
+            <summary>
+            车牌类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InDiscern">
+            <summary>
+            可以度
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InDiscernPlate">
+            <summary>
+            识别车牌
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.InAffirmPlate">
+            <summary>
+            确认车牌
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.CardNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.PArea">
+            <summary>
+            停车区域
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.CarType">
+            <summary>
+            车型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.InRecord.BusinessType">
+            <summary>
+            停車類型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest.plateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest.recordId">
+            <summary>
+            停车记录id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest.integralMoney">
+            <summary>
+            兑换金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest.integralTime">
+            <summary>
+            兑换时间（单位：分鐘）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.IntegralRequest.orderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.MicroOrderInfo">
+            <summary>
+            扫描枪扫描支付码
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.plateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.recordId">
+            <summary>
+            停车记录id号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.payType">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.payable">
+            <summary>
+            支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.payTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.orderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.MobilePayRequest.payWay">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord">
+            <summary>
+            入场记录上传
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.ParkId">
+            <summary>
+            车场id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.RecordId">
+            <summary>
+            停车记录id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.LMemberId">
+            <summary>
+            固定车id号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InDate">
+            <summary>
+            入場時間
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InNum">
+            <summary>
+            入口号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InPlateImg">
+            <summary>
+            车牌图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.PlateColor">
+            <summary>
+            车牌颜色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.CarColor">
+            <summary>
+            车颜色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.PlateType">
+            <summary>
+            车牌类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InDiscern">
+            <summary>
+            车牌可信度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InDiscernPlate">
+            <summary>
+            识别车牌号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.InAffirmPlate">
+            <summary>
+            校正车牌号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.Remark">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.AreaName">
+            <summary>
+            区域名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.BusinessType">
+            <summary>
+            停車類型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.NInRecord.CarType">
+            <summary>
+            车辆类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord">
+            <summary>
+            出场记录信息
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.RecordId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.ParkId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.LMemberId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.CardNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.PArea">
+            <summary>
+            停车区域
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.BusinessType">
+            <summary>
+            停車類型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OutDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OutNum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OutDiscernPlate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OutAffirmPlate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.PlateSimilar">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OutPlateImg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.CarType">
+            <summary>
+            1 小型车 2 大型车
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.BMoney">
+            <summary>
+            大型车车应付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.Smoney">
+            <summary>
+            小型车应付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.CashMoney">
+            <summary>
+            現金支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.MobileMoney">
+            <summary>
+            移动支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.TerminalMoney">
+            <summary>
+            终端设备支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.VipMoney">
+            <summary>
+            vip支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.PayDate">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.DiscountsMoney">
+            <summary>
+            電子优惠
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.FreeDiscount">
+            <summary>
+            优免金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.Status">
+            <summary>
+            停车状态
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.PayStatus">
+            <summary>
+            支付状态
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OperateId">
+            <summary>
+            最后操作人
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecord.OperateTime">
+            <summary>
+            最后操作时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.ParkId">
+            <summary>
+            车场ID
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.RecordId">
+            <summary>
+            停车记录id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.LMemberId">
+            <summary>
+            固定车id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.BusinessType">
+            <summary>
+            停車類型明细
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.CarType">
+            <summary>
+            车辆类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OutDate">
+            <summary>
+            出場時間
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OutNum">
+            <summary>
+            出口号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OutDiscernPlate">
+            <summary>
+            出口识别车牌号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OutAffirmPlate">
+            <summary>
+            出口确认车牌号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.PlateSimilar">
+            <summary>
+            出入口车牌相似度
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OutPlateImg">
+            <summary>
+            出口车牌图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.Accounts">
+            <summary>
+            應收金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.CashMoney">
+            <summary>
+            現金支付金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.MobileMoney">
+            <summary>
+            移动支付金額
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.ElectronicMoney">
+            <summary>
+            电子优惠金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.ElectronicActual">
+            <summary>
+            电子实际优惠金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.FreeMoney">
+            <summary>
+            优免金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.PayDate">
+            <summary>
+            支付时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.ORemark">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OperateId">
+            <summary>
+            操作者
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutRecordInfo.OperateTime">
+            <summary>
+            操作时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutScanrecord.ParkId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutScanrecord.RecordId">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutScanrecord.PlateNo">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutScanrecord.Channel">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.OutScanrecord.Accounts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.ParkId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.BeginDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.EndDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.DataType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.DataTypeName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.Money">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.Count">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordSummary.CreateDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay">
+            <summary>
+            支付记录信息
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.ParkId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.PayMoney">
+            <summary>
+            支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.TimeNum">
+            <summary>
+            优惠小时数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.FreeNum">
+            <summary>
+            优惠卷张数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.PayType">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.FreeDescribe">
+            <summary>
+            优免类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.OrderNo">
+            <summary>
+            支付订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.CreateName">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.PayTime">
+            <summary>
+            支付时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.ParkingRecordPay.Remark">
+            <summary>
+            支付备注
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.ParkId">
+            <summary>
+            车场id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.RecordId">
+            <summary>
+            停车记录id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.TerminalName">
+            <summary>
+            客户端名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.OrderNo">
+            <summary>
+            订单号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.MemberId">
+            <summary>
+            固定车id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.PayMoney">
+            <summary>
+            支付金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.PayType">
+            <summary>
+            支付方式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.FreeDescribe">
+            <summary>
+            优免描述
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.PayTime">
+            <summary>
+            支付时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.Remark">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.TimeNum">
+            <summary>
+            电子优惠时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.FreeNum">
+            <summary>
+            优免券张数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.OperateId">
+            <summary>
+            操作人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.OperateTime">
+            <summary>
+            操作时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PayRecordInfo.OrgName">
+            <summary>
+            商户名字
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.PImageInfo">
+            <summary>
+            出入口车牌图片
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PlateCorrectionRecord.RecordId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PlateCorrectionRecord.ParkId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.PlateCorrectionRecord.PlateNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation">
+            <summary>
+            对账记录上传
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.RecordId">
+            <summary>
+            停车记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.ParkId">
+            <summary>
+            停车场ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.PaymentType">
+            <summary>
+            支付渠道类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.ChannelOrderNo">
+            <summary>
+            支付渠道流水号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.CreateDatetime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.PaymentAmount">
+            <summary>
+            实际支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.CouponCode">
+            <summary>
+            优费卷号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.Memo">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.CouponDuration">
+            <summary>
+            优惠时常
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.TradingDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.Reconciliation.ProductName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.ParkId">
+            <summary>
+            车场ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.Date">
+            <summary>
+            統計日期
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.BeginDate">
+            <summary>
+            开始时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.EndDate">
+            <summary>
+            截止时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.OperateType">
+            <summary>
+            操作类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.DataType">
+            <summary>
+            数据类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.DataTypeName">
+            <summary>
+            数据类型名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.Amount">
+            <summary>
+            金額
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.Count">
+            <summary>
+            笔数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.OperateName">
+            <summary>
+            操作人
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.Abstract">
+            <summary>
+            备注
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.RecordsummaryInfo.CreateDate">
+            <summary>
+            创建时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo">
+            <summary>
+            電子签单信息记录表
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.FreeId">
+            <summary>
+            优免类型id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.OrderNo">
+            <summary>
+            订单号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.PlateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.CompanyName">
+            <summary>
+            公司名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.VisitingName">
+            <summary>
+            访问者名字
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.Phone">
+            <summary>
+            移动电话
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.Reason">
+            <summary>
+            免费原有
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.VisitingTime">
+            <summary>
+            访问时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.AuditName">
+            <summary>
+            审核人
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.SignbillRecordInfo.AuditTime">
+            <summary>
+            审核时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.plateNo">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.recordId">
+            <summary>
+            记录id
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.couponType">
+            <summary>
+            优惠券类型
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.couponMoney">
+            <summary>
+            优惠金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.couponTime">
+            <summary>
+            优惠时间（单位：分鐘）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.couponId">
+            <summary>
+            券号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Clound.VouchersRequest.storeName">
+            <summary>
+            商户名字
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.EVSE.QueryChargingFeeInput">
+            <summary>
+            查詢充電記錄的輸入
+            <param>identifier</param> 車牌或是車格號 / 樁號
+            <param>identifierType</param> int 識別種類
+            <param>identifierCheckInAt</param> 識別入場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.CLIENT_ID">
+            <summary>
+            客戶端ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.FUNCTION">
+            <summary>
+            請求的方法
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.FLAG_ID">
+            <summary>
+            車位號或者通道號
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.REPLY">
+            <summary>
+            執行結果
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.ERROR_MESSAGE">
+            <summary>
+            錯誤描述
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.AVAILABLE_SPACE">
+            <summary>
+            可使用空車位
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.CurrencyContent.USER_COUNT">
+            <summary>
+            自定義
+            </summary>
+        </member>
+        <member name="F:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.Execute.UP">
+            <summary>
+            上升
+            </summary>
+        </member>
+        <member name="F:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.Execute.DOWN">
+            <summary>
+            下降
+            </summary>
+        </member>
+        <member name="F:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.Execute.STATUS">
+            <summary>
+            狀態
+            </summary>
+        </member>
+        <member name="F:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.Execute.UP_IN">
+            <summary>
+            ⾞擋板已上升, 處於進場計費狀態
+            </summary>
+        </member>
+        <member name="F:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.Execute.DOWN_OUT">
+            <summary>
+            已繳費並且擋板已下降
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.FLAG_ID">
+            <summary>
+            ⾞擋板編號
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.STATUS">
+            <summary>
+            UP=⾞擋板已上升, DOWN=⾞擋板已下降, UP_IN=⾞擋板已上升, 處於進場計費狀態, DOWN_OUT=已繳費並且擋板已下降
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.UP_IN_DATETIME">
+            <summary>
+            // 進場時間 (暫存在 RAM 裡，斷電或軟體重啟後為『空字串』)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.CAR_DETECTED">
+            <summary>
+            YES=有⾞,NO=沒⾞
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.UP_DELAY_TIME">
+            <summary>
+            上升時間延遲 (⾞輛進場後, 延遲多少秒後, ⾃動將檔板上升)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.DOWN_DELAY_TIME">
+            <summary>
+            下降時間延遲 (如無特殊需求請輸入3)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.FloorLock.LockStateContent.RE_UP_DELAY_TIME">
+            <summary>
+            繳費後離場的寬容時間. 繳費後⾞板下降, 但⾞輛未離場, ⾃動重新上升的延遲時間
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.Billinfos">
+            <summary>
+            发票信息下载
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.ConfigInfo">
+            <summary>
+            配置参数信息
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.InvoiceInfo">
+            <summary>
+            发票信息返回
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.InvoiceRequest">
+            <summary>
+            发票开具请求
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.LocationInfo">
+            <summary>
+            车辆车位号信息
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.LocationRequset">
+            <summary>
+            车辆位置请求查询地址
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Highway.NotifyInfo">
+            <summary>
+            服务注册信息
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.Highway.NotifyInfo.urlType">
+            <summary>
+            1 缴费信息查询接口 2 支付接口 3 发票开具请求 4 场内寻车接口
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.Invoice.InvoiceNoRequest">
+            <summary>
+            pos机发票取号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.IdentifyResult.channel">
+            <summary>
+            通道号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.IdentifyResult.deviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.IdentifyResult.ipaddr">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.IdentifyResult.result">
+            <summary>
+            识别结果
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.IdentifyResult.serialno">
+            <summary>
+            设备序列号
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.bright">
+            <summary>
+            预留
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.carBright">
+            <summary>
+            车身亮度
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.carColor">
+            <summary>
+            车身颜色
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.colorType">
+            <summary>
+            车牌颜色
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.colorValue">
+            <summary>
+            预留
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.confidence">
+            <summary>
+            可信度
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.direction">
+            <summary>
+            车运动方向
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.imageFile">
+            <summary>
+            大图片文件
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.imageFileLen">
+            <summary>
+            图片大小
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.imageFragmentFile">
+            <summary>
+            车牌小图片文件
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.imageFragmentFileLen">
+            <summary>
+            车牌图片大小
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.license">
+            <summary>
+            車牌號碼
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.location">
+            <summary>
+            车牌图片的位置
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.timeStamp">
+             <summary>
+            识别结果对应帧的时间戳
+             </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.timeUsed">
+            <summary>
+            识别时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.triggerType">
+            <summary>
+            触发方式：1：自动触发类型、2：外部输入触发（IO 输入）、4：软件触发（SDK）、8：虚拟线圈触发
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.RCamera.PlateResultInfo.type">
+            <summary>
+            车牌类型
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessBillQueryInfo">
+            <summary>
+             查詢在停車場內停車查詢費用的 API
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessBillQueryResultInfo">
+            <summary>
+            查詢在停車場內停車查詢費用的 API，返回相關費用结果信息
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessNotifyRequestInfo">
+            <summary>
+            車輛入場通知(车场-》停车平台)
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessNotifyResultInfo">
+            <summary>
+            車輛入場通知，返回结果
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessPayInfo">
+            <summary>
+            車輛場內繳費通知
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessQueryRequestInfo">
+            <summary>
+            查詢進場的車號是否已經有進行約定綁定扣款服務
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessQueryResultInfo">
+            <summary>
+            查詢進場的車號是否已經有進行約定綁定扣款服務,返回结果信息
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessRefundRequestInfo">
+            <summary>
+            停車場業者即時退款
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CardlessRefundResultInfo">
+            <summary>
+            停車場業者即時退款,返回结果
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.inTime">
+            <summary>
+            入場時間
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.recordId">
+            <summary>
+            本地记录ID
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.calculateTime">
+            <summary>
+            系統計费时间
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.amount">
+            <summary>
+            应付总金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.discount">
+            <summary>
+            已优费金額（電子卷金額）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.paid">
+            <summary>
+            已支付金額（支付实际金額,不包括電子卷费用和本地优免费用）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.payable">
+            <summary>
+            待支付金額
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.serviceDuration">
+            <summary>
+            服务总时常
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.facilityDuration">
+            <summary>
+            支付免费出場時間(移动付費完成以后多久出场)
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.ChargeCalculate.plateNo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.CommResult`1">
+            <summary>
+            公共返回信息类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.InvoiceServiceNotifyRequestInfo">
+            <summary>
+            停車場業者發票開立通知请求
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.InvoiceServiceNotifyResultInfo">
+            <summary>
+            停車場業者發票開立通知请求，返回结果
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.InvoiceServiceQueryRequestInfo">
+            <summary>
+            停車場業者發票開立通知请求
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.InvoiceServiceQueryResultInfo">
+            <summary>
+            停車場業者發票開立通知,返回结果
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.PayBillNoticeRequestInfo">
+            <summary>
+            发起支付扣款请求信息（车场-》支付平台）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.LocalInterface.Models.TWPay.PayBillNoticeRequestInfo.CustomNo">
+            <summary>
+            缴费编号（订单号）
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.PayBillNoticeResultInfo">
+            <summary>
+            发起支付扣款请求返回结果（车场-》支付平台）
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Areas.LocalInterface.Models.TWPay.PayBillResultQueryRequestInfo">
+            <summary>
+            支付结果查询请求
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PBusiness.Controllers.CarInfoController.UploadAvatar">
+            <summary>
+            导入数据方法一
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PBusiness.Controllers.CarInfoController.UploadAvatarExcel">
+            <summary>
+            导入数据方法二
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PBusiness.Controllers.CarInfoController.ImportXlsToData(System.String)">
+            <summary>
+            方法一
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PBusiness.Controllers.CarInfoController.ImportXlsToList(System.String)">
+            <summary>
+            方法二
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PConfig.Controllers.ChannelController.GetLaneConfig">
+            <summary>
+            取得通道配置 (整合 Device 以及 Channel (Lane) )
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.PConfig.Controllers.LedContentController.GetLedType(System.String)">
+            <summary>
+            返回led显示的类型
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.AggregateController.RecordList(System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            明细记录信息
+            </summary>
+            <param name="page"></param>
+            <param name="limit"></param>
+            <param name="typeId"></param>
+            <param name="type"></param>
+            <param name="operateName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.InRecordController.PreferentialForm(Elight.WebUI.Areas.Report.Models.PreferentialInfo)">
+            <summary>
+            服務台優惠處理
+            </summary>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.InRecordController.#ctor">
+            <summary>
+            对象实例化
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.InRecordController.TemporaryFixSum">
+            <summary>
+            統計在场车辆临时车,固定车数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.ReconciliationController.GetUrlAddress">
+            <summary>
+            云端移动对账信息表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.SharedOrgController.GetParkingRecord">
+            <summary>
+            获取共享车位的车辆记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.OutRecordController.ZPaySummary(System.String,System.String,System.String,System.String)">
+            <summary>
+            中央收費记录表合计
+            </summary>
+            <param name="Btime"></param>
+            <param name="Etime"></param>
+            <param name="plateNo"></param>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.OutRecordController.DutyPaySummary(System.String,System.String,System.String,System.String)">
+            <summary>
+            岗亭记录表合计
+            </summary>
+            <param name="Bouttime"></param>
+            <param name="Eouttime"></param>
+            <param name="plateNo"></param>
+            <param name="userName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.OutRecordController.OutParkingSummary(System.String,System.String,System.String,System.String)">
+            <summary>
+            停车数据汇总
+            </summary>
+            <param name="Btime"></param>
+            <param name="Etime"></param>
+            <param name="SearchType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Areas.Report.Controllers.SignBillController.GetUrlAddress">
+            <summary>
+            云端電子签单信息记录表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.AggregateInfo.TypeId">
+            <summary>
+            1 现金 2 支付方式 3 优免类型 4 未离场操作 5 出口免费开闸 99 代表车流量
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.ChargeSummaryInfo.PayName">
+            <summary>
+            支付方式
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.ChargeSummaryInfo.Num">
+            <summary>
+            总車次數
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.ChargeSummaryInfo.ChargeNum">
+            <summary>
+            临停数（繳費次數）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.ChargeSummaryInfo.SumTime">
+            <summary>
+            停留总时长
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.OutRecordSummary.settlementCost">
+            <summary>
+            電子卷实际结算金額（代金卷金額）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.OutRecordSummary.Num">
+            <summary>
+            总車次數
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.OutRecordSummary.TemporaryNum">
+            <summary>
+            临停数（繳費次數）
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.OutRecordSummary.FixNum">
+            <summary>
+            固定数
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Areas.Report.Models.OutRecordSummary.SumTime">
+            <summary>
+            停留总时长
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.Login">
+            <summary>
+            登陆頁面视图。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.VerifyCode">
+            <summary>
+            获取验证码图片。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.Login(System.String,System.String,System.String)">
+            <summary>
+            提交登陆信息。
+            </summary>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <param name="verifycode">验证码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.Exit">
+            <summary>
+            安全退出系统。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.Lock">
+            <summary>
+            锁定登陆用户。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.Unlock(System.String,System.String)">
+            <summary>
+            解锁登陆用户。
+            </summary>
+            <param name="username">用户名</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.InfoCard">
+            <summary>
+            账户管理视图。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.InfoCard(Elight.Entity.Sys.SysUser)">
+            <summary>
+            更新用户基础资料。
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.UploadAvatar">
+            <summary>
+            上传头像。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.ModifyPwd">
+            <summary>
+            加载修改密码界面视图。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.Controllers.AccountController.ModifyPwd(System.String,System.String,System.String)">
+            <summary>
+            修改密码。
+            </summary>
+            <param name="oldPassword">旧密码</param>
+            <param name="newPassword">新密码</param>
+            <param name="confirmPassword">确认密码</param>
+            <returns></returns>
+        </member>
+        <member name="T:Elight.WebUI.Controllers.BaseController">
+            <summary>
+            控制器基类。
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Filters.AuthorizeCheckedAttribute">
+            <summary>
+            表示一个特性，该特性用于标识用户是否有访问权限。
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Filters.AuthorizeCheckedAttribute.Ignore">
+            <summary>
+            是否忽略权限检查。
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Filters.ErrorCheckedAttribute">
+            <summary>
+            表示一个特性，该特性用于捕获程序运行异常。
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Filters.LoginCheckedAttribute">
+            <summary>
+            表示一个特性，该特性用于标识用户是否需要登陆。
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Filters.RequsetValidAttribute">
+            <summary>
+            注册一个拦截器，验证数据的有效性
+            </summary>
+        </member>
+        <member name="T:Elight.WebUI.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:Elight.WebUI.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.ConfigComon.GetWeekEnglisInfo(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="Cycle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.GetImgFileName(System.String@)">
+            <summary>
+            上传车牌图片文件夹名字
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.DownloadIOData(System.String,System.String,System.String)">
+            <summary>
+            图片流转换成图片
+            </summary>
+            <param name="PlateName"></param>
+            <param name="Base64Imge"></param>
+            <param name="FilePathName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.InterceptionImg(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            截取图片
+            </summary>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.InOutImgSmaller(System.String,System.String,System.String)">
+            <summary>
+            图片缩小
+            </summary>
+            <param name="FilePath"></param>
+            <param name="PlateName"></param>
+            <param name="FilePathName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.WriteConfig(System.String)">
+            <summary>
+            配置文件写入
+            </summary>
+            <param name="strXml"></param>
+        </member>
+        <member name="M:Elight.WebUI.WebUtil.UtilCommon.GetFirstEndDayOfWeek(System.Int32,System.Int32)">
+            <summary>
+            根据一年中的第几周获取该周的开始日期与结束日期
+            </summary>
+            <param name="year"></param>
+            <param name="weekNumber"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:StreamController.GetStreamConfig">
+            <returns></returns>
+            
+        </member>
+        <member name="T:Config">
+            <summary>
+            Config 的摘要说明
+            </summary>
+        </member>
+        <member name="T:ConfigHandler">
+            <summary>
+            Config 的摘要说明
+            </summary>
+        </member>
+        <member name="T:CrawlerHandler">
+            <summary>
+            Crawler 的摘要说明
+            </summary>
+        </member>
+        <member name="T:Handler">
+            <summary>
+            Handler 的摘要说明
+            </summary>
+        </member>
+        <member name="T:ListFileManager">
+            <summary>
+            FileManager 的摘要说明
+            </summary>
+        </member>
+        <member name="T:NotSupportedHandler">
+            <summary>
+            NotSupportedHandler 的摘要说明
+            </summary>
+        </member>
+        <member name="T:PathFormatter">
+            <summary>
+            PathFormater 的摘要说明
+            </summary>
+        </member>
+        <member name="T:UploadHandler">
+            <summary>
+            UploadHandler 的摘要说明
+            </summary>
+        </member>
+        <member name="P:UploadConfig.PathFormat">
+            <summary>
+            文件命名规则
+            </summary>
+        </member>
+        <member name="P:UploadConfig.UploadFieldName">
+            <summary>
+            上传表单域名称
+            </summary>
+        </member>
+        <member name="P:UploadConfig.SizeLimit">
+            <summary>
+            上传大小限制
+            </summary>
+        </member>
+        <member name="P:UploadConfig.AllowExtensions">
+            <summary>
+            上传允许的文件格式
+            </summary>
+        </member>
+        <member name="P:UploadConfig.Base64">
+            <summary>
+            文件是否以 Base64 的形式上传
+            </summary>
+        </member>
+        <member name="P:UploadConfig.Base64Filename">
+            <summary>
+            Base64 字符串所表示的文件名
+            </summary>
+        </member>
+        <member name="M:QingDai.WebUI.Controllers.HomeController.Index">
+            <summary>
+            后台首頁视图。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QingDai.WebUI.Controllers.HomeController.Default">
+            <summary>
+            默认显示视图。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QingDai.WebUI.Controllers.HomeController.GetLeftMenu">
+            <summary>
+            获取左侧菜单。
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:QingDai.WebUI.Controllers.HomeController.GetPermission">
+            <summary>
+            获取登录用户权限。
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

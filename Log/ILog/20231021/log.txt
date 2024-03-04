@@ -1,0 +1,312 @@
+﻿2023-10-21 17:56:53 989:  GetOptimalFree ....
+2023-10-21 17:56:54 012:  取得當前使用者 => admin
+2023-10-21 17:58:42 622:  Camera:192.168.1.100_NN2242
+2023-10-21 17:58:42 683:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 17:58:42 712:  NN2242 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 17:58:42 718:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-21 17:58:42 761:  發送入口字幕機 : 入口相机_5_NN2242_True_1_1_2023102117584276119
+2023-10-21 17:58:42 762:  發送入口字幕機 TriggerType : 8
+2023-10-21 17:58:42 762:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 17:58:42 784:  進入計算車位流程 / BusinessType = 1
+2023-10-21 17:58:42 885:  臨停月租[分開]加減模式 / 原始[臨停]車位 71 => 更新[臨停]車位 70 / 當前總車位 [臨停 + 月租] 130 
+2023-10-21 17:58:42 885:  總剩餘車位數 : 130 / 類型：臨停
+2023-10-21 17:58:42 904:  入口車道 / 車牌辨識 : NN2242 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 17:58:42 909:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 17:58:42 909:  Return:NN2242_ok
+2023-10-21 18:00:28 287:  Camera:192.168.1.100_NN2242
+2023-10-21 18:00:28 303:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 18:00:28 317:  NN2242 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 18:00:28 318:  NN2242 => 繳費機模式 [1]
+2023-10-21 18:00:28 318:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-21 18:00:28 318:  NN2242 => 並非無車牌
+2023-10-21 18:00:28 318:  NN2242 => 通道 : 6
+2023-10-21 18:00:28 328:  NN2242 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 05:58:43
+2023-10-21 18:00:28 522:  NN2242 繳費時間 
+2023-10-21 18:00:28 523:  NN2242 / 尚需繳清費用 100 元
+2023-10-21 18:00:28 523:  NN2242 => 開門旗標 = False
+2023-10-21 18:00:28 565:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_NN2242_100_1_6_2023/10/21 下午 05:58:43_2023/10/21 下午 06:00:28_2_其他測試 出口_b2c73fe5a0cf44c482b20521d90c38cf_3_192.168.1.182_8011_False__1_4822036125276697675_2023102118002856487
+2023-10-21 18:00:28 572:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 18:00:28 578:  Return:NN2242_No
+2023-10-21 18:02:02 544:  Camera:192.168.1.100_NN2242
+2023-10-21 18:02:02 563:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 18:02:02 564:  NN2242 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 18:02:02 564:  NN2242 => 繳費機模式 [1]
+2023-10-21 18:02:02 564:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-21 18:02:02 564:  NN2242 => 並非無車牌
+2023-10-21 18:02:02 565:  NN2242 => 通道 : 6
+2023-10-21 18:02:02 569:  NN2242 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 05:58:43
+2023-10-21 18:02:02 604:  NN2242 繳費時間 
+2023-10-21 18:02:02 604:  NN2242 / 尚需繳清費用 100 元
+2023-10-21 18:02:02 604:  NN2242 => 開門旗標 = False
+2023-10-21 18:02:02 620:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_NN2242_100_1_6_2023/10/21 下午 05:58:43_2023/10/21 下午 06:02:02_2_其他測試 出口_0d1ecc78b1e24fbe8840935cf7d395b7_3_192.168.1.182_8011_False__1_4822036125276697675_2023102118020262000
+2023-10-21 18:02:02 624:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 18:02:02 628:  Return:NN2242_No
+2023-10-21 18:03:20 345:  GetOptimalFree ....
+2023-10-21 18:03:20 351:  取得當前使用者 => admin
+2023-10-21 18:03:26 959:  mode.DiscountLimitType => DiscountedDuration
+2023-10-21 18:03:26 960:  mode.DiscountMaxValue => 120
+2023-10-21 18:03:26 991:  mode.RelatedLimitID => 9
+2023-10-21 18:03:26 996:  DiscountRecord Len => 0
+2023-10-21 18:03:26 997:  AfterDiscountRecord Len => 1
+2023-10-21 18:03:30 183:  mode.DiscountLimitType => DiscountedDuration
+2023-10-21 18:03:30 184:  mode.DiscountMaxValue => 120
+2023-10-21 18:03:30 201:  mode.RelatedLimitID => 9
+2023-10-21 18:03:30 207:  DiscountRecord Len => 1
+2023-10-21 18:03:30 208:  AfterDiscountRecord Len => 2
+2023-10-21 18:03:35 116:  Camera:192.168.1.100_NN2242
+2023-10-21 18:03:35 140:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 18:03:35 141:  NN2242 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 18:03:35 141:  NN2242 => 繳費機模式 [1]
+2023-10-21 18:03:35 141:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-21 18:03:35 141:  NN2242 => 並非無車牌
+2023-10-21 18:03:35 141:  NN2242 => 通道 : 6
+2023-10-21 18:03:35 146:  NN2242 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 05:58:43
+2023-10-21 18:03:35 183:  NN2242 繳費時間 
+2023-10-21 18:03:35 184:  NN2242 / 尚需繳清費用 80 元
+2023-10-21 18:03:35 184:  NN2242 => 開門旗標 = False
+2023-10-21 18:03:35 196:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_NN2242_80_1_6_2023/10/21 下午 05:58:43_2023/10/21 下午 06:03:35_2_其他測試 出口_e9abe5f9f08e41fb973a8cfa9bd26e85_3_192.168.1.182_8011_False__1_4822036125276697675_2023102118033519608
+2023-10-21 18:03:35 204:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 18:03:35 218:  Return:NN2242_No
+2023-10-21 18:03:43 846:  mode.DiscountLimitType => SubmitTimes
+2023-10-21 18:03:43 846:  mode.DiscountMaxValue => 3
+2023-10-21 18:03:43 863:  mode.RelatedLimitID => 
+2023-10-21 18:03:43 868:  DiscountRecord Len => 2
+2023-10-21 18:03:43 868:  AfterDiscountRecord Len => 3
+2023-10-21 18:03:46 951:  Camera:192.168.1.100_NN2242
+2023-10-21 18:03:46 975:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 18:03:46 975:  NN2242 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 18:03:46 975:  NN2242 => 繳費機模式 [1]
+2023-10-21 18:03:46 976:  NN2242 => 此通道僅支援純虛擬線圈模式
+2023-10-21 18:03:46 976:  NN2242 => 並非無車牌
+2023-10-21 18:03:46 976:  NN2242 => 通道 : 6
+2023-10-21 18:03:46 983:  NN2242 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 05:58:43
+2023-10-21 18:03:47 017:  NN2242 繳費時間 
+2023-10-21 18:03:47 017:  NN2242 => 規則 - 1
+2023-10-21 18:03:47 018:  NN2242 => 開門旗標 = True
+2023-10-21 18:03:47 018:  NN2242 => 記錄閉環操作完成
+2023-10-21 18:03:47 025:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_NN2242_0_1_6_2023/10/21 下午 05:58:43_2023/10/21 下午 06:03:46_2_其他測試 出口_fcbe312263a549eaad37e40330471ea3_3_192.168.1.182_8011_True__1_4822036125276697675_2023102118034702473
+2023-10-21 18:03:47 030:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 18:03:47 038:  Return:NN2242_ok
+2023-10-21 22:36:42 793:  Camera:192.168.1.100_DD2233
+2023-10-21 22:36:42 871:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 22:36:42 916:  DD2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 22:36:42 919:  DD2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:36:43 111:  發送入口字幕機 : 入口相机_5_DD2233_True_1_1_2023102122364311098
+2023-10-21 22:36:43 112:  發送入口字幕機 TriggerType : 8
+2023-10-21 22:36:43 112:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 22:36:43 134:  進入計算車位流程 / BusinessType = 1
+2023-10-21 22:36:43 271:  臨停月租[分開]加減模式 / 原始[臨停]車位 69 => 更新[臨停]車位 68 / 當前總車位 [臨停 + 月租] 128 
+2023-10-21 22:36:43 272:  總剩餘車位數 : 128 / 類型：臨停
+2023-10-21 22:36:43 305:  入口車道 / 車牌辨識 : DD2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 22:36:43 307:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 22:36:43 307:  Return:DD2233_ok
+2023-10-21 22:36:57 355:  Camera:192.168.1.100_DD2233
+2023-10-21 22:36:57 367:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 22:36:57 383:  DD2233 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 22:36:57 383:  DD2233 => 繳費機模式 [1]
+2023-10-21 22:36:57 384:  DD2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:36:57 384:  DD2233 => 並非無車牌
+2023-10-21 22:36:57 385:  DD2233 => 通道 : 6
+2023-10-21 22:36:57 395:  DD2233 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 10:36:43
+2023-10-21 22:36:57 508:  DD2233 繳費時間 
+2023-10-21 22:36:57 509:  DD2233 => 規則 - 2
+2023-10-21 22:36:57 509:  DD2233 => 開門旗標 = True
+2023-10-21 22:36:57 510:  DD2233 => 記錄閉環操作完成
+2023-10-21 22:36:57 511:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_DD2233_0_1_6_2023/10/21 下午 10:36:43_2023/10/21 下午 10:36:57_2_其他測試 出口_655d0cf23993441e86abc9b521a0f7dc_3_192.168.1.182_8011_True__1_4817547511504067679_2023102122365751114
+2023-10-21 22:36:57 512:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 22:36:57 512:  Return:DD2233_ok
+2023-10-21 22:41:04 691:  Camera:192.168.1.100_DD2233
+2023-10-21 22:41:04 719:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 22:41:04 721:  DD2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 22:41:04 723:  DD2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:41:04 750:  發送入口字幕機 : 入口相机_5_DD2233_True_1_1_2023102122410474978
+2023-10-21 22:41:04 750:  發送入口字幕機 TriggerType : 8
+2023-10-21 22:41:04 751:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 22:41:04 771:  進入計算車位流程 / BusinessType = 1
+2023-10-21 22:41:04 806:  臨停月租[分開]加減模式 / 原始[臨停]車位 69 => 更新[臨停]車位 68 / 當前總車位 [臨停 + 月租] 128 
+2023-10-21 22:41:04 807:  總剩餘車位數 : 128 / 類型：臨停
+2023-10-21 22:41:04 823:  入口車道 / 車牌辨識 : DD2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 22:41:04 825:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 22:41:04 825:  Return:DD2233_ok
+2023-10-21 22:41:36 811:  Camera:192.168.1.100_DD2233
+2023-10-21 22:41:36 830:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 22:41:36 830:  DD2233 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 22:41:36 831:  DD2233 => 繳費機模式 [1]
+2023-10-21 22:41:36 832:  DD2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:41:36 833:  DD2233 => 並非無車牌
+2023-10-21 22:41:36 834:  DD2233 => 通道 : 6
+2023-10-21 22:41:36 841:  DD2233 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 10:41:05
+2023-10-21 22:41:36 879:  DD2233 繳費時間 
+2023-10-21 22:41:36 881:  DD2233 => 規則 - 2
+2023-10-21 22:41:36 881:  DD2233 => 開門旗標 = True
+2023-10-21 22:41:36 882:  DD2233 => 記錄閉環操作完成
+2023-10-21 22:41:36 883:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_DD2233_0_1_6_2023/10/21 下午 10:41:05_2023/10/21 下午 10:41:36_2_其他測試 出口_4991541e3b8040788e7a16e6ed35e1e0_3_192.168.1.182_8011_True__1_5616770746898286071_2023102122413688339
+2023-10-21 22:41:36 884:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 22:41:36 885:  Return:DD2233_ok
+2023-10-21 22:42:30 816:  Camera:192.168.1.100_EE2233
+2023-10-21 22:42:30 828:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 22:42:30 829:  EE2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 22:42:30 829:  EE2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:42:30 840:  發送入口字幕機 : 入口相机_5_EE2233_True_1_1_2023102122423083993
+2023-10-21 22:42:30 840:  發送入口字幕機 TriggerType : 8
+2023-10-21 22:42:30 840:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 22:42:30 847:  進入計算車位流程 / BusinessType = 1
+2023-10-21 22:42:30 859:  臨停月租[分開]加減模式 / 原始[臨停]車位 69 => 更新[臨停]車位 68 / 當前總車位 [臨停 + 月租] 128 
+2023-10-21 22:42:30 860:  總剩餘車位數 : 128 / 類型：臨停
+2023-10-21 22:42:30 867:  入口車道 / 車牌辨識 : EE2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 22:42:30 868:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 22:42:30 868:  Return:EE2233_ok
+2023-10-21 22:44:48 207:  Camera:192.168.1.100_EE2233
+2023-10-21 22:44:49 120:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 22:44:49 138:  EE2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 22:44:49 138:  EE2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:44:49 275:  發送入口字幕機 : 入口相机_5_EE2233_True_1_1_2023102122444927545
+2023-10-21 22:44:49 275:  發送入口字幕機 TriggerType : 8
+2023-10-21 22:44:49 276:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 22:44:49 306:  進入計算車位流程 / BusinessType = 1
+2023-10-21 22:44:49 476:  臨停月租[分開]加減模式 / 原始[臨停]車位 68 => 更新[臨停]車位 67 / 當前總車位 [臨停 + 月租] 127 
+2023-10-21 22:44:49 477:  總剩餘車位數 : 127 / 類型：臨停
+2023-10-21 22:44:49 505:  入口車道 / 車牌辨識 : EE2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 22:44:49 506:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 22:44:49 506:  Return:EE2233_ok
+2023-10-21 22:45:10 776:  Camera:192.168.1.100_EE2233
+2023-10-21 22:45:10 796:  ===============[離場][通道 = 6] 資料處理開始====================
+2023-10-21 22:45:10 819:  EE2233 => 本次辨識為 [虛擬線圈觸發]
+2023-10-21 22:45:10 820:  EE2233 => 繳費機模式 [1]
+2023-10-21 22:45:10 820:  EE2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 22:45:10 821:  EE2233 => 並非無車牌
+2023-10-21 22:45:10 821:  EE2233 => 通道 : 6
+2023-10-21 22:45:10 837:  EE2233 => 匹配到進場紀錄 / 進場時間 = 2023/10/21 下午 10:44:48
+2023-10-21 22:45:10 942:  EE2233 繳費時間 
+2023-10-21 22:45:10 943:  EE2233 => 規則 - 2
+2023-10-21 22:45:10 943:  EE2233 => 開門旗標 = True
+2023-10-21 22:45:10 944:  EE2233 => 記錄閉環操作完成
+2023-10-21 22:45:10 945:  發送內容至 [攝影機字幕機服務] => 出口相机_192.168.1.194_888_EE2233_0_1_6_2023/10/21 下午 10:44:48_2023/10/21 下午 10:45:10_2_其他測試 出口_5ec844f8dd3a46baa4a20a126e4cc6ab_3_192.168.1.182_8011_True__1_4617552327287830734_2023102122451094552
+2023-10-21 22:45:10 947:  ===============[離場][通道 = 6] 資料處理結束====================
+2023-10-21 22:45:10 948:  Return:EE2233_ok
+2023-10-21 23:31:46 855:  Camera:192.168.1.100_EE2233
+2023-10-21 23:31:47 824:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:31:47 825:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:47 833:  EE2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 23:31:47 833:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:47 834:  EE2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 23:31:47 834:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:47 915:  發送入口字幕機 : 入口相机_5_EE2233_True_1_1_2023102123314791511
+2023-10-21 23:31:47 915:  發送入口字幕機 TriggerType : 8
+2023-10-21 23:31:47 915:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 23:31:47 937:  進入計算車位流程 / BusinessType = 1
+2023-10-21 23:31:48 080:  臨停月租[分開]加減模式 / 原始[臨停]車位 60 => 更新[臨停]車位 59 / 當前總車位 [臨停 + 月租] 119 
+2023-10-21 23:31:48 080:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:48 080:  總剩餘車位數 : 119 / 類型：臨停
+2023-10-21 23:31:48 080:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:48 104:  入口車道 / 車牌辨識 : EE2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 23:31:48 104:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:31:48 104:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 23:31:48 104:  Return:EE2233_ok
+2023-10-21 23:33:55 734:  Camera:192.168.1.100_EE2233
+2023-10-21 23:33:56 590:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:33:56 591:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 593:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 593:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 605:  EE2233 => 本次辨識為 : 虛擬線圈觸發
+2023-10-21 23:33:56 605:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 605:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 605:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 605:  EE2233 => 此通道僅支援純虛擬線圈模式
+2023-10-21 23:33:56 606:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 606:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 606:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 753:  發送入口字幕機 : 入口相机_5_EE2233_True_1_1_2023102123335675330
+2023-10-21 23:33:56 753:  發送入口字幕機 TriggerType : 8
+2023-10-21 23:33:56 753:  發送入口字幕機 noPlateOpenType : 2
+2023-10-21 23:33:56 770:  進入計算車位流程 / BusinessType = 1
+2023-10-21 23:33:56 840:  臨停月租[分開]加減模式 / 原始[臨停]車位 59 => 更新[臨停]車位 58 / 當前總車位 [臨停 + 月租] 118 
+2023-10-21 23:33:56 841:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 841:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 842:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 842:  總剩餘車位數 : 118 / 類型：臨停
+2023-10-21 23:33:56 842:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 842:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 842:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 859:  入口車道 / 車牌辨識 : EE2233 / 入場別 : 臨停車 / 柵欄開啟
+2023-10-21 23:33:56 859:  CreateCMSDebugLog => Start
+2023-10-21 23:33:56 859:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:33:56 860:  CreateCMSDebugLog => End
+2023-10-21 23:33:56 860:  ===============[入場][通道 = 5] 資料處理結束====================
+2023-10-21 23:33:56 860:  Return:EE2233_ok
+2023-10-21 23:36:45 164:  Camera:192.168.1.100_EE2233
+2023-10-21 23:36:46 036:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:36:46 037:  CreateCMSDebugLog => Start
+2023-10-21 23:36:46 039:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:36:46 079:  NRCameraController_辨識結果Could not load file or assembly 'Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)_   於 System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   於 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   於 SqlSugar.InsertableProvider`1.SetInsertItemByEntity(Int32 i, T item, List`1 insertItem)
+   於 SqlSugar.InsertableProvider`1.Init()
+   於 SqlSugar.SqlSugarClient.CreateInsertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T insertObj)
+   於 Elight.CMS.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogRecordLogic.cs: 行 13
+   於 Elight.CMS.CMSLogger.CreateCMSDebugLog(String eventMsg, CMSLogLevel logLevel, CMSLogType logType, SolutionType solutionType, CMSGenericEventType eventType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogger.cs: 行 76
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 101
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 124
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 51
+2023-10-21 23:36:46 143:  Return:EE2233_No
+2023-10-21 23:47:43 268:  Camera:192.168.1.100_EE2233
+2023-10-21 23:47:44 309:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:47:44 310:  CreateCMSDebugLog => Start
+2023-10-21 23:47:44 312:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:47:44 372:  NRCameraController_辨識結果Could not load file or assembly 'Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)_   於 System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   於 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   於 SqlSugar.InsertableProvider`1.SetInsertItemByEntity(Int32 i, T item, List`1 insertItem)
+   於 SqlSugar.InsertableProvider`1.Init()
+   於 SqlSugar.SqlSugarClient.CreateInsertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T insertObj)
+   於 Elight.CMS.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogRecordLogic.cs: 行 13
+   於 Elight.CMS.CMSLogger.CreateCMSDebugLog(String eventMsg, CMSLogLevel logLevel, CMSLogType logType, SolutionType solutionType, CMSGenericEventType eventType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogger.cs: 行 76
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 101
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 124
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 51
+2023-10-21 23:47:44 440:  Return:EE2233_No
+2023-10-21 23:48:27 947:  Camera:192.168.1.100_EE2233
+2023-10-21 23:48:27 998:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:48:27 999:  CreateCMSDebugLog => Start
+2023-10-21 23:48:28 001:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:48:28 005:  NRCameraController_辨識結果無法載入檔案或組件 'Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' 或其相依性的其中之一。 找到的組件資訊清單定義與組件參考不符。 (發生例外狀況於 HRESULT: 0x80131040)_   於 System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   於 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   於 SqlSugar.InsertableProvider`1.SetInsertItemByEntity(Int32 i, T item, List`1 insertItem)
+   於 SqlSugar.InsertableProvider`1.Init()
+   於 SqlSugar.SqlSugarClient.CreateInsertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T insertObj)
+   於 Elight.CMS.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogRecordLogic.cs: 行 13
+   於 Elight.CMS.CMSLogger.CreateCMSDebugLog(String eventMsg, CMSLogLevel logLevel, CMSLogType logType, SolutionType solutionType, CMSGenericEventType eventType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogger.cs: 行 76
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 101
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 124
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 51
+2023-10-21 23:48:28 010:  Return:EE2233_No
+2023-10-21 23:48:39 184:  Camera:192.168.1.100_EE2233
+2023-10-21 23:48:39 213:  ===============[入場][通道 = 5] 資料處理開始====================
+2023-10-21 23:48:39 213:  CreateCMSDebugLog => Start
+2023-10-21 23:48:39 214:  Mysql str server=127.0.0.1;Database=p_parking;Uid=root;Pwd=dVIDveR&n)!7hhR&
+2023-10-21 23:48:39 216:  NRCameraController_辨識結果無法載入檔案或組件 'Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' 或其相依性的其中之一。 找到的組件資訊清單定義與組件參考不符。 (發生例外狀況於 HRESULT: 0x80131040)_   於 System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   於 System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   於 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   於 SqlSugar.InsertableProvider`1.SetInsertItemByEntity(Int32 i, T item, List`1 insertItem)
+   於 SqlSugar.InsertableProvider`1.Init()
+   於 SqlSugar.SqlSugarClient.CreateInsertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T[] insertObjs)
+   於 SqlSugar.SqlSugarClient.Insertable[T](T insertObj)
+   於 Elight.CMS.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogRecordLogic.cs: 行 13
+   於 Elight.CMS.CMSLogger.CreateCMSDebugLog(String eventMsg, CMSLogLevel logLevel, CMSLogType logType, SolutionType solutionType, CMSGenericEventType eventType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.CMS\CMSLogger.cs: 行 76
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 101
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 124
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 51
+2023-10-21 23:48:39 220:  Return:EE2233_No

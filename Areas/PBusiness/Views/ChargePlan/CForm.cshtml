@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "CForm";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<script src="~/Content/framework/js/com.js"></script>
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    <div class="layui-form-item">
+
+        <div class="layui-inline">
+            <input type="hidden" name="Id" id="Id" />
+            <label class="layui-form-label">入場時間</label>
+            <div class="layui-input-inline">
+                <input type="text" name="Btime" id="Btime" lay-verify="required" placeholder="yyyy-MM-dd HH:mm:ss" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">出場時間</label>
+            <div class="layui-input-inline">
+                <input type="text" name="Etime" id="Etime" autocomplete="off" placeholder="yyyy-MM-dd HH:mm:ss" lay-verify="required" class="layui-input" />
+            </div>
+        </div>
+
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn layui-btn-normal" type="button" id="btnCharge">計算收費</button>
+        </div>
+    </div>
+
+
+</form>
+
+<script>
+    var singleType;
+    layui.use(['form', 'laydate'], function () {
+        var form = layui.form;
+        var primaryKey = $.getQueryString("primaryKey");
+        singleType = $.getQueryString("type");
+
+        $("#Id").val(primaryKey);
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+            , value: getbeginDateTime()
+
+        });
+
+        laydate.render({
+            elem: "#Etime"
+            , type: 'datetime'
+            , value: getbeginDateTime()
+        });
+
+        $('#btnCharge').click(ChargeInfo);
+    });
+
+    function ChargeInfo() {
+        if ($("#Etime").val() != "" && $("#Btime").val() != "") {
+            var d1 = new Date($("#Btime").val().replace(/\-/g, "\/"));
+            var d2 = new Date($("#Etime").val().replace(/\-/g, "\/"));
+
+            var single = 0;
+            if (singleType)
+                single = 1;
+
+            if (d1 >= d2) {
+                layer.alert("入場時間不能大於出場時間!")
+            }
+            else {
+                $.ajax({
+                    url: '/PBusiness/ChargePlan/CFormInfo?OutTime=' + $("#Etime").val() + '&Intime=' + $("#Btime").val() + "&primaryKey=" + $("#Id").val() +"&singleType="+single
+                    , dataType: 'json'
+                    , success: function (res) {
+                        layer.alert('本次停車費用:' + res)
+                    }
+                    , error: function () {
+                        layer.alert('計算費用失败！')
+                    }
+                })
+            }
+        }
+    }
+</script>

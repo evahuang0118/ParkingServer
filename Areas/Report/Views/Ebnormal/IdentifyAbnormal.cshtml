@@ -1,0 +1,240 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>出入口记录不匹配</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style type="text/css">
+        .layui-table-cell {
+            height: auto !important;
+            white-space: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">時段範圍</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Btime" name="BIntime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Etime" name="EIntime" placeholder="" autocomplete="off" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label" style="width:120px">出入車道</label>
+                                <div class="layui-input-inline">
+                                    <select lay-ignore class="layui-input" name="Channel" lay-verify="required" id="Channel" style="width: 190px;"></select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <input type="hidden" id="localUrl" name="localUrl" value="@ViewBag.LocalUrl" />
+
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-xs" lay-event="detail">圖片查看</a>
+            </script>
+
+        
+
+            <div class="layui-row layui-col-space15">
+
+                <div class="layui-col-md12">
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-colla-item">
+
+                                <p style="color:currentColor">
+                                    1. 此報表展現的是出口未匹配到相應入場記錄的車牌號碼
+                                    <br>
+                                    2. 未匹配到記錄主要原因：1 出入口車牌識別錯誤 2 車輛入場沒有識別到
+                                    <br />
+                                    3. 此報表主要是提供給管理人員和技術人員做技術分析
+                                    <br />
+                                    4. 報表默認展示的當天數據
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+        laydate.render({
+            elem: "#Etime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+
+        });
+
+        $("#Channel").bindSelect({
+            url: "/PConfig/Channel/GetListTree"
+        });
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/Report/Ebnormal/IdentifyAbnormal',
+                where: {
+                    Btime: $("#Btime").val(),
+                    Etime: $("#Etime").val(),
+                    plateNo: $("#PlateNo").val(),
+                    Channel: $("#Channel").val(),
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                height: 'full-200',
+                cols: [[
+                    { field: 'Id', title: 'Id', hide: true },
+                    { field: 'Attachment', title: 'Attachment', hide: true },
+                    { fixed: '', width: 90, align: 'center', toolbar: '#barDemo' },
+                    { field: 'PlateNo', title: '車牌號碼' },
+                    { field: 'ChannelName', title: '出口車道' },
+                    { field: 'OperateTime', title: '識別時間' },
+                    { field: 'Remark', title: '備註' }
+                ]],
+                limits: [30, 50, 80, 100, 150, 200],
+                limit: 30,
+                page: true,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        $('#btnSearch').on("click", function () {
+            initGrid();
+        });
+
+        $("#toolbar").authorizeButton();
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.layerOpen({
+                    id: "Detail",
+                    title: "圖片查看",
+                    width: "550px",
+                    height: "450px",
+                    content: "/Report/Ebnormal/FImg?primaryKey=" + $("#localUrl").val()+data.Attachment,
+                    btn: null
+                })
+            }
+        });
+
+    });
+
+    function btn_Excel() {
+        layui.use(['layer'], function () {
+            var $ = layui.jquery
+            var layer = layui.layer
+            var excel = layui.excel
+
+            $.ajax({
+                url: '/Report/Ebnormal/IdentifyExport'
+                , dataType: 'json'
+                , success: function (res) {
+                    var data = res.data
+                    data = excel.filterExportData(data, {
+                        PlateNo: 'PlateNo'
+                        , ChannelName: 'ChannelName'
+                        , OperateTime: 'OperateTime'
+                        , Remark: 'Remark'
+
+                    })
+                    data.unshift({
+                        PlateNo: "車牌號碼",
+                        ChannelName: "出口車道",
+                        OperateTime: "識別時間",
+                        Remark: "備註"
+                    });
+                    top.LAY_EXCEL.exportExcel({
+                        sheet1: data
+                    }, '出入口未匹配記錄_' + getDateTime() + '.xlsx', 'xlsx')
+                }
+                , error: function () {
+                    layer.alert('獲取數據失败!!!')
+                }
+            })
+        })
+    }
+
+</script>
+
+

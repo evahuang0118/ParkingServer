@@ -1,0 +1,193 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+    <form id="form" class="layui-form" style="margin-top: 25px">
+        @Html.AntiForgeryToken()
+
+        <div class="layui-form-item">
+            <label class="layui-form-label label-required">設備名稱</label>
+            <div class="layui-input-inline">
+                <input type="text" name="Name" lay-verify="required" placeholder="請輸入設備名稱" autocomplete="off" class="layui-input">
+            </div>
+            <div class="layui-form-mid layui-word-aux">
+                名稱包含入口或出口等字
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">設備型號</label>
+                <div class="layui-input-inline">
+                    <input type="hidden" name="IId" />
+                    <input type="hidden" name="DeviceType" id="DeviceType" />
+                    <select lay-ignore class="select2" name="EquipmentType" lay-verify="required" style="width: 190px;" id="EquipmentType" >
+
+                    </select>
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:120px">出入類型</label>
+                <div class="layui-input-inline">
+                    <select name="InOutType" lay-verify="required">
+                        <option value="1">入口</option>
+                        <option value="2">出口</option>
+                        @*<option value="3">场内</option>*@
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">設備IP</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="IP" lay-verify="required" placeholder="輸入設備IP" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:120px">設備端口</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="Port" lay-verify="required" placeholder="輸入設備Port" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label label-required">用戶名</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="UserName" lay-verify="required" placeholder="連接設備用户名" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label label-required" style="width:120px">密碼</label>
+                <div class="layui-input-inline">
+                    <input type="password" name="PassWord" lay-verify="required" placeholder="連接設備密碼" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">設備序列號</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="SerialNumber" id="SerialNumber" placeholder="請輸入設備序列號" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">設備Mac</label>
+                <div class="layui-input-inline">
+                    <input type="password" name="Mac" placeholder="請輸入設備Mac或者發票平台的POS號" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+        </div>
+
+        @* add by steven 2023-08-28 *@
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">內網串流</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="LANStreamURL" id="LANStreamURL" placeholder="內網串流網址" cautocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">
+                    
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">外網串流</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="WANStreamURL" id="WANStreamURL" placeholder="外網串流網址" cautocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-form-mid layui-word-aux">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-inline">
+                <label class="layui-form-label">狀 態</label>
+                <div class="layui-input-inline">
+                    <input type="radio" name="State" value="1" title="是" checked />
+                    <input type="radio" name="State" value="2" title="否" />
+                </div>
+            </div>
+            <div class="layui-inline">
+                <label class="layui-form-label" style="width:120px">字幕機行數/类型</label>
+                <div class="layui-input-inline">
+                    <input type="text" name="LedNum" id="LedNum" placeholder="請輸入字幕機行數/类型" cautocomplete="off" class="layui-input">格式1/1(1：横 2：豎)
+                </div>
+                <div class="layui-form-mid layui-word-aux">
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="layui-form-item">
+            <label class="layui-form-label">備 註</label>
+            <div class="layui-input-inline" style="width: 514px;">
+                <textarea name="Remark" placeholder="請輸入內容" class="layui-textarea"></textarea>
+            </div>
+        </div>
+
+
+        <div class="layui-form-item" style="display: none">
+            <div class="layui-input-block">
+                <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+            </div>
+        </div>
+
+    </form>
+<script>
+    layui.use(['form'], function () {
+        var form = layui.form;
+        $("#EquipmentType").bindSelect({
+            url: "/PConfig/Device/GetEquipmentType?itemId=" + $.getQueryString("itemId")
+        });
+        var primaryKey = $.getQueryString("primaryKey");
+        var itemId = $.getQueryString("itemId");
+        if (primaryKey) {
+            $.ajax({
+                url: "/PConfig/Device/GetForm",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+                }
+            });
+        }
+        if (itemId) {
+            $('#DeviceType').val(itemId);
+        }
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            var val = $('#DeviceType').val();
+
+            if (val == "2" && $('#EquipmentType').val() == "0") {
+                $.layerMsg("請選擇設備型號！", "warning");
+                return false;
+            }
+            if (val == "3" && ($('#LedNum').val() == "" || $('#LedNum').val() == "0")) {
+                $.layerMsg("請輸入字幕機行数！", "warning");
+                return false;
+            }
+            if (val == "3" && $('#EquipmentType').val() == "0") {
+                $.layerMsg("請選擇設備型號！", "warning");
+                return false;
+            }
+            $.formSubmit({
+                url: "/PConfig/Device/Form",
+                data: data.field
+            });
+            return false;
+        });
+    });
+</script>

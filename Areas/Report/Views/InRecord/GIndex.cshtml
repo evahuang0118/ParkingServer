@@ -1,0 +1,195 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>场内记录报表</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+    <style>
+        .laytable-cell-1-0-5 {
+            height: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+                            <input type="hidden" name="userName" id="userName" />
+                            <div class="layui-inline">
+                                <div class="layui-input-inline">
+                                    <select name="selectNoPlate" class="layui-input" id="selectNoPlate" lay-verify="required">
+                                        <option value="0">所有車</option>
+                                        <option value="1">無牌車</option>
+                                        <option value="2">固定車</option>
+                                        <option value="3">臨停車</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">入場時段</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Intime" lay-verify="required" name="Intime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="EIntime" name="EIntime" placeholder="" lay-verify="required" autocomplete="off" />
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                                <button class="layui-btn layui-btn-normal" type="button" id="btnRefresh">刷 新</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-xs" lay-event="detail">校正車牌</a>
+            </script>
+            <script type="text/html" id="IsNew">
+                {{#  if(d.IsNew=='0'){ }}
+                未處理
+                {{#  }else{ }}
+                已處理
+                {{# } }}
+            </script>
+
+            <script type="text/html" id="IsCharge">
+                {{#  if(d.IsCharge=='1'){ }}
+                收  費
+                {{#  }else{ }} /
+
+                {{# } }}
+            </script>
+
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+    layui.config({
+        base: parent._baseUrl
+    }).use(['jquery', 'form', 'layer', 'laydate'], function () {
+        var layer = layui.layer;
+        var form = layui.form;
+        var laydate = layui.laydate;
+
+        laydate.render({
+            elem: "#Intime"
+            , type: 'datetime'
+        });
+
+        laydate.render({
+            elem: "#EIntime"
+            , type: 'datetime'
+
+        });
+
+        var userName = $.getQueryString("userName");
+        $("#userName").val(userName);
+    });
+
+    layui.use(['form', 'table'], function () {
+        var form = layui.form,
+            table = layui.table;
+
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/Report/InRecord/GIndex',
+                method: 'post',
+                cellMinWidth: 80,
+
+                where: {
+                    InTime: $("#Intime").val(),
+                    PlateNo: $("#PlateNo").val(),
+                    NoPlate: $("#selectNoPlate").val(),
+                    Etime: $("#EIntime").val(),
+                },
+                cols: [[
+                    { fixed: '',align: 'center', toolbar: '#barDemo',width: 100 },
+                    { field: 'Id', title: 'ID', hide: true },
+                    { field: 'InPlate', title: '入場車牌', style: 'color:blue' ,width: 100 },
+                    { field: 'InTime', title: '入場時間', sort: true ,width: 180 },
+                    { field: 'InChannelName', title: '入口通道' ,width: 110 },
+                    { field: 'InPlateImg', width: 170,title: '車牌圖片', templet: '<div><img style="width:160px;max-height:55px;max-width:160px" src="{{d.InPlateImg}}"></div>' },
+                    { field: 'OutTime', title: '出場時間', sort: true,width: 180  },
+                    { field: 'BusinessName', title: '停車類型', style: 'color:forestgreen',width: 100  },
+                    { field: 'IsNew', title: '處理狀態', templet: '#IsNew' ,width: 95 },
+                    { field: 'IsCharge', title: '共享車位', templet:'#IsCharge' ,width:95 },
+                    { field: 'Actual', title: '已付費', style: 'color:midnightblue' }
+                ]],
+                limits: [50, 80, 100, 150, 200],
+                limit: 50,
+                page: true,
+                done: function (res, curr, count) {
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                }
+            });
+        }
+
+        initGrid();
+
+        $('#btnSearch').on("click", function () {
+            initGrid();
+        });
+
+        $('#btnRefresh').on("click", function () {
+            window.location.reload();
+        });
+
+        table.on('tool(gridList)', function (obj) {
+            var data = obj.data;
+            if (obj.event === 'detail') {
+                $.layerOpen({
+                    id: "edit",
+                    title: "校正車牌",
+                    width: "670px",
+                    height: "480px",
+                    content: "/Report/InRecord/Form?primaryKey=" + data.Id+"&userName="+ $("#userName").val(),
+                    yes: function (iBody) {
+                        iBody.find('#btnSubmit').click();
+                        initGrid();
+                        window.location.reload();
+                    }
+                })
+            }
+        });
+    });
+</script>

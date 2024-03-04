@@ -1,0 +1,140 @@
+﻿@{
+    ViewBag.Title = "Form";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+
+<form id="form" class="layui-form" style="margin-top: 25px">
+    @Html.AntiForgeryToken()
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label" style="width:120px">車牌號碼</label>
+            <div class="layui-input-inline">
+                <input type="text" name="RenewalPlate" lay-verify="required" autocomplete="off" class="layui-input" disabled>
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label label-required" style="width:120px">有效起始時間</label>
+            <div class="layui-input-inline">
+                <input type="hidden" name="IId" id="IId" />
+                <input type="hidden" name="Id" id="Id" />
+                <input type="text" name="Btime" id="Btime" lay-verify="required" placeholder="yyyy-MM-dd HH:mm:ss" autocomplete="off" class="layui-input">
+                <input type="hidden" name="beginTime" id="beginTime" />
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+
+        <div class="layui-inline">
+            <label class="layui-form-label label-required" style="width:120px">有效结束時間</label>
+            <div class="layui-input-inline">
+                <input class="layui-input" id="Etime" lay-verify="required" name="Etime" placeholder="yyyy-MM-dd" autocomplete="off" />
+                <input type="hidden" name="endEtime" id="endEtime" />
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label  label-required" style="width:120px">金額</label>
+            <div class="layui-input-inline">
+                <input type="text" name="PaidNo" placeholder="请输入续费金額" lay-verify="required|number" autocomplete="off" value="0" class="layui-input">
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+
+        <label class="layui-form-label" style="width:120px">備  註</label>
+        <div class="layui-input-inline" style="width: 450px;">
+            <textarea name="UpdateRemark" placeholder="請輸入內容" class="layui-textarea"></textarea>
+        </div>
+
+    </div>
+
+    <div class="layui-form-item" style="display: none">
+        <div class="layui-input-block">
+            <button id="btnSubmit" class="layui-btn" lay-submit lay-filter="add">提交</button>
+        </div>
+    </div>
+
+    <blockquote class="layui-elem-quote" font-size:12px">
+        註意：1 修改時段範圍只能在原有的時段範圍內進行修改（小於之前起始時間或者大於之前結束時間,系統不允許這樣操作）<br />
+    </blockquote>
+</form>
+
+<script>
+    layui.use(['form', 'laydate'], function () {
+
+        var form = layui.form;
+        var laydate = layui.laydate;
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+
+        });
+
+        laydate.render({
+            elem: "#Etime"
+            , type: 'datetime'
+        });
+
+        var primaryKey = $.getQueryString("primaryKey");
+
+        if (primaryKey) {
+            $('#IId').val(primaryKey);
+        }
+
+        if (primaryKey) {
+            $.ajax({
+                url: "/PBusiness/Careffectivelog/GetRecord",
+                data: { primaryKey: primaryKey },
+                type: "post",
+                dataType: "json",
+                async: false,
+                success: function (data) {
+                    $("#form").formSerialize(data);
+
+                    var Etime = $("#Etime").val().replace('T', ' ');
+                    var Btime = $("#Btime").val().replace('T', ' ');
+                    $("#Btime").val(Btime);
+                    $("#Etime").val(Etime);
+
+                    $("#beginTime").val(Btime);
+                    $("#endEtime").val(Etime);
+                }
+            });
+        }
+ 
+
+        form.render();
+
+        form.on('submit(add)', function (data) {
+            if (new Date($("#beginTime").val()) > new Date($("#Btime").val())) {
+                $.layerMsg("新的起始時間不能小於之前起始時間！", "warning");
+                return false;
+            }
+
+            if (new Date($("#Etime").val()) > new Date($("#endEtime").val())) {
+                $.layerMsg("新的結束時間不能大於之前結束時間！", "warning");
+                return false;
+            }
+
+            if (new Date($("#Btime").val()) > new Date($("#Etime").val())) {
+                $.layerMsg("續費起始時間不能大於結束時間！", "warning");
+                return false;
+            }
+
+            $.formSubmit({
+                url: "/PBusiness/Careffectivelog/EForm",
+                data: data.field
+            });
+            return false;
+        });
+    });
+
+</script>
+

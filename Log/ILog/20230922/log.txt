@@ -1,0 +1,523 @@
+﻿2023-09-22 09:16:36 983:  Camera:192.168.1.101_UT1BBRW
+2023-09-22 09:16:37 583:  Return:UT1BBRW_No
+2023-09-22 09:28:26 024:  Camera:192.168.1.101_T1EEM51
+2023-09-22 09:28:27 638:  Camera:192.168.1.101_71DBF17
+2023-09-22 09:28:53 777:  Camera:192.168.1.101_VAAAP
+2023-09-22 09:28:53 796:  Camera:192.168.1.101_BE1R11
+2023-09-22 09:28:53 797:  Camera:192.168.1.101_TABB
+2023-09-22 09:28:53 799:  Camera:192.168.1.101_VAMAW
+2023-09-22 09:29:28 745:  Camera:192.168.1.101_NR1EBR
+2023-09-22 09:33:47 261:  Return:71DBF17_No
+2023-09-22 09:33:47 262:  Return:T1EEM51_No
+2023-09-22 09:33:47 264:  Return:TABB_No
+2023-09-22 09:33:47 268:  Return:VAAAP_No
+2023-09-22 09:33:47 269:  Return:VAMAW_No
+2023-09-22 09:33:47 271:  Return:BE1R11_No
+2023-09-22 09:33:47 272:  Return:NR1EBR_No
+2023-09-22 09:40:48 670:  Camera:192.168.1.101_MF1BFM
+2023-09-22 09:40:48 732:  Return:MF1BFM_No
+2023-09-22 10:01:53 709:  Camera:192.168.1.101_KAMFRN
+2023-09-22 10:01:53 772:  Return:KAMFRN_No
+2023-09-22 10:55:11 891:  Camera:192.168.1.101_PFEER
+2023-09-22 10:55:12 008:  ===============[離場]資料處理開始====================
+2023-09-22 10:55:12 020:  PFEER => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 10:55:12 021:  PFEER => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 10:55:12 056:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 10:55:14 149:  PFEER => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 10:55:14 149:  PFEER => 並非無車牌
+2023-09-22 10:55:14 149:  PFEER => 通道 : 2
+2023-09-22 10:55:14 189:  PFEER => 沒有匹配到進場紀錄
+2023-09-22 10:55:14 255:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_PFEER_0_1_2_0_0_1_出口_26871f417df242319f893a436c91986a_2__8011_False_/Images/Licences/2023922/bd14559f6cd94a62bc03c73582b2208520230922105591.jpg_1_0_2023092210551425595}
+2023-09-22 10:55:14 285:  Return:PFEER_No
+2023-09-22 11:21:05 159:  Camera:192.168.1.101_AA1BE
+2023-09-22 11:21:05 243:  ===============[離場]資料處理開始====================
+2023-09-22 11:21:05 244:  AA1BE => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 11:21:05 244:  AA1BE => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 11:21:05 245:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 11:21:07 298:  AA1BE => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 11:21:07 298:  AA1BE => 並非無車牌
+2023-09-22 11:21:07 299:  AA1BE => 通道 : 2
+2023-09-22 11:21:07 335:  AA1BE => 沒有匹配到進場紀錄
+2023-09-22 11:21:07 367:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_AA1BE_0_1_2_0_0_1_出口_2e33fdc3f9764df49deef581a4659acd_2__8011_False_/Images/Licences/2023922/bdecd73d57a8465886e862311dabcf2a20230922112120.jpg_1_0_2023092211210736701}
+2023-09-22 11:21:07 376:  Return:AA1BE_No
+2023-09-22 11:21:49 829:  Camera:192.168.1.101_MDEM51F
+2023-09-22 11:21:49 868:  ===============[離場]資料處理開始====================
+2023-09-22 11:21:49 868:  MDEM51F => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 11:21:49 868:  MDEM51F => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 11:21:49 869:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 11:21:51 911:  MDEM51F => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 11:21:51 911:  MDEM51F => 並非無車牌
+2023-09-22 11:21:51 912:  MDEM51F => 通道 : 2
+2023-09-22 11:21:51 945:  MDEM51F => 沒有匹配到進場紀錄
+2023-09-22 11:21:51 984:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_MDEM51F_0_1_2_0_0_1_出口_78224abc265b4f679d5f996b689ac0bc_2__8011_False_/Images/Licences/2023922/5e32507d2e0045558add6a9dc0335c0120230922112185.jpg_1_0_2023092211215198492}
+2023-09-22 11:21:51 993:  Return:MDEM51F_No
+2023-09-22 14:31:49 977:  Camera:192.168.1.101_TAP8MW1
+2023-09-22 14:31:50 065:  ===============[離場]資料處理開始====================
+2023-09-22 14:31:50 078:  TAP8MW1 => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 14:31:50 079:  TAP8MW1 => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 14:31:50 096:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 14:31:52 171:  TAP8MW1 => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 14:31:52 172:  TAP8MW1 => 並非無車牌
+2023-09-22 14:31:52 173:  TAP8MW1 => 通道 : 2
+2023-09-22 14:31:52 213:  TAP8MW1 => 沒有匹配到進場紀錄
+2023-09-22 14:31:52 286:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_TAP8MW1_0_1_2_0_0_1_出口_7f2710b61f6a4487b3e269aea99c9a2c_2__8011_False_/Images/Licences/2023922/1b29f159640e44a39b9147be10c4f84820230922143102.jpg_1_0_2023092214315228639}
+2023-09-22 14:31:52 334:  Return:TAP8MW1_No
+2023-09-22 15:10:14 674:  Camera:192.168.1.101_AABMN
+2023-09-22 15:10:15 269:  ===============[離場]資料處理開始====================
+2023-09-22 15:10:15 303:  AABMN => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:10:15 303:  AABMN => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:10:15 317:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:10:16 906:  Camera:192.168.1.101_A0TN
+2023-09-22 15:10:16 959:  ===============[離場]資料處理開始====================
+2023-09-22 15:10:16 960:  A0TN => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:10:16 961:  A0TN => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:10:16 961:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:10:17 391:  AABMN => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:10:17 393:  AABMN => 並非無車牌
+2023-09-22 15:10:17 393:  AABMN => 通道 : 2
+2023-09-22 15:10:17 636:  AABMN => 沒有匹配到進場紀錄
+2023-09-22 15:10:17 761:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_AABMN_0_1_2_0_0_1_出口_afe190f41b1e481dbd8a76222d5d1487_2__8011_False_/Images/Licences/2023922/8290752b5f9144d588014f5fc3f7092320230922151069.jpg_1_0_2023092215101776048}
+2023-09-22 15:10:17 783:  Return:AABMN_No
+2023-09-22 15:10:19 017:  A0TN => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:10:19 018:  A0TN => 並非無車牌
+2023-09-22 15:10:19 019:  A0TN => 通道 : 2
+2023-09-22 15:10:19 152:  A0TN => 沒有匹配到進場紀錄
+2023-09-22 15:10:19 200:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_A0TN_0_1_2_0_0_1_出口_68756b6b4afa453ab841d5f07f7c4beb_2__8011_False_/Images/Licences/2023922/b3726e3e5bfd420588f90354cbed7cd720230922151093.jpg_1_0_2023092215101919993}
+2023-09-22 15:10:19 210:  Return:A0TN_No
+2023-09-22 15:10:28 864:  Camera:192.168.1.101_AA0M
+2023-09-22 15:10:28 910:  ===============[離場]資料處理開始====================
+2023-09-22 15:10:28 911:  AA0M => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:10:28 911:  AA0M => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:10:28 912:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:10:30 955:  AA0M => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:10:30 957:  AA0M => 並非無車牌
+2023-09-22 15:10:30 958:  AA0M => 通道 : 2
+2023-09-22 15:10:30 998:  AA0M => 沒有匹配到進場紀錄
+2023-09-22 15:10:31 042:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_AA0M_0_1_2_0_0_1_出口_2e39afb43d344db18e697b2a8b8cffa2_2__8011_False_/Images/Licences/2023922/69186273d6cb43f0b99cf83d3843e96520230922151089.jpg_1_0_2023092215103104161}
+2023-09-22 15:10:31 052:  Return:AA0M_No
+2023-09-22 15:14:57 619:  Camera:192.168.1.101_WABMN61F
+2023-09-22 15:14:57 666:  ===============[離場]資料處理開始====================
+2023-09-22 15:14:57 667:  WABMN61F => 本次辨識為 [車牌觸發]
+2023-09-22 15:14:57 667:  WABMN61F => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:14:57 668:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:14:59 702:  WABMN61F => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:14:59 713:  Return:WABMN61F_No
+2023-09-22 15:15:03 695:  Camera:192.168.1.101_AA2TN
+2023-09-22 15:15:03 740:  ===============[離場]資料處理開始====================
+2023-09-22 15:15:03 740:  AA2TN => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:15:03 740:  AA2TN => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:15:03 741:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:15:05 784:  AA2TN => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:15:05 785:  AA2TN => 並非無車牌
+2023-09-22 15:15:05 785:  AA2TN => 通道 : 2
+2023-09-22 15:15:05 830:  AA2TN => 沒有匹配到進場紀錄
+2023-09-22 15:15:05 866:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_AA2TN_0_1_2_0_0_1_出口_0d269ffe320a4deab8224736c3c888d5_2__8011_False_/Images/Licences/2023922/756aad5c8a7245ce87144f9155b4987720230922151572.jpg_1_0_2023092215150586629}
+2023-09-22 15:15:05 876:  Return:AA2TN_No
+2023-09-22 15:26:26 698:  Camera:192.168.1.101_TBR0M
+2023-09-22 15:26:26 790:  ===============[離場]資料處理開始====================
+2023-09-22 15:26:26 791:  TBR0M => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:26:26 791:  TBR0M => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:26:26 792:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:26:28 826:  TBR0M => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:26:28 827:  TBR0M => 並非無車牌
+2023-09-22 15:26:28 827:  TBR0M => 通道 : 2
+2023-09-22 15:26:28 856:  TBR0M => 沒有匹配到進場紀錄
+2023-09-22 15:26:28 891:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_TBR0M_0_1_2_0_0_1_出口_32bd3496a7544b029d1653814026cf6a_2__8011_False_/Images/Licences/2023922/0862754a6ea14032a234e00ec6c8b1b320230922152672.jpg_1_0_2023092215262889135}
+2023-09-22 15:26:28 897:  Return:TBR0M_No
+2023-09-22 15:50:36 414:  Camera:192.168.1.101_A1PBRK
+2023-09-22 15:50:37 413:  ===============[離場]資料處理開始====================
+2023-09-22 15:50:37 440:  A1PBRK => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 15:50:37 442:  A1PBRK => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 15:50:37 488:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 15:50:39 625:  A1PBRK => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 15:50:39 626:  A1PBRK => 並非無車牌
+2023-09-22 15:50:39 627:  A1PBRK => 通道 : 2
+2023-09-22 15:50:39 705:  A1PBRK => 沒有匹配到進場紀錄
+2023-09-22 15:50:39 774:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_A1PBRK_0_1_2_0_0_1_出口_a2cf03f66b0d41d283006d2db86992bc_2__8011_False_/Images/Licences/2023922/20849f062b904ec7b528076bb665234820230922155046.jpg_1_0_2023092215503977412}
+2023-09-22 15:50:39 804:  Return:A1PBRK_No
+2023-09-22 16:56:32 493:  Camera:192.168.1.101_HRBF
+2023-09-22 16:56:32 914:  ===============[離場]資料處理開始====================
+2023-09-22 16:56:32 929:  HRBF => 本次辨識為 [車牌觸發]
+2023-09-22 16:56:32 930:  HRBF => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 16:56:32 946:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 16:56:35 014:  HRBF => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 16:56:35 037:  Return:HRBF_No
+2023-09-22 17:04:12 308:  Camera:192.168.1.101_T0ML
+2023-09-22 17:04:12 402:  ===============[離場]資料處理開始====================
+2023-09-22 17:04:12 402:  T0ML => 本次辨識為 [車牌觸發]
+2023-09-22 17:04:12 403:  T0ML => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 17:04:12 404:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 17:04:14 449:  T0ML => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 17:04:14 461:  Return:T0ML_No
+2023-09-22 17:05:28 848:  Camera:192.168.1.101_1AAGTM
+2023-09-22 17:05:28 896:  ===============[離場]資料處理開始====================
+2023-09-22 17:05:28 896:  1AAGTM => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 17:05:28 897:  1AAGTM => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 17:05:28 897:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 17:05:30 947:  1AAGTM => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 17:05:30 947:  1AAGTM => 並非無車牌
+2023-09-22 17:05:30 947:  1AAGTM => 通道 : 2
+2023-09-22 17:05:30 998:  1AAGTM => 沒有匹配到進場紀錄
+2023-09-22 17:05:31 065:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_1AAGTM_0_1_2_0_0_1_出口_684c2d53cfb94ae299b0d9c51687103e_2__8011_False_/Images/Licences/2023922/d23e49aaa0b144cea315fd051d0d322520230922170587.jpg_1_0_2023092217053106527}
+2023-09-22 17:05:31 076:  Return:1AAGTM_No
+2023-09-22 17:42:32 772:  Camera:192.168.1.101_ABTL
+2023-09-22 17:42:33 180:  ===============[離場]資料處理開始====================
+2023-09-22 17:42:33 183:  ABTL => 本次辨識為 [虛擬線圈觸發]
+2023-09-22 17:42:33 184:  ABTL => 此通道支援實體線圈模式，線圈模式 : 2
+2023-09-22 17:42:33 198:  取得[線圈服務]連線設定 => IP : 127.0.0.1 / Port : 9001
+2023-09-22 17:42:35 294:  ABTL => 讀取線圈服務資訊失敗，錯誤訊息 : System.AggregateException: 發生一或多項錯誤。 ---> System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   於 Elight.Bll.PRecord.ParkingRecordBll.GetLoopStatus(Int32 loopServiceID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 437
+   於 Elight.Bll.PRecord.ParkingRecordBll.OutParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32& fg) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 495
+---> (內部例外狀況 #0) System.Net.Http.HttpRequestException: 傳送要求時發生錯誤。 ---> System.Net.WebException: 無法連接至遠端伺服器 ---> System.Net.Sockets.SocketException: 無法連線，因為目標電腦拒絕連線。 127.0.0.1:9001
+   於 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   於 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   於 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 內部例外狀況堆疊追蹤的結尾 ---
+   於 System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   於 System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- 內部例外狀況堆疊追蹤的結尾 ---<---
+
+2023-09-22 17:42:35 294:  ABTL => 並非無車牌
+2023-09-22 17:42:35 296:  ABTL => 通道 : 2
+2023-09-22 17:42:35 424:  ABTL => 沒有匹配到進場紀錄
+2023-09-22 17:42:35 482:  發送內容至 [攝影機字幕機服務] => {出口相机_192.168.1.194_888_ABTL_0_1_2_0_0_1_出口_cc1bb5347da44705a71c32873fb3c494_2__8011_False_/Images/Licences/2023922/061eb5b7e3a9497883bd6ad22981356e20230922174279.jpg_1_0_2023092217423548150}
+2023-09-22 17:42:35 498:  Return:ABTL_No
+2023-09-22 20:42:38 557:  BAU5799,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:42:38 609:  CreateCMSLog Failed [Error] : MySql.Data.MySqlClient.MySqlException (0x80004005): Out of range value for column 'LaneID' at row 1
+   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.CMS.Log.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\CMS\Log\LogRecordLogic.cs: 行 20
+   於 Elight.Bll.CMS.CMSLogger.CreateCMSLog(String parkingRecordID, String chargingRecordID, BusinessType businessType, String identifier, IdentifierType identifierType, SolutionType solutionType, CMSLogType logType, CMSLogLevel logLevel, CMSGenericEventType eventType, String eventMsg, Int32 laneID, Int32 inOutType, GenericDeviceType deviceType, String deviceSerial, String deviceName) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\CMS\CMSLogger.cs: 行 66
+2023-09-22 20:42:39 784:  BAU5799,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:42:39 790:  CreateCMSLog Failed [Error] : MySql.Data.MySqlClient.MySqlException (0x80004005): Out of range value for column 'LaneID' at row 1
+   於 SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   於 SqlSugar.InsertableProvider`1.ExecuteCommand()
+   於 Elight.Logic.CMS.Log.CMSLogRecordLogic.Insert(CMSLogRecord record) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\CMS\Log\LogRecordLogic.cs: 行 20
+   於 Elight.Bll.CMS.CMSLogger.CreateCMSLog(String parkingRecordID, String chargingRecordID, BusinessType businessType, String identifier, IdentifierType identifierType, SolutionType solutionType, CMSLogType logType, CMSLogLevel logLevel, CMSGenericEventType eventType, String eventMsg, Int32 laneID, Int32 inOutType, GenericDeviceType deviceType, String deviceSerial, String deviceName) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\CMS\CMSLogger.cs: 行 66
+2023-09-22 20:44:48 849:  BAU5799,自助缴费机计费显示信息:{"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:57:41 626:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:57:49 304:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:57:54 400:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 20:59:04 052:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:03:08 793:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:09:52 987:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:11:36 507:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:15:31 888:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:20:21 367:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:38:17 913:   => 繳費機計價 : {"CashCost":null,"ChargingTime":null,"DisCount":null,"DisHoures":null,"DisNO":0,"DisTimes":null,"ElectronicCost":null,"ErrorDisId":null,"ErrorDisNum":null,"FreeCost":null,"FreeLogo":null,"Id":null,"InPlate":null,"InPlateImg":null,"InTime":null,"IsCharge":null,"MembersId":null,"MobileCost":null,"PayTime":null,"PayTotal":null,"Payment":null,"Remark":null,"SharedLogo":null,"TemporaryCost":null}
+2023-09-22 21:40:53 363:   => 繳費機計價 : {"CashCost":null,"ChargingTime":null,"DisCount":null,"DisHoures":null,"DisNO":0,"DisTimes":null,"ElectronicCost":null,"ErrorDisId":null,"ErrorDisNum":null,"FreeCost":null,"FreeLogo":null,"Id":null,"InPlate":null,"InPlateImg":null,"InTime":null,"IsCharge":null,"MembersId":null,"MobileCost":null,"PayTime":null,"PayTotal":null,"Payment":null,"Remark":null,"SharedLogo":null,"TemporaryCost":null}
+2023-09-22 21:41:02 681:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 21:41:06 997:   => 繳費機計價 : {"CashCost":null,"ChargingTime":null,"DisCount":null,"DisHoures":null,"DisNO":0,"DisTimes":null,"ElectronicCost":null,"ErrorDisId":null,"ErrorDisNum":null,"FreeCost":null,"FreeLogo":null,"Id":null,"InPlate":null,"InPlateImg":null,"InTime":null,"IsCharge":null,"MembersId":null,"MobileCost":null,"PayTime":null,"PayTotal":null,"Payment":null,"Remark":null,"SharedLogo":null,"TemporaryCost":null}
+2023-09-22 21:42:41 460:  System.InvalidOperationException: 可為 Null 的物件必須具有值。
+   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1100
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 741
+2023-09-22 21:43:50 536:  System.InvalidOperationException: 可為 Null 的物件必須具有值。
+   於 System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   於 System.Nullable`1.get_Value()
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.GetSelfHelpCalculate(InOutRecordInfo info) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 1102
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.SelfHelpCalculateCharge(String recordId) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 741
+2023-09-22 21:43:50 537:  mode.Id => 
+2023-09-22 21:46:54 841:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:18:47 823:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:23:46 414:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:24:51 695:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:25:37 823:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:25:45 587:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:27:39 686:  進入計算車位流程，BusinessType = 1
+2023-09-22 23:27:39 763:   / 當前總車位 [臨停 + 月租] 0 
+2023-09-22 23:27:39 764:  總剩餘車位數 ： 0，類型：臨停
+2023-09-22 23:52:08 994:  BAU5799 => 繳費機計價 : {"CashCost":0,"ChargingTime":null,"DisCount":0,"DisHoures":0,"DisNO":0,"DisTimes":0,"ElectronicCost":0,"ErrorDisId":"0","ErrorDisNum":"0","FreeCost":0,"FreeLogo":"0","Id":"4651985632768316615","InPlate":"BAU5799","InPlateImg":"\/Images\/Licences\/2023922\/d72524bd3f0a4932a3bbc9c7fc0d16a520230922102650.jpg","InTime":"2023-09-22 10:26:12","IsCharge":0,"MembersId":"0","MobileCost":0,"PayTime":null,"PayTotal":480,"Payment":480,"Remark":"系統二次識別開閘","SharedLogo":"0","TemporaryCost":0}
+2023-09-22 23:55:21 924:  自助缴费机收费数据:{"CarrierNO":"\/123123","CashCost":480,"ChargeRemark":"現金繳費","ClientNO":"84970677","ClientName":"APS-1","LogId":"4651985632768316615","OperateName":"系統","OrederNo":null,"PayAmount":480,"PayTime":"2023-05-17 11:11:11","PayType":1,"PlateNo":"BAU5799","TaxCode":"1234","TaxNO":"RM-123421312"}
+2023-09-22 23:57:00 503:  繳費機提交資料 :{"CarrierNO":"\/123123","CashCost":480,"ChargeRemark":"現金繳費","ClientNO":"84970677","ClientName":"APS-1","LogId":"4651985632768316615","OperateName":"系統","OrederNo":null,"PayAmount":480,"PayTime":"2023-05-17 11:11:11","PayType":1,"PlateNo":"BAU5799","TaxCode":"1234","TaxNO":"RM-123421312"}
+2023-09-22 23:57:11 638:  繳費機提交資料 :{"CarrierNO":"\/123123","CashCost":0,"ChargeRemark":"現金繳費","ClientNO":"84970677","ClientName":"APS-1","LogId":"4651985632768316615","OperateName":"系統","OrederNo":null,"PayAmount":480,"PayTime":"2023-05-17 11:11:11","PayType":1,"PlateNo":"BAU5799","TaxCode":"1234","TaxNO":"RM-123421332"}

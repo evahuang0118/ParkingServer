@@ -1,0 +1,1940 @@
+ 發生時間：2023-10-20 09:26:27.7006
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:26:27.6966
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:26:27.7006
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:26:54.2909
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:39:50.9868
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:00.2668
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:03.1432
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:22.2310
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:34.7800
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:36.4404
+             日誌級別：ERROR
+             操作帳號：6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:39.2014
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:53:39.9674
+             日誌級別：ERROR
+             操作帳號：P6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:54:14.8642
+             日誌級別：ERROR
+             操作帳號：KP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:54:53.8537
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:55:05.0169
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:55:07.3579
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:55:20.4573
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:55:52.5669
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:55:53.8486
+             日誌級別：ERROR
+             操作帳號：KP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:56:20.3343
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:56:22.8370
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:56:55.2570
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:56:58.6250
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:57:01.4780
+             日誌級別：ERROR
+             操作帳號：1KP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:57:04.3369
+             日誌級別：ERROR
+             操作帳號：1KP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:58:13.1132
+             日誌級別：ERROR
+             操作帳號：KP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:58:18.0604
+             日誌級別：ERROR
+             操作帳號：6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:58:23.1777
+             日誌級別：ERROR
+             操作帳號：6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 09:58:26.2341
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:01:49.8273
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:02:14.6051
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:03:03.1635
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:03:08.0149
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:03:11.8564
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:05:27.1906
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:07:50.2397
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:08:01.8859
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:08:05.5975
+             日誌級別：ERROR
+             操作帳號：VKP
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:11:42.2834
+             日誌級別：ERROR
+             操作帳號：VKP62
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:11:43.6686
+             日誌級別：ERROR
+             操作帳號：VK8
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:11:48.2557
+             日誌級別：ERROR
+             操作帳號：VKP6
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:11:53.4350
+             日誌級別：ERROR
+             操作帳號：XP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：English Message : Connection open error . Unable to connect to any of the specified MySQL hosts.
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Unable to connect to any of the specified MySQL hosts.._   於 SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   於 SqlSugar.QueryableProvider`1.GetData[TResult](KeyValuePair`2 sqlObj)
+   於 SqlSugar.QueryableProvider`1._ToList[TResult]()
+   於 SqlSugar.QueryableProvider`1.ToList()
+   於 Elight.Logic.PConfig.ChannelLogic.GetList() 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Logic\PConfig\ChannelLogic.cs: 行 32
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 79
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 10:38:14.4926
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2986
+
+ 發生時間：2023-10-20 10:38:14.5184
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2992
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2972
+
+ 發生時間：2023-10-20 10:38:48.2014
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2986
+
+ 發生時間：2023-10-20 10:38:48.2014
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2992
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2972
+
+ 發生時間：2023-10-20 10:39:10.0857
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2986
+
+ 發生時間：2023-10-20 10:39:10.0857
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2992
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2972
+
+ 發生時間：2023-10-20 10:55:24.7991
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 10:55:24.7825
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 10:55:24.8827
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 10:55:24.8827
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:03:48.1143
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2986
+
+ 發生時間：2023-10-20 11:03:48.1143
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2992
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2972
+
+ 發生時間：2023-10-20 11:25:49.6995
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:25:49.7095
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:25:49.7351
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:25:49.7351
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:27:31.3597
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:27:31.3597
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:27:31.3954
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:27:31.3954
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:28:00.6210
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:28:00.6230
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:28:01.9445
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:28:01.9445
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:29:48.4182
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 11:29:48.4517
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2991
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2971
+
+ 發生時間：2023-10-20 11:50:22.1647
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 11:50:22.2033
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 11:54:15.9976
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 11:54:15.9976
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 11:54:16.0382
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 11:54:16.0433
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 11:54:16.9923
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 11:54:16.9923
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 11:54:22.0657
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 11:54:22.0657
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 11:58:42.5753
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 11:58:42.5753
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 11:58:42.6053
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 11:58:42.5753
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 11:58:42.6173
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 11:58:42.6173
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 11:58:42.6173
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 11:58:42.6173
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 11:58:57.6367
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 11:58:57.6377
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 12:01:55.4832
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+
+ 發生時間：2023-10-20 12:01:55.5177
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2996
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2976
+
+ 發生時間：2023-10-20 13:07:49.8139
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+
+ 發生時間：2023-10-20 13:07:49.8399
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2996
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2976
+
+ 發生時間：2023-10-20 13:08:44.5046
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+
+ 發生時間：2023-10-20 13:08:44.5046
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2996
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2976
+
+ 發生時間：2023-10-20 13:13:32.5314
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:13:32.5314
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:13:32.5504
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:13:32.5504
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:14:35.8501
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:14:35.8501
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:14:36.6314
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:14:36.6314
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:14:49.0744
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:14:49.0764
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:15:50.3417
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:15:50.3417
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:18:47.5823
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:18:47.5823
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2988
+
+ 發生時間：2023-10-20 13:18:47.6210
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:18:47.6210
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2994
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2974
+
+ 發生時間：2023-10-20 13:21:01.8721
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 13:21:01.8631
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2985
+
+ 發生時間：2023-10-20 13:21:01.8631
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 70
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 13:21:01.9176
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 13:21:01.9176
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 13:21:01.9176
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 13:25:27.4801
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 13:25:27.4821
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 13:31:31.0119
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 13:31:31.0149
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 13:32:22.7330
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 13:32:22.7330
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 14:47:29.8947
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:29.8947
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:47:32.2712
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:32.2712
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:47:33.2291
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:33.2311
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:47:35.8918
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:35.8918
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:47:36.9171
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:36.9191
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:47:49.6702
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 14:47:49.6702
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2990
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2970
+
+ 發生時間：2023-10-20 14:57:34.6271
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2989
+
+ 發生時間：2023-10-20 14:57:34.6601
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2995
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2975
+
+ 發生時間：2023-10-20 15:17:22.7058
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2989
+
+ 發生時間：2023-10-20 15:17:22.7058
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2995
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2975
+
+ 發生時間：2023-10-20 18:31:24.7718
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:31:24.7718
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:31:24.7718
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:31:24.8544
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 18:31:24.8564
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 18:31:24.8564
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 18:31:24.7718
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:31:24.7718
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:31:24.8564
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 18:31:24.8564
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 18:32:18.1553
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2987
+
+ 發生時間：2023-10-20 18:32:18.1553
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2993
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2973
+
+ 發生時間：2023-10-20 19:09:24.9723
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:09:25.0001
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 19:15:52.0421
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:15:52.0696
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:15:52.0696
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 19:15:52.0696
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 19:21:46.3585
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。_   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 53
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 322
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 104
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 19:21:46.3585
+             日誌級別：ERROR
+             操作帳號：VKP6235
+             操作者IP：192.168.1.65
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：NRCameraController_辨識結果
+             提示訊息：找不到路徑 'c:\windows\system32\inetsrv\configs\App.xml' 的一部分。_   於 Elight.Utility.SettingOperator.SettingHelper.GetXmlFileNodeValue(String activitylevel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\SettingOperator\SettingHelper.cs: 行 53
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertParkingRecord(LicencerecogineRecord model, String[] deviceInfo, Int32 openRules, String openType, String SharedOpenRules, String FixCarRules, Int32 lazyInsertAction, Int32 lazyInsertLaneID) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 322
+   於 Elight.Bll.PRecord.ParkingRecordBll.InsertInOutRecord(LicencerecogineRecord model, String DeviceType) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 104
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.InsertOperate(IdentifyResult Identify_Result, LPRCameraModel lprCameraModel) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 118
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.NRCameraController.SIOIdentify(AlarmInfoPlateInfo AlarmInfoPlate) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\NRCameraController.cs: 行 49
+
+ 發生時間：2023-10-20 19:26:43.0636
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:26:43.0897
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 19:26:43.0636
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:26:43.0897
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+
+ 發生時間：2023-10-20 19:32:19.7837
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendClintInfo
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Utility.TSocket.SocketObj.Connection(String url, Int32 port) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Utility\TSocket\SocketObj.cs: 行 80
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2998
+
+ 發生時間：2023-10-20 19:32:19.8195
+             日誌級別：ERROR
+             操作帳號：系统
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：
+             操作模組：SendOutLedInfo_Led显示
+             提示訊息：Can't connection:192.168.1.192_   於 Elight.Bll.PRecord.ParkingRecordBll.SendClintInfo(String IP, Int32 Port, String StrInfo) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 3004
+   於 Elight.Bll.PRecord.ParkingRecordBll.SendOutLedInfo(String Info, String IP) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.Bll\PRecord\ParkingRecordBll.cs: 行 2984
+

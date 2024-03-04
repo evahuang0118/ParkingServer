@@ -1,0 +1,684 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>月租車輛管理</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+        <style type="text/css">
+            .layui-table-cell {
+                height: auto !important;
+                white-space: normal;
+            }
+            .layui-table-grid-down {
+                display : none;
+            }
+        </style>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜尋資訊</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">姓 名</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="Name" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">聯繫電話</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="Phone" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">停車類型</label>
+                                <div class="layui-input-inline">
+                                    <select lay-ignore class="layui-input" name="BusinessType" lay-verify="required" id="BusinessType" style="width: 190px;"></select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">狀 態</label>
+                                <div class="layui-input-inline">
+                                    <select class="layui-input" name="RecyclingState" id="RecyclingState" style="width: 190px;">
+                                        <option value="0">請選擇</option>
+                                        <option value="1">有 效</option>
+                                        <option value="2">無 效</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">公司機構</label>
+                                <div class="layui-input-inline">
+                                    @*<select lay-ignore class="layui-input" name="OrgId" lay-verify="required" style="width: 190px;" id="OrgId"></select>*@
+
+                                    <input type="text" id="OrgId" name="OrgId" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">黑白名單</label>
+                                <div class="layui-input-inline">
+                                    <select class="layui-input" name="BlackWhite" id="BlackWhite" style="width: 190px;">
+                                        <option value="0">請選擇</option>
+                                        <option value="1">白名單</option>
+                                        <option value="2">黑名單</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">月租種類</label>
+                                <div class="layui-input-inline">
+                                    <select lay-ignore class="layui-input" name="AverageType" lay-verify="required" id="AverageType" style="width: 190px;"></select>
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車格號</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlaceNum" name="PlaceNum" autocomplete="off" class="layui-input" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                                @*<button class="layui-btn layui-btn-normal" type="button" id="btnExcel"> 導出 Excel</button>*@
+                                <button class="layui-btn layui-btn-normal" lay-type="file" id="btnUpload">上傳文件</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+            
+            <table class="layui-hide" id="gridList" lay-filter="gridList"></table>
+            <script id="barDemo" type="text/html">
+                <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+            </script>
+
+            @* <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even=""> *@
+            @*     <thead> *@
+            @*         <tr> *@
+            @*             <th> *@
+            @*                 <input type="checkbox" lay-skin="primary"> *@
+            @*             </th> *@
+            @*             <th>車牌號碼</th> *@
+            @*             <th>姓 名</th> *@
+            @*             <th lay-data="{field:'PlaceNum', width:80, sort: true}" >車格</th> *@
+            @*             <th>公司機構</th> *@
+            @*             <th>類 型</th> *@
+            @*             <th>有效時間</th> *@
+            @*             <th>截止時間</th> *@
+            @*             <th>黑白名單</th> *@
+            @*             <th>狀 態</th> *@
+            @*         </tr> *@
+            @*     </thead> *@
+            @*     <!--内容容器--> *@
+            @*     <tbody id="content"></tbody> *@
+            @* </table> *@
+            <div id="paged"></div>
+
+            <blockquote class="layui-elem-quote">註意：如果續期操作錯誤,請先在「續期管理」菜單,選擇相應續費記錄,取消續期操作在續期操作！同樣需要取消續費有效時間,請按前面的操作！</blockquote>
+        </div>
+    </div>
+    <script src="~/Content/layui_exts/excel.js"></script>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            {{# if(item.RecyclingState==1){ }}
+            <input type="checkbox" lay-skin="primary" value="{{item.Id}}">
+            {{# } }}
+        </td>
+        <td style="color:blue">
+            <a onclick="btn_Detail('{{item.Id}}','{{item.PlateNo}}')" href="javascript:void(0)" style="color:blue" title="點擊查看明细">{{item.PlateNo}}</a>
+        </td>
+        <td>
+            {{item.Name}}
+        </td>
+
+        <td>
+            {{# if(item.PlaceNum!=null){ }} {{item.PlaceNum}}
+            {{# } }}
+        </td>
+        <td>
+
+            {{# if(item.FullName!=null){ }} {{item.FullName}}
+            {{# } }}
+        </td>
+
+        <td style="color:black">
+            {{item.BusinessName}}
+        </td>
+
+        @*<td>
+            {{# if(item.PlaceNum!=null){ }} {{item.PlaceNum}}
+            {{# } }}
+        </td>*@
+        <td style="color:forestgreen">
+            {{item.BeginTime}}
+        </td>
+
+        <td style="color:forestgreen">
+            {{item.EndTime}}
+        </td>
+        @*<td>
+            {{# if(item.ChannelType==1){ }} 本地录入
+            {{# }else if(item.ChannelType==2){ }}云端下发
+            {{# } }}
+        </td>*@
+        <td>
+            {{# if(item.BlackWhite==1){ }} 白名單
+            {{# }else if(item.BlackWhite==2){ }} <span style="color:red"> 黑名單</span>
+            {{# } }}
+        </td>
+
+        <td>
+            {{# if(item.RecyclingState==1){ }}  <span class="label label-success label-sm">有效</span>
+            {{# }else{ }} <a onclick="btnEnable('{{item.Id}}')" href="javascript:void(0)" style="color:blue" title="点击启用">
+                           <span class="label label-dark label-sm">已回收</span></a>
+            {{# } }}
+        </td>
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="11">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    
+    var initGridG;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer', 'upload', 'table'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        var upload = layui.upload;
+        var form = layui.form;
+        var table = layui.table;
+        paging = layui.paging();
+
+        $("#toolbar").authorizeButton();
+
+        $('#btnSearch').click(initGrid);
+
+        $("#BusinessType").bindSelect({
+            url: "/PBusiness/BusinessType/GetBusinessType"
+        });
+
+        $("#AverageType").bindSelect({
+            url: "/PBusiness/AverageRental/GetAverageType"
+        });
+
+        initGrid();
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#btnUpload', //绑定元素
+            method: 'post',
+            accept: 'file',
+            url: '/PBusiness/CarInfo/UploadAvatarExcel', //上传接口
+            done: function (res) {
+                //上传完毕回调
+                if (res.state == 0) {
+                    $.layerMsg(res.message);
+                }
+                else {
+                    $.layerMsg("導入數據成功！");
+                    initGrid();
+                }
+            },
+            error: function () {
+                //请求异常回调
+            }
+        });
+
+        $(document).ready(function () {
+            $(".layui-btn-group button").each(function () {
+                var obj = $(this).attr("onclick");
+                if (obj == "null") {
+                    $(this).hide();
+                }
+            });
+        });
+        function initGrid() {
+            table.render({
+                elem: '#gridList',
+                url: '/PBusiness/CarInfo/Index',
+                where: {
+                    PlateNo: $("#PlateNo").val(),
+                    Name: $("#Name").val(),
+                    Phone: $("#Phone").val(),
+                    BusinessType: $("#BusinessType").val(),
+                    state: $("#RecyclingState").val(),
+                    BlackWhite: $("#BlackWhite").val(),
+                    OrgId: $("#OrgId").val(),
+                    AverageType:$("#AverageType").val(),
+                    PlaceNum : $("#PlaceNum").val()
+                },
+                method: 'post',
+                cellMinWidth: 80,
+                height: 'full-200',
+                // totalRow: true,
+                cols: [[
+                    { field: '', width: 75, align: 'left', type: 'radio' },
+                    // { field: '', width: 60, align: 'left', toolbar: '#barDemo', fixed: 'left' },
+                    { field: 'PlateNo', width: 170, title: '車牌號碼', },
+                    { field: 'Name', width: 170, title: '姓名', },
+                    { field: 'PlaceNum', width: 100, title: '車格', sort : true,
+                        templet: function (d) { 
+                            console.log("PlaceNum => ", d)
+                           if (d.PlaceNum == null) return '';
+                           else return d.PlaceNum
+                    }},
+                    { field: 'FullName', width: 100, title: '公司',
+                        templet: function (d) { 
+                            if (d.FullName == null) return '';
+                            else return d.FullName
+                    }},
+                    { field: 'BusinessName', width: 100, title: '類型',
+                        templet: function (d) { 
+                            if (d.BusinessName == null) return '';
+                            else return d.BusinessName
+                    }},
+                    { field: 'BeginTime', width: 175, title: '有效時間',
+                        templet: function (d) { 
+                            if (d.BeginTime == null) return '';
+                            else return d.BeginTime
+                    }},
+                    { field: 'EndTime', width: 175, title: '截止時間',
+                        templet: function (d) { 
+                            if (d.EndTime == null) return '';
+                            else return d.EndTime
+                    }},
+                    { field: 'BlackWhite', width: 100, title: '黑白名單',
+                        templet: function (d) { 
+                            if (d.BlackWhite == 1) return '白名單';
+                            else if (d.BlackWhite == 2) return '黑名單';
+                            else return d.BlackWhite
+                    }},
+                    { field: 'RecyclingState', width: 100, title: '狀態',
+                        templet: function (d) { 
+                            if (d.RecyclingState == 1) return '<span class="label label-success label-sm">有效</span>'
+                            else return `<a onclick="btnEnable('${d.Id}')" href="javascript:void(0)" style="color:blue" title="點擊啟用">
+                                                                                   <span class="label label-dark label-sm">已回收</span></a>`
+                    }},
+                    // { field: 'TopUpPoints', width: 100, title: '儲值點數', fixed : 'left' },
+                    // { field: 'TopUpDurations', width: 100, title: '儲值時數', fixed : 'left' },
+                    // { field: 'PointsChange', width: 150, title: '點數變化',  templet: function (d) { return `${d.OriginalPoints} => ${d.CurrentPoints}` }},
+                    // { field: 'DurationsChange', width: 150, title: '時數變化',  templet: function (d) { return `${d.OriginalDurations} => ${d.CurrentDurations}` }},
+                    // { field: 'deviceTypeName', width: 65, title: '裝置' },
+                    // { field: 'laneName', width: 150, title: '車道' },
+                    // { field: 'chargingStartAt', width: 170, title: '充電開始'},
+                    // { field: 'chargingEndAt', width: 170, title: '充電結束'},
+                    // { field: 'PayAmount', width: 90, title: '支付金額', totalRow: true, style: 'color:blue;text-align:right', fixed: 'left', templet: function (d) { return Number(d.PayAmount).toFixed(0); } },
+                    // { field: 'TimeNum', width: 90, title: '電子優惠', totalRow: true, templet: function (d) { return Number(d.TimeNum).toFixed(0) + " 分鐘"; } },
+                    // { field: 'PayName', width: 90, title: '支付方式', style: 'color:blue' },
+                    // { field: 'Invoice', width: 150, title: '發票號碼' },
+                    // { field: 'TaxID', width: 150, title: '統編/載具' },
+                    // { field: 'VerificationCode', width: 100, title: '隨機碼' },
+                    // { field: 'PayTime', width: 170, title: '支付時間' },
+                    // { field: 'MembersId', width: 100, title: '類  型', style: 'color:blue' },
+                    // { field: 'InOutState', width: 100, title: "出入狀態", style: 'color:red' },
+                    // { field: 'CreateName', width: 150, title: '操作人' },
+                    // { field: 'CreateTime', width: 170, title: "操作時間" },
+                    @* { field: 'OrderNum', width: 170, title: "訂單號" }, *@
+                    // {
+                    //     field: 'FreeName', width: 150, title: "折扣類型",
+                    //     templet: function (d) {
+                    //         if (d.PayName.trim() == "折扣支付")
+                    //             return d.FreeName;
+                    //         else
+                    //             return "/";
+                    //     }
+                    // },
+                    // { field: 'Id', title: 'Id', hide: true },
+                    // {
+                    //     field: 'OrgId', title: '商店名稱', width: 300,
+                    //     templet: function (d) {
+                    //         // console.log(`orgid => ${d.OrgId}`)
+                    //         // console.log(`payName => ${d.PayName}`)
+                    //         if (d.PayName.trim() == "小時券" || d.PayName.trim() == "現金卷")
+                    //             return d.OrgId == null ? "" : d.OrgId;
+                    //         else if (d.PayName.trim() == "折扣支付") {
+                    //             if (d.ORemark != '')
+                    //                 return '<div><a href="javascript:void(0)" style="color:blue" onclick=ImgSearcher("' + d.ORemark + '")>' + (d.OrgId == "" ? "/" : d.OrgId) + '</a></div>';
+                    //             else
+                    //                 return d.OrgId == null ? "/" : d.OrgId;
+                    //         }
+                    //         else
+                    //             return "/";
+                    //     }
+                    // },
+                    // { fixed: '', width: 50, align: 'center', toolbar: '#barDemo' }
+                ]],
+                limits: [30, 50, 80, 100, 150, 200],
+                limit: 30,
+                page: true,
+                parseData:function(res){
+                  return {
+                        "code" : res.code, //解析接口状态
+                        "msg" : res.msg, //解析提示文本
+                        "data" : res.list //解析数据列表
+                  }
+                },
+                done: function (res, curr, count) {
+                    console.log("res = ", res)
+                    if (res.data == null || res.data.length == 0) {
+                        $('.layui-table-total').css({ display: "none" })
+
+                    }
+                    // if (res.data != null || res.data.length != 0) {
+                    //     // initGrids();
+                    // }
+                }
+            });
+            
+            
+            
+        }
+    
+        initGridG = initGrid
+    });
+
+    // function initGrid() {
+    //     paging.init({
+    //         url: '/PBusiness/CarInfo/Index',
+    //         elem: '#content',
+    //         tempElem: '#contentTpl',
+    //         openWait: true,
+    //         params: {
+    //             PlateNo: $("#PlateNo").val(),
+    //             Name: $("#Name").val(),
+    //             Phone: $("#Phone").val(),
+    //             BusinessType: $("#BusinessType").val(),
+    //             state: $("#RecyclingState").val(),
+    //             BlackWhite: $("#BlackWhite").val(),
+    //             OrgId: $("#OrgId").val(),
+    //             AverageType:$("#AverageType").val()
+    //         },
+    //         pageConfig: {
+    //             elem: 'paged',
+    //             pageSize: 30,
+    //         },
+    //         success: function () {
+    //         }
+    //     });
+    // }
+
+    function btn_add() {
+        var sm = window.matchMedia("(max-width: 768px)")
+        $.layerOpen({
+            id: "add",
+            title: "新增車輛",
+            // width: "670px",
+            width: sm.matches ? "350px" : "670px",
+            height: "600px",
+            content: "/PBusiness/CarInfo/Form",
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGrid();
+            }
+        });
+    }
+    
+    
+    // 2024-02-27 add by steven
+    function getSelectTableIds() {
+        var checkStatus = layui.table.checkStatus('gridList'); //demo 即为基础参数 id 对应的值
+        console.log(checkStatus) //获取选中行的数据即 多个行对象
+        console.log(checkStatus.data) //获取选中行的数据即 多个行对象
+        console.log('len => ', checkStatus.data.length) //获取选中行数量，可作为是否有选中行的条件
+        console.log('all => ', checkStatus.isAll ) //表格是否全选
+        var idsArray = [];
+        if (checkStatus.data.length > 0) {
+            for (var i = 0; i < checkStatus.data.length; i++) {
+                idsArray.push(checkStatus.data[i].Id);
+                console.log(checkStatus.data[i])
+            }
+            // var ids = idsArray.toString();
+            // console.log(ids);
+            // layui.layer.alert(ids);
+            // $(".layui-form-checked").removeClass('layui-form-checked')
+        }
+        return idsArray
+        // else
+        // {
+        //     layui.layer.alert("請至少選擇一行");
+        // }
+    }
+
+    function btn_edit() {
+        // var ids = $("#gridList").gridSelectedRowValue();
+        var ids = getSelectTableIds();
+        console.log('ids => ', ids)
+        if (ids.length > 1 || ids.length < 1) {
+            $.layerMsg("請勾選單條記錄修改。", "warning");
+            return;
+        }
+        
+        var sm = window.matchMedia("(max-width: 768px)")
+
+        $.layerOpen({
+            id: "edit",
+            title: "修改車輛",
+            width: sm.matches ? "350px" : "670px",
+            height: "600px",
+            content: "/PBusiness/CarInfo/Form?primaryKey=" + ids[0],
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGridG();
+            }
+        });
+    }
+
+    function btnDetail() {
+
+        // var ids = $("#gridList").gridSelectedRowValue();
+        var ids = getSelectTableIds();
+
+        if (ids.length > 1 || ids.length < 1) {
+            $.layerMsg("請勾選單條記錄", "warning");
+            return;
+        }
+        
+        var sm = window.matchMedia("(max-width: 768px)")
+        
+        console.log(`btndetail sm = ${sm}`)
+
+        $.layerOpen({
+            id: "edit",
+            title: "詳細資料",
+            // width: "1100px",
+            width: sm.matches ? "500px" : "1100px",
+            height: "650px",
+            content: "/PBusiness/CarInfo/Detail?primaryKey=" + ids[0] + "&plateNo=" + ids[1],
+            btn: null
+        });
+    }
+
+    function btn_topup() {
+        // var ids = $("#gridList").gridSelectedRowValue();
+        var ids = getSelectTableIds();
+
+        if (ids.length > 1 || ids.length < 1) {
+            $.layerMsg("請勾選單條記錄續費操作。", "warning");
+            return;
+        }
+
+        var sm = window.matchMedia("(max-width: 768px)")
+        $.layerOpen({
+            id: "edit",
+            title: "續費充值",
+            width: sm.matches ? "350px" : "750px",
+            height: "550px",
+            content: "/PBusiness/Careffectivelog/Form?primaryKey=" + ids[0],
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGridG();
+            }
+        });
+    }
+
+    function btn_Ptopup() {
+        var sm = window.matchMedia("(max-width: 768px)")
+        $.layerOpen({
+            id: "edit",
+            title: "批量續費充值",
+            width: sm.matches ? "350px" : "750px",
+            height: "570px",
+            content: "/PBusiness/Careffectivelog/PForm",
+            yes: function (iBody) {
+                iBody.find('#btnSubmit').click();
+                initGridG();
+            }
+        });
+    }
+
+    function btn_Detail(key, plateNo) {
+        
+        
+        var sm = window.matchMedia("(max-width: 768px)")
+        $.layerOpen({
+            id: "edit",
+            title: "詳細資料",
+            // width: "1100px",
+            width: sm.matches ? "500px" : "1100px",
+            height: "650px",
+            content: "/PBusiness/CarInfo/Detail?primaryKey=" + key + "&plateNo=" + plateNo,
+            btn: null
+        });
+    }
+
+    function btn_delete() {
+        // var ids = $("#gridList").gridSelectedRowValue();
+        var ids = getSelectTableIds();
+        if (ids.length < 1) {
+            $.layerMsg("請勾選需要刪除的選項！", "warning");
+            return;
+        }
+        $.layerConfirm({
+            content: "您確定要刪除嗎?請慎重操作！！！",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PBusiness/CarInfo/Delete',
+                    data: { primaryKey: ids[0] },
+                    success: function () {
+                        initGridG();
+                    }
+                });
+            }
+        });
+    }
+
+    function btnEnable(primaryKey) {
+        $.layerConfirm({
+            content: "您確定要啟用此車牌嗎？",
+            callback: function () {
+                $.formSubmit({
+                    url: '/PBusiness/CarInfo/Enable',
+                    data: { primaryKey: primaryKey},
+                    success: function () {
+                        initGridG();
+                    }
+                });
+            }
+        });
+    }
+
+    function btn_Excel() {
+        layui.use(['layer'], function () {
+            var $ = layui.jquery
+            var layer = layui.layer
+            var excel = layui.excel
+            $.ajax({
+                url: '/PBusiness/CarInfo/Export'
+                , dataType: 'json'
+                , success: function (res) {
+                    var data = res.data
+                    data = excel.filterExportData(data, {
+                        PlateNo: 'PlateNo'
+                        , Name: 'Name'
+                        , FullName: 'FullName'
+                        , Phone: 'Phone'
+                        , BusinessName: 'BusinessName'
+                        , Address: 'Address'
+                        , BeginTime: 'BeginTime'
+                        , EndTime: 'EndTime'
+                        , BlackWhite: 'BlackWhite'
+                        , CreateId: 'CreateId'
+                        , CreateTime: 'CreateTime'
+                        , UpdateId: 'UpdateId'
+                        , UpdateTime: 'UpdateTime'
+                        , Remark: 'Remark'
+                    })
+                    data.unshift({
+                        PlateNo: "車牌號碼",
+                        Name: "姓名",
+                        FullName: '公司機構',
+                        Phone: "聯繫電話",
+                        BusinessName: "種 類",
+                        Address: "地  址",
+                        BeginTime: '開卡時間',
+                        EndTime: '截止時間',
+                        BlackWhite: '白黑名單',
+                        CreateId: '創建人',
+                        CreateTime: '創建時間',
+                        UpdateId: '修改人',
+                        UpdateTime: '修改時間',
+                        Remark: '備註'
+                    });
+                    top.LAY_EXCEL.exportExcel({
+                        sheet1: data
+                    }, '月租車輛記錄信息_' + getDateTime() + '.xlsx', 'xlsx')
+                }
+                , error: function () {
+                    layer.alert('存取數據失敗!!!')
+                }
+            })
+        })
+    }
+
+    function btn_PDF() {
+        window.location.href = "/PBusiness/CarInfo/CarInfoPDF"
+    }
+
+</script>

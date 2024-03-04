@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Form.cshtml";
+}
+<form id="form" class="layui-form" style="margin-top:10px">
+
+    <div class="layui-tab layui-tab-card" style="margin:10px 30px 10px 30px">
+
+        <div class="layui-tab-content">
+            <div class="layui-tab-item layui-show">
+                <table class="layui-table">
+                    <tbody>
+                        <tr>
+                            <td><img style="height:300px;width:430px;max-width:430px" id="in_img"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/layui/layui.js" charset="utf-8"></script>
+    <script src="~/Content/layui/layui.all.js"></script>
+</form>
+
+<script>
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }) .use(['jquery','paging', 'layer'], function () {
+        var layer =layui.layer;
+        var form = layui.form;
+
+         var Key = $.getQueryString("primaryKey");
+
+         $("#in_img").attr("src", Key);
+    });
+
+</script>

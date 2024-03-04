@@ -1,0 +1,12 @@
+ 發生時間：2023-11-01 15:33:50.5286
+             日誌級別：ERROR
+             操作帳號：Interface
+             操作者IP：192.168.1.192
+             IP所在地：
+             瀏 覽 器：Unknown 0.0
+             操作模組：InOutRecordAdd_出入口记录统一提交
+             提示訊息：值不能為 null。
+參數名稱: String_   於 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   於 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   於 Elight.WebUI.Areas.LocalInterface.Controllers.ChargeClinetRecordController.InOutRecordAdd(RecordContent recordContent) 於 C:\Project\chenjunweii\ParkingInterface-1.2\Elight.WebUI\Areas\LocalInterface\Controllers\ChargeClinetRecordController.cs: 行 68
+

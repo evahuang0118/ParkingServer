@@ -1,0 +1,233 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>開票信息管理</title>
+    <link href="~/Content/layui/css/layui.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/console.css" rel="stylesheet" />
+    <link href="~/Content/framework/css/animate.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery/jquery.min.js"></script>
+    <script src="~/Content/layui/layui.js"></script>
+    <script src="~/Content/framework/js/global.js"></script>
+    <script src="~/Content/framework/js/com.js"></script>
+</head>
+<body>
+    <div class="panel animated fadeIn">
+        <div class="panel-body">
+            <fieldset class="layui-elem-field layuimini-search">
+                <legend>搜索信息</legend>
+                <div style="margin: 5px 5px 5px 5px">
+                    <div class="layui-form layui-form-pane">
+                        <div class="layui-form-item">
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">開票時段</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Btime" lay-verify="required" name="Btime" placeholder="" autocomplete="off" />
+                                </div>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" id="Etime" name="Etime" placeholder="" lay-verify="required" autocomplete="off" />
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <label class="layui-form-label">車牌號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="PlateNo" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">發票號碼</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" id="TaxNumber" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+
+                            <div class="layui-inline">
+                                <button id="btnSearch" class="toolbar-search-button layui-btn layui-btn-normal layui-btn-small">
+                                    <i class="layui-icon">&#xe615;</i>搜 索
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div id="toolbar" class="elight-table-toolbar">
+                <div class="layui-btn-group"></div>
+            </div>
+
+            <table id="gridList" class="layui-form layui-table table-hover elight-table" lay-skin="row" lay-even="">
+                <thead>
+                    <tr>
+                        <th> <input type="checkbox" lay-skin="primary"></th>
+                        <th>機具編號</th>
+                        <th>發票號碼</th>
+                        <th>車牌號碼</th>
+                        <th>開票金額</th>
+                        <th>開票時間</th>
+                        <th>發票驗證碼</th>
+                        <th>發票狀態</th>
+                        <th>上傳狀態</th>
+                    </tr>
+                </thead>
+                <!--内容容器-->
+                <tbody id="content"></tbody>
+
+            </table>
+            <div id="paged"></div>
+
+        </div>
+    </div>
+    <script src="~/Content/layui_exts/excel.js"></script>
+</body>
+</html>
+
+<!--内容模板-->
+<script id="contentTpl" type="text/html">
+    {{#  layui.each(d.list, function(index, item){ }}
+    <tr>
+        <td>
+            <input type="checkbox" lay-skin="primary" value="{{item.Id}}">
+        </td>
+        <td>
+
+            {{item.MachineNo}}
+        </td>
+        <td>
+            {{item.TaxNumber}}
+        </td>
+        <td>
+            {{item.PlateNo}}
+        </td>
+        <td>
+            {{item.Amount}}
+        </td>
+
+        <td>
+            {{item.OpenTime}}
+        </td>
+
+        <td>
+
+            {{item.VerificationCode}}
+        </td>
+        <td>
+            {{# if(item.State==1){ }}開票中
+            {{# }else if(item.State==2){ }}開票成功
+            {{# }else if(item.State==3){ }}開票失敗
+            {{# }else{ }}已作廢
+            {{# } }}
+
+        </td>
+
+        <td>
+            {{# if(item.IsUpload==1){ }}未上傳
+            {{# }else if(item.IsUpload==2){ }} 已上傳
+            {{# }else{ }}上傳失敗
+            {{# } }}
+
+        </td>
+
+    </tr>
+    {{#  }); }}
+    {{# if(d.list.length<=0) { }}
+    <tr style="color: red">
+        <td colspan="9">查無數據</td>
+    </tr>
+    {{# } }}
+</script>
+
+<script type="text/javascript">
+    var paging;
+    layui.config({
+        base: parent._baseUrl
+    }).use(['paging', 'form', 'layer', 'laydate'], function () {
+        var layer = parent.layer || layui.layer;
+        var form = layui.form;
+        paging = layui.paging();
+
+        laydate.render({
+            elem: "#Btime"
+            , type: 'datetime'
+        });
+
+        laydate.render({
+            elem: "#Etime"
+            , type: 'datetime'
+        });
+
+        $("#toolbar").authorizeButton();
+
+        initGrid();
+
+        $('#btnSearch').click(initGrid);
+
+    });
+
+    function initGrid() {
+        paging.init({
+            url: '/PBusiness/Invoice/VIndex',
+            elem: '#content',
+            tempElem: '#contentTpl',
+            openWait:true,
+            params: {
+                PlateNo: $("#PlateNo").val(),
+                TaxNumber: $("#TaxNumber").val(),
+                Btime: $("#Btime").val(),
+                Etime: $("#Etime").val()
+            },
+            pageConfig: {
+                elem: 'paged',
+                pageSize: 30,
+            },
+            success: function () {
+
+            }
+        });
+    }
+
+    function btn_Excel() {
+        layui.use(['layer'], function () {
+            var $ = layui.jquery
+            var layer = layui.layer
+            var excel = layui.excel
+            $.ajax({
+                url: '/PBusiness/Invoice/Export'
+                , dataType: 'json'
+                , success: function (res) {
+                    var data = res.data
+                    data = excel.filterExportData(data, {
+                          MachineNo: 'MachineNo'
+                        , TaxNumber: 'TaxNumber'
+                        , PlateNo: 'PlateNo'
+                        , Amount: 'Amount'
+                        , OpenTime: 'OpenTime'
+                        , VerificationCode: 'VerificationCode'
+                    })
+                    data.unshift({
+                        MachineNo: "機具編號",
+                        TaxNumber: "發票號碼",
+                        PlateNo: '車牌號碼',
+                        Amount: "開票金額",
+                        OpenTime: "開票時間",
+                        VerificationCode: '發票驗證碼'
+                    });
+                    top.LAY_EXCEL.exportExcel({
+                        sheet1: data
+                    }, '發票開票記錄信息_' + getDateTime() + '.xlsx', 'xlsx')
+                }
+                , error: function () {
+                    layer.alert('獲取數據失败!!!')
+                }
+            })
+        })
+    }
+</script>
+

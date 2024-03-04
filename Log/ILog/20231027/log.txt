@@ -1,0 +1,553 @@
+﻿2023-10-27 09:21:53 731:  目前時間 09:21:53.5414989 / 關閉車道 2
+2023-10-27 09:21:53 747:  目前時間 09:21:53.7322488 / 開啟車道 3
+2023-10-27 09:21:53 761:  目前時間 09:21:53.7481850 / 開啟車道 4
+2023-10-27 09:22:15 487:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:22:15 511:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:22:15 524:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:22:15 537:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:22:15 548:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:22:15 559:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:22:15 571:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:22:15 582:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:22:15 591:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:22:15 599:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:22:15 606:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:22:15 613:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:22:15 619:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:22:15 626:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:22:15 632:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:24:14 848:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:24:14 862:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:24:14 874:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:24:14 887:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:24:14 898:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:24:14 910:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:24:14 919:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:24:14 927:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:24:14 936:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:24:14 945:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:24:14 954:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:24:14 966:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:24:14 975:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:24:14 984:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:24:14 991:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:26:15 119:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:26:15 136:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:26:15 147:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:26:15 159:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:26:15 170:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:26:15 181:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:26:15 191:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:26:15 203:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:26:15 214:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:26:15 224:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:26:15 235:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:26:15 247:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:26:15 257:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:26:15 266:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:26:15 281:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:28:14 755:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:28:14 774:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:28:14 791:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:28:14 809:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:28:14 827:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:28:14 843:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:28:14 856:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:28:14 864:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:28:14 871:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:28:14 877:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:28:14 884:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:28:14 890:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:28:14 897:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:28:14 905:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:28:14 912:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:30:14 728:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:30:14 742:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:30:14 752:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:30:14 765:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:30:14 775:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:30:14 786:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:30:14 796:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:30:14 807:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:30:14 818:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:30:14 828:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:30:14 836:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:30:14 846:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:30:14 855:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:30:14 866:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:30:14 875:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:32:14 759:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:32:14 776:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:32:14 792:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:32:14 803:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:32:14 813:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:32:14 824:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:32:14 835:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:32:14 846:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:32:14 857:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:32:14 868:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:32:14 878:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:32:14 887:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:32:14 898:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:32:14 910:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:32:14 920:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:34:14 740:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:34:14 751:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:34:14 756:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:34:14 763:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:34:14 771:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:34:14 776:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:34:14 783:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:34:14 791:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:34:14 799:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:34:14 806:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:34:14 814:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:34:14 822:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:34:14 830:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:34:14 836:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:34:14 843:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:36:14 760:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:36:14 772:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:36:14 782:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:36:14 794:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:36:14 804:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:36:14 815:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:36:14 824:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:36:14 834:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:36:14 844:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:36:14 868:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:36:14 880:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:36:14 901:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:36:14 917:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:36:14 930:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:36:14 943:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:38:14 781:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:38:14 792:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:38:14 804:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:38:14 815:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:38:14 827:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:38:14 842:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:38:14 856:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:38:14 868:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:38:14 886:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:38:14 897:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:38:14 905:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:38:14 911:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:38:14 919:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:38:14 926:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:38:14 933:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:40:14 799:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:40:14 809:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:40:14 823:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:40:14 836:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:40:14 848:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:40:14 858:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:40:14 868:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:40:14 877:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:40:14 887:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:40:14 901:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:40:14 910:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:40:14 922:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:40:14 932:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:40:14 943:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:40:14 953:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:41:14 817:  目前時間 09:41:14.8174760 / 關閉車道 3
+2023-10-27 09:41:14 841:  目前時間 09:41:14.8413744 / 關閉車道 4
+2023-10-27 09:41:14 884:  目前時間 09:41:14.8590869 / 關閉車道 6
+2023-10-27 09:42:14 924:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:42:14 940:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:42:14 956:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:42:14 971:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:42:14 986:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:42:15 001:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:42:15 015:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:42:15 034:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:42:15 050:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:42:15 064:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:42:15 083:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:42:15 098:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:42:15 112:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:42:15 127:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:42:15 147:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:43:14 840:  目前時間 09:43:14.8400474 / 開啟車道 6
+2023-10-27 09:45:03 441:  目前時間 09:45:03.4413166 / 關閉車道 4
+2023-10-27 09:45:08 460:  目前時間 09:45:08.4604313 / 關閉車道 3
+2023-10-27 09:46:28 504:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:46:28 516:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:46:28 528:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:46:28 540:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:46:28 550:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:46:28 560:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:46:28 569:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:46:28 578:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:46:28 588:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:46:28 597:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:46:28 606:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:46:28 614:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:46:28 621:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:46:28 630:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:46:28 640:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:48:28 509:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:48:28 520:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:48:28 530:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:48:28 547:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:48:28 563:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:48:28 580:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:48:28 599:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:48:28 614:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:48:28 627:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:48:28 638:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:48:28 648:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:48:28 657:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:48:28 666:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:48:28 674:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:48:28 683:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:50:28 537:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:50:28 549:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:50:28 559:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:50:28 571:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:50:28 581:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:50:28 592:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:50:28 602:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:50:28 613:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:50:28 623:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:50:28 634:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:50:28 647:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:50:28 661:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:50:28 673:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:50:28 682:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:50:28 692:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:53:25 661:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:53:25 677:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:53:25 692:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:53:25 705:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:53:25 714:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:53:25 728:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:53:25 737:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:53:25 749:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:53:25 759:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:53:25 769:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:53:25 777:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:53:25 786:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:53:25 792:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:53:25 802:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:53:25 808:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 09:54:10 677:  目前時間 09:54:10.6778780 / 開啟車道 5
+2023-10-27 09:54:45 773:  目前時間 09:54:45.7734050 / 開啟車道 5
+2023-10-27 09:54:50 790:  目前時間 09:54:50.7901489 / 開啟車道 6
+2023-10-27 09:55:00 812:  目前時間 09:55:00.8123287 / 關閉車道 4
+2023-10-27 09:55:05 839:  目前時間 09:55:05.8391737 / 關閉車道 3
+2023-10-27 09:55:15 832:  目前時間 09:55:15.8324697 / 關閉車道 3
+2023-10-27 09:55:25 342:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 09:55:25 355:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 09:55:25 368:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 09:55:25 381:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 09:55:25 393:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 09:55:25 410:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 09:55:25 420:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 09:55:25 428:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 09:55:25 437:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 09:55:25 448:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 09:55:25 460:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 09:55:25 471:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 09:55:25 481:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 09:55:25 495:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 09:55:25 507:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 06:56:03 838:  目前時間 06:56:03.8120058 / 開啟車道 3
+2023-10-27 06:56:03 854:  目前時間 06:56:03.8387718 / 開啟車道 4
+2023-10-27 06:56:03 869:  目前時間 06:56:03.8554973 / 關閉車道 5
+2023-10-27 06:56:03 885:  目前時間 06:56:03.8697117 / 關閉車道 6
+2023-10-27 06:57:23 209:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 06:57:23 225:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 06:57:23 237:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 06:57:23 249:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 06:57:23 264:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 06:57:23 275:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 06:57:23 289:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 06:57:23 300:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 06:57:23 317:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 06:57:23 341:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 06:57:23 355:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 06:57:23 369:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 06:57:23 383:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 06:57:23 396:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 06:57:23 409:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 10:02:13 941:  目前時間 10:02:13.9403684 / 開啟車道 2
+2023-10-27 10:02:13 942:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:13 942:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:13 943:  折扣種類 燦坤一小時(假日) 今日為 Friday ，為停用日 
+2023-10-27 10:02:13 943:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:13 943:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:13 955:  目前時間 10:02:13.9557458 / 關閉車道 3
+2023-10-27 10:02:13 969:  目前時間 10:02:13.9697179 / 關閉車道 4
+2023-10-27 10:02:13 985:  目前時間 10:02:13.9850136 / 開啟車道 5
+2023-10-27 10:02:14 003:  目前時間 10:02:14.0036999 / 開啟車道 6
+2023-10-27 10:02:18 946:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:18 947:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:18 947:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:18 948:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:23 965:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:23 967:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:23 967:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:23 968:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:28 975:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:28 975:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:28 976:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:28 976:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:33 974:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:33 975:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:33 975:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:33 975:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:38 986:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:38 986:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:38 987:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:38 987:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:43 999:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:43 999:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:44 000:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:44 000:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:48 999:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:48 999:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:48 999:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:49 000:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:53 964:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 10:02:54 005:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 10:02:54 036:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:54 038:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:54 039:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:54 040:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:54 051:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 10:02:54 079:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 10:02:54 111:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 10:02:54 137:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 10:02:54 168:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 10:02:54 201:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 10:02:54 241:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 10:02:54 290:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 10:02:54 319:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 10:02:54 356:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 10:02:54 388:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 10:02:54 417:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 10:02:54 494:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 10:02:59 017:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:02:59 018:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:59 018:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:02:59 018:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:04 046:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:04 047:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:04 048:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:04 048:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:09 020:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:09 021:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:09 021:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:09 021:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:14 038:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:14 038:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:14 038:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:14 038:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:19 042:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:19 043:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:19 043:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:19 044:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:24 054:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:24 055:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:24 055:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:24 055:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:29 067:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:29 067:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:29 068:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:29 068:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:34 082:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:34 082:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:34 083:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:34 083:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:39 076:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:39 076:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:39 076:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:39 077:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:44 094:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:44 094:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:44 095:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:44 095:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:49 108:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:49 108:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:49 109:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:49 109:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:54 130:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:54 131:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:54 131:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:54 132:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:59 151:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:03:59 151:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:59 152:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:03:59 152:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:04 153:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:04 153:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:04 153:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:04 154:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:09 172:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:09 173:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:09 174:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:09 174:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:14 176:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:14 177:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:14 177:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:14 177:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:19 177:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:19 177:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:19 178:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:19 178:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:24 460:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:24 460:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:24 461:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:24 461:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:29 265:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:29 266:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:29 266:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:29 267:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:34 266:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:34 268:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:34 268:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:34 269:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:39 297:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:39 298:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:39 298:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:39 298:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:44 338:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:44 339:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:44 340:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:44 342:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:49 322:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:49 323:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:49 323:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:49 323:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:53 854:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 10:04:53 868:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 10:04:53 886:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 10:04:53 900:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 10:04:53 912:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 10:04:53 923:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 10:04:53 935:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 10:04:53 948:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 10:04:53 955:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 10:04:53 962:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 10:04:53 970:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 10:04:53 977:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 10:04:53 983:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 10:04:53 990:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 10:04:53 999:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 10:04:54 325:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:54 326:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:54 326:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:54 326:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:59 399:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:04:59 400:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:59 400:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:04:59 401:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:04 393:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:04 394:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:04 395:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:04 395:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:09 419:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:09 421:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:09 422:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:09 422:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:14 414:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:14 415:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:14 415:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:14 416:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:19 411:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:19 411:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:19 411:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:19 411:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:24 415:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:24 416:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:24 416:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:24 416:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:29 427:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:29 427:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:29 428:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:29 428:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:34 440:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:34 441:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:34 441:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:34 441:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:39 440:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:39 440:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:39 440:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:39 440:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:44 452:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:44 452:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:44 453:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:44 453:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:49 473:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:49 474:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:49 475:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:49 475:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:54 489:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:54 490:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:54 490:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:54 491:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:59 497:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:05:59 497:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:59 498:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:05:59 498:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:04 503:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:04 503:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:04 504:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:04 505:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:09 505:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:09 506:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:09 506:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:09 506:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:14 514:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:14 514:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:14 514:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:14 515:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:19 518:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:19 519:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:19 519:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:19 519:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:24 523:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:24 523:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:24 523:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:24 524:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:29 546:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:29 547:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:29 548:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:29 548:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:34 569:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:34 569:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:34 569:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:34 570:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:39 563:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:39 564:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:39 564:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:39 564:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:44 564:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:44 564:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:44 565:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:44 565:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:49 570:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:49 571:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:49 572:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:49 572:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:53 900:  GetDeviceName => serialNumber = flap-1-on
+2023-10-27 10:06:53 912:  GetDeviceName => serialNumber = flap-2-on
+2023-10-27 10:06:53 922:  GetDeviceName => serialNumber = flap-3-on
+2023-10-27 10:06:53 931:  GetDeviceName => serialNumber = flap-4-on
+2023-10-27 10:06:53 941:  GetDeviceName => serialNumber = flap-5-on
+2023-10-27 10:06:53 950:  GetDeviceName => serialNumber = flap-6-on
+2023-10-27 10:06:53 958:  GetDeviceName => serialNumber = flap-7-on
+2023-10-27 10:06:53 969:  GetDeviceName => serialNumber = flap-8-on
+2023-10-27 10:06:53 984:  GetDeviceName => serialNumber = flap-9-on
+2023-10-27 10:06:53 995:  GetDeviceName => serialNumber = flap-10-on
+2023-10-27 10:06:54 006:  GetDeviceName => serialNumber = flap-11-on
+2023-10-27 10:06:54 015:  GetDeviceName => serialNumber = flap-12-on
+2023-10-27 10:06:54 026:  GetDeviceName => serialNumber = flap-13-on
+2023-10-27 10:06:54 033:  GetDeviceName => serialNumber = flap-14-on
+2023-10-27 10:06:54 043:  GetDeviceName => serialNumber = flap-15-on
+2023-10-27 10:06:54 578:  SwitchDiscountConfig => Friday, int => 5
+2023-10-27 10:06:54 578:  折扣種類 住房車 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:54 578:  折扣種類 燦坤兩小時(平日) 今日為 Friday ，為可啟用日 
+2023-10-27 10:06:54 579:  折扣種類 工程車垃圾車全折 今日為 Friday ，為可啟用日 
