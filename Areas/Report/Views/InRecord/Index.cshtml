@@ -338,6 +338,14 @@
 
     function btn_detail() {
         var ids = $("#gridList").gridSelectedRowValue();
+        var myWidth = $(window).width();
+        var myHeight = $(window).height();
+        var dyScreen = '1280px';
+        var dyContent = "/Report/OutRecord/Detail?primaryKey=" + ids[0];
+        if (myWidth < 500) {
+            dyScreen = '98%';
+            dyContent = "/Report/OutRecord/DetailMobile?primaryKey=" + ids[0];
+        }
         if (ids.length != 1) {
             $.layerMsg("請勾選單條記錄查看。", "warning");
             return;
@@ -345,9 +353,9 @@
         $.layerOpen({
             id: "edit",
             title: "查看詳情",
-            width: "1280px",
+            width: dyScreen,
             height: "520px",
-            content: "/Report/OutRecord/Detail?primaryKey=" + ids[0],
+            content: dyContent,
             btn: null
         });
     }
@@ -446,14 +454,22 @@
     }
 
     function SearcherDetail(Id) {
+        var myWidth = $(window).width();
+        var dyScreen = '1280px';
+        var dyContent = "/Report/OutRecord/Detail?primaryKey=" + Id;
+        if (myWidth < 500) {
+            dyScreen = '98%';
+            dyContent = "/Report/OutRecord/DetailMobile?primaryKey=" + Id;
+        }
         $.layerOpen({
             id: "edit",
             title: "車輛記錄詳情",
-            width: "1280px",
+            width: dyScreen,
             height: "520px",
-            content: "/Report/OutRecord/Detail?primaryKey=" + Id,
+            content: dyContent,
             btn: null
         });
     }
+
 
 </script>
