@@ -101,11 +101,11 @@
                                 操作備註
                             </td>
                             <td colspan="3"><input type="text" name="ORemark" style="width:450px; border:none" class="layui-input"></td>
-                            <td class="td_background" title="计费支付操作时间">支付時間</td>
+                            <td class="td_background" title="計费支付操作時間">支付時間</td>
                             <td><input type="text" name="PayTimes" style="width:200px; border:none" class="layui-input"></td>
                         </tr>
                         <tr>
-                            <td class="td_background" title="共享车位车辆,停车记录交替循环系統計费截止时间点">
+                            <td class="td_background" title="共享車位車輛,停車記錄交替循環系統計费截止時間點">
                                 共享計費時
                             </td>
                             <td colspan="3"><input type="text" name="ChargingTime" style="width:160px; border:none" class="layui-input"></td>
@@ -363,7 +363,7 @@
         initChargingGrid(Key)
     });
 
-    ///收費流水记录
+    ///收費流水紀錄
     function initGrid(Key) {
         paging.init({
             url: '/Report/OutRecord/GetChargeListWithInvoice',
@@ -399,7 +399,7 @@
         });
     }
 
-    ///车辆记录详情
+    ///車輛記錄明細 
     layui.use(['form', 'element', 'table'], function () {
         var form = layui.form, element = layui.element, table = layui.table;
 
@@ -430,7 +430,7 @@
         form.render();
     });
 
-    ///室内停车记录
+    ///室內停車記錄
     layui.use(['form', 'table'], function () {
         var form = layui.form,
             table = layui.table;
